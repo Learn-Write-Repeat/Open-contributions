@@ -281,4 +281,3 @@ These were the most used Markdown features. These will help you for you assignme
 
 Thanks for Reading!!!
 
-Go back to [Prerequisite-OpenCV](https://github.com/DevIncept/Prerequisite-OpenCV)
