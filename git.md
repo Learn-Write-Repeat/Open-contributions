@@ -45,7 +45,7 @@ On Windows, it’s just as simple. You [download the installer](https://git-scm.
 ## Git Internals 
 
 
-![shortcut](extras/Git.png)
+![shortcut](https://raw.githubusercontent.com/DevIncept/Prerequisite-OpenCV/master/extras/Git.png?token=AHPWQSYDFVWM53J7NU5RVTK7K3G2S)
 
 The picture above shows you the basic commands to move your files into different
 trees in your repository.
