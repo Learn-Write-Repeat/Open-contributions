@@ -54,11 +54,11 @@ trees in your repository.
 This helps to use Git to accomplish work in a consistent and productive manner. Git workflows encourage users to leverage Git effectively and consistently. Git offers a lot of flexibility in how users manage changes.
 Below image explains in brief the git workflow.
 
-![shortcut](extras/gitwork.png)
+![shortcut](https://raw.githubusercontent.com/DevIncept/Prerequisite-OpenCV/master/extras/gitwork.png?token=AHPWQS5NUFW3N5YIAV354JS7K3HBW)
 
 ## Git commands 
 
-![shortcut](extras/gitcom.png)
+![shortcut](https://raw.githubusercontent.com/DevIncept/Prerequisite-OpenCV/master/extras/gitcom.png?token=AHPWQSYV23C5IB4CWDVS6IK7K3G7G)
 
 <hr>
 
@@ -69,4 +69,3 @@ Below image explains in brief the git workflow.
 
 Thanks for Reading!!!
 
-Go back to [Prerequisite-OpenCV](https://github.com/DevIncept/Prerequisite-OpenCV)
