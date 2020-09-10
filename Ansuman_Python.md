@@ -1,0 +1,5 @@
+--I have worked with tkinter GUI in python
+--pyttsx3 and pytube libraries
+--speech recognition
+--scikit learn
+--a bit about panda library
