@@ -47,7 +47,7 @@
 
 >TOPICS I KNOW IN ML ARE:
    - Difference between Supervised learning and Unsupervised learning 
-     - Supervised learning
+   - Supervised learning
           1. Linear Regression 
           2. Logistic Regression 
 
