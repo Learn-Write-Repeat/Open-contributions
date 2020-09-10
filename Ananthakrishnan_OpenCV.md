@@ -33,4 +33,11 @@
     
  - Python Strings
     
- - Python Lists  
+ - Python Lists
+ - Tuples
+ - Dictionaries
+ - Basic Operators
+ - Function
+ - Conditionals & loops
+ - Basic Operators
+ - 
