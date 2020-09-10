@@ -1,8 +1,9 @@
-## Topics that I know in Machine Learning :
+## Topics that I know in Python :
+*List
+*Tuples
+*Dictionary and Sets
+*Slicing
+*Generators
 ```
-Linear Regression
-Logistic Regression
-Random Forest
-Ensemble Learning
-Decision Trees
+I have knowledge of Python but I am a beginner in Machine Learning.
 ```
