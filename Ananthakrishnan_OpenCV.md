@@ -40,4 +40,9 @@
  - Function
  - Conditionals & loops
  - Basic Operators
- - 
+ 
+ 
+
+>TOPICS I KNOW IN PYTHON ARE :
+
+ - Machine learning is the study of computer algorithms that improve automatically through experience. It is seen as a subset of artificial intelligence. Wikipedia
