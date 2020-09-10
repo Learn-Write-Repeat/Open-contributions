@@ -1,4 +1,4 @@
-##Topics i know in python
+## Topics i know in python
 
 1.Numpy
 
@@ -6,8 +6,8 @@
 
 3.Visualising data
 
-*matplotlib
+* matplotlib
 
-*seaborn
+* seaborn
 
 4.object oriented programming
