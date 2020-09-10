@@ -51,18 +51,6 @@
         1. Linear Regression 
         2. Logistic Regression 
  
- >I am learning it remaining ....    
-
-***OpenCV***
-
-- OpenCV is a library of programming functions mainly aimed at real-time computer vision. Originally developed by Intel, it was later supported by Willow Garage     then Itseez. The library is cross-platform and free.
-- Applications:
-   1. Facial recognition system
-   2. Motion tracking
-   3. Object identification
-   4. Gesture recognition
-     and many more...
-     
- >  I am not well proficient with OpenCV. But I am  really interested  and determined to learn and understand.
+ >I am learning it remaining ....   
 
 > I look forward to learn and understand it , I am confident that I can complete the work along with mentorship.  
