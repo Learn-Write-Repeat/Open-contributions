@@ -60,3 +60,7 @@
    3. Object identification
    4. Gesture recognition
      and many more...
+     
+ >  I am not well proficient with OpenCV. But I am interested in learning the concepts and implementation of it.
+
+>  I am confident in completing the work along with mentorship and learning , I look forward to learn and understand it.    
