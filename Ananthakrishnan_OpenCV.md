@@ -14,6 +14,6 @@ Python is a general-purpose interpreted, interactive, object-oriented, and high-
 
 
 >TOPICS I KNOW IN PYTHON ARE :
- -Variables and Data types
- -
+ *Variables and Data types
+ *
 
