@@ -51,5 +51,6 @@
         1. Linear Regression 
         2. Logistic Regression 
 
+***OpenCV***
 
-
+- OpenCV is a library of programming functions mainly aimed at real-time computer vision. Originally developed by Intel, it was later supported by Willow Garage     then Itseez. The library is cross-platform and free.
