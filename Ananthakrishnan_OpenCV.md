@@ -1,3 +1,5 @@
 ## Hello!
-**I have a intermediate knowledge in ***Python***  :) **
+
+###I have a intermediate knowledge in ***Python***  :)
+
 ***Python***
