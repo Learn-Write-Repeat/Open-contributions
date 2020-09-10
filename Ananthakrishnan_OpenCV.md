@@ -26,4 +26,5 @@
     2. Lines and Indentation
     3. Multi-Line Statements
     4. Comments in Python
+    
  -Variable Types
