@@ -50,6 +50,7 @@
    - Supervised learning
         1. Linear Regression 
         2. Logistic Regression 
+   - I am learning it....     
 
 ***OpenCV***
 
