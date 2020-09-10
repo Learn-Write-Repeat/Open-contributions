@@ -21,6 +21,9 @@
 
 
 >TOPICS I KNOW IN PYTHON ARE :
- * Variables and Data types
- *
+ - Python - Basic Syntax
+    1. Reserved Words
+    2. Lines and Indentation
+    3. Multi-Line Statements
+    4. Comments in Python
 
