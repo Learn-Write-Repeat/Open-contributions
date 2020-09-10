@@ -40,9 +40,15 @@
  - Function
  - Conditionals & loops
  - Basic Operators
+ - Object Oriented Programming using python
  
- 
+ ***Machine Learnng***
+  - Machine learning is the study of computer algorithms that improve automatically through experience. It is seen as a subset of artificial intelligence. 
 
->TOPICS I KNOW IN PYTHON ARE :
+>TOPICS I KNOW IN ML ARE:
+   - Difference between Supervised learning and Unsupervised learning 
+     1. Linear Regression 
+     2. Logistic Regression 
 
- - Machine learning is the study of computer algorithms that improve automatically through experience. It is seen as a subset of artificial intelligence. Wikipedia
+
+
