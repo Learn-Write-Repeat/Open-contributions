@@ -27,4 +27,10 @@
     3. Multi-Line Statements
     4. Comments in Python
     
- -Variable Types
+ - Variable Types
+    1. Assigning Values to Variables
+    2. Multiple Assignment
+    
+ - Python Strings
+    
+ - Python Lists  
