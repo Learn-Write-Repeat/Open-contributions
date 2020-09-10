@@ -51,7 +51,7 @@
         1. Linear Regression 
         2. Logistic Regression 
  
- ***I am learning it remaining ....   ***  
+ ' I am learning it remaining ....    
 
 ***OpenCV***
 
