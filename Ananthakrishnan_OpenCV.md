@@ -1,2 +1,3 @@
-## I have a intermediate knowledge in Python  :)
+## Hello!
+**I have a intermediate knowledge in ***Python***  :) **
 ***Python***
