@@ -1,4 +1,4 @@
-## Topics that I know in Python :
+## Topics that I know in Python
 ```
 List
 Tuples
