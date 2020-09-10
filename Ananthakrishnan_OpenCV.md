@@ -11,11 +11,11 @@
 
     2. It can be used as a scripting language or can be compiled to byte-code for building large applications.
 
- 3. It provides very high-level dynamic data types and supports dynamic type checking.
+    3. It provides very high-level dynamic data types and supports dynamic type checking.
 
- 4. It supports automatic garbage collection.
+    4. It supports automatic garbage collection.
 
- 5. It can be easily integrated with C, C++, COM, ActiveX, CORBA, and Java.
+    5. It can be easily integrated with C, C++, COM, ActiveX, CORBA, and Java.
 
 
 
