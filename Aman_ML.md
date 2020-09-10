@@ -1,4 +1,4 @@
-`# Topics that I know in Machine Learning :`
+## Topics that I know in Machine Learning :
 ```
 Linear Regression
 Logistic Regression
