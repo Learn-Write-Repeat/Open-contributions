@@ -1,6 +1,6 @@
-# Topics that I know in Machine Learning :
+`# Topics that I know in Machine Learning :`
 ```
-* Linear Regression
+Linear Regression
 Logistic Regression
 Random Forest
 Ensemble Learning
