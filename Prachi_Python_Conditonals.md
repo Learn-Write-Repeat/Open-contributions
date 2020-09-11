@@ -25,9 +25,9 @@ We need conditional statements in our program to change the direction of program
 
 When we have a condition or boolen expression to check , we use if condition.
 
-Syntax:
-      if boolean condition:
-            statements(s)
+<p>Syntax:</p>
+<p>&#9;if boolean condition:<br>
+        &#9;statement(s)</p>
             
 Example:
       if a>b:
