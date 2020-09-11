@@ -23,8 +23,7 @@
  - Python - Basic Syntax
     1. Reserved Words
     2. Lines and Indentation
-    3. Multi-Line Statements
-    4. Comments in Python
+    3. Comments in Python
     
  - Variable Types
     1. Assigning Values to Variables
