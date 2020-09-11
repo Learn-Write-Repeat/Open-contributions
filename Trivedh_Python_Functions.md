@@ -1,7 +1,7 @@
 # Functions in Python
 <h2>Definition:</h2>
-Function is a block of code or set of statements that performs a specific task and executes only when called.
-Complex projects can be broken down into smaller tasks.These small tasks can contain multiple lines of code and can be used multiple times in the same program.<br>
+<p>Function is a block of code or set of statements that performs a specific task and executes only when called.
+Complex projects can be broken down into smaller tasks.These small tasks can contain multiple lines of code and can be used multiple times in the same program.<p><br>
 <table>
 <tr>
 <th>Syntax</th>
@@ -31,7 +31,7 @@ greet()-------------> Call the function to print the output<br><br>
 <ul><li>Built-in Functions</li>
 <li>User Defined Functions</li></ul>
 <h2>Built-in Functions:</h2><br>
-Built-in functions are part of Python language.These are the functions readily available for the use.
+<p>Built-in functions are part of Python language.These are the functions readily available for the use.<p>
 <h3>Examples</h3>
 <table>
 <tr>
@@ -55,7 +55,7 @@ Built-in functions are part of Python language.These are the functions readily a
   
 
 <h2>User defined Functions:</h2><br>
-User defined functions are not in-built and are not a part of Python programming language.Any name can be given to the function.These are the functions are defined according to the need of the user to carry out the tasks.
+<p>User defined functions are not in-built and are not a part of Python programming language.Any name can be given to the function.These are the functions are defined according to the need of the user to carry out the tasks.</p>
 <h3>Examples</h3>
 <table>
 <tr>
@@ -83,7 +83,7 @@ Consider the given two scenarios:<br>
   <h3>Example:</h3>
   def add(x,y):<br>
   &nbsp;&nbsp;c=x+y<br>
- &nbsp;&nbsp; return c<br><br>
+ &nbsp;&nbsp;return c<br><br>
  result=add(5,4)
  print(result)<br><br>
  <b>Output:</b>&nbsp;9<br>
@@ -117,7 +117,7 @@ In the above code, the variables <i>x</i> and <i>y</i> are <b>Formal arguments</
   &nbsp;&nbsp;print(age)<br><br>
   student('paul',28)<br><br>
   <i>Output:</i>&nbsp;paul<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;28<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;&nbsp;&nbsp;28<br>
   In the above example <i>'paul'</i> and <i>28</i> were passed as actual arguments and they were assigned to the formal arguments in the declared function without an error,as they were passed in a sequential order.
  
  
@@ -129,7 +129,7 @@ In the above code, the variables <i>x</i> and <i>y</i> are <b>Formal arguments</
   &nbsp;&nbsp;print(age)<br><br>
   student(age=28,name='paul')<br>
   <i>Output:</i>&nbsp;paul<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;28<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;28<br>
   
  <h3>Default Arguments</h3><br>
 <p> It's a type of argument which assumes a default value if a particular value is not mentioned in the function call.If a user does'nt provide a particular argument the default value in the function definition will be assigned autonomously to the that particular argument.</p>
@@ -139,7 +139,7 @@ In the above code, the variables <i>x</i> and <i>y</i> are <b>Formal arguments</
   &nbsp;&nbsp;print(age)<br><br>
   student('paul')<br>
   <i>Output:</i>&nbsp;paul<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;18<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;18<br
   
    <h3>Variable Length Arguments</h3><br>
 <p> Variable Arguments are the arguments used in the function calls when a function has to compute more arguments than the arguments in the function definition or the accuracte value of arguments is not known.They are not named like Default or positional arguments.They are named withan asterisk before the variable-name that holds multiple or nonkeyword arguments.</p>
