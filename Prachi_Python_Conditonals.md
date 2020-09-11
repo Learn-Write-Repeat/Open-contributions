@@ -58,9 +58,9 @@ Example:
         </p>
 </PRE>
 Example:If we want to print the greater number among two numbers:
-<PRE> if a>b:
+<PRE>   if a>b:
         print(a)
-       else:
+   else:
         print(b)
         </PRE>
        Here, we first check if a>b , if True ,a is printed . Else , statements under else code is executed and , b is printed.
@@ -95,9 +95,9 @@ Example:If we want to print the greater number among two numbers:
 Example:If we want to print the greater number among two numbers:
 <PRE> if a>b:
         print(a)
-       elif b>a:
+ elif b>a:
         print(b)
-       else:
+ else:
         print("equal")
         </PRE>
         Here, we first check if a>b , if True ,a is printed . Else , elif condition is checked, if b>a, if True , b is printed.Else statements under else code is executed and , "equal" is printed.
