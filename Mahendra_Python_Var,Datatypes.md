@@ -152,3 +152,160 @@ Result:
     10
     1.5
    ```
+ #### Type Conversion
+ You can convert one type to another by using int(),float() methods.
+```python
+   a=5 #int
+   b=7.7 #float
+   
+   #converting from int to float:
+   x=float(a)
+   
+   #converting from float to int:
+   y=int(b)
+   
+   print(x)
+   print(y)
+   print(type(x))
+   print(type(y))
+```
+Result:
+```python 
+   5.0
+   7
+   <class 'float'>
+   <class 'int'>
+  ```
+**Note**: You can also specify the type in the starting only its called Python Casting
+```python
+   x=int("56") # x will be 56 
+   y=int(8.9)  # y will be 8
+   z=float(56) # z will be 56.0
+   a=str(56)   # a will be '56'
+  ```
+  
+### Python Strings
+String literals in python are surrounded by either single quotation marks, or double quotation marks.
+`'hello'` is the same as `"hello"`.
+```python
+   print('hello')
+   print("hello")
+   
+   #Strings assigned in variables
+   a= 'DevIncept'
+   print(a)
+   
+   #Multiline Strings
+   a = """Lorem ipsum dolor sit amet,
+   consectetur adipiscing elit,
+   sed do eiusmod tempor incididunt
+   ut labore et dolore magna aliqua."""
+   print(a)
+  ```
+Result:
+```python
+   hello
+   hello
+   DevIncept
+   Lorem ipsum dolor sit amet,
+   consectetur adipiscing elit,
+   sed do eiusmod tempor incididunt
+   ut labore et dolore magna aliqua.
+  ```
+**Strings are very important Data types, There are lots of things you can do with strings**
+For example: Square brackets can be used to access elements of the string.
+```python
+   a='DevIncept'
+   print(a[0]) #prints the first letter
+   print(a[-1]) #prints the last letter
+   print(a[2]) #prints the third letter
+  ```
+  > You must be wondering i told it will print the first letter but wrote zero(0) in the square bracket.??
+  > Thats a totally valid question.
+  > All programing languages are mostly zero-indexed meaning the positioning of the first letter is the considered as zero(0) and not one(1)
+Result:
+```python
+   D
+   t
+   v
+  ```
+#### String Concatenation  
+  Concatenation in general means to combine things.
+  As the general meaning, in programming also it means the same you can combine strings using **+** operator
+```python
+   a="DevIncept "
+   b="is a great "
+   c="Company"
+   print(a+b+c)
+ ```
+ Result:
+ ```pyhton
+    DevIncept is a great Company
+   ``` 
+#### String Slicing
+ You can return a range of characters by using the string slicing.
+ **Specify the start index and the end index(*not included*), separated by a colon, to return a part of the string.**
+```python
+   a='DevIncept'
+   print(a[0:3])
+  ```
+Result:
+```python
+   Dev
+  ``` 
+   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   # Attention!! Attention!! Attention!!!                                                                                                                                  
+   # You can practice all the above examples in the jupyter notebook                                                                                                       
+   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#### String Methods
+String Methods are nothing but pyhton built in fuctions to make our life easy...
+```python
+   a='DevIncept'
+   print(a.lower()) # all lowercase
+   print(a.upper()) # all uppercase
+  ```
+Result:
+```pyhton
+   devincept
+   DEVINCEPT
+  ```
+You can find more String methods ------>> [Python-Ds](http://www.python-ds.com/python-3-string-methods)  
+### Escape Characters
+To insert characters that are illegal in a string, use an escape character.
+An escape character is a backslash \ followed by the character you want to insert.
+```python
+   txt = "We are the so-called \"Vikings\" from the north."
+   print(txt)
+  ```
+Result:
+```pyhton
+   We are the so-called "Vikings" from the north.
+  ```
+  **Other Escape Characters used in python are:**
+  |Code |      Result       |
+  |-----|-------------------|
+  | \\' |  Single Quote	   |
+  |\\\\ |	Backslash	       |
+  | \n  |	New Line	       |
+  | \r  |	Carriage Return	 |
+  | \t  |	Tab              |
+  
+### Python Boolean
+In programming you often need to know if an expression is True or False.
+You can evaluate any expression in Python, and get one of two answers, True or False.
+```python
+   print(10 > 9)
+   print(10 == 10)
+   print(10 < 9)
+   
+   a=100
+   b=200
+   print(a>b)
+  ```
+ Result:
+ ```python
+    True
+    True
+    False
+    False
+   ``` 
