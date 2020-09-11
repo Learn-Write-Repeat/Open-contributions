@@ -3,18 +3,8 @@
 The basic operations of OpenCV is to draw over images. The ability to add different geometric shapes just like lines, circles and rectangle etc.
 <p>OpenCV provides many drawing functions to draw geometric shapes and write text on images. some of the drawing and text writing functions are listed below.</p>
 
-<style>
-#chi{
-    border:2px solid black;
-    padding: 12px 12px;
-    background-color: #f5f5f5;
-}
-.main{
-    margin:10px 10px;
-}
-</style>
 
-<section id="chi">
+<section>
 <b>cv2.line() :</b> This function is used to draw line on an image.<br>
 <b>cv2.arrowedLine():</b> This function is used to draw arrowed-line on image<br>
 <b>cv2.rectangle() :</b> This function is used to draw rectangle on an image.<br>
