@@ -33,6 +33,7 @@ When we have a condition or boolen expression to check , we use if condition.
 Example:
 <PRE> if a>b:
         print(a)
+        </PRE>
       <ul>
       <li>Here, ':' is used to mark the starting of statement(s) inside if block.</li>
       <li> 'a>b' is the boolean condition</li>
