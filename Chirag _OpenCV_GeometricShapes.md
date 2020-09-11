@@ -14,7 +14,7 @@ The basic operations of OpenCV is to draw over images. The ability to add differ
 <b>cv2.putText() :</b> This function is used to write text on image.<br>
 </section>
 
-
+<br>
 <section class="main">
 Now let's see the attributes of each function in order to use it.
 </section>
