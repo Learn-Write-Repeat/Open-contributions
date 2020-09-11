@@ -4,7 +4,7 @@ Python is an open source programming language. It is a good programming language
 
 ## Why Python ? :thinking:
 
-:smiley: * **Easy to read and learn:** 
+* **Easy to read and learn:** 
 
 
 
