@@ -1,20 +1,21 @@
-# Python
+# Python3 Programming
 ## Pre-Requisites:
 * None
 ## Before we start with the actual topics lets have a general overview about **Python**
 Python is an high-level and general-purpose programming language. Created by Guido van Rossum and first released in 1991.It is object oriented and is dynamically typed.Python is meant to be an easily readable language and it often uses English keywords.
 * Don't worry about the all the technical terms as we dive deep into the language you will learn all the things.
 * For the time being you just have to know that:
-  1. Python is a programming language not a snake.
+  1. Python is a programming language not a snake :snake:.
   2. It is the easiest language which anyone can learn in no time.
   3. And currently it is the most loved and most famous programming language of [2020.](https://www.cleveroad.com/blog/programming-languages-ranking)
   4. And we will be using Python3 over Python2.
 ## So lets program.
 So lets type our first line of code.This is the code which every person in the world types when they start to learn programming.
-* `print("Hello, World!")`
-* `print("DevIncept")`
-
-Here ***print*** is a function which is builtin which takes anything  written in the parenthesis and the quotes(''/"") and prints it out on the screen.
+```python
+   print("Hello, World!")
+   print("DevIncept")
+```
+Here ***print*** is a function which is builtin, which takes anything  written in the ***parenthesis*** and the **quotes(''/"")** and prints it out on the screen.
 You can try printing anything in the jupyter notebook provided.
 
 ## Variables
@@ -25,23 +26,27 @@ Variables are the names you give to computer memory locations which are used to 
    Company= 'DevIncept'
    print(Name,Age,Company)
    ```
-Result:`John 19 DevIncept`
+**Result:**
+```python
+   John 19 DevIncept
+```
+As we can see in the above example **Name, Age** and **Company** are three different variables all having different values.And when the variable names are called in the ***print*** function they are printed on the screen.
 
-As we can see in the above example Name, Age and Company are three different variables all having different values.And when the variable names are called in the print function they are printed on the screen.
-A variable can store only one value as we continue the program flow from top to bottom if the same variable name is assigned with different value the new value takes over the precedence,Variables do not need to be declared with any particular type and can even change type after they have been set..As in the below example:
+A variable can store only one value, as we continue through the program  from top to bottom, **if the same variable name is assigned with different value the new value takes over the previous one**,Variables do not need to be declared with any particular type and can even change type after they have been set..As in the below example:
 ```python
   x=19
   x='DevIncept'
   print(x)
   ```
-Result: `DevIncept`
+**Result:** `DevIncept`
+
 ```python
   x=19
   x=23
   print(x)
   ```
-Result: 23
-> Unlike other programming languages, Python has no command for declaring a variable.
+**Result:** ***23***
+> **Unlike other programming languages, Python has no command for declaring a variable.**
 
 ### Naming of Variables
   As we now know  what are variables and how are they used now lets see some very important rules to create a valid Variable Name.
@@ -72,13 +77,13 @@ When you run the above lines of code when the Pyhton Interpreter reaches Invalid
   print(color)
   print(cost)
   ```
- Result:`Apple Green 15.75`
+ **Result:**`Apple Green 15.75`
 So this here finishes the basics of Variables hope you enjoyed the topics.
 
 ## Data Types
-Remeber all those variables which we created in the above lessons we saw there were plain numbers,decimal numbers,and simple text.
-These are nothing but different Data Types.
-!!!Shocker huh, all this time you were using data types and you didn't know what they were.
+Remeber all those variables which we created in the above lessons, we saw there were plain **numbers, decimal numbers**, and **simple text**.
+These are nothing but different **Data Types**.
+!!!Shocker huh :laughing:, all this time you were using data types and you didn't know what they were.:astonished:
 * In programming, data type is an important concept.
 * Variables can store data of different types, and different types can do different things.
 #### Data Types Table
@@ -97,18 +102,18 @@ Above mentioned Data types are most commonly used. And whenever you are not sure
   name="DevIncept"
   print(type(name))
   ```
-Result: `<class 'str'>`
+**Result:** `<class 'str'>`
 ```python
   age=20
   print(type(age))
   ```
-Result: `<class 'int'>`
+**Result:** `<class 'int'>`
 
 ### Python Numbers
   * int: 
-      Int, or integer, is a whole number, positive or negative, without decimals, of unlimited length.
+      Int, or integer, is a whole number, positive or negative, **without decimals**, of unlimited length.
   * float:
-      Float, or "floating point number" is a number, positive or negative, containing one or more decimals.
+      Float, or "floating point number" is a number, positive or negative, containing **one or more decimals**.
 
 ```python
   #int
@@ -126,7 +131,7 @@ Result: `<class 'int'>`
   print(type(a))
   print(type(b))
   ```
-Result:
+**Result:**
 ```python
    <class 'int'>
    <class 'int'>
@@ -134,7 +139,7 @@ Result:
    <class 'float'>
    <class 'float'>
    ```
-In real type what do we do with numbers???
+**In real world what do we do with numbers???**:smirk::smirk:
 Calculations right, in python also we can tell the program to do calculations.
 ```python
    a=30
@@ -146,7 +151,7 @@ Calculations right, in python also we can tell the program to do calculations.
    print(diff)
    print(div)
    ```
-Result:
+**Result:**
 ```python
     50
     10
@@ -169,7 +174,7 @@ Result:
    print(type(x))
    print(type(y))
 ```
-Result:
+**Result:**
 ```python 
    5.0
    7
@@ -202,7 +207,7 @@ String literals in python are surrounded by either single quotation marks, or do
    ut labore et dolore magna aliqua."""
    print(a)
   ```
-Result:
+**Result:**
 ```python
    hello
    hello
@@ -220,10 +225,10 @@ For example: Square brackets can be used to access elements of the string.
    print(a[-1]) #prints the last letter
    print(a[2]) #prints the third letter
   ```
-  > You must be wondering i told it will print the first letter but wrote zero(0) in the square bracket.??
+  > You must be wondering i told it will print the first letter but wrote zero(0) in the square bracket.??:smile:
   > Thats a totally valid question.
   > All programing languages are mostly zero-indexed meaning the positioning of the first letter is the considered as zero(0) and not one(1)
-Result:
+**Result:**
 ```python
    D
    t
@@ -238,7 +243,7 @@ Result:
    c="Company"
    print(a+b+c)
  ```
- Result:
+ **Result:**
  ```pyhton
     DevIncept is a great Company
    ``` 
@@ -249,7 +254,7 @@ Result:
    a='DevIncept'
    print(a[0:3])
   ```
-Result:
+**Result:**
 ```python
    Dev
   ``` 
@@ -264,7 +269,7 @@ String Methods are nothing but pyhton built in fuctions to make our life easy...
    print(a.lower()) # all lowercase
    print(a.upper()) # all uppercase
   ```
-Result:
+**Result:**
 ```pyhton
    devincept
    DEVINCEPT
@@ -277,7 +282,7 @@ An escape character is a backslash \ followed by the character you want to inser
    txt = "We are the so-called \"Vikings\" from the north."
    print(txt)
   ```
-Result:
+**Result:**
 ```pyhton
    We are the so-called "Vikings" from the north.
   ```
@@ -302,10 +307,14 @@ You can evaluate any expression in Python, and get one of two answers, True or F
    b=200
    print(a>b)
   ```
- Result:
+ **Result:**
  ```python
     True
     True
     False
     False
    ``` 
+ # Finally You have made it to the end of the lessons.Congratulations on doing that,Its not an easy task to learn a programming language from scratch.
+ # Take time you have achieved a lot in few hours. Whenever you feel confused review the lessons.
+ ## Now you are a part ***Pythonista***:snake: 
+   
