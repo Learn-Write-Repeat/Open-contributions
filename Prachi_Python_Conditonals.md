@@ -28,7 +28,7 @@ When we have a condition or boolen expression to check , we use if condition.
 <p>Syntax:</p>
 <p><PRE>
         if boolean condition:<br>
-        &#9;statement(s)</p>
+           statement(s)</p>
             
 Example:
 <PRE> if a>b:
