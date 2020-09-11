@@ -31,9 +31,8 @@ When we have a condition or boolen expression to check , we use if condition.
         &#9;statement(s)</p>
             
 Example:
-<PRE> 
-        if a>b:
-              print(a)
+<PRE> if a>b:
+        print(a)
       <ul>
       <li>Here, ':' is used to mark the starting of statement(s) inside if block.</li>
       <li> 'a>b' is the boolean condition</li>
@@ -41,4 +40,9 @@ Example:
       <li>'print(a)' here , is the statement inside the if block , which will be executed only if the boolean condition evalutes to True</li>
       <li>If the condition evalutes to false the statement(s) inside the if block will be ignored , and rest of the statements will be executed.</li>
       </ul>
-    
+        <p>Let's take an example from our daily life:</p>
+        <p>Example: If it is rainiing, use an umbrella otherwise don't use an umbrella.</p>
+        <p>Explanation: Here , the condition is "if it is raining" , if this condition evaluates to true , then we use an umbrella ,otherwise, it is not raining so we don't need the umbrella.</p>
+        <p>Let us understand better by using flowchart</p>
+        
+            
