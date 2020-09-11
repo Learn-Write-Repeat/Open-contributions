@@ -124,12 +124,12 @@ In the above code, the variables <i>x</i> and <i>y</i> are <b>Formal arguments</
   <h3>Keyword Arguments</h3><br>
 <p> Keyword Arguments are used in the function calls which passes the arguments along with a keyword. This facilitates the user to pass the arguments in a non positional order.If the sequence of the arguments is not known, keyword arguments can be used in a function call.</p>
   <h4>Example:</h4>
-  def student(name,age):
+  def student(name,age):<br>
   &nbsp;&nbsp;print(name)<br>
   &nbsp;&nbsp;print(age)<br><br>
   student(age=28,name='paul')<br>
   <i>Output:</i>&nbsp;paul<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;28<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;28<br>
   
  <h3>Default Arguments</h3><br>
 <p> It's a type of argument which assumes a default value if a particular value is not mentioned in the function call.If a user does'nt provide a particular argument the default value in the function definition will be assigned autonomously to the that particular argument.</p>
