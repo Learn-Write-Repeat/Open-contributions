@@ -1,6 +1,6 @@
 
 
-### I have a intermediate knowledge in ***Python*** and ***ML***  :)
+### I have a intermediate knowledge in ***Python***  :)
 
 ---
 ***Python***
@@ -15,7 +15,6 @@
 
     4. It supports automatic garbage collection.
 
-    5. It can be easily integrated with C, C++, COM, ActiveX, CORBA, and Java.
 
 
 
