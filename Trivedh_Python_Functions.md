@@ -100,9 +100,8 @@ Consider the given two scenarios:<br>
  
  <h2>Function Arguments</h2>
  Arguments are used to feed nformation to the functions i.e to pass the information. Any number of arguments can be passed. They are declared inside the parenthesis after the function name.
- 
- 
- def add(x,y):<br>
+ <h3>Example:</h3>
+  def add(x,y):<br>
   &nbsp;&nbsp;c=x+y<br>
  &nbsp;&nbsp;print(c)<br><br>
  add(5,4)<br><br>
@@ -128,9 +127,9 @@ In the above code, the variables <i>x</i> and <i>y</i> are <b>Formal arguments</
   def student(name,age):
   &nbsp;&nbsp;print(name)<br>
   &nbsp;&nbsp;print(age)<br><br>
-  student(age=28,name='paul)<br>
+  student(age=28,name='paul')<br>
   <i>Output:</i>&nbsp;paul<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;28<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;28<br>
   
  <h3>Default Arguments</h3><br>
 <p> It's a type of argument which assumes a default value if a particular value is not mentioned in the function call.If a user does'nt provide a particular argument the default value in the function definition will be assigned autonomously to the that particular argument.</p>
@@ -147,10 +146,10 @@ In the above code, the variables <i>x</i> and <i>y</i> are <b>Formal arguments</
   <h4>Example:</h4>
   def student(a,*b):
   &nbsp;&nbsp;c=a;<br>
-  &nbsp;&nbsp;for i in b:<br><br>
+  &nbsp;&nbsp;for i in b:<br>
   &nbsp;&nbsp;&nbsp;c=c+i<br>
-  &nbsp;&nbsp;print(c)<br>
-  sum(5,6,34,78)<br>
+  &nbsp;&nbsp;print(c)<br><br>
+  sum(5,6,34,78)<br><br>
   
   <i>Output:</i>&nbsp;123<br>
   
