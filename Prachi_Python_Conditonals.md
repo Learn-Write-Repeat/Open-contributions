@@ -18,21 +18,20 @@ We need conditional statements in our program to change the direction of program
 <li>Nested conditional statements</li>
 </ul>
 
-<ol>
 
 ***Let's take a look at all the statements:***
 
-<li> <b>If statements</b> </li>
+1.<b>If statements</b>
 
 When we have a condition or boolen expression to check , we use if condition.
 
-#Syntax:
-      #if boolean condition:
-            #statements(s)
+Syntax:
+      if boolean condition:
+            statements(s)
+            
 Example:
       if a>b:
          print(a)
-      
       <ul>
       <li>Here, ':' is used to mark the starting of statement(s) inside if block.</li>
       <li> 'a>b' is the boolean condition</li>
@@ -40,4 +39,4 @@ Example:
       <li>'print(a)' here , is the statement inside the if block , which will be executed only if the boolean condition evalutes to True</li>
       <li>If the condition evalutes to false the statement(s) inside the if block will be ignored , and rest of the statements will be executed.</li>
       </ul>
-      
+    
