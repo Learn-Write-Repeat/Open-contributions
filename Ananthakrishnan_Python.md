@@ -46,6 +46,6 @@
 
     
  
- >I am learning it remaining ....   
+ >I am learning always ....   
 
-> I look forward to learn and understand it , I am confident that I can complete the work along with mentorship.  
+> I look forward to learn and understand it , I am confident that I can complete the work under the guidance of mentor.  
