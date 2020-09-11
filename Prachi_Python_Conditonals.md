@@ -26,12 +26,14 @@ We need conditional statements in our program to change the direction of program
 When we have a condition or boolen expression to check , we use if condition.
 
 <p>Syntax:</p>
-<p>&#9;if boolean condition:<br>
+<p><PRE>
+        if boolean condition:<br>
         &#9;statement(s)</p>
             
 Example:
-      if a>b:
-         print(a)
+<PRE> 
+        if a>b:
+              print(a)
       <ul>
       <li>Here, ':' is used to mark the starting of statement(s) inside if block.</li>
       <li> 'a>b' is the boolean condition</li>
