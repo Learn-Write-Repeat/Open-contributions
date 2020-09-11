@@ -37,5 +37,37 @@ A List is used to store the sequence of various types of data. Data are inclosed
 - Index positions actually help us to directly access a value from the list. list_name[index] can be used to directly access the list element at the mentioned index position.
 - If we want to access an element directly, we can also use it to directly modify an element in the list.  element[1] = 23413
 
+## Basic Operations of List
+
+|  Python Expression  |    Result    |  Operation  |
+|---------------------|--------------|-------------|
+|   [1,2,3]+[8,9,9]   |[1,2,3,8,9,9] | Concetanitation|
+|   len([4,5,6])      | 3            | Length |  
+|   7 in [1,4,7]      | True         |Membership|
+| for n in [1,3,5]: print (n) | 1 3 7 |Iteration|
+|n=[1,3,7] print(n[2]) |7|Indexing: Offset Starts at 0|  
+|n=[1,3,7] print(n[-2])|3|Negative Slicing: Count from right|
+|n=[1,3,7] print(n[1:])|[3,7]|Slicing|
+
+## Built-in methods and functions in lists
+
+|   Function   |                Description                      |
+|--------------|-------------------------------------------------|
+|cmp(list1,list2)| Compare elements of both list|
+|len(list)|Give total Length of list|
+|max(list)|Return item from list with maximum value|
+|min(list)|Return item form list with minimum value|
+|list(seq)|converts a tuple to list|
+|list.append(obj)|Append object obj to list|
+|list.count(obj)|Return count of how many times obj occurs in list|
+|list.insert(index,obj)|Insert object obj to list at offset index|
+|obj=list.pop()|Remove the item at position -1 from list  and assigns it to obj|
+|list.remove(obj)|Removes object obj from list|
+|list.reverse()|Reverses  the order of items in list|
+|sorted(list)|Sorts item in list|
+
+
+
+
 
 
