@@ -10,16 +10,16 @@ Complex projects can be broken down into smaller tasks.These small tasks can con
 <td>def function-name():</td>
 </tr>
 </table>
-### In the above syntax:<br>
-**def** - to declare/define the function<br>
-**function-name**- name of the function<br>
-**()** - required to distinguish between a variable and function and end the definition with a semi-colon<br>
-There are two basic types of Functions:<br>
+<h3>In the above syntax:</h3><br>
+<b>def</b> - to declare/define the function<br>
+<b>function-name</b>- name of the function<br>
+<b>()</b> - required to distinguish between a variable and function and end the definition with a semi-colon<br>
+<h3>There are two basic types of Functions:</h3><br>
 <ul><li>Built-in Functions</li>
 <li>User Defined Functions</li></ul>
- Built-in Functions:<br>
-<h3>Built-in functions are part of Python language.These are the functions readily available for the use.</h3>
-<h2>Examples</h2>
+<h2>Built-in Functions:</h2><br>
+Built-in functions are part of Python language.These are the functions readily available for the use.
+<h3>Examples</h3>
 <table>
 <tr>
 <th>Function</th>
