@@ -1,10 +1,10 @@
 # Introduction to Python 
 
-Python is an ***open source programming language*** and it is among the top five most popular languages in the world.. It is a good programming language for beginners. Writing programs in Python takes less time than in some other languages like C, C++, Java. Latest version of python is ***python3***.
+Python is an ***open source programming language*** and it is among the top five most popular languages in the world. It is a good programming language for beginners. Writing programs in Python takes less time than in some other languages like C, C++, Java. Latest version of python is ***python3***.
 
 ## Why most of them love python :heart:
 
-Python is not only used for general problem solving but also for the development of high-level applications like:
+Python is not only used for general problem solving but also for the development of high-level applications like-
 
 * **Web Development:** Can perform server side programming through Python libraries like ***Django*** and ***Flask***.
 
