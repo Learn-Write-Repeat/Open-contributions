@@ -29,7 +29,7 @@ When we have a condition or boolen expression to check , we use if condition.
 <p><PRE>
         if boolean condition:<br>
            statement(s)</p>
-            
+</PRE>
 Example:
 <PRE> if a>b:
         print(a)
