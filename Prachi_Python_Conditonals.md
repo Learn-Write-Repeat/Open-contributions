@@ -43,6 +43,6 @@ Example:
         <p>Let's take an example from our daily life:</p>
         <p>Example: If it is rainiing, use an umbrella otherwise don't use an umbrella.</p>
         <p>Explanation: Here , the condition is "if it is raining" , if this condition evaluates to true , then we use an umbrella ,otherwise, it is not raining so we don't need the umbrella.</p>
-        <p>Let us understand better by using flowchart</p>
-        
-            
+        <p>Now, let us take a look at the flowchart:</p>
+       <p> <img src="https://user-images.githubusercontent.com/49331074/92867276-106d0d80-f41e-11ea-8289-d5e9da1d6b34.JPG" width="300" height="300"></p>
+        <p>Thus, this flowchart explain us the flow of the program using 'if' conditional statement.</p>
