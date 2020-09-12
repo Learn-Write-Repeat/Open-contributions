@@ -21,7 +21,7 @@ def greet():<br>
 &nbsp;&nbsp;print("Hello")<br>
 &nbsp;&nbsp;print("Im a student")<br><br>
 
-greet()
+greet()<br>
 <i>Using the above function you can print the greet message multiple times by just calling the function multiple times instead of making the code redundant with print lines.</i>
 
 
