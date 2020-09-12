@@ -112,6 +112,6 @@ Example:If we want to print the greater number among two numbers:
       <ul>
 <p>
 
-*This contribution has been made by Prachi Agarwal. Contact me directly on my e-mail:agarwal.ashu.21@gmail.com . Or ping me , https://www.instagram.com/prachi_diwan21/ .*
+*This contribution has been made by Prachi Agarwal. Contact me directly on my e-mail:agarwal.ashu.21@gmail.com . Or ping me at, https://www.instagram.com/prachi_diwan21/ .*
 
 </p>
