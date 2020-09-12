@@ -41,6 +41,8 @@
     
 ## 2. Importing the Dataset
 
+<img src="https://miro.medium.com/max/400/1*eWtGdqsEXCnX_ZiVw2Ba0g.png">
+
   Here we need to import the datasets which we have collected for our machine learning project.
   
   read_csv() function:
@@ -109,6 +111,8 @@
     
     
   ## 5. Splitting the Dataset into the Training set and Test set
+  
+  <img src="https://miro.medium.com/max/948/1*4G__SV580CxFj78o9yUXuQ.png" width="800" height="500">
   
   This is one of the crucial step in data preprocessing where we divide dataset into training set and test set.
   In **training set** we train the machine learning model on exisiting observations. In **test set** we evaluate the performance of our model on new observations, and these new observations are completely like the future data which we can get and on the basis of which we  will deploy the machine learning model.
