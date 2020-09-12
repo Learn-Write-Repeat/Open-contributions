@@ -9,16 +9,16 @@ and eases the task to correct the errors if any.</p>
 <p> Modules which are already a part of python programming language and can be readily imported into python files are 
 known as Built-in modules.</p>
 <h3>Examples:</h3>&nbsp; <i> Platform,OS,SYS,RANDOM,etc.<br>
-<ul><li>OS:</li>OS module is a python module that helps us to perform many operating system related tasks. The OS module in Python provides functions
-for creating, removing a directory (folder), fetching its contents, changing and identifying the current directory, etc.
+<ul><li>OS: OS module is a python module that helps us to perform many operating system related tasks. The OS module in Python provides functions
+for creating, removing a directory (folder), fetching its contents, changing and identifying the current directory, etc.</li>
 <h4>Example</h4>
 Import OS<br>
 os.mkdir(‘C:\\Users\\gayat\\Desktop\\module’)<br>
 os.rmdir(‘C:\\Users\\gayat\\Desktop\\module’’)<br><br>
 <i>This will create a directory named module on desktop</i><br><br>
 
-<li>Statistics:</li></ul> The statistics module provides us the functions to handle statistics of numeric data. These functions include:<br>
-<ul><li>Mean()</li><li>Median()</li><li>Mode()</li><li>stdev()</li></ul>
+<li>Statistics: The statistics module provides us the functions to handle statistics of numeric data. These functions include:<br>
+<ul><li>Mean()</li><li>Median()</li><li>Mode()</li><li>stdev()</li></ul></li></ul>
 <h4>Example</h4>
 
 import statistics as st<br>
