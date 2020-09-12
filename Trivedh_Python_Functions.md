@@ -161,8 +161,8 @@ In the above code, the variables <i>x</i> and <i>y</i> are <b>Formal arguments</
  &nbsp;&nbsp;&nbsp;print ("%s == %s" %(key, value))<br><br>
  myname(first ='John', mid ='Mathew', last='roy')<br><br>
  <i>Output:</i>&nbsp;last == John<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mid == Mathew<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;first == roy<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mid == Mathew<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;first == roy<br>
  
   
  <h2>Recursion</h2>
