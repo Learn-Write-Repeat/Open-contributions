@@ -1,3 +1,5 @@
+# Name: Umesh Singh
+[umesh_singh](https://www.linkedin.com/in/umesh-singh-35629418b)
 # What is Linear Regression? :confused:
 => Regression is form of predictive modelling technique which investigates a relationship between dependent and independent variables. It is of two types Linear and 
 Logistic regression. When there is linear relationship between dependent and independent variables i.e when data is modelled using straight line we use linear Regression. 
