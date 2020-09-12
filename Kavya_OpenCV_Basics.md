@@ -123,7 +123,7 @@
                    break:
                    
                    
-     **Displaying multiple images**
+    - **Displaying multiple images**
      
        It is possible to display multiple images in a single window.
        It can be displayed either horizontly or vertically.
