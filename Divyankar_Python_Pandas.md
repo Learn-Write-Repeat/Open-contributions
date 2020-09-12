@@ -24,7 +24,7 @@ python --version
 ```
 If Python is already installed, it will generate a message with the Python version available.
 
-![shortcut](extras/Python+Version.jpg)
+![shortcut](extras/Python_Version.jpg)
 
 To install Python, please visit: *How to Install Python on [Windows](https://www.geeksforgeeks.org/how-to-install-python-on-windows/) or [Linux](https://www.geeksforgeeks.org/how-to-install-python-on-linux/)*
 
