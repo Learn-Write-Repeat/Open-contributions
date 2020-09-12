@@ -8,7 +8,7 @@ and eases the task to correct the errors if any.</p>
 <h2>Built-in Modules</h2>
 <p> Modules which are already a part of python programming language and can be readily imported into python files are 
 known as Built-in modules.</p>
-<h3>Examples:</h3>&nbsp; <i> Platform,OS,SYS,RANDOM,etc.<br>
+<h3>Examples:</h3>&nbsp; <i> Platform,OS,SYS,RANDOM,etc.<br><br>
 <ul><li>OS: OS module is a python module that helps us to perform many operating system related tasks. The OS module in Python provides functions
 for creating, removing a directory (folder), fetching its contents, changing and identifying the current directory, etc.</li>
 <h4>Example</h4>
