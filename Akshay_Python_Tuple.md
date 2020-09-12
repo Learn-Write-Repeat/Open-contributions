@@ -36,4 +36,4 @@ A tuple is a collection of objects which ordered and immutable. Tuples are seque
 
 ## Now You have learnt about Collection Tuple. Next you have to do is to practice from the Tuple practical [click here](https://github.com/akshayadme/Open-contributions/blob/master/Akshay_Python_List%20(1).ipynb)
 
-## Next Topic you have to learn is Set [Click Here]()
+## Next Topic you have to learn is Set [Click Here](https://github.com/akshayadme/Open-contributions/blob/master/Akshay_Python_Set.md)
