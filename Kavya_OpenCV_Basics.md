@@ -39,7 +39,7 @@
    
      One can have images of more than two levels i.e instead of having only 0 and 1 bit levels each pixel can have range of values i.e $2^8$,this will give us resolution of 256     levels  where 0  will be  **black** and 255 will be white. So basically we have 254 colours between **black** and **white**. In other words, we have 254 shades of **gray**.
    
-   ![image](https://i.stack.imgur.com/B2DBy.jpg)
+     ![image](https://i.stack.imgur.com/B2DBy.jpg)
    
 -  **Coloured image**
    
