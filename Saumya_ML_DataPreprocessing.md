@@ -124,6 +124,22 @@
   
   Feature scaling is the final step of data preprocessing in machine learning. It simply means to scale all the variables i.e. the features and make sure they all take up values in the same scale. This is done to prevent so that one feature don't dominate on other.
   A machine learning model is based on Euclidean distance, and if we do not scale the variable, then it will cause some issue in our machine learning model.
+  
   **Euclidean distance is given by:**
   
+  <img src="https://static.javatpoint.com/tutorial/machine-learning/images/data-preprocessing-machine-learning-8.png">
   
+  ***There are two ways to perform feature scaling in machine learning:***
+  
+  <img src="https://static.javatpoint.com/tutorial/machine-learning/images/data-preprocessing-machine-learning-9.png">
+  
+  <img src="https://static.javatpoint.com/tutorial/machine-learning/images/data-preprocessing-machine-learning-10.png">
+  
+  For feature scaling, **StandardScaler** class of sklearn.preprocessing library is imported as:
+  
+    from sklearn.preprocessing import StandardScaler
+    sc=StandardScaler()
+    x_train[:,3:]=sc.fit_transform(x_train[:,3:])
+    x_test[:,3:]=sc.transform(x_test[:,3:])
+    print(x_train)
+    print(x_test)
