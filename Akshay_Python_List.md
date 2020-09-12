@@ -41,10 +41,10 @@ A List is used to store the sequence of various types of data. Data are inclosed
 
 |  Python Expression  |    Result    |  Operation  |
 |---------------------|--------------|-------------|
-|   [1,2,3]+[8,9,9]   |[1,2,3,8,9,9] | Concetanitation|
+|   [1,2,3]+[8,9,9]   |[1,2,3,8,9,9] | Concatination|
 |   len([4,5,6])      | 3            | Length |  
 |   7 in [1,4,7]      | True         |Membership|
-| for n in [1,3,5]: print (n) | 1 3 7 |Iteration|
+| for n in [1,3,5]: print (n) | 1 3 5 |Iteration|
 |n=[1,3,7] print(n[2]) |7|Indexing: Offset Starts at 0|  
 |n=[1,3,7] print(n[-2])|3|Negative Slicing: Count from right|
 |n=[1,3,7] print(n[1:])|[3,7]|Slicing|
@@ -68,7 +68,14 @@ A List is used to store the sequence of various types of data. Data are inclosed
 
 ## Now You have learnt about Collection List. Next you have to do is to practice from the List practical [click here](https://github.com/akshayadme/Open-contributions/blob/master/Akshay_Python_List%20(1).ipynb)
 
-## Next Topic you have to learn is Tuple click here
+## Next Topic you have to learn is Tuple [Click Here]()
+
+
+
+
+
+
+
 
 
 
