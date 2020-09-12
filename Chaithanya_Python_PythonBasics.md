@@ -94,6 +94,65 @@ Python is not only used for general problem solving but also for the development
 
 <hr>
 
+## Basic Syntax in Python3
+
+### 1. print() Function
+
+The print function in Python is a function that outputs to your console window whatever you say you want to print out.\
+For ***Strings*** : print("string or any sentence")
+For ***Numbers*** : print(Number)
+For ***Operations with numbers*** : print(number1 operation number2)
+
+**Input:**
+
+</ins>
+
+```md
+
+print("Hello World")
+print("welcome to python3")
+print(3)
+print(5+4)
+print(6-2)
+print(4/2)
+```
+
+**<ins>Output:</ins>**
+
+Hello World
+welcome to python3
+3
+9
+4
+2.0
+
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
