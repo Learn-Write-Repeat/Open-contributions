@@ -98,7 +98,8 @@ Python is not only used for general problem solving but also for the development
 
 ### 1. print() Function
 
-The print function in Python is a function that outputs to your console window whatever you say you want to print out.\
+The print function in Python is a function that outputs to your console window whatever you say you want to print out.
+
 For ***Strings*** : print("string or any sentence")\
 For ***Numbers*** : print(Number)\
 For ***Operations with numbers*** : print(number1 operation number2)
@@ -132,10 +133,10 @@ welcome to python3\
 
 In python there is no need to declare the datatype(string,integer,....) of the varaiables.
 
-For ***Strings*** : variable = "string or a sentence"
-For ***Integers*** : variable = number
-For ***Operations with integers*** : variable = num1 operation num2
-variable = variable1 operation variable2
+For ***Strings*** : variable = "string or a sentence"\
+For ***Integers*** : variable = number\
+For ***Operations with integers*** : variable = num1 operation num2\
+variable = variable1 operation variable2\
 
 **Input:**
 
@@ -155,9 +156,9 @@ print(d)
 
 **<ins>Output:</ins>**
 
-What is your name?
-7
-3
+What is your name?\
+7\
+3\
 10
 
 <hr>
