@@ -52,7 +52,7 @@
 |update([other])|	Updates the dictionary with the key/value pairs from other, overwriting existing keys.|
 |values()|	Returns a new object of the dictionary's values|
 
-## Now You have learnt about Collection List. Next you have to do is to practice from the List practical [click here]()
+## Now You have learnt about Collection List. Next you have to do is to practice from the List practical [click here](https://github.com/akshayadme/Open-contributions/blob/master/Akshay_Python_Dictionary.ipynb)
 
 
 # Congratulation! You have Successfully Learned Python Data Structure. :smiley:
