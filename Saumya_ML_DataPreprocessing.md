@@ -55,6 +55,7 @@
 ### Extracting Dependent and Independent Variable
    
    **Independent Variable:** Independent variables are the input for a process that is being analyzes basically referred as Features and here we are denoting it by **x**.
+   
    **Dependent Variables:** Dependent variables are the output of the process, like for example whether we have purchased the product or not and here we are denoting it by **y**.
    
    **Extracting Independent Variable:** Here in order to extract the variable iloc[] method of pandas library is used and extract rows and columns of the data set.
@@ -74,6 +75,8 @@
    **By deleting the particular row:** The first way is used to commonly deal with null values. In this way, we just delete the specific row or column which consists of null values. But this way is not so efficient and removing data may lead to loss of information which will not give the accurate output.
 
    **By calculating the mean:** In this way, we will calculate the mean of that column or row which contains any missing value and will put it on the place of missing value. This strategy is useful for the features which have numeric data such as age, salary, year, etc. Here, we will use this approach.
+   
+   <img src="https://mk0analyticsindf35n9.kinstacdn.com/wp-content/uploads/2018/02/missing-values.png">
 
    To handle missing values, we use Scikit-learn library in our code, which contains various libraries for building machine learning models. Lets see how to use it. 
    
@@ -93,6 +96,8 @@
    encoding** is used.
    Dummy variables are those variables which have values 0 or 1. The 1 value gives the presence of that variable in a particular column, and rest variables become 0. With dummy
    encoding, the number of columns is equal to the number of categories.For Dummy Encoding, **OneHotEncoder** class of preprocessing library is used.
+   
+   <img src="https://hackernoon.com/photos/4HK5qyMbWfetPhAavzyTZrEb90N2-3o23tie">
    
    **Encoding the Independent Variable**
    
