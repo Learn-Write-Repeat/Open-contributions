@@ -36,9 +36,9 @@ Python is not only used for general problem solving but also for the development
 
 ### 1. Download the Python Installer
 
-* Open the **[Python Website](https://www.python.org/downloads/)** in your browser.
+* Open the ***[Python Website](https://www.python.org/downloads/)*** in your browser.
 
-* In the Downloads tab choose the **latest version of Python(Python 3.8.5)** and click on it to download.
+* In the Downloads tab choose the ***latest version of Python(Python 3.8.5)*** and click on it to download.
 
 * An Executable file will be dowbnloaded.
 
@@ -48,47 +48,47 @@ Python is not only used for general problem solving but also for the development
 
 * After the completion of download, run the Python Installer.
 
-* Select the check box containing **the Install launcher for all users**.
+* Select the check box containing ***the Install launcher for all users***.
 
-* Click on **Customize Installation**.
+* Click on ***Customize Installation***.
 
-* Select the check boxes contaning **Documentaion, pip, tcl/tk and IDLE, Python test suit, py launcher for all users**.
+* Select the check boxes contaning ***Documentaion, pip, tcl/tk and IDLE, Python test suit, py launcher for all users***.
 
-* Click on **next** button.
+* Click on ***next*** button.
 
-* This takes you to **Advanced Options**.
+* This takes you to ***Advanced Options***.
 
-* Here, select the check boxes containg **Install for all users** and **Add Python to environment variables check boxes**.
+* Here, select the check boxes containg ***Install for all users*** and ***Add Python to environment variables***.
 
-* Click on **Install** button to start installation.
+* Click on ***Install*** button to start installation.
 
-* Once the installation is over, you will see a **Python Setup Successful window**.
+* Once the installation is over, you will see a ***Python Setup Successful window***.
 
 <hr>
 
 ### 3. Adding Python to environmental variables
 
-* In the start menu search for **View advanced system settings** and select it.
+* In the start menu search for ***View advanced system settings*** and select it.
 
-* In the **System Properties** window, click on the **Advanced** tab and then click on the **Environment Variables** button.
+* In the ***System Properties*** window, click on the ***Advanced*** tab and then click on the ***Environment Variables*** button.
 
-* In the **System Variables** window, select the **Path** variable.
+* In the ***System Variables*** window, select the ***Path*** variable.
 
-* Click on **NEW** and name the variable as **PATH** and variable value as the path **C:\Program Files (x86)\Python38-32;C:\Program Files (x86)\Python38-32\Lib\site-packages;C:\Program Files (x86)\Python38-32\Scripts**.
+* Click on ***NEW*** and name the variable as ***PATH*** and variable value as the path ***C:\Program Files (x86)\Python38-32;C:\Program Files (x86)\Python38-32\Lib\site-packages;C:\Program Files (x86)\Python38-32\Scripts***.
 
-* Click **ok**.
+* Click ***OK***.
 
 <hr>
 
 ### 4. Verify the Python Installation
 
-* In the start menu search for **Command Prompt** and open it.
+* In the start menu search for ***Command Prompt*** and open it.
 
-* After opening, to check the installation, type **python** or **python-version** or **python -V** in command prompt.
+* After opening, to check the installation, type ***python*** or ***python-version*** or ***python -V*** in command prompt.
 
 * You can see the python version you have installed.
 
-* Another alternative is you can search for **IDLE(Python version)** in the start menu.
+* Another alternative is you can search for ***IDLE(Python version)*** in the start menu.
 
 * A python shell will be opened where you can work on python.
 
