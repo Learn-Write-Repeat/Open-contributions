@@ -117,7 +117,7 @@ In the above code, the variables <i>x</i> and <i>y</i> are <b>Formal arguments</
   &nbsp;&nbsp;print(age)<br><br>
   student('paul',28)<br><br>
   <i>Output:</i>&nbsp;paul<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;&nbsp;&nbsp;28<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;&nbsp;&nbsp;&nbsp;&nbsp;28<br>
   In the above example <i>'paul'</i> and <i>28</i> were passed as actual arguments and they were assigned to the formal arguments in the declared function without an error,as they were passed in a sequential order.
  
  
@@ -129,7 +129,7 @@ In the above code, the variables <i>x</i> and <i>y</i> are <b>Formal arguments</
   &nbsp;&nbsp;print(age)<br><br>
   student(age=28,name='paul')<br>
   <i>Output:</i>&nbsp;paul<br>
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;28<br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;28<br>
   
  <h3>Default Arguments</h3><br>
 <p> It's a type of argument which assumes a default value if a particular value is not mentioned in the function call.If a user does'nt provide a particular argument the default value in the function definition will be assigned autonomously to the that particular argument.</p>
@@ -139,7 +139,7 @@ In the above code, the variables <i>x</i> and <i>y</i> are <b>Formal arguments</
   &nbsp;&nbsp;print(age)<br><br>
   student('paul')<br>
   <i>Output:</i>&nbsp;paul<br>
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;18<br
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;18<br
   
 <h3>Variable Length Arguments</h3><br>
 <p> Variable Arguments are the arguments used in the function calls when a function has to compute more arguments than the arguments in the function definition or when the accuracte value of arguments is not known.They are not named like Default or positional arguments.They are named withan asterisk before the variable-name that holds multiple or nonkeyword arguments.</p>
@@ -156,12 +156,12 @@ In the above code, the variables <i>x</i> and <i>y</i> are <b>Formal arguments</
  <h3>Keyworded Variable Length Arguments</h3><br>
  <p> Keyworded Variable Arguments are the arguments with a special syntax **kwargs in function definitions in python is used to pass a keyworded,variable-length argument list.</p>
  <h4>Example:</h4>
-  def myname(a,**b):
+  def myname(a,**b):<br>
   &nbsp;&nbsp;for key, value in b.items():<br>
  &nbsp;&nbsp;&nbsp;print ("%s == %s" %(key, value))<br><br>
  myname(first ='John', mid ='Mathew', last='roy')<br><br>
  <i>Output:</i>&nbsp;last == John<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mid == Mathew
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mid == Mathew<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;first == roy<br>
  
   
@@ -187,7 +187,8 @@ In the above code, the variables <i>x</i> and <i>y</i> are <b>Formal arguments</
  <h3>Example 2</h3>
 g = lambda b,c: b-c<br>
 result1=g(6,5)<br>
-print(result1)
+print(result1)<br>
+<i>Output:</i>&nbsp;1<br>
  
 
  
