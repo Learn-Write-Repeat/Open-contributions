@@ -17,12 +17,11 @@ Complex projects can be broken down into smaller tasks.These small tasks can con
 <b>function-name</b>- name of the function<br>
 <b>()</b> - required to distinguish between a variable and function and end the definition with a semi-colon<br>
 <h3>Example</h3>
-def greet():<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #Function definition
+def greet():<br>
 &nbsp;&nbsp;print("Hello")<br>
 &nbsp;&nbsp;print("Im a student")<br><br>
 
-greet()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#Call the function to print the output<br><br>
-
+greet()
 <i>Using the above function you can print the greet message multiple times by just calling the function multiple times instead of making the code redundant with print lines.</i>
 
 
