@@ -214,11 +214,13 @@ Comments are used to explain what the code does in each line. Python will ignore
                    or\
 We can use ***Multi line string*** : we represent by \
                                                           """ 
+                                                          
                                                           comment1\
                                                           comment2
                                                           .\
                                                           .\
                                                           .\
+                                                          
                                                       """
                                                       
  > To get the ***Python Tutorial*** [click here](https://www.w3schools.com/python/)
