@@ -101,7 +101,7 @@ Python is not only used for general problem solving but also for the development
 The print function in Python is a function that outputs to your console window whatever you say you want to print out.
 
 For ***Strings*** : print("string or any sentence")\
-For ***Numbers*** : print(Number)\
+For ***Numbers*** : print(number)\
 For ***Operations with numbers*** : print(number1 operation number2)
 
 **Input:**
@@ -131,12 +131,12 @@ welcome to python3\
 
 ### 2. Value initialization
 
-In python there is no need to declare the datatype(string,integer,....) of the varaiables.
+In python there is no need to declare the datatype(string,integer,....) of the varaiables before initialization.
 
 For ***Strings*** : variable = "string or a sentence"\
 For ***Integers*** : variable = number\
-For ***Operations with integers*** : variable = num1 operation num2\
-variable = variable1 operation variable2\
+For ***Operations with integers*** : variable = number1 operation number2\
+variable = variable1 operation variable2
 
 **Input:**
 
@@ -156,12 +156,52 @@ print(d)
 
 **<ins>Output:</ins>**
 
+Here, a = "What is your name?", so by the statement print(a) the output is\
 What is your name?\
+Here, b = 7, so by the statement print(b) the output is\
 7\
+Here, c = 3, so by the statement print(c) the output is\
 3\
+Here, d = b + c , so d = 7 + 3 = 10, so by the statement print(d) the output is\
 10
 
 <hr>
+
+### 3. Value Input
+
+In python In python there is no need to declare the datatype(string,integer,....) of the varaiables before taking the input.
+
+For ***Strings*** : variable = input()\
+For ***Integers*** : variable = int(input())\
+For ***Float*** : variable = float(input())
+
+**Input:**
+
+</ins>
+
+```md
+
+x = input()
+print(x)
+y = int(input())
+print(y)
+z = float(input())
+print(z)
+```
+
+**<ins>Output:</ins>**
+
+Here, by taking input as x = "Hello", so by the statement print(x) the output is\
+Hello\
+Here, by taking input as y = 8, so by the statement print(y) the output is\
+8\
+Here, by taking input as z = 10.63, so by the statement print(z) the output is\
+10.63
+
+<hr>
+
+
+
 
 
 
