@@ -1,6 +1,6 @@
 # What is Linear Regression? :confused:
 => Regression is form of predictive modelling technique which investigates a relationship between dependent and independent variables. It is of two types Linear and 
-Logistic regression. When there is linear relationship between dependent and independent variables i.e when data is modelled using straight linear Regression. 
+Logistic regression. When there is linear relationship between dependent and independent variables i.e when data is modelled using straight line we use linear Regression. 
 In Linear regression there is always increasing/decreasing of one variable due to increasing/decreasing of other variable. The realtionship between dependent and independent variables is defined as y = mx + c where m = slope of line, c = intercept of line, x = independent variable and y = independent variable. In particular the purpose of 
 linear regression is to predict the value of the dependent variable based upon the the values of one or more independent variables.
 
