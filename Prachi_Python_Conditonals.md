@@ -18,7 +18,7 @@ We need conditional statements in our program to change the direction of program
 </ul>
 
 
-***Let's take a look at all the statements:***
+***Let's take a look at all conditional statements:***
 
 1.<b>If statements</b>
 
