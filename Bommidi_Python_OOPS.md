@@ -76,7 +76,7 @@ Encapsulation is also an important aspect of the object-oriented programming. It
 
 Data abstraction is achieved through encapsulation. So that's why, Data abstraction and encapsulation both are often used as synonyms. 
 
-Abstraction is used to hide internal details and show onlty functionalities. Abstracting something means to give names to things so that the name captures the core of what a function or a whole prograam does.
+Abstraction is used to hide internal details and show only functionalities. Abstracting something means to give names to things so that the name captures the core of what a function or a whole program does.
 
 
 
