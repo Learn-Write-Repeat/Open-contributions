@@ -32,6 +32,10 @@ Python is not only used for general problem solving but also for the development
 
 <hr>
 
+## How to install Python ? 
+
+:point_right: Open the [Python Website](https://www.python.org/downloads/) in your browser.
+
 
 
 
