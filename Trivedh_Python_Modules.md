@@ -49,9 +49,10 @@ goodmorning.goodmorningmsg("John")</td></tr></table><br>
 <h2>Alias name or re-naming a module</h2>
 <p>It is used to create an alias name for the module.</p>
 <h3>Example</h3>
-import goodmorning as gm<br>
+<table><tr><th>mainmod1.py</th></tr><tr><td>import goodmorning as gm<br>
 a=gm.goodmorningmsg("John")<br>
-print(a)<br><br>
+  print(a)</td></tr></table>
+
 <table><tr><th>goodmorning.py</th></tr><tr><td>def goodmorningmsg(name):<br>
 &nbsp;&nbsp;print("Good Morning,"+name)</td></tr></table><br>
 <table><th>mainmod1.py</th></tr><tr><td>import goodmorning<br>
