@@ -137,7 +137,7 @@
        
        *syntax*:
        
-         variablename=np.concatenate((image_1,image_2),axis=1)
+         variablename=np.concatenate((image1,image2),axis=1)
          
        - concatenate image Vertically
        
