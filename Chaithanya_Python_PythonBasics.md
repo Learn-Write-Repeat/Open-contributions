@@ -218,8 +218,7 @@ We can use ***Multi line string*** : we represent by \
                                                             comment2\
                                                             .\
                                                             .\
-                                                            .\ 
-                                                          
+                                                            .
                                                           """
                                                       
  > To get the ***Python Tutorial*** [click here](https://www.w3schools.com/python/)
