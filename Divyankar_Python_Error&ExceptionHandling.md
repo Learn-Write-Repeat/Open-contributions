@@ -136,10 +136,10 @@ The output of the aforementioned program is given below:
 
 ![shortcut](extras/User_defined_example_output.jpg)
 
-##Author
-- Divyankar Bhargav - [Github](https://github.com/ScaryWings83289), [Linkedin](https://www.linkedin.com/in/divyankar-bhargav-a4b487196/), [Instagram](https://www.instagram.com/divyankarbhargav/)
+## Author
+* **Divyankar Bhargav** - [Github](https://github.com/ScaryWings83289), [Linkedin](https://www.linkedin.com/in/divyankar-bhargav-a4b487196/), [Instagram](https://www.instagram.com/divyankarbhargav/)
 
-##Acknowledgements
+## Acknowledgements
 - DevIncept Mentor
 - Stackoverflow
 - GeeksforGeeks
