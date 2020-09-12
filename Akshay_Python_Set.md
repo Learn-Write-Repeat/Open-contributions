@@ -90,6 +90,6 @@ The symmetric difference of two sets is calculated by ^ operator or symmetric_di
 |union()|	Return the union of sets as a new set.
 |update()|	Update a set with the union of itself and others.
 
-## Now You have learnt about Collection Set. Next you have to do is to practice from the Set practical [click here](https://github.com/akshayadme/Open-contributions/blob/master/Akshay_Python_List%20(1).ipynb)
+## Now You have learnt about Collection Set. Next you have to do is to practice from the Set practical [click here](https://github.com/akshayadme/Open-contributions/blob/master/Akshay_Python_Set.ipynb)
 
 ## Next Topic you have to learn is Dictionary [Click Here](https://github.com/akshayadme/Open-contributions/blob/master/Akshay_Python_Dictionary.md)
