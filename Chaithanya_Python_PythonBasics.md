@@ -4,7 +4,7 @@ Python is an ***open source programming language*** and it is among the top five
 
 ## Why most of them love python :heart:
 
-Python is not only used for general problem solving but also for the development of high-level applications like-
+Python is not only used for general problem solving but also for the development of high-level applications like -
 
 * **Web Development:** Can perform server side programming through Python libraries like ***Django*** and ***Flask***.
 
