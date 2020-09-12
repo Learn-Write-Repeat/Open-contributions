@@ -115,7 +115,9 @@
        It is possible to display multiple images in a single window.
        It can be displayed either horizontly or vertically.
        we have to import numpy library as well for displaying multiple images.
-        **import numpy as npy
+       
+        **import numpy as npy**
+        
        *steps to display multiple images*
        - store the multiple images in different variables using imread() function.
        - concatanate image Horizontally 
@@ -136,7 +138,7 @@
          
          axis=0 refers to horizontal concentation.
          
-        -Display the concantenated images using imshow() function.
+        - Display the concantenated images using imshow() function.
         
      
      
