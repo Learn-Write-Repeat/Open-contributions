@@ -18,8 +18,13 @@
   
 - **Installation of OpenCV**:
     *This section describes the installation process of OpenCV in the **Conda environment***. Installation of OpenCV requires execution of 2 commands in the *Anaconda Prompt*.
-    - **Open** the *Anaconda Prompt* on the system. It looks something like this:
+    - **Open** the *Anaconda Prompt* on the system.
     
     - **Execute** the following commands:
+    
         pip install opencv-python
+        
         pip install opencv-contrib-python
+        
+        **A snapshot of the installation is attached below:**
+        ![Image_of_opencv_installation](extras/anaconda_prompt_opencv_installation.png)
