@@ -76,21 +76,20 @@ The symmetric difference of two sets is calculated by ^ operator or symmetric_di
 |add(item)|	It adds an item to the set. It has no effect if the item is already present in the set.
 |clear()|	It deletes all the items from the set.
 |copy()	|It returns a shallow copy of the set.
-|difference_update(....)|	It modifies this set by removing all the items that are also present in the specified sets.
+|difference_update()|	It modifies this set by removing all the items that are also present in the specified sets.
 |discard(item)|	It removes the specified item from the set.
-|intersection()	|It returns a new set that contains only the common elements of both the sets. (all the sets if more than two are specified).
-|intersection_update(....)	|It removes the items from the original set that are not present in both the sets (all the sets if more than one are specified).
-|Isdisjoint(....)|	Return True if two sets have a null intersection.
-|Issubset(....)	|Report whether another set contains this set.
-|Issuperset(....)	|Report whether this set contains another set.
+|intersection()	|It returns a new set that contains only the common elements of both the sets. 
+|intersection_update()	|It removes the items from the original set that are not present in both the sets (all the sets if more than one are specified).
+|Isdisjoint()|	Return True if two sets have a null intersection.
+|Issubset()	|Report whether another set contains this set.
+|Issuperset()	|Report whether this set contains another set.
 |pop()	|Remove and return an arbitrary set element that is the last element of the set. Raises KeyError if the set is empty.
 |remove(item)|	Remove an element from a set; it must be a member. If the element is not a member, raise a KeyError.
-|symmetric_difference(....)	|Remove an element from a set; it must be a member. If the element is not a member, raise a KeyError.
-|symmetric_difference_update(....)	|Update a set with the symmetric difference of itself and another.
-|union(....)|	Return the union of sets as a new set.
-(i.e. all elements that are in either set.)
+|symmetric_difference()	|Remove an element from a set; it must be a member. If the element is not a member, raise a KeyError.
+|symmetric_difference_update()	|Update a set with the symmetric difference of itself and another.
+|union()|	Return the union of sets as a new set.
 |update()|	Update a set with the union of itself and others.
 
 ## Now You have learnt about Collection Set. Next you have to do is to practice from the Set practical [click here](https://github.com/akshayadme/Open-contributions/blob/master/Akshay_Python_List%20(1).ipynb)
 
-## Next Topic you have to learn is Dictionary [Click Here]()
+## Next Topic you have to learn is Dictionary [Click Here](https://github.com/akshayadme/Open-contributions/blob/master/Akshay_Python_Dictionary.md)
