@@ -71,7 +71,8 @@ print(student["id"])</td></tr></table><br>
 <h2>To display a list of available modules</h2>
 <p>Type the following command in the python module.</p><br>
 <i>>>>help('modules')</i>
-<h5>Output</h5>
+<h5>Output</h5> 
+![Modules logo image](com.jpg)
 
 
 
