@@ -105,7 +105,7 @@ Now let's see the attributes of each function in order to use it.
 
 ## **6) cv2.ellipse()**
 
-    cv2.putText(img, (pt1, pt2), (h, w), r_angle, s_angle, f_angle, color, thickness)
+    cv2.ellipse(img, (pt1, pt2), (h, w), r_angle, s_angle, f_angle, color, thickness)
 
  #### Parameters:
     img – Image.
