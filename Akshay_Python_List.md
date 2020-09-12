@@ -66,7 +66,7 @@ A List is used to store the sequence of various types of data. Data are inclosed
 |list.reverse()|Reverses  the order of items in list|
 |sorted(list)|Sorts item in list|
 
-## Now You have learnt about Collection List. Next you have to do is to practice from the List practical [click here](https://github.com/akshayadme/Open-contributions/blob/master/Akshay_Python.md)
+## Now You have learnt about Collection List. Next you have to do is to practice from the List practical [click here](https://github.com/akshayadme/Open-contributions/blob/master/Akshay_Python_List%20(1).ipynb)
 
 ## Next Topic you have to learn is Tuple click here
 
