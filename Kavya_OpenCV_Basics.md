@@ -2,7 +2,7 @@
 
 - **What is OpenCV**?
 
-   OpenCV(**Open Source Computer Vision and Machine Learning Software**)is an open source library which processes images and videos to identify objects faces,detecting colours etc.It has wide applications in **computer vision**,**machine learning** and **image processing**. It also supports variety of programming languages like **Python**, **C++**, **C**. Basically it a library for processing **images**.
+   OpenCV(**Open Source Computer Vision and Machine Learning Software**)is an open source library which processes images and videos to identify objects, faces,detecting colours etc.It has wide applications in **computer vision**,**machine learning** and **image processing**. It also supports variety of programming languages like **Python**, **C++**, **C**. Basically it a library for processing **images**.
    
    ***OpenCV in Artificial Intelligence***
    
@@ -39,7 +39,7 @@
 
  -   **Gray Scale Image**
    
-     One can have images of more than two levels i.e instead of having only 0 and 1 bit levels each pixel can have range of values i.e $2^8$,this will give us resolution of 256     levels  where 0  will be  **black** and 255 will be white. So basically we have 254 colours between **black** and **white**. In other words, we have 254 shades of **gray**.
+     One can have images of more than two levels i.e instead of having only 0 and 1 bit levels each pixel can have range of values i.e $2^8$,this will give us resolution of 256     levels  where 0  will be  **black** and 255 will be white. So basically we have 254 colours between **black** and **white**.
    
      ![image](https://i.stack.imgur.com/B2DBy.jpg)
    
