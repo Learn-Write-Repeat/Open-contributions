@@ -188,6 +188,8 @@ g = lambda b,c: b-c<br>
 result1=g(6,5)<br>
 print(result1)<br>
 <i>Output:</i>&nbsp;1<br>
+<h2>You can find the  execution of the above mentioned examples in the following Jupyter file</h2>
+<a href="Trivedh_Python_Functions.ipynb">Trivedh_Python_Functions.ipynb</a>
  
 
  
