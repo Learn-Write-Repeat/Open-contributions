@@ -32,7 +32,7 @@ Now let's see the attributes of each function in order to use it.
     
 #### Figure 1. Parameters of Line :
 
-<img style= "border:1px solid black" src="SharedScreenshot.jpg">
+<img style= "border:1px solid black" src="extras2/SharedScreenshot.jpg">
 
 <br>
 <br>
@@ -51,7 +51,7 @@ Now let's see the attributes of each function in order to use it.
     
 #### Figure 2. Parameters of Arrowedline :
 
-<img style= "border:1px solid black" src="arrow.jpg">
+<img style= "border:1px solid black" src="extras2/arrow.jpg">
 
 ## **3) cv2.rectangle()**
 
@@ -67,7 +67,7 @@ Now let's see the attributes of each function in order to use it.
     
 #### Figure 3. Parameters of Rectangle :
 
-<img style= "border:1px solid black" src="rect2.jpg">
+<img style= "border:1px solid black" src="extras2/rect2.jpg">
 
 
 ## **4) cv2.circle()**
@@ -84,7 +84,7 @@ Now let's see the attributes of each function in order to use it.
     
 #### Figure 4. Parameters of Circle :
 
-<img style= "border:1px solid black" src="circle2.jpg">
+<img style= "border:1px solid black" src="extras2/circle2.jpg">
 
 
 ## **5) cv2.polylines()**
@@ -100,7 +100,7 @@ Now let's see the attributes of each function in order to use it.
     (if the thickness = -1 then we get a filled polygon)
 #### Figure 5. Parameters of Polygon :
 
-<img style= "border:1px solid black" src="poly2.jpg">
+<img style= "border:1px solid black" src="extras2/poly2.jpg">
 
 
 ## **6) cv2.ellipse()**
@@ -120,7 +120,7 @@ Now let's see the attributes of each function in order to use it.
     
 #### Figure 6. Parameters of Ellipse :
 
-<img style= "border:1px solid black" src="ell.png">
+<img style= "border:1px solid black" src="extras2/ell.png">
 
 
 ## **7) cv2.putText()**
@@ -137,7 +137,7 @@ Now let's see the attributes of each function in order to use it.
     
 #### Figure 7. Parameters of Text :
 
-<img style= "border:1px solid black" src="text.jpg" height=300px width=500px>
+<img style= "border:1px solid black" src="extras2/text.jpg" height=300px width=500px>
 
 <br>
 <br>
