@@ -1,11 +1,10 @@
-# What is Linear Regression?
+# What is Linear Regression? :confused:
 => Regression is form of predictive modelling technique which investigates a relationship between dependent and independent variables. It is of two types Linear and 
-Logistic regression. When there is linear relationship between dependent and independent variables. So, when data is modelled using straight line. In Linear regression 
-there is always increasing/decreasing of one variable due to increasing/decreasing of other variable. The realtionship between dependent and independent variables is
-defined as y = mx + c where m = slope of line, c = intercept of line, x = independent variable and y = independent variable.In particular the purpose of 
+Logistic regression. When there is linear relationship between dependent and independent variables i.e when data is modelled using straight linear Regression. 
+In Linear regression there is always increasing/decreasing of one variable due to increasing/decreasing of other variable. The realtionship between dependent and independent variables is defined as y = mx + c where m = slope of line, c = intercept of line, x = independent variable and y = independent variable. In particular the purpose of 
 linear regression is to predict the value of the dependent variable based upon the the values of one or more independent variables.
 
-# Why Linear Regression is important?
+# Why Linear Regression is important? :flushed:
 => There are three important uses of linear regression and those are a.Trend forecasting b.forecasting an effect c.determining the strength of predictors.
 a.Trend Forecasting: First regression analysis predicts trends and future values. The regression analysis can be used to get point estimates like what will 
 be price of Bitcoin in next 3 months?
