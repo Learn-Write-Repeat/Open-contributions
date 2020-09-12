@@ -9,7 +9,9 @@
 > This main objective of this documentation is to make understand these concepts in a simple way.**No professional words are used**
 
 ## Class:
- It's the blueprint of any object where we intiliaze the necessary parameters to construct our object inside the functions 
+ It's the blueprint of any object where we intiliaze the necessary parameters to construct our object
+ 
+ we intiliaze our needs in functions called ***Methods***
 
 In python, we determine the class by the following way,
 
@@ -21,6 +23,9 @@ class House:
           .
           .
 ```
+
+
 		
+
 
 
