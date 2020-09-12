@@ -28,10 +28,10 @@ print(st.median(list1))<br>
 print(st.mode(list1))<br>
 print(st.stdev(list1))
 
-<h5>Output:</h5>&nbsp3.9
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.0
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.8529256146249728
+<h5>Output:</h5>&nbsp3.9<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.0<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.8529256146249728<br>
 
                       
                       
@@ -54,7 +54,7 @@ a=gm.goodmorningmsg("John")<br>
 print(a)<br><br>
 <table><tr><th>goodmorning.py</th></tr><tr><td>def goodmorningmsg(name):<br>
 &nbsp;&nbsp;print("Good Morning,"+name)</td></tr></table><br>
-<table><th>mainmod.py</th></tr><tr><td>import goodmorning<br>
+<table><th>mainmod1.py</th></tr><tr><td>import goodmorning<br>
 goodmorning.goodmorningmsg("John")</td></tr></table><br>
 
 <h5>Output:</h5>&nbsp;Good Morning,John<br>
