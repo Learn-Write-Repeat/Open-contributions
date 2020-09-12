@@ -1,4 +1,4 @@
-**OPENCV**
+**OPENCV BASICS**
 
 - **What is OpenCV**?
 
