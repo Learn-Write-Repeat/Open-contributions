@@ -155,13 +155,13 @@ In the above code, the variables <i>x</i> and <i>y</i> are <b>Formal arguments</
  <h3>Keyworded Variable Length Arguments</h3><br>
  <p> Keyworded Variable Arguments are the arguments with a special syntax **kwargs in function definitions in python is used to pass a keyworded,variable-length argument list.</p>
  <h4>Example:</h4>
-  def myname(a,**b):<br>
+  def myname(**b):<br>
   &nbsp;&nbsp;for key, value in b.items():<br>
  &nbsp;&nbsp;&nbsp;print ("%s == %s" %(key, value))<br><br>
  myname(first ='John', mid ='Mathew', last='roy')<br><br>
  <i>Output:</i>&nbsp;last == John<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mid == Mathew<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;first == roy<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mid == Mathew<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;first == roy<br>
  
   
  <h2>Recursion</h2>
