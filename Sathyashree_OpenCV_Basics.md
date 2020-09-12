@@ -16,7 +16,13 @@
   ![Image_of_colored_grid](extras/5X5_colored_grid.png)
   
   The above image shows how some of the blocks are assigned the color "Green" to make the grid appear different. **This simpler tactic is applied in creating and processing images**. OpenCV basically processes the images by *acquiring the information of each pixel in the image and modifying it as per the requirement*. The idea behind accessing and processing videos remains the same since *videos are nothing but a sequence of images*. The quality of an image depends on the *resolution* where as quality of a video depends on the *number of frames per second*.
-  
+
+- **What is the importance of Image Processing and why OpenCV?**
+
+    In modern technical world, with the advancement of technology, digital data in the form of images is of utmost importance as data can be sent and received, stored and retrieved in this format. "Encryption" is of huge interest and importance nowadays for various reasons like security and privacy. Encrypting data in images is most common. This states the importance of image processing in modern era.
+    
+    Coming to image processing, OpenCV is the best library to achieve it since it allows both image and video processing. Along with these, it allows to capture shots from videos and thus, obtain images from videos. It is easily understandable which is one of the avantages for beginners in Computer Vision and image processing. OpenCV also facilitates Denoising of noisy image and Histogram Equalization. 
+
 - **Installation of OpenCV**:
     *This section describes the installation process of OpenCV in the **Conda environment***. Installation of OpenCV requires execution of 2 commands in the *Anaconda Prompt*.
     - **Open** the *Anaconda Prompt* on the system.
@@ -88,7 +94,9 @@
             variable_name = np.concatenate((image_1 , image_name_2) , axis = 1) #Horizontal Concatenation
             
         Axis here refers to the mode of concatenation, i.e, horizontal or vertical. The images to be concatenated are gives as a tuple argument to the concatenate() function.
+        
         **Example**:
+        
             image_concatenated1 = np.concatenate((image_1 , image_2) , axis = 1) 
             image_concatenated2 = np.concatenate((image_1 , image_2) , axis = 0) 
         
