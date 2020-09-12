@@ -14,6 +14,8 @@ Python is not only used for general problem solving but also for the development
 
 * **Data Science and Machine Learning:** It has a great community and a vast range of libraries.
 
+<hr>
+
 ## Why Python ? :thinking:
 
 * :smiley: **Easy to read and learn:** The syntax is very simple and straightforward.
@@ -26,7 +28,26 @@ Python is not only used for general problem solving but also for the development
 
 * :open_mouth: **Interpreted:** Python directly executes the code line by line and not need to be compiled to run.
 
-* :boom: **Protection:** It avoids the Harm from software bugs.
+* :boom: **Protection:** It avoids the harm from software bugs.
+
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
