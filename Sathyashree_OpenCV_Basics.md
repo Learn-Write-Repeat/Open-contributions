@@ -19,9 +19,9 @@
 
 - **What is the importance of Image Processing and why OpenCV?**
 
-    In modern technical world, with the advancement of technology, digital data in the form of images is of utmost importance as data can be sent and received, stored and retrieved in this format. "Encryption" is of huge interest and importance nowadays for various reasons like security and privacy. Encrypting data in images is most common. This states the importance of image processing in modern era.
+    In modern technical world, with the advancement of technology, *digital data* in the form of *images* is of utmost importance as data can be *sent and received, stored and retrieved* in this format. "**Encryption**" is of huge interest and importance nowadays for various reasons like **security and privacy**. Encrypting data through images is most common. "**Cryptography**" aslo has widespread scope in the technical world these days. This states the importance of image processing in the modern era.
     
-    Coming to image processing, OpenCV is the best library to achieve it since it allows both image and video processing. Along with these, it allows to capture shots from videos and thus, obtain images from videos. It is easily understandable which is one of the avantages for beginners in Computer Vision and image processing. OpenCV also facilitates Denoising of noisy image and Histogram Equalization. 
+    Coming to image processing, OpenCV is the best library to achieve it since it allows **both image and video processing**. Along with these, it allows to capture shots from videos and thus, **obtain images from videos**. It is easily understandable which is one of the avantages for *beginners* in Computer Vision and Image Processing. OpenCV also facilitates *Denoising of noisy images* and *Histogram Equalization*. 
 
 - **Installation of OpenCV**:
     *This section describes the installation process of OpenCV in the **Conda environment***. Installation of OpenCV requires execution of 2 commands in the *Anaconda Prompt*.
