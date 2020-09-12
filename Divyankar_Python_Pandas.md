@@ -29,13 +29,13 @@ If Python is already installed, it will generate a message with the Python versi
 To install Python, please visit: **How to Install Python on [Windows](https://www.geeksforgeeks.org/how-to-install-python-on-windows/) or [Linux](https://www.geeksforgeeks.org/how-to-install-python-on-linux/)**
 
 ### Downloading & Installling Pandas
-Pandas can be installed in multiple ways on Windows and on Linux. Various different ways are listed below:
-                                                **Windows**
+Pandas can be installed in multiple ways on Windows and on Linux. Various different ways are listed below:<br>
+                                                **Windows**<br>
 Python Pandas can be installed on Windows in two ways:
 * Using Pip
-* Using Anaconda
+* Using Anaconda <br>
 
-**Install Pandas using pip**
+**Install Pandas using pip**<bt>
 PIP is a package management system used to install and manage software packages/libraries written in Python. These files are stored in a large “on-line repository” termed as Python Package Index (PyPI).
 Pandas can be installed using PIP by the use of the following command:
 ```python
@@ -44,23 +44,22 @@ pip install pandas
 
 ![shortcut](extras/Pandas_Install.jpg)
 
-**Install Pandas using Anaconda**
+**Install Pandas using Anaconda**<br>
 Anaconda is open-source software that contains Jupyter, spyder, etc that are used for large data processing, data analytics, heavy scientific computing. If your system is not pre-equipped with Anaconda Navigator, you can learn **how to install Anaconda Navigator on [Windows](https://www.geeksforgeeks.org/how-to-install-anaconda-on-windows/) or [Linux](https://www.geeksforgeeks.org/how-to-install-anaconda-on-linux/)**
 
-**Steps to Install Pandas using Anaconda Navigator:**
+**Steps to Install Pandas using Anaconda Navigator:**<br>
 
-**Step 1:** Search for **Anaconda Navigator** in Start Menu and open it.
-**Step 2:** Click on the **Environment tab** and then click on the **create** button to create a new Pandas Environment.
-**Step 3:** Give a name to your Environment, e.g. Pandas and then choose a python version to run in the environment. Now click on the **Create** button to create Pandas Environment.
-**Step 4:** Now click on the **Pandas Environment** created to activate it.
-**Step 5:** In the list above package names, select **All** to filter all the packages.
-**Step 6:** Now in the Search Bar, look for **‘Pandas‘**. Select the **Pandas package** for Installation.
-**Step 7:** Now Right Click on the checkbox given before the name of the package and then go to **‘Mark for specific version installation‘**. Now select the version that you want to install.
-**Step 8:** Click on the **Apply** button to install the Pandas Package.
-**Step 9:**  Finish the Installation process by clicking on the **Apply** button.
-**Step 10:** Now to open the Pandas Environment, click on the **Green** Arrow on the right of package name and select the Console with which you want to begin your Pandas programming.
-
-                                                **Linux**
+**Step 1:** Search for **Anaconda Navigator** in Start Menu and open it.<br>
+**Step 2:** Click on the **Environment tab** and then click on the **create** button to create a new Pandas Environment.<br>
+**Step 3:** Give a name to your Environment, e.g. Pandas and then choose a python version to run in the environment. Now click on the **Create** button to create Pandas Environment.<br>
+**Step 4:** Now click on the **Pandas Environment** created to activate it.<br>
+**Step 5:** In the list above package names, select **All** to filter all the packages.<br>
+**Step 6:** Now in the Search Bar, look for **‘Pandas‘**. Select the **Pandas package** for Installation.<br>
+**Step 7:** Now Right Click on the checkbox given before the name of the package and then go to **‘Mark for specific version installation‘**. Now select the version that you want to install.<br>
+**Step 8:** Click on the **Apply** button to install the Pandas Package.<br>
+**Step 9:**  Finish the Installation process by clicking on the **Apply** button.<br>
+**Step 10:** Now to open the Pandas Environment, click on the **Green** Arrow on the right of package name and select the Console with which you want to begin your Pandas programming.<br>
+                                                    **Windows**<br>
 To install Pandas on Linux, just type the following command in the Terminal Window and press Enter. Linux will automatically download and install the packages and files required to run Pandas Environment in Python:
 ```python
 pip3 install pandas 
