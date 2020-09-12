@@ -28,7 +28,7 @@ print(st.median(list1))<br>
 print(st.mode(list1))<br>
 print(st.stdev(list1))
 
-<h5>Output:</h5>&nbsp3.9<br>
+<h5>Output:</h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.9<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.0<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.8529256146249728<br>
@@ -65,7 +65,7 @@ goodmorning.goodmorningmsg("John")</td></tr></table><br>
 <h3>Example</h3>
 <table><tr><th>greetings.py</th></tr><tr><td>def greetings(name):<br>
 &nbsp;&nbsp;print("Hello How are you?," +name)<br>student1={"name":John,"age":20,"id":33}</td></tr></table><br>
-<table><tr><th>mainmod1.py</th></tr><tr><td>from greetings import student1 <br>
+<table><tr><th>mainmod2.py</th></tr><tr><td>from greetings import student1 <br>
 print(student["id"])</td></tr></table><br>
 <h5>Output:</h5>33<br>
 <h2>To display a list of available modules</h2>
