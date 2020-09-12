@@ -71,7 +71,7 @@ To install Pandas on Linux, just type the following command in the Terminal Wind
 ## Pandas Dataframe
 Pandas DataFrame is two-dimensional size-mutable, potentially heterogeneous tabular data structure with labeled axes (rows and columns). A Data frame is a two-dimensional data structure, i.e., data is aligned in a tabular fashion in rows and columns. Pandas DataFrame consists of three principal components, the data, rows, and columns.
 
-![shortcut](extras/DataFrame_logo.jpg)
+![shortcut](extras/Dataframe_logo.jpg)
 
 We will get a brief insight on all these basic operation which can be performed on Pandas DataFrame :
 * Creating a DataFrame
@@ -100,7 +100,7 @@ print(df)
 
 ![shortcut](extras/DataFrame1_output.jpg)
 
-**Creating DataFrame from dict of ndarray/lists:** To create DataFrame from dict of narray/list, all the narray must be of same length. If index is passed then the length index should be equal to the length of arrays. If no index is passed, then by default, index will be range(n) where n is the array length.
+**Creating DataFrame from dict of narray/lists:** To create DataFrame from dict of narray/list, all the narray must be of same length. If index is passed then the length index should be equal to the length of arrays. If no index is passed, then by default, index will be range(n) where n is the array length.
 ```python
 # Python code demonstrate creating 
 # DataFrame from dict narray / lists 
@@ -228,7 +228,7 @@ print(row2)
 
 ![shortcut](extras/DataFrame7_output.jpg)
 
-**Working with Missing Data**<br>
+### Working with Missing Data
 Missing Data can occur when no information is provided for one or more items or for a whole unit. Missing Data is a very big problem in real life scenario. Missing Data can also refer to as NA(Not Available) values in pandas.<br>
 **Checking for missing values using isnull() and notnull() :** In order to check missing values in Pandas DataFrame, we use a function isnull() and notnull(). Both function help in checking whether a value is NaN or not. These function can also be used in Pandas Series in order to find null values in a series.
 ```python
@@ -287,8 +287,9 @@ dict = {'First Score':[100, 90, np.nan, 95], 'Second Score': [30, np.nan, 45, 56
  
 # creating a dataframe from dictionary
 df = pd.DataFrame(dict)
-   
-df
+
+# using dropna() function 
+df.dropna()
 ```
 
 **Output**
