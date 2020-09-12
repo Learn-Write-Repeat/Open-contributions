@@ -41,6 +41,7 @@
     After the installation, for further projects, OpenCV can be imported on the IDE using the following statement:
         import cv2
     This means, in any python script that you use OpenCV for image and video processing, it is mandatory to include the above statement in order to import the OpenCV library and use it's functions.
+    
  - **Basic functions in OpenCV**:
     - ***imread()***:
         
@@ -80,7 +81,7 @@
         
             import numpy as np
         
-        Steps imvolved in displaying multiple images is as follows:
+        Steps involved in displaying multiple images is as follows:
         
         - Load multiple images to multiple variables using imread() function.
         - Concatenate the images horizontally or vertically using the concatenate() function from the numpy library.
