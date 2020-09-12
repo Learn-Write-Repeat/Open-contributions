@@ -82,9 +82,9 @@ Python is not only used for general problem solving but also for the development
 
 ### 4. Verify the Python Installation
 
-* In the start menu search for **Command Prompt** and opren it.
+* In the start menu search for **Command Prompt** and open it.
 
-* After opening to check the installation type **python** or **python-version** or **python -V**.
+* After opening, to check the installation, type **python** or **python-version** or **python -V** in command prompt.
 
 * You can see the python version you have installed.
 
