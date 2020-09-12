@@ -39,7 +39,7 @@
 
  -   **Gray Scale Image**
    
-     One can have images of more than two levels i.e instead of having only 0 and 1 bit levels each pixel can have range of values i.e $2^8$,this will give us resolution of 256     levels  where 0  will be  **black** and 255 will be **white**. So basically we have 254 colours between **black** and **white**.
+     One can have images of more than two levels i.e instead of having only 0 and 1 bit levels each pixel can have range of values i.e 2^8,this will give us resolution of 256     levels  where 0  will be  **black** and 255 will be **white**. So basically we have 254 colours between **black** and **white**.
    
      ![image](https://i.stack.imgur.com/B2DBy.jpg)
    
@@ -72,7 +72,7 @@
   - **imread()**:
     In order to read or store image in a variable imread() function is used.
     
-    A variable is initialized to read an image using the function imread() in cv2 package we store the image. 
+    A variable is initialized to read an image, using the function imread() in cv2 package we store the image. 
        
        *syntax*:
        
@@ -133,25 +133,25 @@
         
        *steps to display multiple images*
        - store the multiple images in different variables using imread() function.
-       - concatanate image Horizontally 
+       - concatenate image Horizontally 
        
        *syntax*:
        
          variablename=np.concatenate((image_1,image_2),axis=1)
          
-       - concatanate image Vertically
+       - concatenate image Vertically
        
        *syntax*:
        
          variable_name=np.concatenate((image1,image2),axis=0)
          
-        **Here axis refers to mode of concentation.**
+        **Here axis refers to mode of concatenation.**
          
-         axis=1 refers to horizontal concentation.
+         axis=1 refers to horizontal concatenation.
          
-         axis=0 refers to horizontal concentation.
+         axis=0 refers to horizontal concatenation.
          
-        - Display the concantenated images using imshow() function.
+        - Display the concatenated images using imshow() function.
         
      
      
