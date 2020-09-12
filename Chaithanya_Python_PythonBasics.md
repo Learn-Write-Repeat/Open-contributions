@@ -40,7 +40,7 @@ Python is not only used for general problem solving but also for the development
 
 * In the Downloads tab choose the ***latest version of Python(Python 3.8.5)*** and click on it to download.
 
-* An Executable file will be dowbnloaded.
+* An Executable file will be downloaded.
 
 <hr>
 
