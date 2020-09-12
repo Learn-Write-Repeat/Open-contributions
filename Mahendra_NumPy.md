@@ -100,5 +100,14 @@ If you already have Python, you can install NumPy with:
  If you don’t have Python yet, you might want to consider using [Anaconda](https://www.anaconda.com/). It’s the easiest way to get started.
 
 
+## How to Import Numpy
+Any time you want to use a package or library in your code, you first need to make it accessible.
+In order to start using NumPy and all of the functions available in NumPy, you’ll need to import it. This can be easily done with this import statement:
+```python
+   import numpy as np
+ ```
+> (You can use any variable instead of **np**) 
+
+
 
 
