@@ -72,7 +72,7 @@ print(student["id"])</td></tr></table><br>
 <p>Type the following command in the python module.</p><br>
 <i>>>>help('modules')</i>
 <h5>Output</h5> 
-![Modules logo image](com.jpg)
+<img src="com.jpg"/>
 
 
 
