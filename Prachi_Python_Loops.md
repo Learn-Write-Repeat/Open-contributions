@@ -185,4 +185,10 @@ while i<5:<br>
 The while loop executes till  the condition is True. Here the condition is i<5 . Till i was less than 5, while loop was executed and we got the above output.<br>
 This is how we use while loops.
 
+<p>
+
+*This contribution has been made by Prachi Agarwal. Contact me directly on my e-mail:agarwal.ashu.21@gmail.com . Or ping me at, https://www.instagram.com/prachi_diwan21/ .*
+
+</p>
+
     
