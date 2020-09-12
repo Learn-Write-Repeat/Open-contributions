@@ -128,6 +128,42 @@ welcome to python3\
 
 <hr>
 
+### 2. Value initialization
+
+In python there is no need to declare the datatype(string,integer,....) of the varaiables.
+
+For ***Strings*** : variable = "string or a sentence"
+For ***Integers*** : variable = number
+For ***Operations with integers*** : variable = num1 operation num2
+variable = variable1 operation variable2
+
+**Input:**
+
+</ins>
+
+```md
+
+a = "What is your name?"
+print(a)
+b = 7
+print(b)
+c = 3
+print(c)
+d = b + c
+print(d)
+```
+
+**<ins>Output:</ins>**
+
+What is your name?
+7
+3
+10
+
+<hr>
+
+
+
 
 
 
