@@ -1,3 +1,4 @@
+![Numpy](https://miro.medium.com/max/765/1*cyXCE-JcBelTyrK-58w6_Q.png)
 # NumPy
 NumPy **(Numerical Python)** is an open source Python library that’s used  for working with numerical data in Python.
 It is a general-purpose array-processing package. It provides a high-performance multidimensional array object, and tools for working with these arrays. It is the fundamental package for scientific computing with Python.
@@ -84,6 +85,19 @@ You can tinker with the above example in the provided Jupyter Notebook..
 
 **Note:**
 >  All of the elements in a NumPy array should be homogeneous.
+
+
+## Installing NumPy
+### Attention!!! You must already have Python:snake: installed in order to install Numpy.
+If you already have Python, you can install NumPy with:
+```python
+   pip install numpy
+```
+**Or**
+```python
+   conda install numpy
+  ```
+ If you don’t have Python yet, you might want to consider using [Anaconda](https://www.anaconda.com/). It’s the easiest way to get started.
 
 
 
