@@ -55,8 +55,7 @@ a=gm.goodmorningmsg("John")<br>
 
 <table><tr><th>goodmorning.py</th></tr><tr><td>def goodmorningmsg(name):<br>
 &nbsp;&nbsp;print("Good Morning,"+name)</td></tr></table><br>
-<table><th>mainmod1.py</th></tr><tr><td>import goodmorning<br>
-goodmorning.goodmorningmsg("John")</td></tr></table><br>
+
 
 <h5>Output:</h5>&nbsp;Good Morning,John<br>
 
