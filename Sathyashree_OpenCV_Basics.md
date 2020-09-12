@@ -15,3 +15,11 @@
   ![Image_of_colored_grid](https://www.researchgate.net/profile/Daniel_Civco/publication/228703481/figure/fig2/AS:651158188216330@1532259618714/Illustration-of-the-computation-of-Pf-and-Pff-for-a-landscape-represented-by-a-5x5-grid.png)
   
   The above image shows how some of the blocks are assigned the color "Green" to make the grid appear different. **This simpler tactic is applied in creating and processing images**. OpenCV basically processes the images by *acquiring the information of each pixel in the image and modifying it as per the requirement*. The idea behind accessing and processing videos remains the same since *videos are nothing but a sequence of images*. The quality of an image depends on the *resolution* where as quality of a video depends on the *number of frames per second*.
+  
+- **Installation of OpenCV**:
+    *This section describes the installation process of OpenCV in the **Conda environment***. Installation of OpenCV requires execution of 2 commands in the *Anaconda Prompt*.
+    - **Open** the *Anaconda Prompt* on the system. It looks something like this:
+    
+    - **Execute** the following commands:
+        pip install opencv-python
+        pip install opencv-contrib-python
