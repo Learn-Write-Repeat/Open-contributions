@@ -20,7 +20,7 @@ Common Python Syntax errors include:
 * incorrect indentation
 * empty block
 
-### Logic Error
+### Logical Error
 Logical errors are the most difficult to fix. They may occur due to wrong algorithm or logic to solve a particular program. They occur when the program runs without crashing, but produces an incorrect result. You won’t get an error message, because no syntax or runtime error has occurred. You will have to find the problem on your own by reviewing all the relevant parts of your code – although some tools can flag suspicious code which looks like it could cause unexpected behaviour.
 
 Here are some examples of mistakes which lead to logical errors:
@@ -31,7 +31,7 @@ Here are some examples of mistakes which lead to logical errors:
 * making a mistake in a boolean expression
 * off-by-one, and other numerical errors
 
-## What are Exceptiions?
+## What are Exceptions?
 Even if a statement is syntactically correct, it may still cause an error when executed. Such errors that occur at run-time(or during execution) are known as exceptions. An exception is an event, which occurs during the execution of a program and disrupts the normal flow of the program's instructions. When a program encounters a situation which it cannot deal with, it raises an exception. Let us see some examples in which exceptions occurs.
 
 ![shortcut](extras/Exception.jpg)
@@ -99,34 +99,34 @@ The output of the aforementioned program is given below:
 ## Built-in and User-defined Exceptions
 The following table lists some standard exceptions that are already defined in Python. These built-in exceptions force your program to output an error when something in it goes wrong.
 
-|       Exception       |                                              Description                                               | 
-|-----------------------|--------------------------------------------------------------------------------------------------------|
-| Exception             | Base class for all exceptions                                                                          | 
-| StopIteration         | Generated when the next() method of an iteratordoes not point to any object                            |
-| SystemExit            | Raised by sys.exit() function                                                                          |
-| StandardError         | Base class for all built-in exceptions                                                                 |
-| ArithmeticError       | Base class for errors that are generated due to mathematical calculations                              |
-| OverflowError         | Raised when the maximum limit of a numeric type is exceeded during a calculation                       |
-| FloatingPointError    | Raised when a floating point calculation could not be performed                                        |
-| ZeroDivisionError     | Raised when a number is divided by zero                                                                |
-| AssertionError        | Raised when the assert statement fails                                                                 |
-| AttributeError        | Raised when attribute reference or assignment fails                                                    |
-| EOFError              | Raised when end-of-file is reached or there is no input for input() function                           |
-| ImportError           | Raised when an import statement fails                                                                  |
-| KeyboardInterrupt     | Raised when the user interupts program execution (by pressing Ctrl+C)                                  |
-| LookupError           | Base class for all lookup errors                                                                       |
-| IndexError            | Raised when an index is not found in a sequence                                                        |
-| KeyError              | Raised when a key is not found in the dictionary                                                       |
-| NameError             | Raised when an identifier is not found in local or global namespace                                    |
-| UnboundLocalerror     | Raised when an attempt to access a local variable in function or method when no value is asigned to it |
-| IOError               | Raised when input or output operation fails                                                            |
-| SyntaxError           | Raised when there is a syntax error in the program                                                     |
-| IndentaionError       | Raised when there is an indentation problem in the program                                             |
-| SystemError           | Raised when an internal system error occurs                                                            |
-| ValueError            | Raised when the arguments passed to a function are of invalid types or searching for non-existing value|
-| RuntimeError          | Raised when the generated error does not fall into any of the above category                           |
-| NotImplementedError   | Raised when an abstract method that needs to be implemented in an inherited class is not implemented   |
-| TypeError             | Raised when two or more data types are mixed without coercion                                          |
+|       Exception      |                                              Description                                                | 
+|----------------------|---------------------------------------------------------------------------------------------------------|
+| Exception            | Base class for all exceptions                                                                           | 
+| StopIteration        | Generated when the next() method of an iteratordoes not point to any object                             |
+| SystemExit           | Raised by sys.exit() function                                                                           |
+| StandardError        | Base class for all built-in exceptions                                                                  |
+| ArithmeticError      | Base class for errors that are generated due to mathematical calculations                               |
+| OverflowError        | Raised when the maximum limit of a numeric type is exceeded during a calculation                        |
+| FloatingPointError   | Raised when a floating point calculation could not be performed                                         |
+| ZeroDivisionError    | Raised when a number is divided by zero                                                                 |
+| AssertionError       | Raised when the assert statement fails                                                                  |
+| AttributeError       | Raised when attribute reference or assignment fails                                                     |
+| EOFError             | Raised when end-of-file is reached or there is no input for input() function                            |
+| ImportError          | Raised when an import statement fails                                                                   |
+| KeyboardInterrupt    | Raised when the user interupts program execution (by pressing Ctrl+C)                                   |
+| LookupError          | Base class for all lookup errors                                                                        |
+| IndexError           | Raised when an index is not found in a sequence                                                         |
+| KeyError             | Raised when a key is not found in the dictionary                                                        |
+| NameError            | Raised when an identifier is not found in local or global namespace                                     |
+| UnboundLocalerror    | Raised when an attempt to access a local variable in function or method when no value is asigned to it  |
+| IOError              | Raised when input or output operation fails                                                             |
+| SyntaxError          | Raised when there is a syntax error in the program                                                      |
+| IndentaionError      | Raised when there is an indentation problem in the program                                              |
+| SystemError          | Raised when an internal system error occurs                                                             |
+| ValueError           | Raised when the arguments passed to a function are of invalid types or searching for non-existing value |
+| RuntimeError         | Raised when the generated error does not fall into any of the above category                            |
+| NotImplementedError  | Raised when an abstract method that needs to be implemented in an inherited class is not implemented    |
+| TypeError            | Raised when two or more data types are mixed without coercion                                           |
 
 Besides these, Python allows programmers to create their own exceptions by creating a new exception class. The new exception class is derived from the base class *Exception* which is pre-defined in Python. The program given below explains this concept.
 
@@ -135,4 +135,13 @@ Besides these, Python allows programmers to create their own exceptions by creat
 The output of the aforementioned program is given below:
 
 ![shortcut](extras/User_defined_example_output.jpg)
+
+##Author
+- Divyankar Bhargav - [Github](https://github.com/ScaryWings83289), [Linkedin](https://www.linkedin.com/in/divyankar-bhargav-a4b487196/), [Instagram](https://www.instagram.com/divyankarbhargav/)
+
+##Acknowledgements
+- DevIncept Mentor
+- Stackoverflow
+- GeeksforGeeks
+- Python Programming(By Reema Thareja)
 
