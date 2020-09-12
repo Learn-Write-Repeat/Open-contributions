@@ -18,15 +18,11 @@
      
 -   **Black and white image**
    
-   ![image](https://i.pinimg.com/236x/13/bc/e2/13bce226fa0d37b0ddca3ef09045d34d--monochrome-photography-black-white-photography.jpg)
+    ![image](https://i.pinimg.com/236x/13/bc/e2/13bce226fa0d37b0ddca3ef09045d34d--monochrome-photography-black-white-photography.jpg)
    
    
 
-   
-   
-   
-   
-   
+
  -   **Gray Scale Image**
    
    We can have image more than two levels i.e instead of having only 0 and 1 bit levels we can have range of values i.e 2^8,this will give us resolution of 256 levels where 0 will be
@@ -36,9 +32,13 @@
    
 -  **Coloured image**
    
-   For coloured images we have three gray scale images representing the intensities of **red**,**green**,**blue**. Adding these colours together gives a us a full coloured image.
+   For coloured images we have three gray scale images representing the intensities of **red**,**green**,**blue**. Adding these colours together gives a us a full coloured       image.
    
-
+   ![image]()
+   
+   
+   
+  
 - **Installation of OpenCV**
    
    Installation of OpenCV has two steps to follow in **Anaconda Prompt**.
@@ -66,7 +66,7 @@
           
        *Example*:
        
-           img1 = cv2.imread("")
+           img1 = cv2.imread("extras/nature.jpeg")
           
           
           
@@ -75,7 +75,7 @@
             
       *syntax*:
       
-             **cv2.imshow(window_name , variable_name)**
+             **cv2.imshow(window_name,variable_name)**
              
      *Example*:
      
@@ -107,7 +107,37 @@
                if cv2.waitKey(1)& 0xFF=ord('q'):
                
                    break:
-               
+                   
+                   
+     **Displaying multiple images**
+     
+       It is possible to display multiple images in a single window.
+       It can be displayed either horizontly or vertically.
+       we have to import numpy library as well for displaying multiple images.
+        **import numpy as npy
+       *steps to display multiple images*
+       - store the multiple images in different variables using imread() function.
+       - concatanate image Horizontally 
+       
+       *syntax*:
+       
+         variablename=npy.concatenate((image_1,image_2),axis=1)
+         
+       - concatanate image Vertically
+       
+       *syntax*:
+       
+         variable_name=npy.concatenate((image1,image2),axis=0)
+         
+        **Here axis refers to mode of concentation.**
+         
+         axis=1 refers to horizontal concentation.
+         
+         axis=0 refers to horizontal concentation.
+         
+        -Display the concantenated images using imshow() function.
+        
+     
      
      
      
