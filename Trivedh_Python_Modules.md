@@ -8,7 +8,7 @@ and eases the task to correct the errors if any.</p>
 <h2>Built-in Modules</h2>
 <p> Modules which are already a part of python programming language and can be readily imported into python files are 
 known as Built-in modules.</p>
-<h3>Examples:</h3>&nbsp; <i> Platform,OS,SYS,RANDOM,etc.
+<h3>Examples:</h3>&nbsp; <i> Platform,OS,SYS,RANDOM,etc.<br>
 <ul><li>OS:</li>OS module is a python module that helps us to perform many operating system related tasks. The OS module in Python provides functions
 for creating, removing a directory (folder), fetching its contents, changing and identifying the current directory, etc.
 <h4>Example</h4>
@@ -17,7 +17,7 @@ os.mkdir(‘C:\\Users\\gayat\\Desktop\\module’)<br>
 os.rmdir(‘C:\\Users\\gayat\\Desktop\\module’’)<br><br>
 <i>This will create a directory named module on desktop</i><br><br>
 
-<li>Statistics:</li></ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The statistics module provides us the functions to handle statistics of numeric data. These functions include:<br>
+<li>Statistics:</li></ul> The statistics module provides us the functions to handle statistics of numeric data. These functions include:<br>
 <ul><li>Mean()</li><li>Median()</li><li>Mode()</li><li>stdev()</li></ul>
 <h4>Example</h4>
 
@@ -40,31 +40,32 @@ print(st.stdev(list1))
 <h2>Creating a Module</h2>
 <p>A module can be created by saving the code you want in a file with .py extension. Any name can be given to the module.</p>
 <h3>Example</h3>
-<table border="1"><tr><th>goodmorning.py</th></tr><tr><td>def goodmorningmsg(name):<br>
+<table><tr><th>goodmorning.py</th></tr><tr><td>def goodmorningmsg(name):<br>
 &nbsp;&nbsp;print("Good Morning,"+name)</td></tr></table><br>
 <p>Use a keyword <i>"import"</i> to import the module into the current workspace.</p>
-<table border="1"><tr><th>mainmod.py</th></tr><tr><td>import goodmorning<br>
+<table><tr><th>mainmod.py</th></tr><tr><td>import goodmorning<br>
 goodmorning.goodmorningmsg("John")</td></tr></table><br>
 <h5>Output:</h5>&nbsp;Good Morning,John<br>
 <h2>Alias name or re-naming a module</h2>
 <p>It is used to create an alias name for the module.</p>
 <h3>Example</h3>
-import goodmorning as gm
-a=gm.goodmorningmsg("John")
-print(a)<br>
-<table border="1"><tr><th>goodmorning.py</th></tr><tr><td>def goodmorningmsg(name):<br>
+import goodmorning as gm<br>
+a=gm.goodmorningmsg("John")<br>
+print(a)<br><br>
+<table><tr><th>goodmorning.py</th></tr><tr><td>def goodmorningmsg(name):<br>
 &nbsp;&nbsp;print("Good Morning,"+name)</td></tr></table><br>
-<table border="1"><tr><th>mainmod.py</th></tr><tr><td>import goodmorning<br>
+<table><th>mainmod.py</th></tr><tr><td>import goodmorning<br>
 goodmorning.goodmorningmsg("John")</td></tr></table><br>
 
 <h5>Output:</h5>&nbsp;Good Morning,John<br>
 
 <h2>from import Statement</h2>
+<p>The "from module import function" statement is used to import a specific function from a Python module. Instead of importing the complete module ,the user could import only the necessary function.<br>
 <table><tr><th>Syntax</th></tr><tr><td>from modulename import name1[,name2[,name3..]]</td></tr></table><br>
 <h3>Example</h3>
-<table border="1"><tr><th>greetings.py</th></tr><tr><td>def greetings(name):<br>
+<table><tr><th>greetings.py</th></tr><tr><td>def greetings(name):<br>
 &nbsp;&nbsp;print("Hello How are you?," +name)<br>student1={"name":John,"age":20,"id":33}</td></tr></table><br>
-<table border="1"><tr><th>mainmod1.py</th></tr><tr><td>from greetings import student1 <br>
+<table><tr><th>mainmod1.py</th></tr><tr><td>from greetings import student1 <br>
 print(student["id"])</td></tr></table><br>
 <h5>Output:</h5>&nbsp;Hello How are you?,John<br>
 <h2>To display a list of available modules</h2>
