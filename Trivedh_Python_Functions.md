@@ -17,11 +17,11 @@ Complex projects can be broken down into smaller tasks.These small tasks can con
 <b>function-name</b>- name of the function<br>
 <b>()</b> - required to distinguish between a variable and function and end the definition with a semi-colon<br>
 <h3>Example</h3>
-def greet():<br>                           #Function definition
+def greet():<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #Function definition
 &nbsp;&nbsp;print("Hello")<br>
 &nbsp;&nbsp;print("Im a student")<br><br>
 
-greet()                                     #Call the function to print the output<br><br>
+greet()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#Call the function to print the output<br><br>
 
 <i>Using the above function you can print the greet message multiple times by just calling the function multiple times instead of making the code redundant with print lines.</i>
 
@@ -117,7 +117,7 @@ In the above code, the variables <i>x</i> and <i>y</i> are <b>Formal arguments</
   &nbsp;&nbsp;print(age)<br><br>
   student('paul',28)<br><br>
   <i>Output:</i>&nbsp;paul<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;&nbsp;&nbsp;&nbsp;&nbsp;28<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;28<br>
   In the above example <i>'paul'</i> and <i>28</i> were passed as actual arguments and they were assigned to the formal arguments in the declared function without an error,as they were passed in a sequential order.
  
  
@@ -161,8 +161,8 @@ In the above code, the variables <i>x</i> and <i>y</i> are <b>Formal arguments</
  &nbsp;&nbsp;&nbsp;print ("%s == %s" %(key, value))<br><br>
  myname(first ='John', mid ='Mathew', last='roy')<br><br>
  <i>Output:</i>&nbsp;last == John<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mid == Mathew<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;first == roy<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mid == Mathew<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;first == roy<br>
  
   
  <h2>Recursion</h2>
