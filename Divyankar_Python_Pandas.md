@@ -31,10 +31,10 @@ To install Python, please visit: **How to Install Python on [Windows](https://ww
 ### Downloading & Installling Pandas
 Pandas can be installed in multiple ways on Windows and on Linux. Various different ways are listed below:<br>
 <p align="center">
-    **Windows**
-</p><br>
-Python Pandas can be installed on Windows in two ways:
-* Using Pip
+    <b>Windows</b>
+</p>
+Python Pandas can be installed on Windows in two ways:<br>
+* Using Pip<br>
 * Using Anaconda <br>
 
 **Install Pandas using pip**<br>
@@ -62,9 +62,9 @@ Anaconda is open-source software that contains Jupyter, spyder, etc that are use
 **Step 9:**  Finish the Installation process by clicking on the **Apply** button.<br>
 **Step 10:** Now to open the Pandas Environment, click on the **Green** Arrow on the right of package name and select the Console with which you want to begin your Pandas programming.<br><br>
 <p align="center">
-    **Linux**
-</p><br>
-To install Pandas on Linux, just type the following command in the Terminal Window and press Enter. Linux will automatically download and install the packages and files required to run Pandas Environment in Python:
+    <b>Linux</b>
+</p>
+To install Pandas on Linux, just type the following command in the Terminal Window and press Enter. Linux will automatically download and install the packages and files required to run Pandas Environment in Python:<br>
 ```python
 pip3 install pandas 
 ```
