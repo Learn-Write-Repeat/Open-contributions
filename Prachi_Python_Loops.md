@@ -32,6 +32,7 @@ Till the time the expression has a value and the conditions are satisfied for lo
 
 <ul>
 <li><b><i>For loop for lists</i></b></li>
+    </ul>
 <br>
 Let us understand via an example:<br>
 <br>
@@ -62,7 +63,9 @@ for s in shapes:<br>
 
 This is another similar example. Again , we are taking the values of the list and printing it one by one by iterating over the lists.
 <br><br>
+<ul>
 <li><b><i>For loop for tuples</i></b></li>
+    </ul>
 <br>
 Let us understand via an example:<br>
 <br>
@@ -87,7 +90,9 @@ And in each iteration the value of c is printed.
 <br>
 This , is how we iterate over a tuple.<br>
 <br>
+<ul>
 <li><b><i>For loop for sets</i></b></li>
+    </ul>
 <br>
 Let us understand via an example:<br>
 <br>
@@ -105,7 +110,9 @@ for c in sets:<br>
 <br>
 Here sets is the set we are iterating over.Each time c takes the value of sets and prints it.This is how we use set in for loop.
 <br>
+<ul>
 <li><b><i>For loop for dictionaries</i></b></li>
+    </ul>
 <br>
 Let us understand via an example:<br>
 <br>
@@ -121,3 +128,61 @@ for keys in dicts:<br>
 &emsp;cgpa1<br>
 <br>
 In each iteration keys takes the values of key in dict and prints the same.
+
+<br>
+<ul>
+<li><b><i>For loop for strings</i></b></li>
+    </ul>
+<br>
+Let us understand via an example:<br>
+<br>
+<b><i>Example:</i></b><br>
+<br>
+s="Prachi"<br>
+for c in s:<br>
+&emsp; print(c)<br>
+<br>
+<b><i>Output:</i> </b><br>
+&emsp;P<br>
+&emsp;r<br>
+&emsp;a<br>
+&emsp;c<br>
+&emsp;h<br>
+&emsp;i<br>
+<br>
+
+Again , c takes the value of each character in each iteration and prints the same.<br>
+<br>
+Thus, we see for loops can be used in lists, tuples, set , dictionaries, strings,etc.
+<br>
+
+**2.While loop**
+<br>
+Flowchart of while loop:<br>
+<img src="https://user-images.githubusercontent.com/49331074/92987675-64d9c100-f4e2-11ea-90bd-f21b0115920d.jpg">
+<br>
+The while loop executes till the condition is True , once the condition becomes false , it exits the while loop.<br>
+
+Syntax:<br>
+while (condition):<br>
+&emsp; statement(s)<br>
+
+Here condition is the boolean condition , and the loop will execute till the boolean condition is True. Execution of the loop means, the statement(s) inside the loop will be executed.<br>
+
+<b><i>Example:</i></b><br>
+i=0<br>
+while i<5:<br>
+&emsp;print(i)<br>
+&emsp;i=i+1<br>
+
+<b><i>Output:</i></b><br>
+&emsp;0<br>
+&emsp;1<br>
+&emsp;2<br>
+&emsp;3<br>
+&emsp;4<br>
+
+The while loop executes till  the condition is True. Here the condition is i<5 . Till i was less than 5, while loop was executed and we got the above output.<br>
+This is how we use while loops.
+
+    
