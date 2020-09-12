@@ -225,6 +225,9 @@ We can use ***Multi line string*** : we represent by \
  
  Thanks for Reading!!!
  
+ Regards\
+ **CHAITHANYA**
+ 
 <hr>
 
 ##### You can contact me through this mail :point_right: :e-mail: <chaithureddy2001@gmail.com>
