@@ -26,5 +26,7 @@
         
         pip install opencv-contrib-python
         
-        **A snapshot of the installation is attached below:**
-        ![Image_of_opencv_installation](extras/anaconda_prompt_opencv_installation.png)
+    **A snapshot of the installation is attached below:**
+    ![Image_of_opencv_installation](extras/anaconda_prompt_opencv_installation.png)
+    
+    
