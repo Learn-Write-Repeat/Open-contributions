@@ -68,7 +68,7 @@ Python is not only used for general problem solving but also for the development
 
 ### 3. Adding Python to environmental variables
 
-* In the start menu search for ***View advanced system settings*** and select it.
+* In the start menu, search for ***View advanced system settings*** and open it.
 
 * In the ***System Properties*** window, click on the ***Advanced*** tab and then click on the ***Environment Variables*** button.
 
@@ -82,7 +82,7 @@ Python is not only used for general problem solving but also for the development
 
 ### 4. Verify the Python Installation
 
-* In the start menu search for ***Command Prompt*** and open it.
+* In the start menu, search for ***Command Prompt*** and open it.
 
 * After opening, to check the installation, type ***python*** or ***python-version*** or ***python -V*** in command prompt.
 
