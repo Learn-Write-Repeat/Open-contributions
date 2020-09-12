@@ -28,11 +28,12 @@
         pip install opencv-contrib-python
         
     **A snapshot of the installation is attached below:**
+    
     ![Image_of_opencv_installation](extras/anaconda_prompt_opencv_installation.png)
     
     
     After the installation, for further projects, OpenCV can be imported on the IDE using the following statement:
-        **import cv2**
+        import cv2
     This means, in any python script that you use OpenCV for image and video processing, it is mandatory to include the above statement in order to import the OpenCV library and use it's functions.
  - **Basic functions in OpenCV**:
     - ***imread()***:
@@ -41,7 +42,7 @@
         
         *Syntax*:
         
-            ***variable_name = cv2.imread(location_of_the_image_to_be_loaded/name_of_the_image_to_be_loaded_with_its_extension)***
+            variable_name = cv2.imread(location_of_the_image_to_be_loaded/name_of_the_image_to_be_loaded_with_its_extension)
             
          *Example*:
          
@@ -55,9 +56,11 @@
         
         *Syntax*:
         
-            ***cv2.imshow(window_name , variable_name)***
-            ***OR***
-            ***cv2.imshow(window_name , location_of_source_image)***
+            cv2.imshow(window_name , variable_name)
+            
+         ***OR***
+            
+            cv2.imshow(window_name , location_of_source_image)
             
          *Example*:
          
@@ -69,11 +72,25 @@
     
         It is even possible to display multiple images in a single window either vertically or horizontally. This is done by importing the *numpy* library as well.
         
-        **import numpy as np**
+            import numpy as np
         
         Steps imvolved in displaying multiple images is as follows:
         
-            - Load multiple images to multiple variables using imread() function.
-            - Concatenate the images using the cat function
+        - Load multiple images to multiple variables using imread() function.
+        - Concatenate the images horizontally or vertically using the concatenate() function from the numpy library.
+        - Display the concatenated function using imshow() function.
+            
+        **Syntax to concatenate 2 images**:
+            variable_name = np.concatenate((image_1 , image_2) , axis = 0) #Vertical Concatenation
+            
+        ***OR***
+            
+            variable_name = np.concatenate((image_1 , image_name_2) , axis = 1) #Horizontal Concatenation
+            
+        Axis here refers to the mode of concatenation, i.e, horizontal or vertical. The images to be concatenated are gives as a tuple argument to the concatenate() function.
+        **Example**:
+            image_concatenated1 = np.concatenate((image_1 , image_2) , axis = 1) 
+            image_concatenated2 = np.concatenate((image_1 , image_2) , axis = 0) 
+        
             
         
