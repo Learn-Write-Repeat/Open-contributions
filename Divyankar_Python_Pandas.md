@@ -64,9 +64,8 @@ Anaconda is open-source software that contains Jupyter, spyder, etc that are use
 <p align="center">
     <b>Linux</b>
 </p>
-<br>To install Pandas on Linux, just type the following command in the Terminal Window and press Enter. Linux will automatically download and install the packages and files required to run Pandas Environment in Python:<br>
-```python
-pip3 install pandas
-```
+To install Pandas on Linux, just type the following command in the Terminal Window and press Enter. Linux will automatically download and install the packages and files required to run Pandas Environment in Python:
+
+![shortcut](extras/Linux_Installation.jpg)
 
 
