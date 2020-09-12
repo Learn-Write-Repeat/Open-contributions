@@ -221,8 +221,29 @@ We can use ***Multi line string*** : we represent by \
                                                           .\
                                                       """
                                                       
-                                                      
+ > To get the ***Python Tutorial*** [click here](https://www.w3schools.com/python/)
+ 
+ Thanks for Reading!!!
+ 
 <hr>
+
+##### You can contact me through this mail :point_right: :e-mail: <chaithureddy2001@gmail.com>
+
+[![LinkedIn][1.1]][1]
+[![Twitter][2.1]][2]
+[![Facebook][3.1]][3]
+[![Instagram][4.1]][4]
+
+[1.1]: https://www.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Linkedin_svg-32.png
+[2.1]: https://www.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Twitter_svg-32.png
+[3.1]: https://www.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Facebook_svg-32.png
+[4.1]: https://www.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Instagram_svg-32.png
+
+[1]: https://www.linkedin.com/in/chaithanya-n-b86764191/
+[2]: https://twitter.com/nchAAithu7
+[3]: https://www.facebook.com/ChAAithu/
+[4]: https://www.instagram.com/chaithu_reddy_07/?hl=en
+
                                                        
 
 
