@@ -206,15 +206,14 @@ Comments are used to explain what the code does in each line. Python will ignore
 
 ***Single line comment*** : We use '#' ( #comment )\
 ***Multi line comments*** : \
-                              ( #comment1\
+                               #comment1\
                               #comment2\
                               .\
                               .\
                               .\
-                             )\
                    or\
 We can use ***Multi line string*** : we represent by \
-                                                          """\ 
+                                                          """ 
                                                           comment1\
                                                           comment2
                                                           .\
