@@ -2,7 +2,7 @@
 
 - **What is OpenCV**?
 
-   OpenCV(**Open Source Computer Vision and Machine Learning Software**)is an open source library which processes images and videos to identify objects, faces,detecting colours etc.It has wide applications in **computer vision**,**machine learning** and **image processing**. It also supports variety of programming languages like **Python**, **C++**, **C**. Basically it a library for processing **images**.
+   OpenCV(**Open Source Computer Vision and Machine Learning Software**)is an open source library which processes images and videos to identify objects, faces, detecting colours etc.It has wide applications in **Computer Vision**,**Machine Learning** and **Image Processing**. It also supports variety of programming languages like **Python**, **C++**, **C**. Basically it a library for processing **images**.
    
    ***OpenCV in Artificial Intelligence***
    
@@ -70,7 +70,7 @@
 - **Basic functions in OpenCV**
 
   - **imread()**:
-    In order to read or store image in a variable imread() function is used.
+    In order to read or store image in a variable *imread()* function is used.
     
     A variable is initialized to read an image, using the function imread() in cv2 package we store the image. 
        
@@ -110,7 +110,7 @@
      
      *Example*: 
      
-          cap=cv2.videocapture("")
+          cap=cv2.videocapture("specify_the_path_in_which_image_should_be_read_with_extensions")
           
            while true:
            
