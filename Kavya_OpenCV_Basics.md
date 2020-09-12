@@ -34,8 +34,7 @@
    
    For coloured images we have three gray scale images representing the intensities of **red**,**green**,**blue**. Adding these colours together gives a us a full coloured       image.
    
-   ![image]()
-   
+   ![image](extras/red.jpg) **+** ![image](extras/red.jpg) **+** ![image](extras/red.jpg) = ![image](extras/red.jpg)   
    
    
   
