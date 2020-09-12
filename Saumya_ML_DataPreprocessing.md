@@ -51,14 +51,17 @@
     dataset= pd.read_csv("Name of the data.csv")
     
 ### Extracting Dependent and Independent Variable
-  
-   Extracting Independent Variable: Here in order to extract the variable iloc[] method of pandas library is used and extract rows and columns of the data set.
-    
-    X= dataset.iloc[:,:-1].values
-    
-   Extracting Dependent Variable: Here in order to extract the variable again iloc[] method of pandas library is used.
    
-    Y= dataset.iloc[:,:-1].values
+   **Independent Variable:** Independent variables are the input for a process that is being analyzes basically referred as Features and here we are denoting it by **x**.
+   **Dependent Variables:** Dependent variables are the output of the process, like for example whether we have purchased the product or not and here we are denoting it by **y**.
+   
+   **Extracting Independent Variable:** Here in order to extract the variable iloc[] method of pandas library is used and extract rows and columns of the data set.
+    
+    x= dataset.iloc[:,:-1].values
+    
+   **Extracting Dependent Variable:** Here in order to extract the variable again iloc[] method of pandas library is used.
+   
+    y= dataset.iloc[:,:-1].values
     
  ## 3. Handling missing Data
  
@@ -74,12 +77,53 @@
    
     from sklearn.impute import SimpleImputer
     imputer = SimpleImputer(missing_values=np.nan,strategy="mean")
-    imputer.fit(X[:,1:3])
-    X[:,1:3]=imputer.transform(X[:,1:3])  
-    print(X)
+    imputer.fit(x[:,1:3])
+    x[:,1:3]=imputer.transform(x[:,1:3])  
+    print(x)
     
   ## 4. Encoding Categorical Data
   
    Now since the machine learning model deals only with the numerical data, but it can happen that our data set contains data other then numbers.
    So it would create a problem since machine cannot understand words. Hence in order to deal with this situation we need to convert this data into numbers.
    
+   Here we importt **LabelEncoder** class of **sklearn library**.Now if their the three variables in our data set so the varis=ables will be encoded as 0,1,2.By these values, 
+   the machine learning model may assume that there is some correlation between these variables which will produce the wrong output. So to remove this issue, **dummy  
+   encoding** is used.
+   Dummy variables are those variables which have values 0 or 1. The 1 value gives the presence of that variable in a particular column, and rest variables become 0. With dummy
+   encoding, the number of columns is equal to the number of categories.For Dummy Encoding, **OneHotEncoder** class of preprocessing library is used.
+   
+   **Encoding the Independent Variable**
+   
+    from sklearn.compose import ColumnTransformer
+    from sklearn.preprocessing import OneHotEncoder
+    ct=ColumnTransformer(transformers=[("encoder",OneHotEncoder(),[0])],remainder="passthrough")
+    x=np.array(ct.fit_transform(x))
+    print(x)
+    
+  **Encoding the Dependent Variable**
+    
+    from sklearn.preprocessing import LabelEncoder
+    le=LabelEncoder()
+    y=le.fit_transform(y)
+    print(y)
+    
+    
+  ## 5. Splitting the Dataset into the Training set and Test set
+  
+  This is one of the crucial step in data preprocessing where we divide dataset into training set and test set.
+  In **training set** we train the machine learning model on exisiting observations. In **test set** we evaluate the performance of our model on new observations, and these new observations are completely like the future data which we can get and on the basis of which we  will deploy the machine learning model.
+  
+    from sklearn.model_selection import train_test_split
+    x_train,x_test,y_train,y_test=train_test_split(x,y,test_size=0.2,random_state=1)
+    print(x_train)
+    print(x_test)
+    print(y_train)
+    print(y_test)
+    
+  ## 6. Feature Scaling
+  
+  Feature scaling is the final step of data preprocessing in machine learning. It simply means to scale all the variables i.e. the features and make sure they all take up values in the same scale. This is done to prevent so that one feature don't dominate on other.
+  A machine learning model is based on Euclidean distance, and if we do not scale the variable, then it will cause some issue in our machine learning model.
+  **Euclidean distance is given by:**
+  
+  
