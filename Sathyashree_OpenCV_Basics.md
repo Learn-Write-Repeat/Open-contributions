@@ -102,5 +102,6 @@
             image_concatenated1 = np.concatenate((image_1 , image_2) , axis = 1) 
             image_concatenated2 = np.concatenate((image_1 , image_2) , axis = 0) 
         
-            
+        
+Feel free to contact me on my [mailid](ksathyanrao@gmail.com).
         
