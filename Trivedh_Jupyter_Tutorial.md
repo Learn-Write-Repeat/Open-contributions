@@ -28,10 +28,29 @@ Just click on the "Untitled". It pops up a dialog box asking to rename notebook.
 <p>The two terms to get familiar with are:<br>
 <ol><li>Cells: Cell is an input ccontainer for the code to be executed and to display the text in the notebook.</li>
 <li>Kernel: Kernel is a computational engine that executes the code in a notebook document. It computes the code in the file</li></ol>
-<p>Cells are mainly of two types:<br>
+<p>Cells are of four types:<br>
 <b>Code cells</b> contain the code to be executed.<br>
-<b>Markdown cells</b> contain text which should not be considered as a code in the document. It displays the text which can be formatted using markdown language. A normal cell can be converted 
-into markdown cell from cell menu on the top. Example pics of markdown and normal cell.<br>
+<b>Markdown cells</b> contain text which should not be considered as a code in the document. It displays the text which can be formatted using markdown language. A normal cell can be converted into markdown cell from cell menu on the top. Example pics of markdown and normal cell.<br>
+
+<h2>How to run the cells</h2>
+<p>Initially the Jupyter notebook will have only a single cell. A user can give his code in the first cell and check whether everything is working fine or not. To run a particular cell, click on the cell type in the code and click on the <i>Run</i> to execute the cell code.</p>
+<h3>Example:</h3>
+<i>print('Hello world, this is jupyter')</i><br>
+ex pic
+<p>Multiple cells in the code helps the user to fragment the code and check its execution seperately. You could notice that on the left side a square bracket after the word <i>In</i>.The square braces will auto fill with a number that indicates the order that you ran the cells. If you run the cell for the first time, the square bracket will be filled with 1. If you run the same cell again it changes to 2 as shown below.</p><br>
+  
+ ex pic <Br>
+  
+<h2>Menu bars on the top of the File</h2>
+<ol><li>File:<p> In the file menu you can create a new notebook file, open an existing file, save the new file created, make a copy, and the other important feature is Save and Checkpoint. You can set a checkpoint so that you could roll back to that point.</p></li>
+  <li>Edit:<p> In the edit menu you can <i>cut</i>,<i>copy</i>,<i>paste</i> or <i>delete</i> the cells. You can also split,merge or move cells up and down and many more.</p></li>
+  <li>View:<p> The View menu is useful for toggling the visibility of the header and toolbar.</p></li>
+  <li>Insert:<p> The Insert menu is useful  toggling the visibility of the header and toolbar.</p></li>
+
+
+ 
+ 
+
 
 
 
