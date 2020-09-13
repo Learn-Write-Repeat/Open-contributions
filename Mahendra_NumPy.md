@@ -107,7 +107,143 @@ In order to start using NumPy and all of the functions available in NumPy, youâ€
    import numpy as np
  ```
 > (You can use any variable instead of **np**) 
+*******
+*******
+# NumPy Basics:
+## Creating a basic Array
+To create a basic NumPy Array you can use the function ***np.array()***
+The array object in NumPy is called **ndarray**
+```python
+   import numpy as np
+   arr1=np.array([1,2,3])
+   arr2=np.array(['a','b','c','d','e'])
+   arr3= np.array((1, 2, 3, 4, 5)) # You can also pass a tuple to creat an Array
+   print(arr1)
+   print(arr2)
+   print(arr3)
+   print(type(arr1))
+ ```
+**Result:**
+```python
+   [1 2 3]
+   ['a' 'b' 'c' 'd' 'e']
+   [1 2 3 4 5]
+   <class 'numpy.ndarray'>
+  ```
+  
+  ![arr1](https://numpy.org/devdocs/_images/np_array.png)
+  
+  
+  **Besides the above examples you can create Arrays using builtin function**
+  * To create an Array of Zeroes use ***np.zeros()***
+  * To create an Array of Ones use ***np.ones()***
+  * To create an Array with a range of elements use ***np.arange()***
+  ```python
+     import numpy as np
+     a=np.zeros(3)
+     b=np.ones(5)
+     c=np.arange(10)
+     d=np.arange(2,9)   # To specify start and stop
+     e=np.arange(1,10,2) # To specify start and stop with step size
+     print(a)
+     print(b)
+     print(c)
+     print(d)
+     print(e)
+  ``` 
+  **Result:**
+  ```python
+     [ 0.  0.  0.]
+     [ 1.  1.  1.  1.  1.]
+     [0 1 2 3 4 5 6 7 8 9]
+     [2 3 4 5 6 7 8]
+     [1 3 5 7 9]
+  ```  
+  > **You can try the code yourself in the provided Jupyter Notebook**
 
 
+## NdArray(N-Dimensional Array)
+1. An array class in Numpy is called as **ndarray**.
+2. Number of dimensions of the array is called rank of the array.
+
+**Lets Create a 2-D(Dimensional) Array**
+* They are like a matrix or you can say a table
+```python
+   import numpy as np
+   arr1=np.array([[1,2,3],[4,5,6]])
+   arr2=np.array([[1,2,3],[4,5,6],[7,8,9]])
+   arr3=np.array([['a','b','c'],['d','e','f']])
+   
+   #creates a 3X3 array with all zeros
+   zeros=np.zeros((3,3))
+   
+   #creates a 2X2 array with all ones
+   ones=np.ones((2,2),dtype='int64')  #specify the type with (dtype) parameter 
+   
+   print(arr1)
+   print(arr2)
+   print(arr3)
+   print(zeros)
+   print(ones)
+```
+**Result:**
+```python
+   [[1 2 3]
+    [4 5 6]]
+    
+   [[1 2 3]
+    [4 5 6]
+    [7 8 9]] 
+    
+   [['a' 'b' 'c']
+    ['d' 'e' 'f']]
+    
+   # 3X3 Matrix
+   [[ 0.  0.  0.]
+    [ 0.  0.  0.]
+    [ 0.  0.  0.]]
+    
+   # 2X2 Matrix
+   [[1 1]
+    [1 1]]
+```    
+> NumPy provides some cool methods you can check the number of dimensions using ***ndim***  
+```python
+   import numpy as np
+
+   a = np.array(42)
+   b = np.array([1, 2, 3, 4, 5])
+   c = np.array([[1, 2, 3], [4, 5, 6]])
+   d = np.array([[[1, 2, 3], [4, 5, 6]], [[1, 2, 3], [4, 5, 6]]])
+
+   print(a.ndim)
+   print(b.ndim)
+   print(c.ndim)
+   print(d.ndim)
+``` 
+**Result:**
+```python
+   0
+   1
+   2
+   3
+```
+## I know just for basics also this is too much.If you have reached till this point and still not sure, DONT WORRY!!!!
+## You can practice all the examples in the Jupyter Notebook provided, Don't just see them, change them put new values and see what happens..
+## Try new things and slowly but steadily you will definetly get a good grasp on them..:smile::smile:
+
+
+# Array Indexing and Slicing
+   
+   
+   
+   
+   
+   
+   
+   
+  
+  
+  
 
 
