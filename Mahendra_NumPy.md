@@ -333,6 +333,25 @@ Result:
    [[2 3 4]
     [7 8 9]]
 ```
+### All in one example
+```python
+   import numpy as np
+   data = np.array([1, 2, 3])
+   print(data[1])
+   print(data[0:2])
+   print(data[1:])
+   print(data[-2:])
+```
+**Result:**
+```python
+   2
+   [1 2]
+   [2 3]
+   [2 3]
+```
+![visualization](https://numpy.org/devdocs/_images/np_indexing.png)
+
+
 ****************
 ******************
 
@@ -341,11 +360,40 @@ Result:
 ## Numpy Array Shape:
 `ndarray.shape` will display a tuple of integers that indicate the number of elements stored along each dimension of the array. If, for example, you have a 2-D array with 2 rows and 3 columns, the shape of your array is (2, 3).
 ```python
-   
-   
-   
-   
-   
+   import numpy as np
+   arr = np.array([[1, 2, 3, 4], [5, 6, 7, 8]])
+   arr1= np.array([1,2,3,4])
+
+   print(arr.shape)
+   print(arr1.shape)
+ ```
+**Result:**
+```python
+   (2, 4)
+   (4,)
+ ```
+ **All In One Example**
+```python
+   array_example = np.array([[[0, 1, 2, 3],
+                            [4, 5, 6, 7]],
+
+                           [[0, 1, 2, 3],
+                            [4, 5, 6, 7]],
+
+                           [[0 ,1 ,2, 3],
+                            [4, 5, 6, 7]]])
+ 
+   print('No of dimensions of the array:',array_example.ndim)     # .ndim for dimensions
+   print('Total no of elements of the array:',array_example.size) # .size for size
+   print('Shape of the array:'array_example.shape)                # .shape for shape
+ ```
+ **Result:**
+ ```python
+    No of dimensions of the array: 3
+    Total no of elements of the array: 24
+    Shape of the array: (3, 2, 4)
+ ```
+ 
    
 
 
