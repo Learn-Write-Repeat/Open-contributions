@@ -5,6 +5,8 @@
 * Process images (filter, dilation, erosion, transform)
 * Canny Edge Detection
 * Crop and Resize
+* Drawing shapes ang writing text
+* Warp Perspective
 * Joining Images
 * Perform feature detection
 * Color Detection
