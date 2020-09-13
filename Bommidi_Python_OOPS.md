@@ -17,7 +17,7 @@ It allows us to develop applictions using an object oriented approach.In Python,
 
 > This main objective of this documentation is to make understand these concepts in a "Simple way".
 
-**:point_right: Class:**
+**:mag_right: Class:**
 
  It's the blueprint of any object where we intiliaze the necessary parameters to construct our object
  
@@ -31,7 +31,7 @@ class Classname:
       <statements>
 ```
 
-**<ins>2. Objects:</ins>**
+**:mag_right: Objects:**
 
 
 The object is an entity that has state and behaviour.Simply, It's the output from our class.
@@ -52,7 +52,7 @@ c2 = Classname()     # c1 and c2 are the objects of the "Classname"
 
 The method is a function that is associated with an object. In python, a method is not a unique to class instances. Any object type can have methods
 
-**<ins>Inheritance:</ins>**
+**:mag_right: Inheritance:**
 
 Inheritance is the most important aspect of object-oriented programming which simulates the real world concept of inheritance.It specifies that the child object acquires all the properties and behavioursof the parent object
 
@@ -68,11 +68,11 @@ The name polymorphism itself contains two words "Ploy" and "morphs". poly means 
 
 You have a class animal, and all animals have voice. But they speak diiferently. Here the 'Speak' behaviour is polymorphic, in the sense and depends on the animal.So, the abstract "animal" concept does not actually "speak" , but specific animals (like dogs and cats) have a concrete implementation of the action "speak".
 
-**<ins>5. Encapsulation:</ins>**
+**:mag_right: Encapsulation:**
 
 Encapsulation is also an important aspect of the object-oriented programming. It is used to restrict access to methods and variables. In encapsulation, code and data are wrapped together within a single unit from being modified by an accident.
 
-**<ins>6. Data Abstraction:</ins>**
+**:mag_right: Data Abstraction:**
 
 Data abstraction is achieved through encapsulation. So that's why, Data abstraction and encapsulation both are often used as synonyms. 
 
