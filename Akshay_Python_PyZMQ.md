@@ -20,7 +20,7 @@ A server computer can manage several clients simultaneously, whereas one client 
 
 ### What is PyZMQ?
 
-First we will abou what exactly is ZeroMq or ZMQ.
+First we will learn about what is ZeroMq or ZMQ? 
 ZeroMQ is a library used to implement messaging and communication systems between applications and processes fast and asynchronously.
 
 ZeroMQ as a library works through sockets by following certain network communication patterns. It is designed to work asynchronously, 
