@@ -17,12 +17,16 @@ which will open a newtab as shown below</p><br>
 
 <p> It is not the jupyter notebook, its just a launchpad for editing and creating the notebooks. The url of the dashboard should look like this: <i>http://localhost:8888/tree</i>.
 Now click on the new button on the top right corner, it will open up a dropbox or a list of options. Select python 3 or python 2. Then the webpage should look like this.</p>
-![jup image](ju.png)
+ <img src="jup.png"/>
 
 
-<p> now at the top of the page, you could see <i> Untitiled</i> on the left corner of the file i.e the notebook is not labeled yet. The extension of Jupyter notebook is .ipynb.
-![jup image](ju.png)
+<p> Now at the top of the page, you could see <i> Untitiled</i> on the left corner of the file i.e the notebook is not labeled yet. The extension of Jupyter notebook is .ipynb.<br><br>
+
+ <img src="ju.png"/> 
+
 Just click on the "Untitled". It pops up a dialog box asking to rename notebook. We can rename with name we want to title the file.</p>
+<img src="myfirstfile.png"/>
+
 <h2>Getting familiar with the interface and terminology</h2>
 <p>The two terms to get familiar with are:<br>
 <ol><li>Cells: Cell is an input ccontainer for the code to be executed and to display the text in the notebook.</li>
@@ -35,10 +39,10 @@ Just click on the "Untitled". It pops up a dialog box asking to rename notebook.
 <p>Initially the Jupyter notebook will have only a single cell. A user can give his code in the first cell and check whether everything is working fine or not. To run a particular cell, click on the cell type in the code and click on the <i>Run</i> to execute the cell code.</p>
 <h3>Example:</h3>
 <i>print('Hello world, this is jupyter')</i><br>
-ex pic
+<img src="helloworld.png"/>
 <p>Multiple cells in the code helps the user to fragment the code and check its execution seperately. You could notice that on the left side a square bracket after the word <i>In</i>.The square braces will auto fill with a number that indicates the order that you ran the cells. If you run the cell for the first time, the square bracket will be filled with 1. If you run the same cell again it changes to 2 as shown below.</p><br>
   
- ex pic <Br>
+ <img src="insquare.png"/>
   
 <h2>Menu bars on the top of the File</h2>
 <ol><li>File:<p> In the file menu you can create a new notebook file, open an existing file, save the new file created, make a copy, and the other important feature is Save and Checkpoint. You can set a checkpoint so that you could roll back to that point.</p></li>
@@ -49,22 +53,25 @@ ex pic
   <li>Kernel:<p> The Kernel menu is for working with the kernel.You can interrupt,restart the kernel, reconnect to it, shut it down, or even change the kernel.</p></li>
   <li>Widget:<p> The widget menu provides the options to <i>save the notebook widget state</i>, <i>clear the notebook widget state</i> and also to <i> Download the widget state</i></p></li>
   <li>Help</li></ol>
+  <img src="menufile.png"/>
   
   <h2>Markdown cell</h2>
 <p>Jupyter Notebook supports Markdown, which is a markup language that is a superset of HTML. It is easy to learn if the user has a basic knowledge of HTML.
   Select the Markdown in the cell menu and type the text you wanted to project and click on run, the output should look like this.</p>
   
-  pic output
+  <img src="markdown.png"/>
   
   <h2>Header</h2>
   Headers can be created in the mark down cells using <i>"#"</i> symbol. As the number of "#" symbols increases the header size decreases. Look at the example shown below.<br>
   
-  example pic
+  <img src="header.png"/>
   
   <h2> Creating lists</h2>
   A list can be created using dashes, plus signs, or asterisks. Look at the example below.
   <h3>Example</h3>
-   pics and output
+   
+   <img src="list1.png"/>
+   <img src="list2.png"/>
   
   
   
