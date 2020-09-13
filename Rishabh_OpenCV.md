@@ -6,6 +6,6 @@ number of people – count (foot traffic in a mall, etc)
 Vehicle counting on highways along with their speeds (using rasberryPi)
 Interactive art installations
 Anamoly detection in the manufacturing process.
-driver-less car navigation and control
-object recognition
+Autonomous car navigation and control
+object recognition/detection/tracking
 Medical image analysis
