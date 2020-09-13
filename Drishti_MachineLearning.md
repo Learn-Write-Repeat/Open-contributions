@@ -29,12 +29,12 @@ Following are the list of topics I know in **Machine Learning**.
     * Convolutional Neural Network
     * Transfer Learning
     
-6. Ensemble Learning
+6. **Ensemble Learning**
 
-7. Cross Validation
+7. **Cross Validation**
     * K-Fold
     
-8. Performance Metrics
+8. **Performance Metrics**
     * For Regression
       * MAE
       * RMSE
