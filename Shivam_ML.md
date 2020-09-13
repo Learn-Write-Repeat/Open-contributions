@@ -4,7 +4,7 @@
   2. Logistic Regression
   3. Neural Networks
   4. Support Vector Machines
- * Unsupervised Learning Algos
+* Unsupervised Learning Algos
   1. K-means algo
   2. Principle Component Analysis
   3. Anamoly Detection
