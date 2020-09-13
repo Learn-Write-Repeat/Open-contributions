@@ -1,12 +1,4 @@
-### Hi, My name is Ajay Singh Panwar and I opted NLP for internship.
-
-
-
-### NLP (Natural Language Processing)
-
-***The field of AI that gives machines the ability to read, understand and derive meaning from human languages.***
-
-### Topics that I know
+### Topics that I know in NLP(Natural Language Processing)
 1. Bag of Words (TF and TF-IDF)
 2. Tokenization
 3. Stop Words Removal
