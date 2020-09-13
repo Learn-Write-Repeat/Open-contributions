@@ -5,7 +5,7 @@
 A WebSocket is a standard protocol for two-way data transfer between a client and server. 
 The WebSockets protocol does not run over HTTP, instead it is a separate implementation on top of TCP.
 WebSocket is used for Real-Time Application and it uses single TCP Connection it means it establishes connection only once and header request is sent only once.
-[websocket]()
+![websocket](https://blog.wildix.com/wp-content/uploads/2018/06/BOSH-and-WebSocket-Transport-protocols.png)
 
 ### What is client-Server Architecture?
 
