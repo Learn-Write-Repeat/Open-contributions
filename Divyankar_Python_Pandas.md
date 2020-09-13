@@ -289,7 +289,7 @@ dict = {'First Score':[100, 90, np.nan, 95], 'Second Score': [30, np.nan, 45, 56
 df = pd.DataFrame(dict)
 
 # using dropna() function 
-df.dropna()
+df
 ```
 
 **Output**
