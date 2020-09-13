@@ -20,4 +20,4 @@
   
 ### Important notes:
   1. You will have to enter your own database username, password and create a database while connecting
-  2. Use 'user as your table name because that is what is used in the project or else you will have to change the table name manually in project code 
+  2. Use 'user' as your table name because that is what is used in the project or else you will have to change the table name manually in project code 
