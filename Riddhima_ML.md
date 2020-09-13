@@ -6,15 +6,15 @@ I am looking forward to learn and contribute to this Open Source Project and app
 
 # MACHINE LEARNING TOPICS
 
-Classification
-Regression
-Decision Trees
-Random Forest
-Predictive Analytics
-Ensmeble Leaning Methods
-Clustering
-Dimensionality Redcution
-Support Vector Machines
-Boosting ALgorithms
-Bias-Variance
-Evalutation Metrics (precision, recall, F1, ROC Curve, AOC score)
+- Classification
+- Regression
+- Decision Trees
+- Random Forest
+- Predictive Analytics
+- Ensmeble Leaning Methods
+- Clustering
+- Dimensionality Redcution
+- Support Vector Machines
+- Boosting ALgorithms
+- Bias-Variance
+- Evalutation Metrics (precision, recall, F1, ROC Curve, AOC score)
