@@ -72,6 +72,23 @@ Just click on the "Untitled". It pops up a dialog box asking to rename notebook.
    
    <img src="list1.png"/>
    <img src="list2.png"/>
+   
+   <h2>Text can be represented in bold or italics </h2>
+  <p>Text can be represented in bold or italics as shown below.</p>
+  <h3>Example</h3>
+   
+   <img src="boldanditalic1.png"/>
+   <img src="boldanditalic2.png"/>
+   
+   <h2>Some of the modules in Jupyter Lab </h2>
+ <ol><li>Numpy:  It is a module used for performing mathametical and logic operations.</li>
+ <li> Pandas:  It is a module used for basic handling of data.</li>
+ <li> Matplotlib: It is a module used for representing graphs,visualizations,etc.</li>
+ </ol>
+ <h3> Let's look at an example using matplotlib module:</h3>
+ <img src="histogram.png"/>
+   
+   
   
   
   
