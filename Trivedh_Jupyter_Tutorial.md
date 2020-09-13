@@ -1,7 +1,6 @@
 <h1>Jupyter Notebook</h1>
 <p>Jupyter notebook is an interactive and powerful tool to create the realtime projects like datascience projects. 
-It is an open source web application. It is used widely to create the documents that contain live codes,text,graphs/visualization.Jupyter notebook combines the output and code in
-a single file i.e, a user can type the code,run it and see the otput. Jupyter notebook is not built-in or included in python,it has to be installed.</p>
+It is an open source web application. It is used widely to create the documents that contain live codes,text,graphs/visualization.Jupyter notebook combines the output and code in a single file i.e, a user can type the code,run it and see the otput. Jupyter notebook is not built-in or included in python,it has to be installed.</p>
 <h2> Installation</h2>
 Jupyter notebook can be installed in the following two ways:<br>
 <ul><li>Download Anaconda</li><li>Using pip of python</li></ul>
@@ -45,7 +44,35 @@ ex pic
 <ol><li>File:<p> In the file menu you can create a new notebook file, open an existing file, save the new file created, make a copy, and the other important feature is Save and Checkpoint. You can set a checkpoint so that you could roll back to that point.</p></li>
   <li>Edit:<p> In the edit menu you can <i>cut</i>,<i>copy</i>,<i>paste</i> or <i>delete</i> the cells. You can also split,merge or move cells up and down and many more.</p></li>
   <li>View:<p> The View menu is useful for toggling the visibility of the header and toolbar.</p></li>
-  <li>Insert:<p> The Insert menu is useful  toggling the visibility of the header and toolbar.</p></li>
+  <li>Insert:<p> The Insert menu is useful to insert the cells above and below.</p></li>
+   <li>Cells:<p> The Cells menu is useful to run a particular cell, run all the cells, run all the above cells of a particular cell,run all the cells below a particular cell.A user can also select the cell type i.e Code, Markdown and Raw NBConvert</p></li>
+  <li>Kernel:<p> The Kernel menu is for working with the kernel.You can interrupt,restart the kernel, reconnect to it, shut it down, or even change the kernel.</p></li>
+  <li>Widget:<p> The widget menu provides the options to <i>save the notebook widget state</i>, <i>clear the notebook widget state</i> and also to <i> Download the widget state</i></p></li>
+  <li>Help</li></ol>
+  
+  <h2>Markdown cell</h2>
+<p>Jupyter Notebook supports Markdown, which is a markup language that is a superset of HTML. It is easy to learn if the user has a basic knowledge of HTML.
+  Select the Markdown in the cell menu and type the text you wanted to project and click on run, the output should look like this.</p>
+  
+  pic output
+  
+  <h2>Header</h2>
+  Headers can be created in the mark down cells using <i>"#"</i> symbol. As the number of "#" symbols increases the header size decreases. Look at the example shown below.<br>
+  
+  example pic
+  
+  <h2> Creating lists</h2>
+  A list can be created using dashes, plus signs, or asterisks. Look at the example below.
+  <h3>Example</h3>
+   pics and output
+  
+  
+  
+  
+  
+  
+  
+  
 
 
  
