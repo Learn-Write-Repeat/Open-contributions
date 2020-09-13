@@ -110,7 +110,7 @@
      
      *Example*: 
      
-          cap=cv2.videocapture("specify_the_path_in_which_image_should_be_read_with_extensions")
+          cap=cv2.videocapture("specify_the_path_in_which_video_should_be_read_with_extensions")
           
            while true:
            
