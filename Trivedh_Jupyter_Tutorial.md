@@ -52,7 +52,7 @@ Just click on the "Untitled". It pops up a dialog box asking to rename notebook.
    <li>Cells:<p> The Cells menu is useful to run a particular cell, run all the cells, run all the above cells of a particular cell,run all the cells below a particular cell.A user can also select the cell type i.e Code, Markdown and Raw NBConvert</p></li>
   <li>Kernel:<p> The Kernel menu is for working with the kernel.You can interrupt,restart the kernel, reconnect to it, shut it down, or even change the kernel.</p></li>
   <li>Widget:<p> The widget menu provides the options to <i>save the notebook widget state</i>, <i>clear the notebook widget state</i> and also to <i> Download the widget state</i></p></li>
-  <li>Help</li></ol>
+  <li>Help</li></ol><br>
   <img src="menufile.png"/>
   
   <h2>Markdown cell</h2>
