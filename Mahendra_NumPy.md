@@ -228,13 +228,131 @@ The array object in NumPy is called **ndarray**
    2
    3
 ```
+## Basic Operations with Arrays
+You can also do basic arthemetic operations with arrays.
+```python
+   arr1=np.array([5,5,5,5])
+   arr2=np.array([3,3,3,3])
+   c=arr1+arr2
+   d=arr1-arr2
+   e=arr1/arr2
+   print(arr1)
+   print(arr2)
+   print(c) # addition
+   print(d) # subtraction
+   print(e) # division
+   print("Adding one to all elements:",c+1)
+   print("Subtracting one from all elements:",d-1)
+```
+**Result:**
+```python
+   [5 5 5 5]
+   [3 3 3 3]
+   [8 8 8 8]
+   [2 2 2 2]
+   [1.66666667  1.66666667  1.66666667  1.66666667]
+   Adding one to all elements: [9 9 9 9]
+   Subtracting one from all elements: [1 1 1 1]
+```
+> You can also do other basic operations. Try them yourself in the Jupyter Notebook provided.
+
 ## I know just for basics also this is too much.If you have reached till this point and still not sure, DONT WORRY!!!!
 ## You can practice all the examples in the Jupyter Notebook provided, Don't just see them, change them put new values and see what happens..
 ## Try new things and slowly but steadily you will definetly get a good grasp on them..:smile::smile:
 
-
+****************
+****************
 # Array Indexing and Slicing
+## Array Indexing:
+* **Array indexing is the same as accessing an array element.**
+* **You can access an array element by referring to its index number.**
+```python
+   import numpy as np
+   arr1= np.array([3,2,3,4])
+   arr2= np.array([2,1,1,3])
+   arr3= np.array(['D','e','V','I','n','c','e','p','t'])
+   arr4= np.array([[1,2,3,4,5], [6,7,8,9,10]])
+   print(arr1[0]) # prints first element
+   print(arr1[-1]) # prints last element
+   print(arr2[2]) # prints third element
+   print(arr3[0]) # prints first element
+   print(arr4[1][3]) #prints 9
+   print(arr[1,3]) # Or you can use this type 
+```
+**Result:**
+```python
+   3
+   4
+   1
+   D
+   9
+   9
+```
+## Array Slicing:
+![Slicing](https://wtmatter.com/wp-content/uploads/2020/07/NumPy-Array-Slicing-Python-Tutorial.png)
+> Array slicing is same as String Slicing so don't worry...
+
+* Slicing in python means taking elements from one given index to another given index.
+* We pass slice instead of index like this: `[start:end]`.
+* You can also provide Step size as: `[start:end:step]`.
+
+```python
+   import numpy as np
+   arr1=np.array(['D','e','V','I','n','c','e','p','t'])
+   arr2=np.array([1,2,3,4,5,6,7,8,9])
    
+   #2-D Slicing
+   arr3=np.array([[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]])
+   
+   print(arr1[:3]) # default is taken as 0
+   print(arr1[0:3])
+   print(arr1[3:]) # taken till the end
+   print(arr1[::2])
+   
+   print(arr2[-4:-1])
+   print(arr2[::2]) # step size as 2
+   
+   # 2-D Slicing
+   print(arr3[1,1:4])
+   print(arr3[0:2, 2])
+   print(arr3[0:2, 1:4])
+```
+Result:
+```python
+   ['D' 'e' 'V']
+   ['D' 'e' 'V']
+   ['I' 'n' 'c' 'e' 'p' 't']
+   ['D' 'V' 'n' 'e' 't']
+   
+   [6 7 8]
+   [1 3 5 7 9]
+   
+   # Go over these results carefully they are bit tricky..
+   [7 8 9]
+   [3 8]
+   [[2 3 4]
+    [7 8 9]]
+```
+****************
+******************
+
+# Now to the coolest Part of NumPy. :smile::smile:
+# NumPy Functions
+## Numpy Array Shape:
+`ndarray.shape` will display a tuple of integers that indicate the number of elements stored along each dimension of the array. If, for example, you have a 2-D array with 2 rows and 3 columns, the shape of your array is (2, 3).
+```python
+   
+   
+   
+   
+   
+   
+
+
+
+
+
+
    
    
    
