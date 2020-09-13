@@ -282,7 +282,7 @@ You can also do basic arthemetic operations with arrays.
    print(arr2[2]) # prints third element
    print(arr3[0]) # prints first element
    print(arr4[1][3]) #prints 9
-   print(arr[1,3]) # Or you can use this type 
+   print(arr4[1,3]) # Or you can use this type 
 ```
 **Result:**
 ```python
@@ -390,7 +390,7 @@ Result:
  
    print('No of dimensions of the array:',array_example.ndim)     # .ndim for dimensions
    print('Total no of elements of the array:',array_example.size) # .size for size
-   print('Shape of the array:'array_example.shape)                # .shape for shape
+   print('Shape of the array:',array_example.shape)                # .shape for shape
  ```
  **Result:**
  ```python
