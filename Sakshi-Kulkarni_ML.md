@@ -5,11 +5,11 @@ ConvNet\
 Regularization\
 Batch Normalization\
 Hyperparameter tuning\
-Optimization (adam, RMS, RMSProp)\
+Optimization (adam, RMS, RMSProp)
 
 **NLP**\
 GRUs\
-LSTM\
+LSTM
 
 
 **Machine Learning**\
@@ -19,4 +19,4 @@ Random Forests\
 Clustering\
 Support Vector Machines\
 Bias-Variance\
-Classification\
+Classification
