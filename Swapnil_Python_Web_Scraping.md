@@ -1,13 +1,21 @@
 ![PYHTON](./extras/Untitled.svg)
 # Python Web Scraping
 
-## What is Web Scraping ?
+## 1. What is Web Scraping ?
 Web scraping is the technique for extracting the relevant information from a webpage. web scraping allows user to get the relevant information from any websites and it can be done manually as well as with the help of bots as well.
 
-## Why Python for Web Scraping ?
+## 2. Why Python for Web Scraping ?
 Python has become one of the widely used programming language and with its easy to learn syntax and huge number of libraries such as BeautifulSoup, Scrapy , Pandas etc, it is one of the most preferred programming language for web scraping.
 
+## 3. Things to know before getting started with Web Scraping
+When starting web scraping keep these poits in mind :<br>
+1 - Web Scraping might be against the terms of service of some websites so it is suggested that first contact the administrator before starting webscraping.
 
+2 - Main step to start web scraping is to observe the webpage amd inspect the source code of the website thoroughly.
+
+3 - You should have some basic knowledge of HTML and CSS before starting web scraping because you will mostly deal with HTML and CSS code so this step is mandatory.
+
+<br>
 
 # Getting Started
 
@@ -48,19 +56,48 @@ source = requests.get(url)
 soup = bs4.BeautifulSoup(source.text,lxml)
 ```
 ## select ()
+
+select() returns the list type object with the tag<br>
+
+| Command | Description |
+| --- | --- |
+| select('tag') | tag is the name of any HTML tag |
+| select('.class_name') | class name of the tag will always start with . |
+| select('#id') | name of id of the tag will always start with # |
+| select('tag1 tag2') | tag1 is the main tag while tag2 is the tag which is<br>enclosed within the main tag |
+| select('tag1 > tag2') | tag1 is the main tag while tag2 is the directly<br> enclosed within the main tag |
+
+
 1 - Using select() to grab the title of the webpage
 ```python
-    title = soup.select('title')
+title = soup.select('title')
 ```
-## output:
-```python 
 
+2 - Using select() to grab the data from a specific tag
+```python
+tag = soup.select("div")
 ```
+3 - Using Select() to get the data from an attribute of a tag
+```python
+tag = soup.select("img")
+tag["src"]
+```
+4- Using select() to get data from the tag with specific id
+``` python
+# id will always start with #
+id_data = soup.select("#id")
+```
+
+4- Using select() to get data from the tag with specific class
+``` python
+# class will always start with .
+id_data = soup.select(".class")
+```
+
 ## find()
 1 - Using find() to grab the text from the specific classes and id
 ```python
-    id = soup.find(id="")
+id = soup.find(id="id")
 ```
-## output:
-```python 
-
+``` python
+class = soup.find(class="classname")
