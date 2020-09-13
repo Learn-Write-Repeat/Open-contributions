@@ -28,3 +28,5 @@
   2. Accuracy
   3. Precision
   4. Mean Squared Error
+
+I am not an expert in Data Science but I can do.
