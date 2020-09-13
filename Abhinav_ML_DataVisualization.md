@@ -45,3 +45,11 @@ With the advancement of data visualization techniques, model creation and model 
 ### Conclusions
 Visualization of daya is very important in todays world. With different tools in python such as **seaborn, scikit-learn, and matplotlib**, helps in visualizing data easily and efficiently.
 
+
+
+## **Abhinav Kumar**
+ 
+      
+[![LinkedIn logo image link](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&amp;logo=Linkedin&amp;logoColor=white&amp;link=https://www.linkedin.com/in/hemanthkollipara/)](https://www.linkedin.com/in/abhinav-kumar-a78669198/)
+[![Github logo image link](http://img.shields.io/badge/-Github-black?style=flat-square&logo=github&link=https://github.com/Defcon27/)](https://github.com/Avikr76)
+[![Gmail_link](https://img.shields.io/badge/-Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:avikr76@gmail.com)](https://mailto:avikr76@gmail.com)
