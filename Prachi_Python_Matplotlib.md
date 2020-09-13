@@ -237,12 +237,12 @@ plt.show()
  This is how we add colour to our bar graph.
  <br>
  
- <ul><li>Histogram</li></ul>
+ <ul><li><b>Histogram</b></li></ul>
  
  To draw a histogram we use, matplotlib.pyplot.hist.
  <br>
  Syntax:<br>
- matplotlib.pyplot.hist(x, bins=None, range=None, density=False, weights=None, cumulative=False, bottom=None, histtype='bar', align='mid', orientation='vertical', rwidth=None, log=False, color=None, label=None, stacked=False, *, data=None, **kwargs)
+ matplotlib.pyplot.hist(x, bins=None, range=None, density=False, weights=None, cumulative=False, bottom=None, histtype='bar', align='mid', orientation='vertical', rwidth=None, log=False, color=None, label=None, stacked=False,  data=None, kwargs)
  <br>
  x: it takes an array or a sequence if array.
  <br>
@@ -254,6 +254,14 @@ plt.show()
  <br>
  weights: array-like or None, default: None
  <br>
+ **Steps to draw a histogram:**<br>
+ Step 1: Install Matplotlib package<br>
+ pip install matplotlib<br>
+ Step 2: Collect data for the histogram<br>
+ For example: We need age of hundred people.br>
+ Step 3: Determine the number of bins<br>
+ Step 4: Plot the histogram in Python using matplotlib<br>
+ Examples<br>
  9.
  <br>y = [27,48,69,32,0] <br>
 <br>
@@ -262,8 +270,295 @@ plt.hist(y) <br>
 
 plt.show() <br>
 <br>
+<img src="https://user-images.githubusercontent.com/49331074/93020667-ecffb980-f5fb-11ea-87e0-40637120c0d9.JPG">
+<br>
+
+10.
+<br>
+
+y = [5,2,3,6,9] <br>
+<br>
+plt.hist(y) <br>
+<br>
+plt.show() <br>
+<br>
+Output:<br>
+<img src="https://user-images.githubusercontent.com/49331074/93020931-a612c380-f5fd-11ea-9587-38e080228d26.JPG">
+<br>
+11.
+<br>
+ges = [2,5,70,40,30,45,50,45,43,40,44,60,7,13,57,18,90,77,32,21,20,40] <br>
+<br>
+range = (0, 100) <br>
+<br>
+bins = 10<br>
+<br>
+plt.hist(ages, bins, range, color = 'green',histtype = 'bar', rwidth = 0.8) <br>
+<br>
+plt.xlabel('Age group') <br>
+<br>
+plt.ylabel('No. of people affected by corona') <br>
+<br>
+plt.show()<br>
+
+<br>
+
+Output:<br>
+<img src="https://user-images.githubusercontent.com/49331074/93020933-a8751d80-f5fd-11ea-8b24-00ff5650e123.JPG">
+<br>
+<nr>
+ 
+ <ul><li><b>Scatter Plot :</b></li></ul>
+ 
+ To draw a histogram we use, matplotlib.pyplot.scatter.
+ <br>
+ Syntax:<br>
+matplotlib.pyplot.scatter(x, y, s=None, c=None, marker=None, cmap=None, norm=None, vmin=None, vmax=None, alpha=None, linewidths=None, verts=<deprecated parameter>, edgecolors=None, *, plotnonfinite=False, data=None, kwargs)
+<br>
+  A scatter plot of x vs y.<br>
+ <ul>
+  <li>x, y:float or array-like</li>
+  <li>s:float or array-like</li>
+  <li>c:array-like or list of colours or colour</li>
+  <li>The plot function will be faster for scatterplots where markers don't vary in size or color.</li>
+ </ul>
+ <br>
+ Examples:<br>
+12.
+<br>
+x = [5,2,3,6,9] <br>
+ <br>
+y = [27,48,69,32,100] <br>
+<br>
+plt.scatter(x,y) <br>
+<br>
+plt.show() <br>
+<br>
+<img src="https://user-images.githubusercontent.com/49331074/93021255-5e8d3700-f5ff-11ea-9fc5-9fa88a6f9672.JPG">
+<br>
+<br>
+13.
+ <br>
+ x = [15,82,33,6,95] <br>
+ <br>
+y = [27,48,69,32,0] <br>
+<br>
+plt.scatter(x,y) <br>
+<br>
+plt.show() <br>
+<br>
+ <img src="https://user-images.githubusercontent.com/49331074/93021259-60ef9100-f5ff-11ea-8c05-710e0aca51b1.JPG">
+<br>
+<br>
+ 14.
+ <br>
+ x = [15,82,33,6,95,2,3,6,8,22,5,44,11,74,14,95,86,23] <br>
+ <br>
+y = [27,48,69,32,0,15,82,33,6,95,2,0,36,69,43,31,15,2] <br>
+<br>
+plt.scatter(x,y) <br>
+<br>
+plt.show() <br>
+ <br>
+ <br>
+<img src="https://user-images.githubusercontent.com/49331074/93021260-62b95480-f5ff-11ea-870b-13e70e396975.JPG">
+<br>
+<br>
+ 15.<br>
+ x = [15,82,33,6,95,2,3,6,8,22,5,44,11,74,14,95,86,23] <br>
+ <br>
+y = [27,48,69,32,0,15,82,33,6,95,2,0,36,69,43,31,15,2] <br><br>
 
 
+plt.scatter(x, y, label= "stars", color= "red", marker= "*",* s=30) <br>
+<br>
+plt.show() <br>
+<br>
+<br>
+<img src="https://user-images.githubusercontent.com/49331074/93021262-65b44500-f5ff-11ea-8033-b203e5472012.JPG">
+<br>
+This is how we change the label and colour of the marker.
+<br>
+<br>
+<ul><li><b>Pie-chart:</b></li></ul>
+<br>
+A Pie Chart is a circular statistical plot that can display only one series of data.
+<br>
+Examples:<br>
+16.
+<br>
+
+company = ['DevIncept', 'Adobe', 'Infosys', 'Amazon'] <br>
+<br>
+s = [8, 3, 4, 6] <br><br>
+
+colors = ['r', 'y', 'g', 'b'] <br><br>
+
+plt.pie(s, labels = company, colors=colors, startangle=90, shadow = True, explode = (0.2, 0, 0, 0), radius = 1.2, autopct = '%1.1f%%') <br><br>
+
+plt.legend() <br><br>
+
+plt.show() <br><br>
+
+<img src="https://user-images.githubusercontent.com/49331074/93021413-0efb3b00-f600-11ea-85da-693367b718b2.JPG">
+<br>
+ 17.
+ <img src="https://user-images.githubusercontent.com/49331074/93021499-86c96580-f600-11ea-9de7-386c318d8a38.JPG">
+ <br>
+ <img src="https://user-images.githubusercontent.com/49331074/93021502-88932900-f600-11ea-92b9-5ddd5c8d6ad9.JPG">
+ <br>
  
+ <ul><li><b>Contour graph:</b></li></ul>
+ <br>
+ <ul>
+ <li>
+ Contour plots are aslo called Level Plots.
+ </li>
+ <li>
+ Contour plots are a way to show a three-dimensional area on a two-dimensional plane.
+ </li>
+ <li>
+ It shows the X and the Y variable on the Y axis , and the Z on the X axis.
+ </li>
+ <li>
+ contour() function draws contour lines.
+ </li>
+ <li>
+ contourf() function draws filled contours.
+ </li>
+ <li>
+  Both functions require three parameters x,y and z.
+ </li>
+ </ul>
+  Example:
+  <br>
+  17.
+  <br>
+ xlist = np.linspace(-10.0, 10.0, 100)
+  <br>
+  <br>
+ylist = np.linspace(-5.0,53.0, 100)
+  <br>
+  <br>
+X, Y = np.meshgrid(xlist, ylist)
+  <br>
+  <br>
+Z = np.sqrt(X**2 + Y**2)
+  <br>
+  <br>
+fig,ax=plt.subplots(1,1)
+  <br>
+  <br>
+cp = ax.contourf(X, Y, Z)
+  <br>
+  <br>
+fig.colorbar(cp) 
+  <br>
+  <br>
+ax.set_title('Filled Contours Plot')
+  <br>
+  <br>
+ax.set_ylabel('y (cm)')
+  <br>
+  <br>
+plt.show()
+  <br>
+  Output:
+  <br>
+  <img src="https://user-images.githubusercontent.com/49331074/93021721-f4c25c80-f601-11ea-9cd2-1630625921d2.JPG">
+  <br>
+  <br>
+  
+  <ul><li><b>Box Plot:</b></li></ul>
+ <br>
+ <ul>
+ <li>A Box Plot is also known as Whisker plot
+ </li>
+ <li>
+  In a box plot, we draw a box from the first quartile to the third quartile.
+ </li>
+ </ul>
+ <br>
+ Syntax:
+ <br>
+ matplotlib.pyplot.boxplot(x, notch=None, sym=None, vert=None, whis=None, positions=None, widths=None, patch_artist=None, bootstrap=None, usermedians=None, conf_intervals=None, meanline=None, showmeans=None, showcaps=None, showbox=None, showfliers=None, boxprops=None, labels=None, flierprops=None, medianprops=None, meanprops=None, capprops=None, whiskerprops=None, manage_ticks=True, autorange=False, zorder=None, data=None)
+ <br>
+ 18.
+ <br>
+ np.random.seed(10) 
+ <br>
+ <br>
+data = np.random.normal(50, 20, 100) 
+<br>
+<br>
+plt.boxplot(data) 
+<br>
+<br>
+plt.show() 
+<br>
+<br>
+<img src="https://user-images.githubusercontent.com/49331074/93021879-0f490580-f603-11ea-836a-6db0f7eaba5e.JPG">
+<br>
+<br>
+19.
+<br>
+np.random.seed(10) 
+<br>
+<br>
+data_1 = np.random.normal(10, 10, 500) 
+<br>
+<br>
+data_2 = np.random.normal(80, 20, 500) 
+<br>
+<br>
+data_3 = np.random.normal(40, 30, 500) 
+<br>
+<br>
+data_4 = np.random.normal(70, 40, 500) 
+<br>
+<br>
+data = [data_1, data_2, data_3, data_4] 
+<br>
+<br>
+fg = plt.figure(figsize =(10, 7)) 
+<br>
+<br>
+
+axis = fg.add_axes([0, 0, 1, 1]) 
+<br>
+<br>
  
- 
+bp = axis.boxplot(data) 
+<br>
+<br>
+
+plt.show() 
+<br>
+<br>
+<img src="https://user-images.githubusercontent.com/49331074/93021880-1112c900-f603-11ea-961d-8e58ba60002c.JPG">
+<br>
+<br>
+
+<ul><li>Working with images</li></ul>
+ <br>
+ We need to import matplotlib.image for working with images.
+ <br>
+ <br>
+ 20.
+ <br>
+ <br>
+ import matplotlib.image as mpimg
+ <br>
+ img = mpimg.imread('DevIncept.png')
+ <br>
+ plt.imsave("logo.png", img, cmap = 'gray')
+   <br>
+ imgplot = plt.imshow(img)
+   <br>
+   <br>
+   <img src="https://user-images.githubusercontent.com/49331074/93021955-9b5b2d00-f603-11ea-92f2-6ef151eeb689.JPG">
+   <br>
+   <br>
+   <p>And we can continue playing with these!</p>
+   <i>This contribution has been made by Prachi Agarwal. Contact me directly on my e-mail:agarwal.ashu.21@gmail.com . Or ping me at, https://www.instagram.com/prachi_diwan21/ .</i>
+  
