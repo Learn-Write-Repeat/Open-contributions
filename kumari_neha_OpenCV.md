@@ -11,7 +11,7 @@ High Level GUI and Media
 
 Image Input and Output
 
-Video Input and Output (videoio module)
+Video Input and Output
 
 Camera calibration and 3D reconstruction
 
