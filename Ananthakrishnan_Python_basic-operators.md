@@ -10,3 +10,5 @@
   - Identity operators
   - Membership operators
   - Bitwise operators
+  
+ ### Python Arithmetic Operators 
