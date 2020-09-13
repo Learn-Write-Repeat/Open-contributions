@@ -1,39 +1,39 @@
-# MACHINE LEARNING
+# OpenCV
 
 ```
-Regression
-Decision Trees
-Naive Bayes Classification
-Random Forests
-Clustering
-Dimensionality Redcution
-Support Vector Machines
-Boosting ALgorithms
-Bias-Variance
-Evalutation Metrics (precision, recall, F1, ROC Curve, AOC score,Z score)
-```
 
-# DEEP LEARNING
-```
-Algorithims(CNN,RNN,LSTM,NLP,Computer Vision)
-Open CV
-Backpropagation
-Batch Normalization
-Hyperparameter tuning
-Data Augmentation
-Optimization (adam, RMS)
-```
 
-# Languages/Software
-```
-python
-c
-java
-Html & CSS
-bootstrap
-Django
-Beautiful-Soup
-Tableau
+Core Functionality 
+
+Image Processing 
+
+High Level GUI and Media 
+
+Image Input and Output
+
+Video Input and Output (videoio module)
+
+Camera calibration and 3D reconstruction
+
+2D Features framework 
+
+Video analysis
+
+Object Detection 
+
+Deep Neural Networks
+
+Machine Learning
+
+Graph API
+
+Computational photography 
+
+Images stitching
+
+GPU-Accelerated Computer Vision
 
 ```
+
+
 
