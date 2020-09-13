@@ -1,5 +1,5 @@
 # NLP
-'''
+```
 Sentiment Analysis
 Nlp libraries (spacy,nltk, tensorflow,stanza,gensim)
 Topic modelling (LDA)
@@ -18,7 +18,7 @@ Web scraping
 LSTM
 RNN
 
-'''
+```
 
 # Machine Learning Topics
 ```
