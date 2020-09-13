@@ -1,6 +1,6 @@
-# Python OOPs Concepts
+ # :mortar_board: Python OOPs Concepts
 
-learning OOPs is Smart ~~difficult~~
+:sparkles: learning OOPs is Smart ~~difficult~~
 
 Like the other general programming languages,Python is also an ***Object-Oriented Programming*** language.
 It allows us to develop applictions using an object oriented approach.In Python,we can easily create and use classes and objects
@@ -17,7 +17,7 @@ It allows us to develop applictions using an object oriented approach.In Python,
 
 > This main objective of this documentation is to make understand these concepts in a "Simple way".
 
-**<ins>1. Class:</ins>**
+**:point_right: Class:**
 
  It's the blueprint of any object where we intiliaze the necessary parameters to construct our object
  
