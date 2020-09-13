@@ -107,6 +107,10 @@ In order to start using NumPy and all of the functions available in NumPy, youâ€
    import numpy as np
  ```
 > (You can use any variable instead of **np**) 
+
+# Attention!!!  Attention!!! Attention!!
+## Those who have problems installing Pyhton on PCs or have problem Installing Jupyter Notebooks and using them.Instead of that you can use [Google Colab](https://colab.research.google.com/) its a jupyter notebook on cloud which anyone can use and its free.Its fast and you can do all the coding you want in there.:smile::smiley: 
+
 *******
 *******
 # NumPy Basics:
@@ -231,6 +235,7 @@ The array object in NumPy is called **ndarray**
 ## Basic Operations with Arrays
 You can also do basic arthemetic operations with arrays.
 ```python
+   import numpy as np
    arr1=np.array([5,5,5,5])
    arr2=np.array([3,3,3,3])
    c=arr1+arr2
