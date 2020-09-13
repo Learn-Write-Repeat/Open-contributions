@@ -79,9 +79,10 @@ A major difference between Linear regression and SVR lies on the fact that Linea
 For further information visit [Sklearn SVR](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVR.html)
 
 ## When to use what? 😕😕
-Linear regression is a linear model, which means it works really great with data with linear properties. But, linear model cannot capture the non-linear features. So in this case, you can use the decision trees or random forests which do a better job at capturing the non-linearity in the data by dividing the space into smaller sub-spaces.
-Random forests behave like ensemble models, making decision trees even more robust to deal with noisy data, whereas standard regression methods can get easily confused by noise and will result in high error. 
-Normally, Support Vectors models perform better on sparse data than RF. Moreover, Decision trees work faster, non-linear data are handled well . Also they train faster but they have tendency to overfit.
+- Linear regression is a linear model, which means it works really great with data with linear properties. But, linear model cannot capture the non-linear features.
+- So in this case, you can use the decision trees or random forests which do a better job at capturing the non-linearity in the data by dividing the space into smaller sub-spaces.
+- Random forests behave like ensemble models, making decision trees even more robust to deal with noisy data, whereas standard regression methods can get easily confused by noise and will result in high error. 
+- Normally, Support Vectors models perform better on sparse data than RF. Moreover, Decision trees work faster, non-linear data are handled well . Also they train faster but they have tendency to overfit.
 
 ### Now pat your back!! You have successfully completed this module. 🏆 🏆 
 ## Author
