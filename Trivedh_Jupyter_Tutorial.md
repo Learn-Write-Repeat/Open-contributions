@@ -18,7 +18,8 @@ which will open a newtab as shown below</p><br>
 
 <p> It is not the jupyter notebook, its just a launchpad for editing and creating the notebooks. The url of the dashboard should look like this: <i>http://localhost:8888/tree</i>.
 Now click on the new button on the top right corner, it will open up a dropbox or a list of options. Select python 3 or python 2. Then the webpage should look like this.</p>
-![jup image](jup.png)
+![jup image](ju.png)
+
 
 <p> now at the top of the page, you could see <i> Untitiled</i> on the left corner of the file i.e the notebook is not labeled yet. The extension of Jupyter notebook is .ipynb.
 ![jup image](ju.png)
