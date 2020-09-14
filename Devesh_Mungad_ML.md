@@ -21,7 +21,8 @@
     - XGBoost
  - Pipelines
  - h2o library for ML:
-   - AutoML function (generates and compares various ml models)
+   - AutoML function (generates and compares various ml models like stackedensemble, deeplearning, xgb etc)
+   - optimizing parameters for the AutoML function
  - Model selection
    - Evaluation metrics
    - Train_test_split
