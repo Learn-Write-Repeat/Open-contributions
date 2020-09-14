@@ -125,7 +125,7 @@ Consider the following *image*:
 
 After detecting the shapes of all contours, the *output image* is: 
 
-![Image2](extras/)
+![Image2](extras/sandcoutput.gif)
 
 
 
