@@ -28,4 +28,32 @@
   <td>Subtraction</td>
   <td>x - y</td>
 </tr>
+  
+    <tr>
+  <td>*	</td>
+  <td>Multiplication</td>
+  <td>x * y</td>
+</tr>
+
+  <tr>
+  <td>/	</td>
+  <td>	Division</td>
+  <td>x / y</td>
+</tr>
+
+
+  <tr>
+  <td>%	</td>
+  <td>	Modulus</td>
+  <td>x % y</td>
+</tr>
+
+  <tr>
+  <td>**	</td>
+  <td>Exponentiation</td>
+  <td>x ** y</td>
+</tr>
+
+
+
 </table>
