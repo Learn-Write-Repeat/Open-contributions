@@ -23,8 +23,8 @@
   <td>Addition</td>
   <td>x + y</td>
 </tr>
-  <td>+	</td>
-  <td>Addition</td>
-  <td>x + y</td>
+  <td>-	</td>
+  <td>Subtraction</td>
+  <td>x - y</td>
 </tr>
 </table>
