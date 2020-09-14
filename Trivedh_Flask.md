@@ -16,7 +16,7 @@ It facilitates creation,development and publishing of web applications. Flask is
  <li><h2>Step 2:</h2><h3>Creation of a directory and virtual environment</h3>
  <p> Python Virtual environment is used to create an isolated environment for Python projects. A project can have its own dependencies, regardless of what 
  dependencies every other project has. Type the following command in the windows command prompt to create a new directory and virtual environment. </p><br>
-  <img src="direnv.png"/><br>
+  <img src="direnv.png"/><br><br>
   <i>The above command "py -3 -m venv venv " is for virtual environment creation</i><br>
  
  <li><h2>Step 3:</h2><h3> Activation</h3>
@@ -25,6 +25,7 @@ It facilitates creation,development and publishing of web applications. Flask is
  
   <li><h2>Step 4:</h2><h3> Install flask</h3> 
    <p> After activation you could notice "(venv)" on the left side implying the creation of environment and now type the following command to install flask"</p><br>
+ <i>"pip install flask"</i><br>
   <img src="pipinstallflask (2).png"/><br>
   
   
@@ -39,7 +40,7 @@ It facilitates creation,development and publishing of web applications. Flask is
  
  <li><h2>Step 7:</h2><h3>Output</h3>
  <p> After running the above command copy the address provided by the prompt after successful execution of the application and paste it in the browser, click enter to see the output.</p>
- <img src="serv.png"/>
+ <img src="serv.png"/><br>
  <img src="output.png"/>
      
  
