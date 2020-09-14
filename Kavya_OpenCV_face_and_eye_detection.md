@@ -1,7 +1,7 @@
 ## Face and Eye detection with OpenCV
 
 In this session,
-- We will see ***face*** and ***eye*** detection using **Haar Feature based Cascade classifiers.**
+- We will see ***face*** and ***eye*** detection using **Haar classifiers.**
 - We will see programming on face and eye detection.
 
 
@@ -160,7 +160,7 @@ cv2.destroyAllWindows()
    
    - Display camere screen as output
       
-          cv2.imshow(' image ',img)
+          cv2.imshow('img',img)
           
    - Last and the final step is to break the loop by pressing **Esc** button
    
