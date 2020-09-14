@@ -1,8 +1,8 @@
 ## Face and Eye detection with OpenCV
 
 In this session,
-- We will see ***face*** and ***eye*** detection using **Haar classifiers.**
-- We will see programming on face and eye detection.
+- We will see what is **Haar classifier**. 
+- We will see programming on **face** and **eye** detection.
 
 
 ## Haar Classifier
@@ -20,9 +20,12 @@ of information). Once all the features and details are extracted, they are store
 So in short **Haar Classifier** is a classifier which is used to detect the object for which it has been trained for from the source.
 
 
+
+
+
 ##  Program on Face and Eye detection
 
-Before we add face and eye detection haar cascade files we need to import **OpenCV library**.
+Before we add face and eye detection Haar Cascade files we need to import **OpenCV library**.
 
 ### To install OpenCV library on **anaconda prompt** execute the following commands:
 
@@ -98,14 +101,14 @@ cv2.destroyAllWindows()
    - Import Opencv library using **import cv2** statement
    - Load the required XML classifiers for face and eye detection.
    
-        face_cascade=cv2.CascadeClassifier('haarcascade_frontal_face_default.xml')
+         face_cascade=cv2.CascadeClassifier('haarcascade_frontal_face_default.xml')
         
-        eye_cascade=cv2.CascadeClassifier('haarcascade_eye_default.xml')
+         eye_cascade=cv2.CascadeClassifier('haarcascade_eye_default.xml')
         
         
         #### OR
         
-        Specify the path where XML classifiers are stored:
+   -  Specify the path where XML classifiers are stored:
         
         ***Example:***
         
