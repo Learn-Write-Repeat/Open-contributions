@@ -1,5 +1,6 @@
 # Hi [VenkataSai Adicherla](https://adicherlavenkatasai.github.io/) here ...    
-#### Machine Learning Enthusiast || Actively seeking to learn and contribute, to opensource projects related to Computer Vision.
+
+![readme](https://user-images.githubusercontent.com/26376075/93044917-80c09c80-f673-11ea-8662-12471c993e25.gif)
 
 ## Machine Learning:    
 ```
