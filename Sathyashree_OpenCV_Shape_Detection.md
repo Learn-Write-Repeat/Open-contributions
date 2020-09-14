@@ -119,9 +119,13 @@ Note:
 
 These are the *2 phases* that **repeat on loop** for the contours. These steps work for each contour in the contours' list and repeat until *all the contours* are **marked, identified and displayed** on the window. After all the shapes are detected and displayed, the user can close the window.
 
-Consider the following image:
+Consider the following *image*:
 
-![Image](extras/shapes_and_colors.png)
+![Image](extras/shapes_and_colors.jpg)
+
+After detecting the shapes of all contours, the *output image* is: 
+
+![Image2](extras/)
 
 
 
