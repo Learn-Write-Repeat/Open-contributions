@@ -21,10 +21,10 @@ It allows us to develop applictions using an object oriented approach.In Python,
 
 **:mag_right: Class:**
 
- It's the blueprint of any object where we intiliaze the necessary parameters to construct our object
+ It's the blueprint or design of any object where we intiliaze the necessary parameters to construct our object
  
 + Functions inside class is called as ***Methods***
-+ It's good start a class name with an upper case alphabet (not a necessary condition) and followed by some mthods.
++ It's good to start a class name with an upper case alphabet (not a necessary condition) and followed by some mthods.
 
 
 ***Syntax***
@@ -60,13 +60,24 @@ c2 = Classname()     # c1 and c2 are the objects of the "Classname"
 
 The method is a function that is associated with an object. In python, a method is not a unique to class instances. Any object type can have methods
 
+In simple way,Functions inside the class are called as Methods.
+
 **:mag_right: Inheritance:**
 
 Inheritance is the most important aspect of object-oriented programming which simulates the real world concept of inheritance.It specifies that the child object acquires all the properties and behavioursof the parent object
 
-By using inheritance,we can create a class which uses all the properties and behaviour of another class. The new class is also known as *<ins>derived class</ins>* or *<ins>child class</ins>*, and the one whose properties are acquired is known as *<ins>base class</ins>* or  *<ins>parent class</ins>*
+By using inheritance,we can create a class which uses all the properties and behaviour of another class. The new class is also known as *<ins>derived class</ins>* or *<ins>child class</ins>*, and the one whose properties are acquired is known as *<ins>base class</ins>* or  *<ins>parent class</ins>* :dna:
+
+We have 5 types of inheritance 
+- Single Inheritance
+- Multiple Inheritance
+- Multi-level Inheritance
+- Hierarical Inheritance
+- Hybrid Inheritance
 
 > It provides re-usability of the code
+
+![Inheritance pictorial details](https://github.com/bgayathri0606/Open-contributions/blob/master/Github%20images/inheritance.jpg)
 
 **:mag_right: Polymorphism:**
 
