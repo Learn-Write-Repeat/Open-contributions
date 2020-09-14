@@ -38,7 +38,7 @@ app = Flask(__name__)<br>
 @app.route('/')<br>
 
 def index():<br>
-	&nbsp;&nbsp;return '<*h1*>Hello World!</*h1*>'</i><br>
+	&nbsp;&nbsp;return '<*h1*>Hello World!</*h1*>'</i><br><br>
  <img src="textedit1.png"/><br>
  
  <h3>Explanation of the above code:</h3><br>
