@@ -16,3 +16,8 @@ b.Forecasting an effect: It can be used to forecast effects or impact changes i.
 eg. how much additional sale income will I get for each additional 1000 rupee spent on marketing.
 c.determining the strength of predictors: It is used to identify strength of the effects that independent variables has on dependent variables. for example 
 what is strength of relationship between sales and marketing spending.
+
+# Advantages of Linear Regression over other Regression:
+1.Linear regression performs well  when data set is linearly separable. We can use it to find nature of realtionship among other variables.
+2.It is easy to implement,interpret and efficient to train.
+3.Linear regression is prone to over-fit but it can be easily avoided using dimensionality reduction technique, regularization.
