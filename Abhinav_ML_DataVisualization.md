@@ -18,7 +18,8 @@ Putting data into context means that you will visualize all the columns within t
 Using the dataset of [***Heart attack possibility***](https://github.com/Avikr76/Open-contributions/blob/master/extras/heart_failure_clinical_records_dataset.csv), below is an example of visualizing some column of our dataset
 
  ### Visualization using Bar Chart
- A bar chart is a very popular visualization tool. a bar chart also known as a bar graph is a type of plot where the length of each bar is proportional to the value of the item that it represents
+ A bar chart is a very popular visualization tool. a bar chart also known as a bar graph is a type of plot where the length of each bar is proportional to the value of the item that it represents.
+ 
 ![datasets1](extras/img1.png)
 ![datasets2](extras/img2.png)
 ![datasets3](extras/img3.png)
