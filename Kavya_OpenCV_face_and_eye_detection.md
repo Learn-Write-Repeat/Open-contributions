@@ -153,7 +153,7 @@ cv2.destroyAllWindows()
           
                       cv2.rectangle(roi_color,(ex,ey),(ex+ew,ey+eh),(0,127,255),2)
    
-   - Display camere screen as output
+   - Display camera screen as output
       
           cv2.imshow('img',img)
           
