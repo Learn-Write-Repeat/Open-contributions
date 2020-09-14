@@ -91,9 +91,8 @@
    Now since the machine learning model deals only with the numerical data, but it can happen that our data set contains data other then numbers.
    So it would create a problem since machine cannot understand words. Hence in order to deal with this situation we need to convert this data into numbers.
    
-   Here we importt **LabelEncoder** class of **sklearn library**.Now if their the three variables in our data set so the varis=ables will be encoded as 0,1,2.By these values, 
-   the machine learning model may assume that there is some correlation between these variables which will produce the wrong output. So to remove this issue, **dummy  
-   encoding** is used.
+   Here we importt **LabelEncoder** class of **sklearn library**.Now if their the three variables in our data set so the variables will be encoded as 0,1,2.By these values, 
+   the machine learning model may assume that there is some correlation between these variables which will produce the wrong output. So to remove this issue, **dummy encoding** is used.
    Dummy variables are those variables which have values 0 or 1. The 1 value gives the presence of that variable in a particular column, and rest variables become 0. With dummy
    encoding, the number of columns is equal to the number of categories.For Dummy Encoding, **OneHotEncoder** class of preprocessing library is used.
    
