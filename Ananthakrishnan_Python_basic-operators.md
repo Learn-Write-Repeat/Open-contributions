@@ -207,7 +207,52 @@
 |>=|	Greater than or equal to| x >= y |
 |<=	|	Less than or equal to| x <= y |
 
+###### Example:
+                  
+     # Examples of Relational Operators 
+     a = 13
+     b = 33
+  
+    # a > b is False 
+    print(a > b) 
+  
+    # a < b is True 
+    print(a < b) 
+  
+    # a == b is False 
+    print(a == b) 
+  
+    # a != b is True 
+    print(a != b) 
+  
+    # a >= b is False 
+    print(a >= b) 
+  
+    # a <= b is True 
+    print(a <= b)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+######  Output:
+        
+
+         False
+         True
+         False
+         True
+         False
+         True
 ***4.Python Logical Operators***
 
 |Methods|	Description|Example|
