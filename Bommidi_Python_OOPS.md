@@ -72,6 +72,10 @@ You have a class animal, and all animals have voice. But they speak diiferently.
 
 Encapsulation is also an important aspect of the object-oriented programming. It is used to restrict access to methods and variables. In encapsulation, code and data are wrapped together within a single unit from being modified by an accident.
 
+   - In simple way, we can create a data which cannot be modified i.e, we can create our private data(starts with "__name").If we want to change our private data, we have to create a method inside that class and modify it!
+   
+   > we can understand this concept in detail, by looking at an example which is in "Bommidi_Python_OOPS.ipynb" file.
+
 **:mag_right: Data Abstraction:**
 
 Data abstraction is achieved through encapsulation. So that's why, Data abstraction and encapsulation both are often used as synonyms. 
