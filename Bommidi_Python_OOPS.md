@@ -15,6 +15,8 @@ It allows us to develop applictions using an object oriented approach.In Python,
 - Encapsulation
 - Data Abstraction
 
+![Major Concepts in OOPs](https://github.com/bgayathri0606/Open-contributions/blob/master/Github%20images/OOPs.png)
+
 > This main objective of this documentation is to make understand these concepts in a "Simple way".
 
 **:mag_right: Class:**
@@ -22,7 +24,8 @@ It allows us to develop applictions using an object oriented approach.In Python,
  It's the blueprint of any object where we intiliaze the necessary parameters to construct our object
  
 + Functions inside class is called as ***Methods***
-+ Class name should start with an upper case alphabet and followed by some methods
++ It's good start a class name with an upper case alphabet (not a necessary condition) and followed by some mthods.
+
 
 ***Syntax***
 ```
@@ -34,10 +37,15 @@ class Classname:
 **:mag_right: Objects:**
 
 
-The object is an entity that has state and behaviour.Simply, It's the output from our class.
+The object is an entity that has state and behaviour.
+
+In simple way, it's the output derived from our blue print (i.e, class)
+
 Everything in python is an object and almost everything has attributes and methods.All functions have a built-in attribute **doc**,which returns the doc string defined in the function source code 
 
 we create object by specifying a variable to the class
+
+ ![Class-Objects](https://github.com/bgayathri0606/Open-contributions/blob/master/Github%20images/oop_car.jpg)
 
 ***Syntax***
 ```
