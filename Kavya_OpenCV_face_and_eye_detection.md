@@ -136,16 +136,16 @@ cv2.destroyAllWindows()
             faces=face_cascade_detectMultiScale(gray,1.3,5)
     
             
-   -   Now our work is to draw a rectangle on the face and also on the eye image using for loop
+   -   Now our work is to draw a rectangle around the face and eye image using for loop
    
    
               for (x,y,w,h) in faces:
               
               cv2.rectangle(img(x,y),(x+w,y+h),(255,255,0),2)
               
-              roi_gray=gray(y:y+h,x:x+w)
+              roi_gray=gray[y:y+h,x:x+w]
               
-              roi_color=img(y:y+h,x:x+w)
+              roi_color=img[y:y+h,x:x+w]
               
               eyes=eye_cascade.detectMultiScale(roi_gray)
  
