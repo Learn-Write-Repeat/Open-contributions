@@ -6,6 +6,8 @@ Logistic regression. When there is linear relationship between dependent and ind
 In Linear regression there is always increasing/decreasing of one variable due to increasing/decreasing of other variable. The realtionship between dependent and independent variables is defined as y = mx + c where m = slope of line, c = intercept of line, x = independent variable and y = independent variable. In particular the purpose of 
 linear regression is to predict the value of the dependent variable based upon the the values of one or more independent variables.
 
+![Linear regression](https://miro.medium.com/max/1200/1*LEmBCYAttxS6uI6rEyPLMQ.png)
+
 # Why Linear Regression is important? :flushed:
 => There are three important uses of linear regression and those are a.Trend forecasting b.forecasting an effect c.determining the strength of predictors.
 a.Trend Forecasting: First regression analysis predicts trends and future values. The regression analysis can be used to get point estimates like what will 
