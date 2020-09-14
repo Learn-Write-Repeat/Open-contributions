@@ -1,7 +1,7 @@
 ## Face and Eye detection with OpenCV
 
 In this session,
-- We will see ***face*** and ***eye*** detection using Haar Feature based Cascade classifiers.
+- We will see ***face*** and ***eye*** detection using **Haar Feature based Cascade classifiers.**
 - We will see programming on face and eye detection.
 
 
