@@ -1,23 +1,30 @@
 ## Face and Eye detection with OpenCV
 
 In this session,
-- We will see basics of ***face*** and ***eye*** detection using Haar Feature based Cascade classifiers.
+- We will see ***face*** and ***eye*** detection using Haar Feature based Cascade classifiers.
 - We will see programming on face and eye detection.
 
 
-## Basics
+## Haar Classifier
+
 **Face** and **Eye** detection works on the algorithm called **Haar Classifier** which is proposed by **Paul Viola** and **Michael Jones** in their paper, **"Rapid Object Detection
 using Boosted Cascade of Simple Features"** in 2001.
 
-### Haar Classifier
+
 
 **Haar Classifier is a ***machine learning*** based approach  where a function is trained from a lot of positive and negative images i.e with face and without face**.
 
 Initially the algorithm needs lots of positive images(***with face***)and negative images(***without face***) to train the ***classifier***(algorithm that sorts data in categories
-of information). Once all the features and details are extracted, they are stored in a file and if we get any new input image, check the feature from the file apply, it on the input image
- and if it passes all the stage then ***the face is detected***. So this can be done using **Haar Features**. 
+of information). Once all the features and details are extracted, they are stored in a file and if we get any new input image, check the feature from the file, apply it on the input image and if it passes all the stage then ***the face is detected***. So this can be done using **Haar Features**. 
 
-So in short **Haar Classifier** is a classifier which is used to detect the object for which it has been trained for from the source
+So in short **Haar Classifier** is a classifier which is used to detect the object for which it has been trained for from the source.
+
+### ***Haar Features:***
+It is used to detect the presence of that feature in the image i.e face ,eyes ,mouth ,nose etc.
+
+A single value is obtained by subtracting the sum of pixels under white rectangle and sum of pixels under black rectangle.
+
+![image](https://opencv-python-tutroals.readthedocs.io/en/latest/_images/haar_features.jpg)
 
 
 
@@ -40,18 +47,22 @@ Before we add face and eye detection haar cascade files we need to import **Open
   - Python-OpenCV
   
 ### Code
+<html>
+<table>
+ <tr>
+  <td>
+   
+import cv2  
+   
+face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
-  import cv2  
+eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')   
 
-  face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+cap = cv2.VideoCapture(0) 
 
-  eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')   
+while 1:  
 
-  cap = cv2.VideoCapture(0) 
-
-  while 1:  
-
-    ret, img = cap.read()  
+    ret, img = cap.read() 
     
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY) 
     
@@ -59,7 +70,7 @@ Before we add face and eye detection haar cascade files we need to import **Open
     
     for (x,y,w,h) in faces: 
     
-        cv2.rectangle(img,(x,y),(x+w,y+h),(255,255,0),2)
+        cv2.rectangle(img,(x,y),(x+w,y+h),(255,255,0),2)  
         
         roi_gray = gray[y:y+h, x:x+w] 
         
@@ -79,10 +90,15 @@ Before we add face and eye detection haar cascade files we need to import **Open
     
         break
         
-  cap.release() 
+cap.release() 
 
-  cv2.destroyAllWindows()  
-  
+cv2.destroyAllWindows()   
+ 
+
+</td>
+</tr>
+</table>
+</html>
   
   
   
@@ -111,12 +127,12 @@ Before we add face and eye detection haar cascade files we need to import **Open
     
           cap=cv2.VideoCapture(0)
           
- -  Using while loop read each frame from the camera and then convert it to gray scale image 
-          
-            while 1:
-                        
+ -  Using while loop read each frame from the camera and then perform the following steps:
+                      
               ret,img=cap.read()
               
+  -  Convert into gray scale image
+  
               gray=cv2.cvtcolor(img,cv2.COLOR_BGR2GRAY)
               
       
@@ -142,7 +158,7 @@ Before we add face and eye detection haar cascade files we need to import **Open
           
                       cv2.rectangle(roi_color,(ex,ey),(ex+ew,ey+eh),(0,127,255),2)
    
-   - Display
+   - Display camere screen as output
       
           cv2.imshow(' image ',img)
           
