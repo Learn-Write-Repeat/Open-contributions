@@ -278,6 +278,10 @@ These were the most used Markdown features. These will help you for you assignme
 
 &nbsp;
 
+> for striking words
+
+~~this is the striking one~~
+
 
 Thanks for Reading!!!
 
