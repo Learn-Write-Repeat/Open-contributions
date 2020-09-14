@@ -97,7 +97,7 @@
 
   <tr>
   <td>%=	</td>
-  <td>	x%=5/td>
+  <td>	x%=5</td>
   <td>x= x%5</td>
 </tr>
 
@@ -146,7 +146,7 @@
 
 ***3.Python Comparison Operators***
 
-|Methods|Description|Example|
+|Methods|Name|Example|
 |-------|-----------|---------|
 |== |	Equal|	x == y|
 |!=|	Not equal|x != y|
@@ -156,5 +156,13 @@
 |<=	|	Less than or equal to| x <= y |
 
 
+***4.Python Logical Operators***
 
-
+|Methods|	Description|Example|
+|-------|-----------|---------|
+|and |	Returns True if both statements are true|	x < 5 and  x < 10|
+|!=|	Not equal|x != y|
+|>|	Greater than| x > y |
+|<|		Less than| x < y |
+|>=|	Greater than or equal to| x >= y |
+|<=	|	Less than or equal to| x <= y |
