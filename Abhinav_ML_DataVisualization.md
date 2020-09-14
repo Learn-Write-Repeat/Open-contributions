@@ -20,6 +20,11 @@ Using the dataset of [***Heart attack possibility***](https://github.com/Avikr76
 ![datasets1](extras/img1.png)
 ![datasets2](extras/img2.png)
 ![datasets3](extras/img3.png)
+![datasets3](extras/img6.png)
+![datasets3](extras/img7.png)
+![datasets3](extras/img8.png)
+![datasets3](extras/img9.png)
+![datasets3](extras/img10.png)
 
 ### Where are the possible data errors, such as missing data, wrong data types, misleading data, and outlier data, and so on?
 
