@@ -61,3 +61,52 @@
 
 
 </table>
+
+***2.Python Assignment Operators***
+
+<table>
+<tr>
+<th>Operator</th>
+ <th>Example</th>
+   <th>Same as</th>
+</tr>
+<tr>
+<td>=		</td>
+  <td>	x = 5</td>
+  <td>x = 5</td>
+</tr>
+  
+ <tr>
+  <td>+=	</td>
+  <td>x=x+5</td>
+  <td>x+=5</td>
+</tr>
+  
+  <tr>
+  <td>-=		</td>
+  <td>x-=5</td>
+  <td>x= x-5</td>
+</tr>
+
+  <tr>
+  <td>/=	</td>
+  <td>	x/=5</td>
+  <td>x = x/5/td>
+</tr>
+
+
+  <tr>
+  <td>%=	</td>
+  <td>	x%=5/td>
+  <td>x= x%5</td>
+</tr>
+
+  <tr>
+  <td>//=	</td>
+  <td>x?? = 5</td>
+  <td>x = x??5/td>
+</tr>
+
+
+
+</table>
