@@ -38,7 +38,7 @@ app = Flask(__name__)<br>
 @app.route('/')<br>
 
 def index():
-	&nbsp;&nbsp;return '<h1>Hello World!</h1>'</i><br>
+	&nbsp;&nbsp;return '<*h1*>Hello World!</*h1*>'</i><br>
  <img src="textedit1.png"/><br>
  
  <h3>Explanation of the above code:</h3><br>
@@ -49,7 +49,7 @@ def index():
  <li><i><h4>@app.route('/')</h4></i><br>
  <p> Flask uses route() to say that if the browser requests the address /, then the app should route that request to this index() function.</p></li><br> 
   <li><i><h4>def index():
-	&nbsp;&nbsp;return '<h1>Hello World!</h1>'</h4></i><br>
+	&nbsp;&nbsp;return '<*h1*>Hello World!<*/h1*>'</h4></i><br>
    <p> Defines a function to return "Hello world!" when the app executes</p></li></ul>
   
  
