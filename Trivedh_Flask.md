@@ -31,7 +31,7 @@ It facilitates creation,development and publishing of web applications. Flask is
   
    <li><h2>Step 5:</h2><h3>Creation of the application using a text editor</h3>
     <p> Now use a text editor and create a <i>".py"</i> file and save it in the same directory created previously i.e "app3". The code to execute "Hello world" in flask: </p><br>
- <i>from flask import Flask<br>
+	<i>from flask import Flask<br>
 
 app = Flask(__name__)<br>
 
@@ -42,13 +42,12 @@ def index():
  <img src="textedit1.png"/><br>
  
  <h3>Explanation of the above code:</h3><br>
- <ul><li><i><h4>from flask import Flask:<h4></i><br>
+ <ul><li><i><h4>from flask import Flask:</h4></i><br>
  <p> Imports the Flask module and all the related libraries</p>
-<ul><li><i><h4>app = Flask(__name__)<h4></i><br>
+<li><i><h4>app = Flask(__name__)</h4></i><br>
  <p> Creates the App object.</p><br>
- <ul><li><i><h4>@app.route('/')</h4></i><br>
- <p> Flask uses route() to say that if the browser requests the address /, then the app should route that request to this index() function.</p></li><br>
-  <li><i><h4>@app.route('/')</h4></i><br> 
+ <li><i><h4>@app.route('/')</h4></i><br>
+ <p> Flask uses route() to say that if the browser requests the address /, then the app should route that request to this index() function.</p></li><br> 
   <li><i><h4>def index():
 	&nbsp;&nbsp;return '<h1>Hello World!</h1>'</h4></i><br>
    <p> Defines a function to return "Hello world!" when the app executes</p></li></ul>
