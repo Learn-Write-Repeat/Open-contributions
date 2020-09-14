@@ -15,7 +15,6 @@ It allows us to develop applictions using an object oriented approach.In Python,
 - Encapsulation
 - Data Abstraction
 
-![Major Concepts in OOPs](https://github.com/bgayathri0606/Open-contributions/blob/master/Github%20images/OOPs.png)
 
 > This main objective of this documentation is to make understand these concepts in a "Simple way".
 
