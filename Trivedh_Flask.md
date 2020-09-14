@@ -9,35 +9,35 @@ It facilitates creation,development and publishing of web applications. Flask is
  <h3> Prerequisites for the better understanding of Flask</h3>
  <ul><li>HTML</li><li>Python</li></ul>
  <h3> Installation of Flask</h3>
- <p> Now lets look at the installation of flask and execution of two basic Applications</p><br>
+ <p> Now lets look at the installation of flask and execution of a basic Application <i>"Hello world"</i></p><br>
  <ul><li><h2>Step 1:</h2> Installation of latest version of Python in the local computer.<br>
- <p> Make sure to install the  latest  version of python in the system using the following link. <a href="https://www.python.org/downloads/windows/">python download</a></p>
+ <p> Make sure to install the  latest  version of python in the system using the following link: <a href="https://www.python.org/downloads/windows/">Python download</a></p>
  
- <li><h2>Step 2:</h2><h3>Creation of a directory and virtual environment</h3>.<br>
+ <li><h2>Step 2:</h2><h3>Creation of a directory and virtual environment</h3>
  <p> Python Virtual environmentsis used to create an isolated environment for Python projects. A project can have its own dependencies, regardless of what 
  dependencies every other project has. Type the following comman in the windows command prompt to create a new directory and virtual environment. </p><br>
   <img src="direnv.png"/><br>
   <i>The above command "py -3 -m venv venv " is for virtual environment creation</i><br>
  
- <li><h2>Step 3:</h2><h3> Activation</h3><br>
+ <li><h2>Step 3:</h2><h3> Activation</h3>
    <p> Now type the following command in the command prompt to activate the virtual environment.</p><br>
    <img src="activate.png"/><br>
  
-  <li><h2>Step 4:</h2><h3> Install flask</h3> <br>
+  <li><h2>Step 4:</h2><h3> Install flask</h3> 
    <p> After activation you could notice "(venv)" on the left side implying the creation of environment and now type the following command to install flask"</p><br>
-  <img src="pipinstallflask(2).png"/><br>
+  <img src="pipinstallflask (2).png"/><br>
   
   
-   <li><h2>Step 5:</h2><h3>Creation of the application using a text editor</h3><br>
+   <li><h2>Step 5:</h2><h3>Creation of the application using a text editor</h3>
     <p> Now use a text editor and create a <i>".py"</i> file and save it in the same directory created previously i.e "app3"</p><br>
  <img src="textedit1.png"/><br>
  
-   <li><h2>Step 6:</h2><h3>Set FLASK_APP and run the flask</h3><br>
+   <li><h2>Step 6:</h2><h3>Set FLASK_APP and run the flask</h3>
  <p> To get the output type the following commands</p>
  <img src="setfla.png"/><br>
  <img src="flarun.png"/><br>
  
- <li><h2>Step 7:</h2><h3>Output</h3><br>
+ <li><h2>Step 7:</h2><h3>Output</h3>
  <p> After running the above command copy the address provided by the prompt after successful execution of the application and paste it in the browser, click enter to see the output.</p>
  <img src="serv.png"/>
  <img src="output.png"/>
