@@ -95,6 +95,101 @@
     x[:,1:3]=imputer.transform(x[:,1:3])  
     print(x)
     
+   Now the Missing data can also be handled using one of the pandas library method i.e. **fillna method**. 
+   
+   **The fillna() function is used to fill NA/NaN values using the specified method.**
+   
+   **For example-**
+   
+   *Suppose we have a data set-*
+   
+|      |Date     |Temperature|Windspeed|Event    | 
+|------|---------|---------- |---------|---------|
+|  0   |07-09-20 |  32.0     | 6.0     |   Rain  |
+|  1   |08-09-20 |   NaN     |  9.0    |   Sunny |
+|  2   |09-09-20 |   28.0    |  NaN    |   Snow  |
+|  3   |10-09-20 |  NaN      |  7.0    |    NaN  |
+|  4   |11-09-20 |   32.0    |  Nan    |    Rain |
+
+Now by using different parameters-
+
+  1. **df.fillna(0)** - To fill the NaN values by a specified value.
+  
+          newData = df.fillna(0)
+          newData
+  
+ |      |Date     |Temperature|Windspeed|Event    | 
+ |------|---------|---------- |---------|---------|
+ |  0   |07-09-20 |  32.0     | 6.0     |   Rain  |
+ |  1   |08-09-20 |   0.0     |  9.0    |   Sunny |
+ |  2   |09-09-20 |   28.0    |  0.0    |   Snow  |
+ |  3   |10-09-20 |  0.0      |  7.0    |    0.0  |
+ |  4   |11-09-20 |   32.0    |  0.0    |    Rain |
+
+ 2. **df.fillna({dictionary})** - Here we can pass any dictionary and the columns will change accordingly.
+ 
+        newData = df.fillna({
+           'Temperature' : 0,
+           'Windspeed' : 0,
+           'Event' : 'No Event'
+        })
+        newData
+        
+|      |Date     |Temperature|Windspeed|Event    | 
+|------|---------|---------- |---------|---------|
+|  0   |07-09-20 |  32.0     | 6.0     |   Rain  |
+|  1   |08-09-20 |   0.0     |  9.0    |   Sunny |
+|  2   |09-09-20 |   28.0    |  0.0    |   Snow  |
+|  3   |10-09-20 |  0.0      |  7.0    | No Event|
+|  4   |11-09-20 |   32.0    |  0.0    |    Rain |
+
+3. **df.fillna(method="")** - This method fills the *previous row's* value.
+
+       newData = df.fillna(method= "ffill")
+       newData
+       
+|      |Date     |Temperature|Windspeed|Event    | 
+|------|---------|---------- |---------|---------|
+|  0   |07-09-20 |  32.0     | 6.0     |   Rain  |
+|  1   |08-09-20 |   32.0    |  9.0    |   Sunny |
+|  2   |09-09-20 |   28.0    |  9.0    |   Snow  |
+|  3   |10-09-20 |  28.0     |  7.0    | Snow    |
+|  4   |11-09-20 |   32.0    |  7.0    |    Rain |
+
+
+4. **df.fillna(method="")** - This method fills the *next row's* value.
+
+       newData = df.fillna(method= "bfill")
+       newData
+       
+|      |Date     |Temperature|Windspeed|Event    | 
+|------|---------|---------- |---------|---------|
+|  0   |07-09-20 |  32.0     | 6.0     |   Rain  |
+|  1   |08-09-20 |   28.0    |  9.0    |   Sunny |
+|  2   |09-09-20 |   28.0    |  7.0    |   Snow  |
+|  3   |10-09-20 |  32.0     |  7.0    | Rain    |
+|  4   |11-09-20 |   32.0    |  0.0    |    Rain |
+
+
+Now we also have **axis** parameter - It copies values horizontally.
+
+**For example-**
+
+        newData = df.fillna(method= "bfill", axis= "columns")
+        newData
+        
+|      |Date     |Temperature|Windspeed|Event    | 
+|------|---------|---------- |---------|---------|
+|  0   |07-09-20 |  32.0     | 6.0     |   Rain  |
+|  1   |08-09-20 |   9.0     |  9.0    |   Sunny |
+|  2   |09-09-20 |   28.0    |  28.0   |   Snow  |
+|  3   |10-09-20 |  7.0      |  7.0    |    NaN  |
+|  4   |11-09-20 |   32.0    |  32.0   |    Rain |
+
+
+
+
+
   ## 4. Encoding Categorical Data
   
    Now since the machine learning model deals only with the numerical data, but it can happen that our data set contains data other then numbers.
