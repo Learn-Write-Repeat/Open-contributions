@@ -30,7 +30,7 @@ Before we add face and eye detection Haar Cascade files we need to import **Open
 ### To install OpenCV library on **anaconda prompt** execute the following commands:
 
                        pip install opencv-python
-                       pip install opencv_contrib-python
+                       pip install opencv-contrib-python
                        
   
 ## REQUIREMENTS
