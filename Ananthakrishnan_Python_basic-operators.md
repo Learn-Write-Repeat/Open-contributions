@@ -11,7 +11,7 @@
   - Membership operators
   - Bitwise operators
   
- ### Python Arithmetic Operators 
+ ### 1. Python Arithmetic Operators 
  
  <table>
 <tr>
