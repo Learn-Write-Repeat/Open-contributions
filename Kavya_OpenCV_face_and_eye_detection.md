@@ -19,14 +19,6 @@ of information). Once all the features and details are extracted, they are store
 
 So in short **Haar Classifier** is a classifier which is used to detect the object for which it has been trained for from the source.
 
-### ***Haar Features:***
-It is used to detect the presence of that feature in the image i.e face ,eyes ,mouth ,nose etc.
-
-A single value is obtained by subtracting the sum of pixels under white rectangle and sum of pixels under black rectangle.
-
-![image](https://opencv-python-tutroals.readthedocs.io/en/latest/_images/haar_features.jpg)
-
-
 
 ##  Program on Face and Eye detection
 
@@ -131,7 +123,7 @@ cv2.destroyAllWindows()
                       
               ret,img=cap.read()
               
-  -  Convert into gray scale image
+  -  Convert into gray scale frame.
   
               gray=cv2.cvtcolor(img,cv2.COLOR_BGR2GRAY)
               
