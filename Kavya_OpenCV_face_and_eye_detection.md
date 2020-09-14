@@ -7,7 +7,7 @@ In this session,
 
 ## Haar Classifier
 
-**Face** and **Eye** detection works on the algorithm called **Haar Classifier** which is proposed by **Paul Viola** and **Michael Jones** in their paper, **"Rapid Object Detection
+**Face** and **Eye** detection works on the algorithm called **Haar Classifier** which is proposed by **Paul Viola** and **Michael Jones**. In their paper, **"Rapid Object Detection
 using Boosted Cascade of Simple Features"** in 2001.
 
 
@@ -17,7 +17,7 @@ using Boosted Cascade of Simple Features"** in 2001.
 Initially the algorithm needs lots of positive images(***with face***)and negative images(***without face***) to train the ***classifier***(algorithm that sorts data in categories
 of information). Once all the features and details are extracted, they are stored in a file and if we get any new input image, check the feature from the file, apply it on the input image and if it passes all the stage then ***the face is detected***. So this can be done using **Haar Features**. 
 
-So in short **Haar Classifier** is a classifier which is used to detect the object for which it has been trained for from the source.
+So in short, **Haar Classifier** is a classifier which is used to detect the object for which it has been trained for from the source.
 
 
 
@@ -97,7 +97,7 @@ cv2.destroyAllWindows()
   
   
   
-  ##  Explaination
+  ##  Explanation
    - Import Opencv library using **import cv2** statement
    - Load the required XML classifiers for face and eye detection.
    
@@ -118,7 +118,7 @@ cv2.destroyAllWindows()
           
           
     
-   -  Now initialize cap variable and captures the frames from the camera
+   -  Now initialize cap variable and capture the frames from the camera
     
           cap=cv2.VideoCapture(0)
           
@@ -165,7 +165,8 @@ cv2.destroyAllWindows()
           
               break:
         
-    
+   
+  **Contact me directly on my [mail](kavyadheerendra@gmail.com)**
   
   
   
