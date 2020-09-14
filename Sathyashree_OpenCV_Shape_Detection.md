@@ -122,4 +122,5 @@ These are the *2 phases* that **repeat on loop** for the contours. These steps w
 
 
 Written by: Sathyashree
-Feel free to contact me on my [mailid](ksathyanrao@gmail.com).!!!
+
+Feel free to contact me on my [mailid](ksathyanrao@gmail.com). !!!
