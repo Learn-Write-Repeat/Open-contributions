@@ -37,9 +37,18 @@ get function sends the get requests to the given url which then returns a respon
 import requests
 source = requests.get(url)
 ```
+```python
+source.status_code
+```
+
+Output
+
+```python
+200
+```
+
 <br>
-<br>
-<br>
+
 
 ## 2. Beautifulsoup
 BeautifulSoup is a python library used for parsing the HTML and XML data
@@ -67,6 +76,7 @@ select() returns the list type object with the tag<br>
 | select('tag1 tag2') | tag1 is the main tag while tag2 is the tag which is<br>enclosed within the main tag |
 | select('tag1 > tag2') | tag1 is the main tag while tag2 is the directly<br> enclosed within the main tag |
 
+<br>
 
 1 - Using select() to grab the title of the webpage
 ```python
