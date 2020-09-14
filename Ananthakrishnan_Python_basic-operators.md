@@ -110,14 +110,15 @@
  <tr>
   <td>//=	</td>
   <td>x// = 5</td>
-  <td>x = x//5/td>
+  <td>x = x//5</td>
 </tr>
 
  <tr>
-  <td**=</td>
-  <td>x**= 5</td>
+  <td>**=	</td>
+  <td>x** = 5</td>
   <td>x = x**5</td>
 </tr>
+
 
  <tr>
   <td>&=</td>
