@@ -50,15 +50,25 @@ Box plot is a way of statistically representing the distribution of given data t
 Missing data is a well-recognized problem in large datasets. This lack of standardization is one of the leading causes of the subtle problem of disguised missing data, in which unknown, inapplicable, or otherwise nonspecified responses are encoded as valid data values. The consequences of disguised missing data can be quite serious. Bad data results in bad results.
 The data must be cleaned before using it in training model to correct and identify all the errors. So we get correct results.
 
+
 Below is an example of a nullity matrix that gives you missing data information visually on columns of data:
 ![Heatmap](extras/img4.png)
 
 ***The high density represents the high data errors like misleading data, missing data etc.***
 It is visualized by the Python's **Heatmap**.It gives the degree of missing data.
 
-###	Where are the imbalances of data?
+### Where are the imbalances of data?
+
 Below is an example of using a heatmap to represent the correlation of the relationships between the variables.
-Hatmap is just  a grid of divided into small squares which has a different shades of color for easier interpretation of data.
+
+Following 5 methods for dealing with imbalances of data
+1. Change the performance metric
+2. Change the algorithm
+3. Oversample minority class
+4. Undersample majority class
+5. Generate synthetic samples
+
+Heatmap is just  a grid of divided into small squares which has a different shades of color for easier interpretation of data.
 The larger the number and darker the color the higher the correlation between the two variables and vice versa.
 ![Heatmap](extras/img5.png)
 
@@ -66,6 +76,8 @@ The larger the number and darker the color the higher the correlation between th
 
 With the advancement of data visualization techniques, model creation and model tuning do not have to be abstract processes means  Instead of dealing with the details of implementing algorithms, or figuring out proper ways to hitch the output of one function to the input of another, the developer can focus on the overall logic of the application with the help of **TensorFlow** . 
 **TensorFlow** allows you to follow the model-creation process with data visualization.
+
+Tuning is an important part of modeling. Unlike parameters that derive their value from training, the values of hyperparameters are defined before the learning process begins. These hyperparameters control the behavior of the algorithms and have an impact on the performance of the model. Concerns of hyperparameters, such as trainability, tunability, and robustness, determine the usability of the models.
 ### Conclusions
 Data visualization is the discipline of trying to understand data by placing it in a visual context so that patterns, trends and correlations that might not otherwise be detected can be exposed.
 With different tools in python such as **seaborn, scikit-learn, and matplotlib**, helps in visualizing data easily and efficiently.
