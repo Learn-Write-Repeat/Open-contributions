@@ -15,6 +15,8 @@ It allows us to develop applictions using an object oriented approach.In Python,
 - Encapsulation
 - Data Abstraction
 
+![Concepts of OOPS in python](https://github.com/bgayathri0606/Open-contributions/blob/master/Github%20images/OOPs.png)
+
 
 > This main objective of this documentation is to make understand these concepts in a "Simple way".
 
@@ -38,7 +40,7 @@ class Classname:
 
 The object is an entity that has state and behaviour.
 
-In simple way, it's the output derived from our blue print (i.e, class)
+:zap: In simple way, it's the output derived from our blue print (i.e, class)
 
 Everything in python is an object and almost everything has attributes and methods.All functions have a built-in attribute **doc**,which returns the doc string defined in the function source code 
 
@@ -59,7 +61,8 @@ c2 = Classname()     # c1 and c2 are the objects of the "Classname"
 
 The method is a function that is associated with an object. In python, a method is not a unique to class instances. Any object type can have methods
 
-In simple way,Functions inside the class are called as Methods.
+:zap: In simple way,Functions inside the class are called as Methods.
+
 
 **:mag_right: Inheritance:**
 
@@ -86,13 +89,17 @@ The name polymorphism itself contains two words "Ploy" and "morphs". poly means 
 
 You have a class animal, and all animals have voice. But they speak diiferently. Here the 'Speak' behaviour is polymorphic, in the sense and depends on the animal.So, the abstract "animal" concept does not actually "speak" , but specific animals (like dogs and cats) have a concrete implementation of the action "speak".
 
+![Pictorail explanation about polymorphism](https://github.com/bgayathri0606/Open-contributions/blob/master/Github%20images/polymorphism.gif)
+
 **:mag_right: Encapsulation:**
 
 Encapsulation is also an important aspect of the object-oriented programming. It is used to restrict access to methods and variables. In encapsulation, code and data are wrapped together within a single unit from being modified by an accident.
 
-   - In simple way, we can create a data which cannot be modified i.e, we can create our private data(starts with "__name").If we want to change our private data, we have to create a method inside that class and modify it!
+:zap: In simple way, we can create a data which cannot be modified i.e, we can create our private data(starts with "__name").If we want to change our private data, we have to create a method inside that class and modify it!
    
    > we can understand this concept in detail, by looking at an example which is in "Bommidi_Python_OOPS.ipynb" file.
+   
+   ![Pictorial explanation about Encapsulation](https://github.com/bgayathri0606/Open-contributions/blob/master/Github%20images/Encapsulation.jpg)
 
 **:mag_right: Data Abstraction:**
 
