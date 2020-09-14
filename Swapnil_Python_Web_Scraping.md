@@ -51,7 +51,8 @@ Output
 
 
 ## 2. Beautifulsoup
-BeautifulSoup is a python library used for parsing the HTML and XML data
+BeautifulSoup is a python library used for parsing the HTML and XML data. We can iterated through all the data.
+<br>You can read complete beautifulsoup documentation [here](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
 Python 3 - ```pip3 install requests``` \
 Python 2.x - ```pip install bs4```
@@ -104,10 +105,8 @@ id_data = soup.select("#id")
 id_data = soup.select(".class")
 ```
 
-## find()
-1 - Using find() to grab the text from the specific classes and id
-```python
-id = soup.find(id="id")
-```
-``` python
-class = soup.find(class="classname")
+Created by Swapnil Rawat<br>
+Contact me at 
+[Instagram](https://www.instagram.com/swapnil_r17/) 
+[Twitter](https://twitter.com/XavierGreek) 
+[Github](https://github.com/swapnilr17) <center>
