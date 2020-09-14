@@ -1,7 +1,8 @@
-# Basic-Operators in Python
+# BASIC OPERATORS IN PYTHON
 
- ## Operators are used to perform operations on variables and values.
- ## Python divides the operators in the following groups:
+ **Operators are used to perform operations on variables and values.**
+ **Python divides the operators in the following groups:**
+ 
    - Arithmetic operators
    - Assignment operators
    - Comparison operators
