@@ -147,8 +147,8 @@
 ***3.Python Comparison Operators***
 
 |Methods|Description|Example|
-|-------|-----------|
-|==|	Equal|	x == y|
+|-------|-----------|---------|
+|== |	Equal|	x == y|
 |!=|	Not equal|x != y|
 |>|	Returns a new dictionary with keys from seq and value equal to v (defaults to None).|
 |<|	Returns the value of the key. If the key does not exist, returns d (defaults to None).|
