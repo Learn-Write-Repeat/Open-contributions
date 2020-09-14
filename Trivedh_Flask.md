@@ -10,12 +10,12 @@ It facilitates creation,development and publishing of web applications. Flask is
  <ul><li>HTML</li><li>Python</li></ul>
  <h3> Installation of Flask</h3>
  <p> Now lets look at the installation of flask and execution of a basic Application <i>"Hello world"</i></p><br>
- <ul><li><h2>Step 1:</h2> Installation of latest version of Python in the local computer.<br>
+ <ul><li><h2>Step 1:</h2><h3> Installation of latest version of Python in the local computer</h3><br>
  <p> Make sure to install the  latest  version of python in the system using the following link: <a href="https://www.python.org/downloads/windows/">Python download</a></p>
  
  <li><h2>Step 2:</h2><h3>Creation of a directory and virtual environment</h3>
- <p> Python Virtual environmentsis used to create an isolated environment for Python projects. A project can have its own dependencies, regardless of what 
- dependencies every other project has. Type the following comman in the windows command prompt to create a new directory and virtual environment. </p><br>
+ <p> Python Virtual environment is used to create an isolated environment for Python projects. A project can have its own dependencies, regardless of what 
+ dependencies every other project has. Type the following command in the windows command prompt to create a new directory and virtual environment. </p><br>
   <img src="direnv.png"/><br>
   <i>The above command "py -3 -m venv venv " is for virtual environment creation</i><br>
  
