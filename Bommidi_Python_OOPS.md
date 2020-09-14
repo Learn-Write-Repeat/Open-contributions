@@ -48,7 +48,7 @@ class Classname:
 c1 = Classname()
 c2 = Classname()     # c1 and c2 are the objects of the "Classname"
 ```
-**<ins>3. Methods:</ins>**
+**:mag_right: Methods:**
 
 The method is a function that is associated with an object. In python, a method is not a unique to class instances. Any object type can have methods
 
