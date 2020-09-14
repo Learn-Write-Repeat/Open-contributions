@@ -91,7 +91,7 @@
   <tr>
   <td>/=	</td>
   <td>	x/=5</td>
-  <td>x = x/5/td>
+  <td>x = x/5</td>
 </tr>
 
 
@@ -103,10 +103,64 @@
 
   <tr>
   <td>//=	</td>
-  <td>x?? = 5</td>
-  <td>x = x??5/td>
+  <td>x// = 5</td>
+  <td>x = x//5/td>
+</tr>
+
+ <tr>
+  <td>//=	</td>
+  <td>x// = 5</td>
+  <td>x = x//5/td>
+</tr>
+
+ <tr>
+  <td**=</td>
+  <td>x**= 5</td>
+  <td>x = x**5/td>
+</tr>
+
+ <tr>
+  <td>&=</td>
+  <td>x &= 5</td>
+  <td>x = x&5/td>
+</tr>
+
+ <tr>
+  <td>|=		</td>
+  <td>x|=	 5</td>
+  <td>x = x|5/td>
 </tr>
 
 
 
+
+ <tr>
+  <td>//=	</td>
+  <td>x// = 5</td>
+  <td>x = x//5/td>
+</tr>
+
+
 </table>
+
+***3.Python Comparison Operators***
+<table>
+<tr>
+<th>Operatorth>
+  <th>Name</th>
+   <th> Example</th>
+</tr>
+
+<tr>
+  <td>max()</td>
+<td>Returns the largest item in an iterable</td>
+</tr>
+  <tr>
+  <td>min()</td>
+<td>Returns the smallest item in an iterable</td>
+</tr>
+  <tr>
+  <td>input()</td>
+<td>To accept the input from the user</td>
+</tr>
+  </table>
