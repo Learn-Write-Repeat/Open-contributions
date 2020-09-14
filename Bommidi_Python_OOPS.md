@@ -107,6 +107,8 @@ Data abstraction is achieved through encapsulation. So that's why, Data abstract
 
 Abstraction is used to hide internal details and show only functionalities. Abstracting something means to give names to things so that the name captures the core of what a function or a whole program does.
 
+![Pictorial explanation of data abstraction](https://github.com/bgayathri0606/Open-contributions/blob/master/Github%20images/data_abstraction.png)
+
 
 
 
