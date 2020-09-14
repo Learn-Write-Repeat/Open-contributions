@@ -46,24 +46,40 @@ To summarize the ***ShapeDetector*** class, it is a class that we define to *det
             peri = cv2.arcLength(c , True)
             approx = cv2.approxPolyDP(c , 0.04 * peri , True)
  
- Once the number of vertices are known, the shape identification process is easier and based on few *conditions*. The series of conditions include checking if the contour has *3 vertices or 4 or 5 or none*. *3* vertices represent that the shape is a *Triangle*; *4* vertices mean its a *Rectangle* or a *Square*; *5* means its a *Pentagon*; *none* inflicts the idea that it should be a *circle*.
+ Once the number of vertices are known, the shape identification process is easier and based on few *conditions*. The series of conditions include checking if the contour has *3 vertices or 4 or 5 or none*. *3* vertices represent that the shape is a *Triangle*; *4* vertices mean its a *Rectangle* or a *Square*; *5* means its a *Pentagon*; *none* inflicts the idea that it should be a *circle*. The *shape* of the contour is **returned**.
     
-        if len(approx) == 3:
-            shape = "Triangle"
-        elif len(approx) == 4:
-            #Draw an approximate rectangle around the contours 
-            (x , y , w , h) = cv2.boundingRect(approx)
-            #Calculate the ratio of width to height
-            av = w / float(h)
-            #If the ratio is approximately equal to 1, then the shape is a square, else a rectangle
-            shape = "Square" if av >= 0.95 and av <= 1.05 else "Rectangle"
-        #If the number of vertices is 5, its a pentagon
-        elif len(approx) == 5:
-            shape = "Pentagon"
-        #If the shape is none of the above, then its a circle
-        else:
-            shape = "Circle"
-        #Return the shape of the object
-        return shape
+            if len(approx) == 3:
+                shape = "Triangle"
+            elif len(approx) == 4:
+                (x , y , w , h) = cv2.boundingRect(approx)
+                av = w / float(h)
+                shape = "Square" if av >= 0.95 and av <= 1.05 else "Rectangle"
+            elif len(approx) == 5:
+                shape = "Pentagon"
+            else:
+                shape = "Circle"
+            return shape
 
 The idea behind determining if the shape is a square or a rectangle is that the **ratio** of the *width to the height* of a **square** is **approximately equal to 1**. An **approximated rectangle** is drawn around the contoural points using the *cv2.boundingRect()* function and then, the *ratio* of the width to the height is found out.  If the value of the *ratio falls around 1*, then the shape is a *Square*, else a *Rectangle*.
+
+#### *Loading* and *processing* the image and *finding* the contours:
+
+After the class definition is *done*, image **loading and processing** is required to utilize the function that is already defined. The image which contains different shapes is **read and loaded to a variable**. To ease the process of shape detection, the image needs a little processing to make the process of finding contours easier that makes a few steps. Fiest, the image is resized using the imutils.resize() function to enable *better approximation* of the contours. In future process, the factor by which the iamge is resized is of importance, because of which the ratio is found out and stored in a variable. 
+
+    image = cv2.imread('extras/shapes_and_colors.jpg')
+    resized = imutils.resize(image, width=300)
+    #Obtain factor by which the image is resized
+    ratio = image.shape[0] / float(resized.shape[0])
+    
+The resized image is then **converted** into **Grayscale** by using *cv2.cvtColor()* function. Then the Grayscaled image is **blurred** using *cv2.GaussianBlur()* function and at last **thresholded** using the *cv2.threshold()* function. These are the basic processes involved before finding the contours of an image.
+
+    gray = cv2.cvtColor(resized , cv2.COLOR_BGR2GRAY)
+    blurred = cv2.GaussianBlur(gray , (5 , 5) , 0)
+    thresh = cv2.threshold(blurred , 60 , 255 , cv2.THRESH_BINARY)[1]
+ 
+After the image is ready, the thresholded copy is used to **find the contours** using the *cv2.findContours()* function and *imutils.grab_contours()* function. After this, an *object* for the ShapeDetector class is **created**.
+
+    cnts = cv2.findContours(thresh.copy() , cv2.RETR_EXTERNAL , cv2.CHAIN_APPROX_SIMPLE)
+    cnts = imutils.grab_contours(cnts)
+
+sd = ShapeDetector()
