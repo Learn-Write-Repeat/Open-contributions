@@ -64,7 +64,7 @@
 
 
 ###### Example:
-        # Examples of Arithmetic Operator  
+      # Examples of Arithmetic Operator  
          a = 9
          b = 4
   
@@ -95,16 +95,16 @@
        print(mod) 
        print(div2)
        print(p) 
-######  outputs  :
+######  Output:
             
-            Output:
-            13
-            5
-            36
-            2.25
-            2
-            1
-            6561
+            
+          13
+          5
+          36
+          2.25
+          2
+          1
+          6561
 
 
 
