@@ -60,7 +60,7 @@ By using inheritance,we can create a class which uses all the properties and beh
 
 > It provides re-usability of the code
 
-**<ins>4. Polymorphism:</ins>**
+**:mag_right: Polymorphism:**
 
 The name polymorphism itself contains two words "Ploy" and "morphs". poly means "many" and morphs means "form,shape". By this,we can undersatand that one task can be performed in different ways.
 
