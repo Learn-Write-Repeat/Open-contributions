@@ -89,16 +89,17 @@
             # Power 
            p = a ** b 
   
-# print results  
-print(add)  
-print(sub)  
-print(mul)  
-print(div1)  
-print(div2)  
-print(mod) 
-print(p) 
+#######print results  
+            print(add)  
+             print(sub)  
+             print(mul)  
+             print(div1)  
+             print(mod) 
+             print(div2)
+              print(p) 
 
-   
+
+
    
    
    
