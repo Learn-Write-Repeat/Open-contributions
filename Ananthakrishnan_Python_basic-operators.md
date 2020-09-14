@@ -12,6 +12,7 @@
   - Bitwise operators
   
  ### Python Arithmetic Operators 
+ 
  <table>
 <tr>
 <th>Operator</th>
@@ -23,13 +24,14 @@
   <td>Addition</td>
   <td>x + y</td>
 </tr>
-  <tr>
+  
+ <tr>
   <td>-	</td>
   <td>Subtraction</td>
   <td>x - y</td>
 </tr>
   
-    <tr>
+  <tr>
   <td>*	</td>
   <td>Multiplication</td>
   <td>x * y</td>
