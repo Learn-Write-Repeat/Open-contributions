@@ -2,7 +2,7 @@
 
 # What is Feature Scaling?
 => In machine learning algorithms, to bring all features in same standing, we need to do scaling so that one significant number does not impact the model
-because of their larger magnitude. ** Feature Scaling is a technique to standardize the independent features present in the data in the fixed range **.
+because of their larger magnitude. **Feature Scaling is a technique to standardize the independent features present in the data in the fixed range**.
 Feature scaling is one of the most critical steps performed while data preprocessing. Scaling can make a difference in weak machine learning algorithm and
 better one. In short any algorithm which is distance based is affected by feature scaling. We can understand feature scaling like in wrestling in some category
 two persons of same weight wrestle.
