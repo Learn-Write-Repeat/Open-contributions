@@ -71,32 +71,42 @@
       # Addition of numbers  
        add = a + b  
   
-       # Subtraction of numbers  
+      # Subtraction of numbers  
       sub = a - b  
   
-        # Multiplication of number  
+      # Multiplication of number  
          mul = a * b  
   
-       # Division(float) of number  
+      # Division(float) of number  
        div1 = a / b  
          
-           # Division(floor) of number  
+      # Division(floor) of number  
           div2 = a // b  
   
-          # Modulo of both number  
+      # Modulo of both number  
            mod = a % b  
   
-            # Power 
+       # Power 
            p = a ** b 
-  
-# print results  
-            print(add)  
-             print(sub)  
-             print(mul)  
-             print(div1)  
-             print(mod) 
-             print(div2)
-              print(p) 
+       print(add)  
+       print(sub)  
+       print(mul)  
+       print(div1)  
+       print(mod) 
+       print(div2)
+       print(p) 
+######  outputs  :
+            
+            Output:
+            13
+            5
+            36
+            2.25
+            2
+            1
+            6561
+
+
 
 
 
