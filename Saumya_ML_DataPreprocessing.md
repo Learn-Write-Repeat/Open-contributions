@@ -215,6 +215,8 @@ But by using **limit** method we can fill the row according to our choice.
    the machine learning model may assume that there is some correlation between these variables which will produce the wrong output. So to remove this issue, **dummy encoding** is used.
    Dummy variables are those variables which have values 0 or 1. The 1 value gives the presence of that variable in a particular column, and rest variables become 0. With dummy
    encoding, the number of columns is equal to the number of categories.
+   
+   
    **For Example-**
    
    Let’s consider the case of gender having two values male (0 or 1) and female (1 or 0). Including both the dummy variable can cause redundancy because if a person is not male in such case that person is a female, hence, we don’t need to use both the variables in regression models. This will protect us from dummy variable trap.
