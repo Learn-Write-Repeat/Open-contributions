@@ -45,6 +45,15 @@
 
   Here we need to import the datasets which we have collected for our machine learning project.
   
+  **Steps for Importing Data set in Jupyter notebook**
+  
+  1. Click on upload to upload the data from our pc.
+  2. Make sure your file has .csv extention (**i.e. Data.csv**)
+  3. The file should be uploaded in the same folder as that of source code.
+  4. Now save the file in the same directory where all the other files have been stored.
+  
+  <img src="https://i.stack.imgur.com/wTjKQ.png" height="500" width="700">
+  
   read_csv() function:
   
   Now to import the dataset, we will use read_csv() function of pandas library, which is used to read a csv file and performs various operations on it. 
