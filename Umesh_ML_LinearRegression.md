@@ -1,5 +1,5 @@
 # Name: Umesh Singh
-[umesh_singh](https://www.linkedin.com/in/umesh-singh-35629418b)
+
 # What is Linear Regression? :confused:
 => Regression is form of predictive modelling technique which investigates a relationship between dependent and independent variables. It is of two types Linear and 
 Logistic regression. When there is linear relationship between dependent and independent variables i.e when data is modelled using straight line we use linear Regression. 
@@ -21,3 +21,7 @@ what is strength of relationship between sales and marketing spending.
 1.Linear regression performs well  when data set is linearly separable. We can use it to find nature of realtionship among other variables.
 2.It is easy to implement,interpret and efficient to train.
 3.Linear regression is prone to over-fit but it can be easily avoided using dimensionality reduction technique, regularization.
+
+# Author:
+Umesh Singh - [LinkedIn](https://www.linkedin.com/in/umesh-singh-35629418b)
+
