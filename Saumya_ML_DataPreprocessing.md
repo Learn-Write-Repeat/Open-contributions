@@ -220,6 +220,7 @@ But by using **limit** method we can fill the row according to our choice.
    **For Example-**
    
    Let’s consider the case of gender having two values male (0 or 1) and female (1 or 0). Including both the dummy variable can cause redundancy because if a person is not male in such case that person is a female, hence, we don’t need to use both the variables in regression models. This will protect us from dummy variable trap.
+   
    For Dummy Encoding, **OneHotEncoder** class of preprocessing library is used.
    
    <img src="https://hackernoon.com/photos/4HK5qyMbWfetPhAavzyTZrEb90N2-3o23tie">
