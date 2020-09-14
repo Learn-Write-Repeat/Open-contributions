@@ -15,6 +15,9 @@ Putting data into context means that you will visualize all the columns within t
 * Whether it’s a categorical or continuous variable for each column.
 * Whether the data is an independent or dependent variable.
 
+![visualization_technique](extras/data_visualization_techniques.jpg)
+
+
 Using the dataset of [***Heart attack possibility***](https://github.com/Avikr76/Open-contributions/blob/master/extras/heart_failure_clinical_records_dataset.csv), below is an example of visualizing some column of our dataset
 
  ### Visualization using Bar Chart
@@ -31,7 +34,9 @@ A scatter plot is a type of plot that displays values pertaining to typically tw
 ![datasets3](extras/img7.png)
 ### Visualizing using Histogram
 
-A histogram is a way of representing the frequency distribution of a numeric dataset. The way it works is it partitions the spread of the numeric data into bins, assigns each datapoint in the dataset to a bin, and then counts the number of datapoints that have been assigned to each bin. So the vertical axis is actually the frequency or the number of datapoints in each bin.
+A histogram is a way of representing the frequency distribution of a numeric dataset. The way it works is it partitions the spread of the numeric data into bins, assigns each datapoint in the dataset to a bin, and then counts the number of datapoints that have been assigned to each bin.So the vertical axis is actually the frequency or the number of datapoints in each bin.
+
+
 ![datasets3](extras/img8.png)
 ![datasets3](extras/img9.png)
 
