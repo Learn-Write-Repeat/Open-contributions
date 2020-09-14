@@ -19,6 +19,7 @@
     - Adaboost
     - GBM, Light GBM
     - XGBoost
+ - Pipelines
  - h2o library for ML:
    - AutoML function (generates and compares various ml models)
  - Model selection
