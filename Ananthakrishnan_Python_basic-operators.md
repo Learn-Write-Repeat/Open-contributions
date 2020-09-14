@@ -150,7 +150,7 @@
 |-------|-----------|---------|
 |== |	Equal|	x == y|
 |!=|	Not equal|x != y|
-|>|	Returns a new dictionary with keys from seq and value equal to v (defaults to None).|
+|>|	Greater than| x > y |
 |<|	Returns the value of the key. If the key does not exist, returns d (defaults to None).|
 |>=|	Return a new object of the dictionary's items in (key, value) format.|
 
