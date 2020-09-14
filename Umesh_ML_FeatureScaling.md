@@ -9,7 +9,8 @@ two persons of same weight wrestle.
 Feature scaling is done in two ways:
 
 1.Mean Normalization:
-**Normalization is a scaling technique in which values are shifted and rescaled so that they end up ranging between 0 and 1**. It is also known as min-max scaling.
+**Normalization is a scaling technique in which values are shifted and rescaled so that they end up ranging between 0 and 1** . 
+It is also known as min-max scaling.
 ![Formula](https://media.geeksforgeeks.org/wp-content/uploads/min-max-normalisation.jpg)
 ![Normalization](https://static.packt-cdn.com/products/9781789347999/graphics/84d43825-8e4e-47e2-a1c9-63cff1c41aca.png)
 
