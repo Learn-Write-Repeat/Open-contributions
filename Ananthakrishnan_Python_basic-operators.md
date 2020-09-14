@@ -145,6 +145,7 @@
 </table>
 
 ***3.Python Comparison Operators***
+
 |Methods|Description|Example|
 |-------|-----------|
 |==|	Equal|	x == y|
