@@ -17,10 +17,13 @@
 <th>Operator</th>
  <th>	Name</th>
    <th>Example</th>
-   <th>	Name</th>
 </tr>
 <tr>
 <td>+	</td>
+  <td>Addition</td>
+  <td>x + y</td>
+</tr>
+  <td>+	</td>
   <td>Addition</td>
   <td>x + y</td>
 </tr>
