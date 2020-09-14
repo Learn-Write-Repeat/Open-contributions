@@ -39,7 +39,7 @@ To summarize the ***ShapeDetector*** class, it is a class that we define to *det
         def __init__(self):
             pass
         
- The member function **detect(self , c)** takes a contour as an argument, processes it to determine the shape of the contour. The shape of the contour is initially "unidentified". Then, the **perimeter** of the contour is calculated using the *cv2.arcLength()* function. Then, the contour is **approximated** using the *cv2.approxPolyDP()* function that takes the contour as the first argument and the second parameter is normally in the range of **1-5%** of the original perimeter of the contour. The approximation is based on the idea that a *series of short line segments* can approximate a **curve** and the resulting curve consists of a **subset of the originally defined points**. This *approximation* gives us the **number of vertices**.
+ The member function or the ***method*** **detect(self , c)** takes a contour as an argument, processes it to determine the shape of the contour. The shape of the contour is initially "unidentified". Then, the **perimeter** of the contour is calculated using the *cv2.arcLength()* function. Then, the contour is **approximated** using the *cv2.approxPolyDP()* function that takes the contour as the first argument and the second parameter is normally in the range of **1-5%** of the original perimeter of the contour. The approximation is based on the idea that a *series of short line segments* can approximate a **curve** and the resulting curve consists of a **subset of the originally defined points**. This *approximation* gives us the **number of vertices**.
  
         def detect(self , c):
             shape = "unidentified"
@@ -68,10 +68,9 @@ After the class definition is *done*, image **loading and processing** is requir
 
     image = cv2.imread('extras/shapes_and_colors.jpg')
     resized = imutils.resize(image, width=300)
-    #Obtain factor by which the image is resized
     ratio = image.shape[0] / float(resized.shape[0])
     
-The resized image is then **converted** into **Grayscale** by using *cv2.cvtColor()* function. Then the Grayscaled image is **blurred** using *cv2.GaussianBlur()* function and at last **thresholded** using the *cv2.threshold()* function. These are the basic processes involved before finding the contours of an image.
+The resized image is then **converted** into **Grayscale** by using *cv2.cvtColor()* function. Then the Grayscaled image is **blurred** using *cv2.GaussianBlur()* function and at last **thresholded**. Thresholding is basically assigning the pixel values in relation to the threshold value provided where each pixel value is compared with the threshold value. This is done using the *cv2.threshold()* function. These are the basic processes involved before finding the contours of an image.
 
     gray = cv2.cvtColor(resized , cv2.COLOR_BGR2GRAY)
     blurred = cv2.GaussianBlur(gray , (5 , 5) , 0)
@@ -81,5 +80,46 @@ After the image is ready, the thresholded copy is used to **find the contours** 
 
     cnts = cv2.findContours(thresh.copy() , cv2.RETR_EXTERNAL , cv2.CHAIN_APPROX_SIMPLE)
     cnts = imutils.grab_contours(cnts)
+    sd = ShapeDetector()
 
-sd = ShapeDetector()
+#### *Finding* the **center of each contour** and detecting the shape:
+
+This phase needs the script to **iterate** through all the contours obtained. Each contour undergoes a series of statements, first one being the *finding of the **moments***. Image moment is a *weighted average* of the **image pixels' intensities**, usually chosen to have some *attractive property* or *interpretation*. Then, the *x* and *y* co-ordinates of the **center of the contour** is calculated. This basically is finding the **centroid** of the contour. The center is identified to enable **naming** the shape in the later part of the code.
+
+    for c in cnts:
+        M = cv2.moments(c)
+        cX = int((M["m10"] / M["m00"]) * ratio)
+        cY = int((M["m01"] / M["m00"]) * ratio)
+        
+Using the contour, the *shape* of the contour is obtained by calling **detect()** method defined in the **ShapeDetector** class on the object previously created. The contour value undergoes few changes like *conversion* to **float**, *multiplication* by the **ratio** to *find* the **actual position** of the respective contour in the *original image* and *conversion* to **int**.
+        
+        shape = sd.detect(c)
+        c = c.astype("float")
+        c *= ratio
+        c = c.astype("int")
+ 
+ Now, *draw* the **contour** of the shape on the ***original image*** and *name* the **shape**. This is just a 2 line code and uses simple functions like **cv2.drawContours()** and **cv2.putText()**.
+        
+        cv2.drawContours(image , [c] , -1 , (0 , 255 , 0) , 2)
+        cv2.putText(image , shape , (cX , cY) , cv2.FONT_HERSHEY_SIMPLEX , 0.5 , (255 , 255 , 255) , 2)
+    
+#### *Displaying* the **output image**:
+
+This is the *final* step for a contour that has been *drawn* and *named* with its shape in the **current loop**. The contour on the image that has been identified and marked is *displayed*. This uses the simple *cv2.imshow()* function.
+
+        cv2.imshow("Image", image)
+        cv2.waitKey(0)
+        
+This is the end of the code. 
+
+Note:
+
+- *Finding* the **center of each contour** and detecting the shape.
+- *Displaying* the **output image**.
+
+These are the *2 phases* that **repeat on loop** for the contours. These steps work for each contour in the contours' list and repeat until *all the contours* are **marked, identified and displayed** on the window. After all the shapes are detected and displayed, the user can close the window.
+
+
+
+Written by: Sathyashree
+Feel free to contact me on my [mailid](ksathyanrao@gmail.com).!!!
