@@ -105,8 +105,10 @@ id_data = soup.select("#id")
 id_data = soup.select(".class")
 ```
 
-Created by Swapnil Rawat<br>
-Contact me at 
-[Instagram](https://www.instagram.com/swapnil_r17/) 
-[Twitter](https://twitter.com/XavierGreek) 
-[Github](https://github.com/swapnilr17) <center>
+<br>
+
+### Created by Swapnil Rawat<br>
+### Contact me at 
+### [Instagram](https://www.instagram.com/swapnil_r17/) 
+### [Twitter](https://twitter.com/XavierGreek) 
+### [Github](https://github.com/swapnilr17) <center>
