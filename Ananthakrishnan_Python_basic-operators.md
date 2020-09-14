@@ -151,7 +151,10 @@
 |== |	Equal|	x == y|
 |!=|	Not equal|x != y|
 |>|	Greater than| x > y |
-|<|	Returns the value of the key. If the key does not exist, returns d (defaults to None).|
-|>=|	Return a new object of the dictionary's items in (key, value) format.|
+|<|		Less than| x < y |
+|>=|	Greater than or equal to| x >= y |
+|<=	|	Less than or equal to| x <= y |
+
+
 
 
