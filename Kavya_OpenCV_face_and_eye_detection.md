@@ -165,8 +165,7 @@ cv2.destroyAllWindows()
           
               break:
         
-   
-  **Contact me directly on my [mail](kavyadheerendra@gmail.com)**
+   **Contact me directly on my [mail](kavyadheerendra@gmail.com)**
   
   
   
