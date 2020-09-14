@@ -40,7 +40,7 @@
   * Optimization algorithms 
     * Gradient Descent 
     * Mini-batch Gradient Descent
-    * Gradietn Descent with Momentum
+    * Gradient Descent with Momentum
     * RMSprop
     * Adam Optimization Algorithm
     * Learning Rate Decay
