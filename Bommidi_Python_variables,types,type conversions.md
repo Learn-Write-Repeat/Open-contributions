@@ -128,10 +128,17 @@ We have different types of opertors they are:
  
  Bitwise Operators are used to compare binary numbers 
  
- <ol><li> AND </li>
- <li> OR</li>
- <li> XOR </li>
- <li> NOT </li>
+ <ol><li> AND   &</li>
+ <li> OR  |</li>
+ <li> XOR  ^</li>
+ <li> NOT  ~</li>
+</ol>
+
+***=====================================================================================***
+
+I hope you have gained some knowledge on these concepts!
+
+**Thanks for reading  :blush:**
  
    
    
