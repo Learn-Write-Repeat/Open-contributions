@@ -293,11 +293,17 @@
      # Examples of Identity operators 
     a1 = 3
     b1 = 3
-    a2 = 'GeeksforGeeks'
-    b2 = 'GeeksforGeeks'
+    a2 = 'hello'
+    b2 = 'hello'
     a3 = [1,2,3] 
     b3 = [1,2,3] 
+    print(a1 is not b1) 
   
+  
+    print(a2 is b2) 
+  
+    # Output is False, since lists are mutable. 
+    print(a3 is b3) 
 
 ######  Output:
          False
@@ -394,5 +400,46 @@ It short circuit the execution i.e. stop the execution as soon as the result is 
 ##### Syntax : 
      any(list of iterables)
        
+###### Example:
+     # Since all are false, false is returned 
+     print (any([False, False, False, False])) 
+  
+     # Here the method will short-circuit at the 
+     # second item (True) and will return True. 
+     print (any([False, True, False, False])) 
+  
+     # Here the method will short-circuit at the 
+     # first (True) and will return True. 
+     print (any([True, False, False, False])) 
+##### output:  
+     False
+     True
+     True
+  
+
+***All***
+Returns true if all of the items are True (or if the iterable is empty). All can be thought of as a sequence of AND operations on the provided iterables. It also short circuit the execution i.e. stop the execution as soon as the result is known.
+
+ 
+##### Syntax : 
+    all(list of iterables)
+       
+###### Example:
+    # Here all the iterables are True so all 
+    # will return True and the same will be printed 
+    print (all([True, True, True, True])) 
+  
+    # Here the method will short-circuit at the  
+    # first item (False) and will return False. 
+    print (all([False, True, True, False])) 
+  
+    # This statement will return False, as no 
+    # True is found in the iterables 
+    print (all([False, False, False])) 
+##### output:  
+     True
+     False
+     False
+
 
 
