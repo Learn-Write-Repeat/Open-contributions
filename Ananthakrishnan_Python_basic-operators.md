@@ -261,17 +261,6 @@
 |or|	Returns True if one of the statements is true|x < 5 or x < 4|
 |not|	Reverse the result, returns False if the result is true| 	not(x < 5 and x < 10) |
 
-***5.Python Identity Operators***
-
-|Methods|	Description|Example|
-|-------|-----------|---------|
-|is  |		Returns True if both variables are the same object|	x is y|
-|is not|		Returns True if both variables are not the same object|	x is not y|
-
-
-
-
-
 ###### Example:
 
          # Examples of Logical Operator 
@@ -291,9 +280,62 @@
          False
          True
          False
+         
+***5.Python Identity Operators***
+
+|Methods|	Description|Example|
+|-------|-----------|---------|
+|is  |		Returns True if both variables are the same object|	x is y|
+|is not|		Returns True if both variables are not the same object|	x is not y|
+
+###### Example:
+
+     # Examples of Identity operators 
+    a1 = 3
+    b1 = 3
+    a2 = 'GeeksforGeeks'
+    b2 = 'GeeksforGeeks'
+    a3 = [1,2,3] 
+    b3 = [1,2,3] 
+  
+
+######  Output:
+         False
+         True
+         False
+***6.Python Membership Operators***
+|Methods|	Description|Example|
+|-------|-----------|---------|
+|in  |			Returns True if a sequence with the specified value is present in the object|	x in y	|
+|not in|				Returns True if a sequence with the specified value is not present in the object|	x  not in  y|
+
+###### Example:
+
+      # Examples of Membership operator 
+      x = 'hello guys'
+      y = {3:'a',4:'b'} 
+  
+  
+      print('h' in x) 
+  
+      print('Hello' not in x) 
+  
+      print('hello' not in x) 
+  
+      print(3 in y) 
+  
+     
+  
+
+######  Output:
+      True
+      True
+      False
+      True
+  
 
 
-***6.Python Bitwise Operators***
+***7.Python Bitwise Operators***
 
 
 |Methods|	Description|Example|
@@ -340,3 +382,13 @@
        14
        2
        40
+***8.Any All in Python***
+Any and All are two built ins provided in python used for successive And/Or.
+
+***Any***
+Returns true if any of the items is True. It returns False if empty or all are false. Any can be thought of as a sequence of OR operations on the provided iterables.
+It short circuit the execution i.e. stop the execution as soon as the result is known.
+
+Syntax : any(list of iterables)
+
+
