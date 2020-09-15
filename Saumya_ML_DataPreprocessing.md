@@ -95,6 +95,117 @@
     x[:,1:3]=imputer.transform(x[:,1:3])  
     print(x)
     
+  ### Now the Missing data can also be handled using one of the pandas library method i.e. **fillna method**. 
+   
+   **The fillna() function is used to fill NA/NaN values using the specified method.**
+   
+   **For example-**
+   
+   *Suppose we have a data set-*
+   
+|      |Date     |Temperature|Windspeed|Event    | 
+|------|---------|---------- |---------|---------|
+|  0   |07-09-20 |  32.0     | 6.0     |   Rain  |
+|  1   |08-09-20 |   NaN     |  9.0    |   Sunny |
+|  2   |09-09-20 |   28.0    |  NaN    |   Snow  |
+|  3   |10-09-20 |  NaN      |  7.0    |    NaN  |
+|  4   |11-09-20 |   32.0    |  Nan    |    Rain |
+
+Now by using different parameters-
+
+  1. **df.fillna(0)** - To fill the NaN values by a specified value.
+  
+          newData = df.fillna(0)
+          newData
+  
+ |      |Date     |Temperature|Windspeed|Event    | 
+ |------|---------|---------- |---------|---------|
+ |  0   |07-09-20 |  32.0     | 6.0     |   Rain  |
+ |  1   |08-09-20 |   0.0     |  9.0    |   Sunny |
+ |  2   |09-09-20 |   28.0    |  0.0    |   Snow  |
+ |  3   |10-09-20 |  0.0      |  7.0    |    0.0  |
+ |  4   |11-09-20 |   32.0    |  0.0    |    Rain |
+
+ 2. **df.fillna({dictionary})** - Here we can pass any dictionary and the columns will change accordingly.
+ 
+        newData = df.fillna({
+           'Temperature' : 0,
+           'Windspeed' : 0,
+           'Event' : 'No Event'
+        })
+        newData
+        
+|      |Date     |Temperature|Windspeed|Event    | 
+|------|---------|---------- |---------|---------|
+|  0   |07-09-20 |  32.0     | 6.0     |   Rain  |
+|  1   |08-09-20 |   0.0     |  9.0    |   Sunny |
+|  2   |09-09-20 |   28.0    |  0.0    |   Snow  |
+|  3   |10-09-20 |  0.0      |  7.0    | No Event|
+|  4   |11-09-20 |   32.0    |  0.0    |    Rain |
+
+3. **df.fillna(method="")** - This method fills the *previous row's* value.
+
+       newData = df.fillna(method= "ffill")
+       newData
+       
+|      |Date     |Temperature|Windspeed|Event    | 
+|------|---------|---------- |---------|---------|
+|  0   |07-09-20 |  32.0     | 6.0     |   Rain  |
+|  1   |08-09-20 |   32.0    |  9.0    |   Sunny |
+|  2   |09-09-20 |   28.0    |  9.0    |   Snow  |
+|  3   |10-09-20 |  28.0     |  7.0    | Snow    |
+|  4   |11-09-20 |   32.0    |  7.0    |    Rain |
+
+
+4. **df.fillna(method="")** - This method fills the *next row's* value.
+
+       newData = df.fillna(method= "bfill")
+       newData
+       
+|      |Date     |Temperature|Windspeed|Event    | 
+|------|---------|---------- |---------|---------|
+|  0   |07-09-20 |  32.0     | 6.0     |   Rain  |
+|  1   |08-09-20 |   28.0    |  9.0    |   Sunny |
+|  2   |09-09-20 |   28.0    |  7.0    |   Snow  |
+|  3   |10-09-20 |  32.0     |  7.0    | Rain    |
+|  4   |11-09-20 |   32.0    |  0.0    |    Rain |
+
+
+Now we also have **axis** parameter - It copies values horizontally.
+
+**For example-**
+
+        newData = df.fillna(method= "bfill", axis= "columns")
+        newData
+        
+|      |Date     |Temperature|Windspeed|Event    | 
+|------|---------|---------- |---------|---------|
+|  0   |07-09-20 |  32.0     | 6.0     |   Rain  |
+|  1   |08-09-20 |   9.0     |  9.0    |   Sunny |
+|  2   |09-09-20 |   28.0    |  28.0   |   Snow  |
+|  3   |10-09-20 |  7.0      |  7.0    |    NaN  |
+|  4   |11-09-20 |   32.0    |  32.0   |    Rain |
+
+The next parameter is **limit**
+
+Lets see the examples-
+
+As we have seen above **method="ffill"** fill the next row according to previous data.
+But by using **limit** method we can fill the row according to our choice.
+
+       newData = df.fillna(method= "ffill",limit="1")
+       newData
+
+|      |Date     |Temperature|Windspeed|Event    | 
+|------|---------|---------- |---------|---------|
+|  0   |07-09-20 |  32.0     | 6.0     |   Rain  |
+|  1   |08-09-20 |   32.0    |  9.0    |   Sunny |
+|  2   |09-09-20 |   28.0    |  9.0    |   Snow  |
+|  3   |10-09-20 |  28.0     |  7.0    | Snow    |
+|  4   |11-09-20 |   32.0    |  7.0    |    Rain |
+
+
+ 
   ## 4. Encoding Categorical Data
   
    Now since the machine learning model deals only with the numerical data, but it can happen that our data set contains data other then numbers.
@@ -103,7 +214,14 @@
    Here we importt **LabelEncoder** class of **sklearn library**.Now if their the three variables in our data set so the variables will be encoded as 0,1,2.By these values, 
    the machine learning model may assume that there is some correlation between these variables which will produce the wrong output. So to remove this issue, **dummy encoding** is used.
    Dummy variables are those variables which have values 0 or 1. The 1 value gives the presence of that variable in a particular column, and rest variables become 0. With dummy
-   encoding, the number of columns is equal to the number of categories.For Dummy Encoding, **OneHotEncoder** class of preprocessing library is used.
+   encoding, the number of columns is equal to the number of categories.
+   
+   
+   **For Example-**
+   
+   Let’s consider the case of gender having two values male (0 or 1) and female (1 or 0). Including both the dummy variable can cause redundancy because if a person is not male in such case that person is a female, hence, we don’t need to use both the variables in regression models. This will protect us from dummy variable trap.
+   
+   For Dummy Encoding, **OneHotEncoder** class of preprocessing library is used.
    
    <img src="https://hackernoon.com/photos/4HK5qyMbWfetPhAavzyTZrEb90N2-3o23tie">
    
