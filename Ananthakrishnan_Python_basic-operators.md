@@ -209,7 +209,7 @@
 
 ###### Example:
                   
-     # Examples of Relational Operators 
+     # Examples of Comparison Operators 
      a = 13
      b = 33
   
