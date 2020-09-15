@@ -269,6 +269,30 @@
 |is not|		Returns True if both variables are not the same object|	x is not y|
 
 
+
+
+
+###### Example:
+
+         # Examples of Logical Operator 
+         a = True
+         b = False
+  
+         # Print a and b is False 
+         print(a and b) 
+  
+         # Print a or b is True 
+         print(a or b) 
+  
+         # Print not a is False 
+         print(not a) 
+
+######  Output:
+         False
+         True
+         False
+
+
 ***6.Python Bitwise Operators***
 
 
@@ -281,3 +305,38 @@
 |<<	|			Zero fill left shift|	Shift left by pushing zeros in from the right and let the leftmost bits fall off|
 |>>	|		Signed right shift |	Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off|
 
+
+
+
+
+###### Example:
+     # Examples of Bitwise operators 
+     a = 10
+     b = 4
+  
+     # Print bitwise AND operation   
+     print(a & b) 
+  
+     # Print bitwise OR operation 
+     print(a | b) 
+  
+     # Print bitwise NOT operation  
+     print(~a) 
+  
+     # print bitwise XOR operation  
+    print(a ^ b) 
+  
+    # print bitwise right shift operation  
+    print(a >> 2) 
+  
+    # print bitwise left shift operation  
+    print(a << 2) 
+    
+######  Output:
+
+        0
+       14
+      -11
+       14
+       2
+       40
