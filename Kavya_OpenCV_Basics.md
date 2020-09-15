@@ -2,7 +2,7 @@
 
 - *What is OpenCV*?
 
-   OpenCV(*Open Source Computer Vision and Machine Learning Software)is an open source library which processes images and videos to identify objects, faces, detecting colours etc.It has wide applications in **Computer Vision,Machine Learning* and *Image Processing. It also supports variety of programming languages like **Python, **C++, **C. Basically it a library for processing **images*.
+   OpenCV(*Open Source Computer Vision and Machine Learning Software*)is an open source library which processes images and videos to identify objects, faces, detecting colours etc.It has wide applications in **Computer Vision,Machine Learning** and *Image Processing*. It also supports variety of programming languages like **Python**, **C++**, **C**. Basically it a library for processing **images**.
    
    **OpenCV in Artificial Intelligence**
    
@@ -10,7 +10,7 @@
    
    *Why OpenCV?*
    
-   Nowadays image processing and computer vision have gained importance in every field. As Opencv has over 2500 optimized algorithms which ease image processsing and even helps    in building projects like tracking movements, recognizing faces, finding similar images etc.,it makes programming easier.Reading and displaying images is simplified and   through OpenCV development of programs from simpler to complex is easier 
+   Nowadays image processing and computer vision have gained importance in every field. As Opencv has over 2500 optimized algorithms which ease image processsing and even helps in building projects like tracking movements, recognizing faces, finding similar images etc.,it makes programming easier.Reading and displaying images is simplified and through OpenCV development of programs from simpler to complex is easier. 
    
   *Application of OpenCV*
   
@@ -28,8 +28,8 @@
      
  -   *Black and white image*
    
-     The image which has only two colours i.e *Black* **and* **white* is called *Binary image*.
-     For a basic black and white image there is only one bit representation where *0* represents **black* and **1* represents **white**.
+     The image which has only two colours i.e *Black* **and** **white** is called *Binary image*.
+     For a basic black and white image there is only one bit representation where *0* represents **black** and *1* represents **white**.
      
 
      ![image](https://i.pinimg.com/236x/13/bc/e2/13bce226fa0d37b0ddca3ef09045d34d--monochrome-photography-black-white-photography.jpg)
@@ -39,14 +39,13 @@
 
  -   *Gray Scale Image*
    
-     One can have images of more than two levels i.e instead of having only 0 and 1 bit levels each pixel can have range of values i.e 2^8,this will give us resolution of 256     levels  where 0  will be  *black* and 255 will be *white. So basically we have 254 colours between **black* and *white*.
+     One can have images of more than two levels i.e instead of having only 0 and 1 bit levels each pixel can have range of values i.e 2^8,this will give us resolution of 256 levels where 0 will be *black* and 255 will be *white*. So basically we have 254 colours between *black* and *white*.
    
      ![image](https://i.stack.imgur.com/B2DBy.jpg)
    
 -  *Coloured image*
    
-   For coloured images each pixel can have levels of *red,green,blue*. Different levels of red, green and blue give different colours to the respective pixels giving
-   out a fully coloured image.
+   For coloured images each pixel can have levels of *red,green,blue*. Different levels of red, green and blue give different colours to the respective pixels giving out a fully coloured image.
   
   
    ![image](extras/original.jpg)   
@@ -64,7 +63,7 @@
          pip install opencv-contrib-python
    
    
- After installing the Opencv package on anaconda prompt, for further usage of OpenCV in image and video processing through python IDE, it is necessary to import OpenCV library and it's functions using *import cv2* statement 
+ After installing the Opencv package on anaconda prompt, for further usage of OpenCV in image and video processing through python IDE, it is necessary to import OpenCV library and it's functions using *import cv2* statement.
  
  
 - *Basic functions in OpenCV*
