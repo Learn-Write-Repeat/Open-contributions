@@ -382,7 +382,7 @@
        14
        2
        40
-***8.Any All in Python***
+***Any All in Python***
 
 Any and All are two built ins provided in python used for successive And/Or.
 
@@ -392,7 +392,7 @@ Returns true if any of the items is True. It returns False if empty or all are f
 It short circuit the execution i.e. stop the execution as soon as the result is known.
 
 ##### Syntax : 
-       any(list of iterables)
+     any(list of iterables)
        
 
 
