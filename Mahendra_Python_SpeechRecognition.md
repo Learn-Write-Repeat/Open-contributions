@@ -50,4 +50,24 @@ There is one package that stands out in terms of ease-of-use and we are gonna us
 ![verify](extras/verify.PNG)
 
 
-### 2. Installin 
+### 2. **Installing PyAudio using pip:**
+We need to install PyAudio library which used to receive audio input and output through the microphone and speaker. Basically, it helps to get our voice through the microphone.
+```python
+   pip install PyAudio
+```
+![pyaudio](extras/pyaudio.PNG)
+
+Since I have already installed it.It shows requirement satisfied..:point_up:
+
+# If you have any errors trying to install using *(pip)* follow these simple steps below:
+* Find your python version,the easiest way to check either you have 64 or 32 Python just open it in the terminal:
+
+![version](extras/version.PNG)
+
+* Find the appropriate `.whl` file from [here](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio), **for example:** mine is `PyAudio-0.2.11-cp38-cp38-win32`, and download it.   
+* Go to the folder where you saved it after downloading **for example:**`C:\Users\P\Desktop\Python\Scripts`.
+* Install the `.whl` file with `pip` for example:
+```python
+   pip install PyAudio-0.2.11-cp38-cp38-win32.whl
+```
+![explain](extras/exp.PNG)
