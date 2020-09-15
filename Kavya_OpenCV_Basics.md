@@ -29,7 +29,7 @@
  -   *Black and white image*
    
      The image which has only two colours i.e *Black* **and** **white** is called *Binary image*.
-     For a basic black and white image there is only one bit representation where *0* represents **black* and **1* represents **white**.
+     For a basic black and white image there is only one bit representation where *0* represents **black** and *1* represents **white**.
      
 
      ![image](https://i.pinimg.com/236x/13/bc/e2/13bce226fa0d37b0ddca3ef09045d34d--monochrome-photography-black-white-photography.jpg)
