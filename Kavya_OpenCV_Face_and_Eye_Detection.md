@@ -164,5 +164,7 @@ cv2.destroyAllWindows()
             if k=27;
           
               break:
+
+##### Get the code [here](https://github.com/Learn-Write-Repeat/Open-contributions/blob/master/Kavya_OpenCV_face_and_eye_detection.ipynb)
         
    *Contact me directly on my [mail](kavyadheerendra@gmail.com)*
