@@ -17,6 +17,9 @@ Natural Language Processing
    12. Word Embedding (text vectors)
    13. Entity Extraction
    14. Confusion Matrix
+   15. Regression Algorithms
+   16. Classification Algorithms
+   
 
     
 
