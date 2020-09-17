@@ -3,10 +3,12 @@
 ### Variance : 
 It is the tendency of algorithm to fluctuate very sensitively to fit highly flexible models and learning random things. High variance would cause an algorithm to model the noise in the training set. High variance is referred as **overfitting**.
 <br>**Overfitting** is a modeling error that occurs when a function is too closely fit to a limited set of data points. Overfitting happens when a model learns the detail and noise in the training data to the extent that it negatively impacts the performance of the model on new data. This means that the noise or random fluctuations in the training data is picked up and learned as concepts by the model. The problem is that these concepts do not apply to new data and negatively impact the models ability to generalize.
+
 ![Overfitting](extras/overfit.jpg)
 ### Bias : 
 Bias is the algorithm’s tendency to consistently learn the wrong thing by not taking into account all the information in the data. Bias occurs when an algorithm has limited flexibility to learn the true signal from the dataset. A high bias means the prediction will be inaccurate. High bias is referred as **underfitting**.
 <br>**Underfitting** refers to a model that can neither model the training data nor generalize to new data. An underfit machine learning model is not a suitable model and will be obvious as it will have poor performance on the training data.
+
 ![Underfitting](extras/underfit.jpg)
 ## Tradeoff : 
 * It is the case that, we can not minimize both bias and variance.
