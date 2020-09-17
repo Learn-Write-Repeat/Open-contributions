@@ -22,6 +22,8 @@
    * Conv2D , MaxPooling2D , Flatten , Dense :: The above four lines are the different "Layers" that will be used in our Deep Learning model. 
    * ImageDataGenerator :: I will explain this very important function when we get to that part of the code !
    
+    Now it's time to build our DEEP LEARNING/NEURAL NETWORK Model .   
+   
   ![alt text](https://github.com/tarun36rocker/Open-contributions/blob/master/pic2.png)
    * Sequential :: This is the base or framework on which your model is built on
    * Conv2D , MaxPooling2D :: Are the first two layers that we are using in this model ,
