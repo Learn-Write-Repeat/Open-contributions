@@ -29,5 +29,3 @@ Ideally, you want to select a model at the sweet spot between underfitting and o
 * Try decreasing lambda, so you can try to fit the data better. The lower the lambda, the less the regularization applies.
 ## Summary :
 We studied about the bias and variance, how high variance causes overfitting and high bias cause underfitting. We studied about the problems of overfitting and how we can trade off bias and variance to get the optimal results. We studied about the techniques to reduce the overfitting and underfitting.
-
-
