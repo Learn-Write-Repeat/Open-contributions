@@ -46,7 +46,10 @@ Deeplearning.ai Specialization:  learnt all basic things needs to taken care whe
  kaggle:  Inorder to test the understanding, anlysing the kaggle questions.
  - task: Analysed the MNIST dataset.
  
- ComputerVision:  learning the basics
+```
+
+## Computer Vision:
+```
  - task:  Identifying the human eye, face using the hassercodes, inputing an image and video. 
  - task:  Detecting the facial key points to analyse the individual emotion, inputing an image.
  - task:  Identifying the person from an inputing image after training the model.
