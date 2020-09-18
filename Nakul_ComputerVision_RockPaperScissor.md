@@ -12,6 +12,12 @@
 
 ## 3.Understanding the Project
 
+**Why** 
+- Fun project but can be used to build a rock paper scissor game.
+
+**Difficulty Level**
+- Beginners
+
 **Project is divided into two parts**
 
 1. Training a deep neural net to detect rock, paper and scissor sign from image.
@@ -27,10 +33,10 @@
 
 
 ### Deep Neural Net Layers
-4 Convolution layers followed by maxpooling layers
-2 Dense layers with activation relu
-Followed by Dropout Layers
-Final Dense layer with Softmax activation
+- 4 Convolution layers followed by maxpooling layers
+- 2 Dense layers with activation relu
+- Followed by Dropout Layers
+- Final Dense layer with Softmax activation
 
 ### Author- Nakul Singh
 [GitHub](https://github.com/nakulsingh1289) | 
