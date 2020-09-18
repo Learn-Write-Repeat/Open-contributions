@@ -56,6 +56,7 @@ There are a lot of ways to reach these goals as follows:
 
 **Data profiling**  is concerned with summarizing your dataset through descriptive statistics. The goal of data profiling is to have a understanding of the data so that you can start querying and visualizing the data in various ways. Depending on the result of the data profiling, you might decide to correct, discard or handle your data differently.
 
+
 ### **Visualizing data**
 * Data visualization is the graphical representation of data.  It contains statistical graphics, plots, information graphics and many more to explore the data easily.
 * Your goal should be to be able to create a figure which someone can look at in a couple of seconds and understand what is going on. 
