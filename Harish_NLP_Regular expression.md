@@ -1,4 +1,4 @@
-![Let's Learn Regex](https://github.com/N-Harish/Open-contributions/blob/master/Regex%20python.JPG)
+![Let's Learn Regex](https://github.com/N-Harish/Open-contributions/blob/master/RegEx.jpg)
 
 # Regular Expression/RegEx
 
