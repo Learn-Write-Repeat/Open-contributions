@@ -33,7 +33,7 @@
 
 The **k** in KNN is the nearest neighbors. K is the core deciding factor,
 also the preformance of the model depends upon the value of k.
-# But how choose the value of _k_?
+# But how to choose the value of _k_?
  There is no optimal number of neighbors suits all kind of data sets. Each dataset has it's own requirements. 
  In the case of a small number of neighbors, the noise will have a higher influence on the result, 
  and a large number of neighbors make it computationally expensive.
@@ -52,8 +52,11 @@ It is an instance-based learning or lazy learning as it uses the entire training
 which gives more time for testing at the cost of memory.
 
 # KNN for Regression
-The target is predicted by local interpolation of the targets associated of the nearest neighbors in the training set.
+The target is predicted by local interpolation of the targets associated of the nearest neighbors in the training set.Again,
+this k-neighbors regression use  n_neighbors, you can use more than the single closest neighbor for regression, 
+and **the prediction is the average or mean of relevant neighbors.**
 
+![regression](https://miro.medium.com/max/875/1*ZDCp9usTtL_d2SfIguPeiQ.png)
 
 ## Limitations of KNN-
 KNN works well with a small number of input variables, but struggles when the number of inputs is very large.
