@@ -38,6 +38,47 @@
    * compile :: Finally we are compiling all the different layers together and forming our MODEL , we will be testing our data
    on 'ACCURACY' and  basing our loss on 'Categorical_crossentropy' which is a method used when we have more than 2 types (BINARY) data
    
+    Now Lets start builing our dataset !But before that , we need to create some folders !
+    Our folders should be arranged in the following format because otherwise the model
+    may not be able to train based on the categories correctly otherwise ! You have to ensure that there is main 'dataset' folder and in 
+    that there are 3 subfolders - 1)single_pred - which will be used to check if the model is working after compiling the model
+    2) test_set - folder used to contain the test data 3) training_data - folder used to contain the training data
+    Now inside these subfolders:
+    1)single_pred - choose random pictures to evaluate your model
+    2)test_data and training_data has to have 5 sub folders as seen in the pictures , where each folder will stand for their respective
+    cateogires
+    Inisde each of these emotions folders will contain the pictures or data that is pertailing to the category of the emotion 
+    that it is supposed to represent
+   ![alt text](https://github.com/tarun36rocker/Open-contributions/blob/master/pic3.png)
+   ![alt text](https://github.com/tarun36rocker/Open-contributions/blob/master/pic4.png) 
+   ![alt text](https://github.com/tarun36rocker/Open-contributions/blob/master/pic5.png)
+   
+    Now that we have created our folders , you might be asking how do we get this data ?
+    The simple answer is we will be SCRAPING our data using BingImageCrawler !
+    
+   ![alt text](https://github.com/tarun36rocker/Open-contributions/blob/master/pic6.png) 
+   
+    As you can see from the above picture , this is the format of getting the images from Bing images , I would have preffered 
+    using Google as the source but their crawler is having some issues so Bing will suffice for now!
+    Make sure you populate your dataset in this way and give the max number to set how many pictures you want in your folders
+    But keep in mind , you can't straight away scrape 20,000 images of sort because The bing page that you will be searching for has
+    a limit ! So go crazy and see what the limit is for scraping !
+    
+  Now lets TRAIN our data !
+  
+  ![alt text](https://github.com/tarun36rocker/Open-contributions/blob/master/pic7.png)
+    
+    1)train_datagen :: This helps us to create multiple different versions of our data that have because we have only a
+    limited dataset . This makes the different versions based on the conditions that we have provided .
+    Make sure you enter THE CORRECT DIRECTORY of the folders as seen in the picture above and as instructed before.
+    
+    2)training_set.class_indices :: helps us check if our model has been successfully connected to the right folders and
+    all our categories have been recognised !
+    
+    
+    
+    
+   
    
    
  
