@@ -6,11 +6,15 @@
    -------------------------------------------------------------
  Now on to This Amazing and Simple Project that I made !
       
-    The Main Aim was to try to understand if a computer can understand human emotions . Think about it this way ,
+    The MAIN AIM was to try to understand if a computer can understand human emotions . Think about it this way ,
     computers are REALLY smart when it comes to crunching down numbers or even trying to find correlations in 
     datasets that they have never seen before in just a few minutes or hours! Something which humans study their whole lives for !
     So that really was the purpose of this project , to see if just by providing few images if a computer
     can understand basic human emotions , something which even humans find difficult to understand !
+    
+    WHERE can we use this project ? This project can be used in every field possible to be honest ! It can be used 
+    to detect workplace mannerisms , observe the reactions of people while viewing your product and list goes
+    ON AND ON !!
  So lets begin !   
     
  ![alt text](https://github.com/tarun36rocker/Open-contributions/blob/master/pic1.png)
