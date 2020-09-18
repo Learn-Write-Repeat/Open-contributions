@@ -63,3 +63,77 @@ But this metric has a disadvantage which is it cannot be used for imbalanced cla
 <br>For example, if fraud detection dataset consists of 95% of non-fraud classes and only 5% of fraud classes then it is called an imbalanced dataset.
 In this case the classification model will be showing 95% accuracy as it trained with the majority non-fraud class only. And when given a fraud case to predict, it will predict it as non-fraud class based on training.
 <br> And hence accuracy sometimes can be misleading in a way which would increase our hopes about model or also it may cost life of a person if predicted for a particular disease with imbalanced dataset.<br>
+
+3. **Precision**
+
+In terms of confusion matrix, precision is defined as the ratio of True Positives to all the positives predicted by the model.
+
+<pre>                 TP 
+Precision = --------------
+               TP + FP   </pre>
+The more False Positive the model predicts, the lower is it's precision value.
+
+4. **Recall (Senstivity)**
+
+This is defined as the ratio of True Positives to all the positives in your dataset.
+<pre>             TP 
+Recall = -----------
+           TP + FN   </pre>
+The more False Negatives the model predicts the lower the recall. <br>
+
+The idea of recall and precision seems to be abstract. Let me illustrate the difference with the help of an example.
+
+Let's say that we have dataset of bank loans with the confusion matrix given below<br>
+
+
+<table>
+<tbody>
+<tr>
+<td>&nbsp;</td>
+<td>Positive</td>
+<td>Negative</td>
+</tr>
+<tr>
+<td>Positive</td>
+<td>:heavy_check_mark: TP-599 </td>
+<td>:x: FP-0 </td>
+</tr>
+<tr>
+<td>Negative</td>
+<td>:x: FN-33 </td>
+<td>:heavy_check_mark: TN-22 </td>
+</tr>
+</tbody>
+</table>
+
+Precision : Out of the loan that is predicted aas a bad loan, how many did we classify correctly:question: 
+ 
+<pre>                 599 
+Precision = --------------  = 100%
+               599 + 0   </pre>
+               
+Recall : Out of the actual bad loan, how many did we correctly predict as bad loan:question:
+
+<pre>             599 
+Recall = -----------  =  94.5%
+           599 + 33   </pre>         
+####Precision vs Recall       <br>
+![Image](https://miro.medium.com/max/700/0*uhuG2rhX6XzNC43X.png)     <br>     
+
+For a particular model, instead of using either precision or recall we can combine both of them to obtain **F1-score**.
+
+5. **F1-score**
+
+For some models, sometimes the recall would be high and sometimes precision would be high. We cannot even take mean of these two values as that also would be insignificant measure for evaluating model. Hence we use harmonic mean of precision and recall which is termed as F1-score. F1-score balances out the both he precision and recall in one integer. An F1 score is considered perfect when it’s 1, while the model is a total failure when it’s 0.
+
+<pre>                         1                            2 * precision * recall 
+F1-score = 2 * -----------------------------  =   -----------------------------
+                   1/precision + 1/recall               precision + recall
+                
+</pre>  
+In the above example of bank loans, F1-score will be
+<pre>                 2 * 1 * 0.945 
+F1-score =   ------------------------  =   0.971
+                   1 + 0.945               
+                
+</pre> 
