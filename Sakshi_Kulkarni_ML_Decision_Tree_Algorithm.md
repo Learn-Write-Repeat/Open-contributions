@@ -9,7 +9,7 @@ A decision tree is a diagram or chart that people use to determine a course of a
 An example of a decision tree
 
 
-Say we have to classify a dataset for a car company who wants to classify whether the customers will buy their SUV based on their personal information.This dataset will have discrete values for classification.
+Say we have to classify a dataset for a car company who wants to classify whether the customers will buy their SUV based on their personal information.This dataset has discrete values for classification.
 | Age | Salary | Purchased |
 | ----| ------ | --------- |
 |25	|33000	|0|
