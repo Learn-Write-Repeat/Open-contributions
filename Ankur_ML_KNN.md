@@ -4,6 +4,7 @@
 #### KNN can be used for both clasification and regression problems. It is based on feature similaritiy approach.
 #### What is the Algorithm? It's basically classifies a data point based on how its neighbours are classified.
 ![IMG](http://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1531424125/KNN_final_a1mrv9.png)
+
 #### We can implement a KNN model by following the below steps: 
 
 * Load the data
@@ -11,14 +12,19 @@
 
 ![](https://www.tutorialspoint.com/machine_learning_with_python/images/concept_of_k.jpg)
 
+
+
 * Initialise the value of k
 
 ![data](https://www.tutorialspoint.com/machine_learning_with_python/images/knn_algorithm.jpg)
 
-* For getting the predicted class, iterate from 1 to total number of training data points
+* For getting the predicted class, iterate from 1 to total number of training data points.
 * Calculate the distance between test data and each row of training data.
 
-![eucledian distance](https://miro.medium.com/max/439/1*MNF0RfxlvUtOxrO7O3wKdw.png)
+
+![metrics](https://miro.medium.com/max/403/0*M_DPxG7ORoUisdPG.png)
+
+
 
 * Sort the calculated distances in ascending order based on distance values
 * Get top k rows from the sorted array
@@ -32,7 +38,7 @@ also the preformance of the model depends upon the value of k.
  In the case of a small number of neighbors, the noise will have a higher influence on the result, 
  and a large number of neighbors make it computationally expensive.
 
-![sdf](https://d2o2utebsixu4k.cloudfront.net/media/images/1568869712010-Image-3.jpg)
+![sdf](https://static.javatpoint.com/tutorial/machine-learning/images/k-nearest-neighbor-algorithm-for-machine-learning3.png)
 
 In real life scenarios, K-NN is widely used as it is non-parametric which means 
 it does not make any underlying assumptions about the distributions of data. 
@@ -44,6 +50,10 @@ sufficient domain knowledge so that it can help you select an appropriate measur
 
 It is an instance-based learning or lazy learning as it uses the entire training dataset 
 which gives more time for testing at the cost of memory.
+
+# KNN for Regression
+The target is predicted by local interpolation of the targets associated of the nearest neighbors in the training set.
+
 
 ## Limitations of KNN-
 KNN works well with a small number of input variables, but struggles when the number of inputs is very large.
