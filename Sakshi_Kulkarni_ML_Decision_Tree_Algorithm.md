@@ -29,7 +29,7 @@ Say we have to classify a dataset for a car company who wants to classify whethe
 <img src="Basic-structure-of-a-decision-tree-All-decision-trees-are-built-through-recursion.png" alt="drawing" width="400"/>
 
 
-
+# Decisiion tree for classification
 
 The main challenge in this algorithm is to identify the conditions for classification.
 # How to decide which condition should be present at what node?
@@ -57,6 +57,48 @@ We find the gini impurity for all the values of classifiable categories like age
 
 The internal node is again bifercated until *impurity of internal node<impurity of next connecting internal node*.
 The next internal node is then considered to be the leaf node.
+ 
+ ## What if the data is categorical?
+ ## Information gain
+ We follow a procedure similar to gini impurity and calculate the entropy and then the information gain.
+ 
+ 
+ Lower the entropy,more is the purity of the node.
+ 
+ <img src="entropy.png" alt="drawing" width="400"/>
+ 
+ Highter the information gain,more is the purity of the node.
+ 
+ <img src="infogain.png" alt="drawing" width="400"/>
+
+This is used for categorical data.
+ 
+ # Decision tree for regression
+ We have the following data.We need to predict the salary for a particular level of position for example 4.5
+ 
+ This data has continuous values,since the level and salary is proportional to the employee's level.
+ |Position|	Level|	Salary|
+ |-|-|-|
+|Business Analyst	|1|	45000|
+|Junior Consultant|	2|	50000|
+|Senior Consultant|	3	|60000|
+|Manager	|4	|80000|
+|Country Manager	|5|	110000|
+|Region Manager|	6	|150000|
+|Partner	|7|	200000|
+|Senior Partner|	8|	300000|
+|C-level|	9|	500000|
+|CEO	|10	|1000000|
+
+##  How to so implement decision tree in this case?
+### Reduction in Variance
+<img src="variance.png" alt="drawing" width="400"/>
+
+We find the mean of data and calculate the variance of all the data points. The point with the minimum variance becomes the root node.
+After we have split the data according to the condition,we again find the variance of the 2 different groups and find the next node.To prevent over-fitting ,we usually have a minimum number of data points that must in that node's category and you cannot split the node further.
+
+
+
 
 ## Happy Learning!
 
