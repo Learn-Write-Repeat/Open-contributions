@@ -158,8 +158,23 @@
     
   ![](https://github.com/tarun36rocker/Open-contributions/blob/master/pic15.png)
   
-  * what the while loop basically does is take every frame that it recieves through the webcam and passes it to
+  What the while loop basically does is take every frame that it recieves through the webcam and passes it to
   the emotions detection function
+  
+    Now for the MOST AWAITED MOMENT , LETS FINALLY lets have a look at how the model WORKS!!
+    
+  ![](https://github.com/tarun36rocker/Open-contributions/blob/master/pic16.png)
+  ![](https://github.com/tarun36rocker/Open-contributions/blob/master/pic17.png)
+  ![](https://github.com/tarun36rocker/Open-contributions/blob/master/pic18.png)
+  
+  Looks like computers are able to understand human emotions after all ! 
+  Make sure to train your data on more and more images as it yields much BETTER RESULTS !
+  
+    This is Tarun Krishnan signing off , hope you learnt something from my project !
+  
+  
+    
+  
   
     
    
