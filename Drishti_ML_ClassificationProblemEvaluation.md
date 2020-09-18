@@ -6,7 +6,7 @@ As we know that there are several types of datasets and classification can also 
 1. **Confusion Matrix** :confused:
 
 It can be generally used while dealing with multiclass classification. It is not like any other type of metrics in which we will get an integer to decide 
-how efficient the model is, rather we deal with four set of values which are True Positive (TP), True Negative (TN), False Positive (FP), False Neagtive (FN).
+how efficient the model is, rather we deal with four set of values which are True Positive (TP), True Negative (TN), False Positive (FP), False Negative (FN).
 
 <table>
 <tbody>
