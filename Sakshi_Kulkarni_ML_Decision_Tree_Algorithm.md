@@ -70,7 +70,7 @@ The next internal node is then considered to be the leaf node.
  
  <img src="infogain.png" alt="drawing" width="400"/>
 
-## What if the data is categorical?
+
 
  
  # Decision tree for regression
@@ -91,7 +91,8 @@ The next internal node is then considered to be the leaf node.
 |CEO	|10	|1000000|
 
 ##  How to so implement decision tree in this case?
-### Mean Squared Error
+### Mean Squared Error(MSE)
+ MSE measures the average of the squares of the errors—that is, the average squared difference between the estimated values and what is actually estimated.Decision trees work by iteratively splitting the data into distinct subsets in a greedy fashion. For regression trees, they are chosen to minimize the MSE within all of the subsets.
 
 
 
