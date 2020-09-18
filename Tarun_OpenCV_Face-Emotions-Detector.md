@@ -43,8 +43,11 @@
     Now Lets start builing our dataset !But before that , we need to create some folders !
     Our folders should be arranged in the following format because otherwise the model
     may not be able to train based on the categories correctly otherwise ! You have to ensure that there is main 'dataset' folder and in 
-    that there are 3 subfolders - 1)single_pred - which will be used to check if the model is working after compiling the model
-    2) test_set - folder used to contain the test data 3) training_data - folder used to contain the training data
+    that there are 3 subfolders -
+    1)single_pred - which will be used to check if the model is working after compiling the model
+    2) test_set - folder used to contain the test data 
+    3) training_data - folder used to contain the training data
+    
     Now inside these subfolders:
     1)single_pred - choose random pictures to evaluate your model
     2)test_data and training_data has to have 5 sub folders as seen in the pictures , where each folder will stand for their respective
