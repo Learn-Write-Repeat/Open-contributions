@@ -144,7 +144,7 @@
    
     Now lets move on to add our prediction on the live feed on the opened tab
    
-   ![alt text](https://github.com/tarun36rocker/Opencontributions/blob/master/pic14.png)
+   ![](https://github.com/tarun36rocker/Open-contributions/blob/master/pic14.png)
    
    * The basic IF - ELSE conditions basically figures out which category is mapped to which emotion and also provides
    a colour to them in the BGR colour scheme
@@ -156,7 +156,7 @@
    
     Lets have a look at the MAIN WHILE LOOP that instigates the whole code
     
-  ![alt text](https://github.com/tarun36rocker/Opencontributions/blob/master/pic15.png)
+  ![](https://github.com/tarun36rocker/Open-contributions/blob/master/pic15.png)
   
   * what the while loop basically does is take every frame that it recieves through the webcam and passes it to
   the emotions detection function
