@@ -22,6 +22,12 @@
 
 ![Basic RegEx](https://github.com/N-Harish/Open-contributions/blob/master/regular-expression-cheat-sheet.JPG)
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Regex Quantifiers
+
+![RegEx Quantifier](https://github.com/N-Harish/Open-contributions/blob/master/RegEx%20quantifiers.JPG)
+
 
 
 
