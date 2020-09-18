@@ -38,6 +38,7 @@ Some basic Examples of Stemming-
 >***For example, runs, running, ran are all forms of the word run, therefore run is the lemma of all these words. Because lemmatization returns an actual word of the language, it is used where it is necessary to get valid words.***
 
 Some Examples of Lemmatization are as follows - 
+
 ![img](https://kavita-ganesan.com/wp-content/uploads/2019/02/Screen-Shot-2019-02-20-at-4.49.08-PM.png)
 
 #### *****The Major Point to Note is That each word that is Lemmatized belongs to a language unlike Stemming.*****
