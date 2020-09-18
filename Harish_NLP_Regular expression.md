@@ -18,8 +18,7 @@
 
 ## Common RegEx patterns 
 
-RegEx Pattern    | Meaning
------------------|----------
+![Basic RegEx](https://github.com/N-Harish/Open-contributions/blob/master/regular-expression-cheat-sheet.JPG)
 
 
 
