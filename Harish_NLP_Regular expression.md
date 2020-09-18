@@ -24,12 +24,10 @@
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Regex Quantifiers
+## Regex Quantifiers and Groups
 
-RegEx Quantifiers                                                                                                         |  RegEx Group
---------------------------------------------------------------------------------------------------------------------------|---------------
 
-![RegEx Quantifier](https://github.com/N-Harish/Open-contributions/blob/master/RegEx%20quantifiers.JPG) | ![RegEx Group](https://github.com/N-Harish/Open-contributions/blob/master/Regex%20Group.JPG)
+![RegEx Quantifier](https://github.com/N-Harish/Open-contributions/blob/master/RegEx%20quantifiers.JPG)  ![RegEx Group](https://github.com/N-Harish/Open-contributions/blob/master/Regex%20Group.JPG)
 
 
 
