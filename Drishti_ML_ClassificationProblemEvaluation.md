@@ -123,7 +123,7 @@ For a particular model, instead of using either precision or recall we can combi
 
 5. **F:one:-score**
 
-For some models, sometimes the recall would be high and sometimes precision would be high. We cannot even take mean of these two values as that also would be insignificant measure for evaluating model. Hence we use harmonic mean of precision and recall which is termed as F1-score. It balances out the both the precision and recall in one integer. An F1 score is considered perfect when it’s 1, while the model is a total failure when it’s 0.
+For some models, sometimes the recall would be high and sometimes precision would be high. We cannot even take mean of these two values as that also would be insignificant measure for evaluating model. Hence we use harmonic mean of **precision and recall** which is termed as F1-score. It balances out the both the precision and recall in one integer. An F1 score is considered perfect when it’s 1, while the model is a total failure when it’s 0.
 
 <pre>                         1                            2 * precision * recall 
 F1-score = 2 * -----------------------------  =   -----------------------------
@@ -147,12 +147,12 @@ For example, in cancer detection test specificity will be defined as the person 
 
 7. **Logarithmic Loss**
 
-It can be used for multiclass classification where it assigns a probability to each class for all examples. IT is used to compare models not only on the basis of outputs but their probabilistic outcomes.
+It can be used for multiclass classification where it assigns a probability to each class for all examples. It is used to compare models not only on the basis of outputs but their probabilistic outcomes.
 
 ![Image](https://miro.medium.com/max/344/0*zneWdU4GN_WBzTIF.gif)
 
-y_ij, indicates whether sample i belongs to class j or not  <br>
-p_ij, indicates the probability of sample i belonging to class j
+**y_ij**, indicates whether sample i belongs to class j or not  <br>
+**p_ij**, indicates the probability of sample i belonging to class j
 
 ![Image](https://cdn.analyticsvidhya.com/wp-content/uploads/2019/05/log-loss-curve-768x384.png) <br>
 In this graph :chart_with_downwards_trend: we can see that as the probability of the model increases, the logarithmic value decreases and vice versa. Hence lower the log value higher accurate will be the model.
