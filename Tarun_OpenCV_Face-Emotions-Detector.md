@@ -82,6 +82,32 @@
     performance of your model !
     
     2)save :: We will be saving our model in a .h5 file so that we dont have to wait for hours just to run the program every single time 
+    
+   Ok! Now lets first test if our model is working by simply sending the picture through a few lines of code as shown below
+   
+   * The code basically shows that the model is first loaded as seen in LINE 4
+   
+   * The picture is then loaded and it is converted into an array which is 
+   expected by our model for predicting ( as seen in LINES 5-7 )
+   
+  * LINE 8 recives the prediction from our model
+   
+   * LINES 9 - 16 is a simple block of code that i wrote which helps us in outputing the category of emotion the model is predicting
+   
+   ![alt text](https://github.com/tarun36rocker/Open-contributions/blob/master/pic9.png)
+   
+    This is a picture of me starting at the camera looking quiet emotionless , lets see what our classifier outputs !
+   ![alt text](https://github.com/tarun36rocker/Open-contributions/blob/master/pic11.png)
+   
+   ![alt text](https://github.com/tarun36rocker/Open-contributions/blob/master/pic10.png)
+    
+    This picutre predicts a list which through coding can be found that it denotes the thrird element which in this case is 
+    index 'two' ( considering the array's index starts from 0 } which in terms of our categories means that our model is predicting
+    that I am in "Fear"
+    Not a bad prediction to be honest !
+   Now that we have done a basic check , Lets start by integrating it with the OpenCV to make our model real-time by accessing
+   your camera ! 
+   
   
   
     
