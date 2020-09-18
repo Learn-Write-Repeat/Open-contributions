@@ -106,7 +106,64 @@
     that I am in "Fear"
     Not a bad prediction to be honest !
    Now that we have done a basic check , Lets start by integrating it with the OpenCV to make our model real-time by accessing
-   your camera ! 
+   your camera !
+   ![alt text](https://github.com/tarun36rocker/Open-contributions/blob/master/pic12.png)
+    
+   * LINES 1-5 are the set of IMPORTING that is required for the functioning of the code that is about to come
+    
+   * LINE 6 is required for LOADING the model
+    
+   * LINE 7 is the line that helps in accessing the webcam at the default port '0' through OpenCV
+    
+   * LINE 8 is the file that will be used to DETECT OUR FACES in the live frames , this file can easily be downloaded
+    from the internet from various sources
+    
+    Now lets move on to our MAIN FUNCTION that will detect our face from the webcam feed and
+    run the frames through the model !
+    
+   ![alt text](https://github.com/tarun36rocker/Open-contributions/blob/master/pic13.png)
+   
+   * LINE 14 creates a copy of the frame that is being passed so that the original fame does not get changed or
+   corrupted while applying different functions to it
+   
+   * LINE 15 passes the frame through our HAAR CASCADE filter which finds our face and returns back the coordinates
+   of a box which has our location
+   
+   * LINE 16 -17 go through the coordinates and captures the EXACT region our face is present in 
+   
+   * LINE 18 RESIZES our frame so as to make it work with our model
+   
+   * LINE 19 saves every individual frame as a picture so that we can work on them easily rather directly
+   taking them as a frame from our webcam
+   
+   * LINE 20-22 loads our frame ( in the form of a picture ) , converts to an array and makes it suitable
+   so as to pass through the model
+   
+   * LINE 23-29 is a repeat of the function that i have shown above , in short it helps by storing the prediction
+   which is the number of the category that the model has predicted 
+   
+    Now lets move on to add our prediction on the live feed on the opened tab
+   
+   ![alt text](https://github.com/tarun36rocker/Opencontributions/blob/master/pic14.png)
+   
+   * The basic IF - ELSE conditions basically figures out which category is mapped to which emotion and also provides
+   a colour to them in the BGR colour scheme
+   
+   * The remaining lines helpes us to write theese predictions on the live webcam feed with the desired colour .
+   If you notice we are skipping every next frames (using frame_count) , this is to prevent overlapping of predictions !
+   
+   * FINALLY we return the image containing the predictions back to the WHILE loop which will be shown next
+   
+    Lets have a look at the MAIN WHILE LOOP that instigates the whole code
+    
+  ![alt text](https://github.com/tarun36rocker/Opencontributions/blob/master/pic15.png)
+  
+  * what the while loop basically does is take every frame that it recieves through the webcam and passes it to
+  the emotions detection function
+  
+    
+   
+   
    
   
   
