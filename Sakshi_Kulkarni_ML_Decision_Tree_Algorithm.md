@@ -1,4 +1,5 @@
 # Decision Tree Algorithm
+
 Decision tree algorithm is commonly used for classification of data in a supervised manner i.e. a labelled dataset.The goal for this algorithm is to determine the class of a variable based on rules inferred from prior data.It chalks out a decision tree and classifies the test set values accordingly.
 
 A decision tree is a diagram or chart that people use to determine a course of action or show a statistical probability. Each branch of the decision tree represents a possible decision, outcome, or reaction. The farthest branches on the tree represent the end results.
@@ -56,6 +57,12 @@ We find the gini impurity for all the values of classifiable categories like age
 
 The internal node is again bifercated until *impurity of internal node<impurity of next connecting internal node*.
 The next internal node is then considered to be the leaf node.
+
+## Happy Learning!
+
+### **Sakshi Kulkarni**
+
+**[sakbvb@gmail.com](mailto:sakvpms@gmail.com)**
 
 
 
