@@ -19,7 +19,7 @@
 ## Common RegEx patterns 
 
 RegEx Pattern    | Meaning
-----------------------------
+-----------------|----------
 
 
 
