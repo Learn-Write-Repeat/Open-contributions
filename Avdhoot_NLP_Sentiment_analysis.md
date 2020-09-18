@@ -24,6 +24,7 @@ Sentiment analysis is the biggest boon for businesses as it can understand the c
 Some of the existing approaches to solve the sentiment analysis are **knowledge based**, **statistical methods** and **hybrid approach.** In knowledge based approach it uses the knowledge in the sentence by checking for the words like happy, sad, angry, etc. It also can detect some not so obvious sentiments from the sentences. In statistical methods, many machine learning algorithms like latent sentiment analysis, SVM, bag of words, deep learning (neural netowrks),etc. are used and in hybrid approach as you can guess by it's name both the aprroaches are used together to solve a complex problem and to gain higher accuraccy. In Machine learning and Deep learning community there is always a need to achieve the human level performance or atleast make accuracy near to the human level, for example of emotion detection in a sentence, lets say on a scale of 1 to 10 human level performance is 10 so the sentiment analysis should achieve approaximately 10 or near to 10 performance then it's a best fit for the problem, if the sentiment analysis is 5 then it'd make no sense.
 
 ![Sentiment Analysis - Do you love it or hate it? | Polecat](https://www.polecat.com/media/sentiment_gif_v02b.gif)
+
 Another visual of how the sentiments analysis might look.
 ##
 ### Now let's approach the sentiment analysis in depth with some codes.
@@ -148,45 +149,47 @@ This was basic neural network for sentiment analysis which after training will b
 ##
 #### There is another approach for sentiment analysis and that is **VADER.** 
 
-![](https://static1.squarespace.com/static/5378d8b8e4b078c526a500ea/t/5a04be8b71c10be42f618a39/1510260423065/vader?format=1500w =300x)
+<img src = "https://static1.squarespace.com/static/5378d8b8e4b078c526a500ea/t/5a04be8b71c10be42f618a39/1510260423065/vader?format=1500w" width=300 >
 NO NO! not this Vader
-VADER stands for **V**alence **A**ware **D**ictionary and s**E**ntiment **R**easoner, it is a lexicon and rule-based sentiment analysis tool.
-**VADER** is specially modelled and trained to determine the sentiments on the social media texts to determine any harmful or negative activity specifically.
+<br>VADER stands for **V**alence **A**ware **D**ictionary and s**E**ntiment **R**easoner, it is a lexicon and rule-based sentiment analysis tool.
+<br>**VADER** is specially modelled and trained to determine the sentiments on the social media texts to determine any harmful or negative activity specifically.
 Here's how VADER is different from basic sentiment analysis.
 ![](https://www.researchgate.net/profile/Suthendran_Kannan/publication/325896826/figure/fig5/AS:639911610818561@1529578225737/Sentiment-Analysis-vs-VADER-Sentiment-Analysis.png =500x)
-
+<br>
 To use Vader you can install vader simply by running this command in your command prompt:
 ``pip install vaderSentiment``
 After successful installation you're good to go and use VADER  for sentiment analysis.
-Next we need to import Vader in order to use its features:
+<br>Next we need to import Vader in order to use its features:
 
 `from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer`
 ``sentence = 'The latest Batman movie looks amazing by just it's teaser and I'm really excited for it'``
 
-Here we need to first initialize the class by creating an object of the class SentimentIntensityAnalyzer
+<br>Here we need to first initialize the class by creating an object of the class SentimentIntensityAnalyzer
 
 ``object = SentimentIntensityAnalyzer()``
 
-Now unlike Textblob this class function returns a sentiment dictionary so if we need to print a specific value we need to first access it.
+<br>Now unlike Textblob this class function returns a sentiment dictionary so if we need to print a specific value we need to first access it.
 
 ```out_dict = object.polarity_scores(sentence)```
 `print("Overall sentiment dictionary is : ", out_dict)`
-This will print out the overall sentiment dictionary returned by the function.
-To see the single sentiments we can do this:
+<br>This will print out the overall sentiment dictionary returned by the function.
+<br>To see the single sentiments we can do this:
 `print("sentence was rated as ", out_dict['neg']*100,"% Negative")`
 `print("sentence was rated as ", out_dict['neu']*100,"% Neutral")`
 `print("sentence was rated as ", outt_dict['pos']*100,"% Positive")`
 
 So this is the most basic use case of VADER and how it can be used. VADER is a self sufficient beast to analyze different sentiments from the text data, so it best performs on social media data and even works better for other domains.
-Other use cases of VADER could be
+<br>Other use cases of VADER could be
 In the paper [VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text](http://comp.social.gatech.edu/papers/icwsm14.vader.hutto.pdf) by sir  C.J. Hutto  and Eric Gilbert the entire idea behind VADER is explained and how it works. There's also a github repository  here's the [link](https://github.com/cjhutto/vaderSentiment) for it if you want to go ahead and try VADER for some other problem.
 
 
 ##
 ### There is another approach called BERT
 There is google's **BERT** NLP framework which is a mind-blowing work which has  a lot of potential in it which has gained a lot of attention of modern NLP problems and to solve them by using BERT. 
-![](https://miro.medium.com/max/2960/0*63_xsVQp0Wezk9ua.jpg =400x))
-**Okay so what is BERT?**
+
+<img src = "https://miro.medium.com/max/2960/0*63_xsVQp0Wezk9ua.jpg" width = 300><br>
+
+**Okay so what is BERT?**<br>
 As of internet definition 
 >"BERT stands for **B**idirectional **E**ncoder **R**epresentations from **T**ransformers. It is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of NLP tasks"
 
@@ -209,12 +212,16 @@ I've not implemented BERT here because it needs neural network model on which it
 Here's a paper you  could read regarding to BERT [link](https://arxiv.org/abs/1904.02232) 
 ##
 **So that's it, 
-Thank you for staying till here and I hope you had a good time reading this and probably learnt something just like the neural network!**
+Thank you for staying till here and I hope you had a good time reading this and probably learnt something just like the neural network!**<br>
 You can always contact me at my social media handles:
+
 <span>
-[![](https://media1.giphy.com/media/SwyH7oWi2vhkOjCwiJ/200.gif =80x80)](https://www.instagram.com/awwdudee_/) [![](https://octodex.github.com/images/daftpunktocat-guy.gif =80x85)](https://github.com/avdhoot0303) [![](https://i1.wp.com/www.owlishcommunications.com/thewisdomzone/wp-content/uploads/LINKEDIN-LOGO-2-Animated-Pulsating.gif?fit=500%2C500&ssl=1=  =80x80)
-](https://www.linkedin.com/in/avdhoot-patil-419689148/)[![](https://media0.giphy.com/media/M9O6ePwNJ58UMF1Rvq/giphy.gif =80x)](https://twitter.com/imightsayjokes)
-Mail me at: avdhootpatil245@gmail.com
+<img src ="https://media1.giphy.com/media/SwyH7oWi2vhkOjCwiJ/200.gif" width=80 height=80 href="https://www.instagram.com/awwdudee_/">
+<img src = "https://octodex.github.com/images/daftpunktocat-guy.gif" width =80 height =80 href="https://github.com/avdhoot0303">
+<img src = "https://i1.wp.com/www.owlishcommunications.com/thewisdomzone/wp-content/uploads/LINKEDIN-LOGO-2-Animated-Pulsating.gif?fit=500%2C500&ssl=1=" width=80 height=80 href = "https://www.linkedin.com/in/avdhoot-patil-419689148/">
+<img src = "https://media0.giphy.com/media/M9O6ePwNJ58UMF1Rvq/giphy.gif" width = 80 height = 80 href = "https://twitter.com/imightsayjokes">
+<br> Mail me at: avdhootpatil245@gmail.com
+	
 ## 
 
 If you're more into reading the behind the scenes and about how the NLP actually is in action in real life problems here are some papers you might want to check it out.
