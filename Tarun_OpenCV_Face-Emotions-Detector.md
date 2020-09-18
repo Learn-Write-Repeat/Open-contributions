@@ -63,6 +63,7 @@
   Now lets connect the datasets and get our model ready for training !
   
   ![alt text](https://github.com/tarun36rocker/Open-contributions/blob/master/pic7.png)
+  
     1)train_datagen :: This helps us to create multiple different versions of our data that have because we have only a
     limited dataset . This makes the different versions based on the conditions that we have provided .
     Make sure you enter THE CORRECT DIRECTORY of the folders as seen in the picture above and as instructed before.
@@ -73,8 +74,12 @@
  Now lets FIT and TRAIN our model on the !
   
   ![alt text](https://github.com/tarun36rocker/Open-contributions/blob/master/pic8.png)
+  
     1) fit_generator :: helps us by connecting the test and training data sets and runs the model and helps the model 
     learn between the different categories through multiple epochs(complete run through of data)
+    The number of epochs is totally your choice based on your cpu computing power , however be careful while selecting
+    because sometimes the more the epochs , your model will start over-fitting which is not good for the 
+    performance of your model !
     
     2)save :: We will be saving our model in a .h5 file so that we dont have to wait for hours just to run the program every single time 
   
