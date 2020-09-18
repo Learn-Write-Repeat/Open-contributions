@@ -26,7 +26,10 @@
 
 ## Regex Quantifiers
 
-![RegEx Quantifier](https://github.com/N-Harish/Open-contributions/blob/master/RegEx%20quantifiers.JPG)
+RegEx Quantifiers  |  RegEx Group
+-------------------|---------------
+
+![RegEx Quantifier](https://github.com/N-Harish/Open-contributions/blob/master/RegEx%20quantifiers.JPG) | ![RegEx Group](https://github.com/N-Harish/Open-contributions/blob/master/Regex%20Group.JPG)
 
 
 
