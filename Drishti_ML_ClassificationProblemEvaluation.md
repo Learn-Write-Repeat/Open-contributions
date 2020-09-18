@@ -31,10 +31,10 @@ how efficient the model is, rather we deal with four set of values which are Tru
 
 Consider a dataset of pregnancy tests of a woman in which there are two classes : pregnant or not pregnant 
 
-:small_orange_diamond: TP  It indicates that the woman is actually pregnant and the model also predicts it correctly.<br>
-:small_orange_diamond: FP  It indicates that the woman is actually not pregnant but the model predicts as pregnant.<br>
-:small_orange_diamond: FN  It indicates that the woman is acutally pregnant but the model predicts as not pregnant.<br>
-:small_orange_diamond: TN  It indicates that the woman is not pregnant and the model predicts it correctly as not pregnant.<br>
+:small_orange_diamond: TP - It indicates that the woman is actually pregnant and the model also predicts it correctly.<br>
+:small_orange_diamond: FP - It indicates that the woman is actually not pregnant but the model predicts as pregnant.<br>
+:small_orange_diamond: FN - It indicates that the woman is acutally pregnant but the model predicts as not pregnant.<br>
+:small_orange_diamond: TN - It indicates that the woman is not pregnant and the model predicts it correctly as not pregnant.<br>
 
 Sometimes the cost of FN can be higher and sometimes the cost of FP can be higher.<br>
 
@@ -43,11 +43,9 @@ Sometimes the cost of FN can be higher and sometimes the cost of FP can be highe
 Imagine that if we predict COVID-19 residents as healthy patients and they do not need to quarantine, there would be a massive number of COVID-19 infections. Hence the cost of false negatives is much higher than the cost of false positives. <br><br>
 ![Image](https://miro.medium.com/max/1400/1*uLbVblrwaqf1-sVT5A4TRg.png) <br>
 Well, since missing important emails will clearly be more of a problem than receiving spam, we can say that in this case, FP will have a higher cost than FN.<br>
+Since FN and FP leads to false predictions we need to minimize it. :arrow_lower_right:
 
-Since we now know that FP and FN can leads to false predictions we need to minimize it.
-
-
-2. **Accuracy**
+2. **Accuracy** :100:
 
 It is one of the most simple and common classification metrics. It is determined by the total number of correct predictions divided by total number of predictions made for a dataset. <br>
 <pre>             total number of correct predictions 
@@ -118,12 +116,14 @@ Recall : Out of the actual bad loan, how many did we correctly predict as bad lo
 Recall = -----------  =  94.5%
            599 + 33   </pre>     
            
+#### Precision vs Recall
+![Image](https://miro.medium.com/max/700/0*uhuG2rhX6XzNC43X.png)     <br>     
 
 For a particular model, instead of using either precision or recall we can combine both of them to obtain **F1-score**.
 
-5. **F1-score**
+5. **F:one:-score**
 
-For some models, sometimes the recall would be high and sometimes precision would be high. We cannot even take mean of these two values as that also would be insignificant measure for evaluating model. Hence we use harmonic mean of precision and recall which is termed as F1-score. F1-score balances out the both he precision and recall in one integer. An F1 score is considered perfect when it’s 1, while the model is a total failure when it’s 0.
+For some models, sometimes the recall would be high and sometimes precision would be high. We cannot even take mean of these two values as that also would be insignificant measure for evaluating model. Hence we use harmonic mean of precision and recall which is termed as F1-score. It balances out the both the precision and recall in one integer. An F1 score is considered perfect when it’s 1, while the model is a total failure when it’s 0.
 
 <pre>                         1                            2 * precision * recall 
 F1-score = 2 * -----------------------------  =   -----------------------------
@@ -151,11 +151,11 @@ It can be used for multiclass classification where it assigns a probability to e
 
 ![Image](https://miro.medium.com/max/344/0*zneWdU4GN_WBzTIF.gif)
 
-y_ij, indicates whether sample i belongs to class j or not
+y_ij, indicates whether sample i belongs to class j or not  <br>
 p_ij, indicates the probability of sample i belonging to class j
 
 ![Image](https://cdn.analyticsvidhya.com/wp-content/uploads/2019/05/log-loss-curve-768x384.png) <br>
-In this graph we can see that as the probability of the model increases, the logarithmic value decreases and vice versa. Hence lower the log value higher accurate will be the model.
+In this graph :chart_with_downwards_trend: we can see that as the probability of the model increases, the logarithmic value decreases and vice versa. Hence lower the log value higher accurate will be the model.
 
 8. **Area Under Curve**
 
@@ -178,5 +178,5 @@ The probabilistic interpretation of AUC score is that if you randomly choose a p
 
 So basically we have :eight: **evaluation metrics** for dealing with classification problems and we can choose any of them depending on how our dataset and classification model is.
 
-I hope you like it.
+I hope you like it. :sparkles:
 
