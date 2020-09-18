@@ -116,9 +116,8 @@ Recall : Out of the actual bad loan, how many did we correctly predict as bad lo
 
 <pre>             599 
 Recall = -----------  =  94.5%
-           599 + 33   </pre>         
-####Precision vs Recall       <br>
-![Image](https://miro.medium.com/max/700/0*uhuG2rhX6XzNC43X.png)     <br>     
+           599 + 33   </pre>     
+           
 
 For a particular model, instead of using either precision or recall we can combine both of them to obtain **F1-score**.
 
@@ -137,3 +136,47 @@ F1-score =   ------------------------  =   0.971
                    1 + 0.945               
                 
 </pre> 
+
+6. **Specificity**
+
+It is also derived from confusion matrix which defines the ability of a model to predict correctly the True Negative cases. 
+<pre>                 TN 
+Specificity = -----------
+               TN + FP   </pre>
+For example, in cancer detection test specificity will be defined as the person not having cancer and the model correctly rejecting the patients who test negative.
+
+7. **Logarithmic Loss**
+
+It can be used for multiclass classification where it assigns a probability to each class for all examples. IT is used to compare models not only on the basis of outputs but their probabilistic outcomes.
+
+![Image](https://miro.medium.com/max/344/0*zneWdU4GN_WBzTIF.gif)
+
+y_ij, indicates whether sample i belongs to class j or not
+p_ij, indicates the probability of sample i belonging to class j
+
+![Image](https://cdn.analyticsvidhya.com/wp-content/uploads/2019/05/log-loss-curve-768x384.png) <br>
+In this graph we can see that as the probability of the model increases, the logarithmic value decreases and vice versa. Hence lower the log value higher accurate will be the model.
+
+8. **Area Under Curve**
+
+It is used for binary classification. In order to understand area under curve we will first define two terms.
+
+True Positive Rate (Sensitivity) : It is defined as the ratio of True Positive to all the other positives in dataset.
+<pre>           TP 
+TPR = -------------
+          TP + FN  
+</pre>
+
+False Positive Rate : It is defined as the ratio of False Positive to all negatives in dataset. 
+<pre>           FP 
+FPR = -------------
+          FP + TN  
+</pre>
+![Image](https://miro.medium.com/max/345/1*bGf43h_VZ7m7FQAAgtwusw.png) <br>
+
+The probabilistic interpretation of AUC score is that if you randomly choose a positive case and a negative case, the probability that the positive case outranks the negative case according to the classifier is given by the AUC. It is defined as the area under the curve which is plotted by FPR vs TPR. Basically, for every threshold, we calculate TPR and FPR and plot it on one chart. The value can range from 0 to 1. However AUC score of a random classifier for balanced data is 0.5.
+
+So basically we have :eight: **evaluation metrics** for dealing with classification problems and we can choose any of them depending on how our dataset and classification model is.
+
+I hope you like it.
+
