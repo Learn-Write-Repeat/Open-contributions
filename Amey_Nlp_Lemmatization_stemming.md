@@ -54,5 +54,7 @@ Some Examples of Lemmatization are as follows -
 
 ##### That's the end of the Tutorial. In this tutorial, you learned about Text Normalization, Why to perform text normalization And You learned about Stemming, Lemmatization, their applications. Happy Learning!  
 ##### By- Amey Narayan 
-Follow me  
-[![img](https://github.com/gd1m3y/gd1m3y/blob/master/iconfinder_14_5209164.png?raw=true)](https://www.linkedin.com/in/amey-narayan-32961516b/)
+Follow me-
+[*LINKDEN*](https://www.linkedin.com/in/amey-narayan-32961516b/) ||
+[*Facebook*](https://www.facebook.com/GD1m3y/) ||
+[*Github*](https://github.com/gd1m3y)
