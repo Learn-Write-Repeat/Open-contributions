@@ -31,11 +31,11 @@ Another visual of how the sentiments analysis might look.
 A very basic task in sentiment analysis is to classify the **polarity** of a given text i.e to check whether the sentence has a positive or negative or a neutral impact. In advanced sentiment analysis it checks for beyond polarity that means it checks for various words like "angry", "happy" and "sad" for better understanding of the emotion.
 *For this article we'll be using basic python and some libraries.*
 I've used TextBlob library of python to do basic classification of sentiments in a given sentence.
-You can install TextBlob by
-```pip install textblob```
+<br>You can install TextBlob by
+<br>```pip install textblob```
 <br>  Here's how the classification of the polarity of a given text would look like in python
-``from textblob import TextBlob``
-``string = TextBlob('I have been  to the PVR cinemas Gold the experience there was quite good,I would recommend it to you as well.'
+<br>``from textblob import TextBlob``
+<br>``string = TextBlob('I have been  to the PVR cinemas Gold the experience there was quite good,I would recommend it to you as well.'
 )
 `` #this line creates a textblob object which can be used in many ways for sentiment analysis
 ```print('Polarity of the sentence -'+str(string.sentiment.polarity))```
@@ -43,7 +43,7 @@ You can install TextBlob by
 
 The second task to do in sentiment analysis is **subjectivity/objectivty** what it means is, it classifies the sentence into one of two classes objective or subjective. In some sentences the polarity classification might not help because the subjectivity of words and phrases may depend on their context and an objective document may contain subjective sentences.
 The only takeaway from subjectivity/objectivity is that machine can determine the sentence context and it's relativity to the previous words and keep overall meaning intact.
-Using the string used above to get the subjectivity
+<br>Using the string used above to get the subjectivity
    
    
     print(string.sentiment.subjectivity) 
@@ -58,7 +58,7 @@ ouput: `Sentiment(polarity=0.0, subjectivity=0.35714285714285715)`
 Here you can see that the subjectivity value is a non-zero value which means the sentence is not a polarity based classification sentence.
 ##
 Another way is a **feature based or aspect based** that is it determines the opinions from the sentences and try and make intuition about that sentence. These sentences are usually reviews from the customers about various services or products they've used or experienced. This approach is usually used to gain insights on how a particular product or a service is doing and to get better or do changes in delivering those products/ services. It is also used with recommender systems together and when both are in action  they provide better user experience. Recommender systems are  another topic of machine learning but for now we'll focus on sentiment analysis.
-Here's a small example on a yelp review using just our Textblob.
+<br>Here's a small example on a yelp review using just our Textblob.
 
     def sentiment_analysis(sentence):
     #initialize the positive and negative varibles
@@ -154,14 +154,15 @@ NO NO! not this Vader
 <br>VADER stands for **V**alence **A**ware **D**ictionary and s**E**ntiment **R**easoner, it is a lexicon and rule-based sentiment analysis tool.
 <br>**VADER** is specially modelled and trained to determine the sentiments on the social media texts to determine any harmful or negative activity specifically.
 Here's how VADER is different from basic sentiment analysis.
-![](https://www.researchgate.net/profile/Suthendran_Kannan/publication/325896826/figure/fig5/AS:639911610818561@1529578225737/Sentiment-Analysis-vs-VADER-Sentiment-Analysis.png =500x)
+
+<img src = "https://www.researchgate.net/profile/Suthendran_Kannan/publication/325896826/figure/fig5/AS:639911610818561@1529578225737/Sentiment-Analysis-vs-VADER-Sentiment-Analysis.png" width=500>
 <br>
 To use Vader you can install vader simply by running this command in your command prompt:
 ``pip install vaderSentiment``
 After successful installation you're good to go and use VADER  for sentiment analysis.
 <br>Next we need to import Vader in order to use its features:
 
-`from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer`
+`from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer`<br>
 ``sentence = 'The latest Batman movie looks amazing by just it's teaser and I'm really excited for it'``
 
 <br>Here we need to first initialize the class by creating an object of the class SentimentIntensityAnalyzer
@@ -170,13 +171,13 @@ After successful installation you're good to go and use VADER  for sentiment ana
 
 <br>Now unlike Textblob this class function returns a sentiment dictionary so if we need to print a specific value we need to first access it.
 
-```out_dict = object.polarity_scores(sentence)```
-`print("Overall sentiment dictionary is : ", out_dict)`
+```out_dict = object.polarity_scores(sentence)```<br>
+`print("Overall sentiment dictionary is : ", out_dict)`<br>
 <br>This will print out the overall sentiment dictionary returned by the function.
-<br>To see the single sentiments we can do this:
-`print("sentence was rated as ", out_dict['neg']*100,"% Negative")`
-`print("sentence was rated as ", out_dict['neu']*100,"% Neutral")`
-`print("sentence was rated as ", outt_dict['pos']*100,"% Positive")`
+<br>To see the single sentiments we can do this:<br>
+`print("sentence was rated as ", out_dict['neg']*100,"% Negative")`<br>
+`print("sentence was rated as ", out_dict['neu']*100,"% Neutral")`<br>
+`print("sentence was rated as ", outt_dict['pos']*100,"% Positive")`<br>
 
 So this is the most basic use case of VADER and how it can be used. VADER is a self sufficient beast to analyze different sentiments from the text data, so it best performs on social media data and even works better for other domains.
 <br>Other use cases of VADER could be
