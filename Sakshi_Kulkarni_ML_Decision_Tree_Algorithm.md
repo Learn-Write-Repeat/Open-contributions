@@ -58,7 +58,6 @@ We find the gini impurity for all the values of classifiable categories like age
 The internal node is again bifercated until *impurity of internal node<impurity of next connecting internal node*.
 The next internal node is then considered to be the leaf node.
  
- ## What if the data is categorical?
  ## Information gain
  We follow a procedure similar to gini impurity and calculate the entropy and then the information gain.
  
@@ -71,7 +70,8 @@ The next internal node is then considered to be the leaf node.
  
  <img src="infogain.png" alt="drawing" width="400"/>
 
-This is used for categorical data.
+## What if the data is categorical?
+
  
  # Decision tree for regression
  We have the following data.We need to predict the salary for a particular level of position for example 4.5
@@ -91,11 +91,8 @@ This is used for categorical data.
 |CEO	|10	|1000000|
 
 ##  How to so implement decision tree in this case?
-### Reduction in Variance
-<img src="variance.png" alt="drawing" width="400"/>
+### Mean Squared Error
 
-We find the mean of data and calculate the variance of all the data points. The point with the minimum variance becomes the root node.
-After we have split the data according to the condition,we again find the variance of the 2 different groups and find the next node.To prevent over-fitting ,we usually have a minimum number of data points that must in that node's category and you cannot split the node further.
 
 
 
