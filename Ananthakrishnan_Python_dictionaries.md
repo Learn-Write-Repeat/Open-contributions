@@ -4,7 +4,7 @@
  - Dictionaries are ***mutable.*** i.e. it is possible to add, modify, delete key-value pairs.
 -  The key should be ***unique*** and can be of any data type.
 
-##### syntax:
+###### example:
     thisdict = {
     "Company": "Maruti",
     "model": "Swift",
@@ -22,7 +22,7 @@
 - In python, the key cannot be any mutable object. We can use numbers, strings, or tuples as the key, but we cannot use any mutable object like the list as the key in the dictionary.
 
 
-##### syntax:
+##### example:
     thisdict = {
     "Company": "Maruti",
     "model": "Swift",
@@ -37,12 +37,17 @@
 
 
 ## Accessing Items 
+ - You can access the items of a dictionary by referring to its key name, inside square brackets:
 
-
- You can access the items of a dictionary by referring to its key name, inside square brackets:
-
-***Example***
-
-
-  Get the value of the **"model**" key:
+###### example:
+    Get the value of the "model" key:
+    
+     thisdict = {
+    "Company": "Maruti",
+    "model": "Swift",
+    "year": 2020
+    }
+    x = thisdict["model"]
+    print(thisdict)
+    
           
