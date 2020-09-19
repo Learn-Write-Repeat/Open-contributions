@@ -1,3 +1,6 @@
+## Created by: Aditya Mahimkar
+[**Mail Me**](mailto:mahimkaradi@gmail.com)
+
 # Corner Detection in OpenCV
 Corner Detection is detecting corner points in an image. Basically the popular algorithms in OpenCV are as follows:
 1. **Harris Corner Detection**
@@ -65,13 +68,13 @@ The intution of this algorithm is quite similar to Harris Corner algorithm but t
 
 - Shi-Tomasi is actually named as goodFeaturesToTrack function:
 ```python
-corners = cv2.goodFeaturesToTrack(img=gray, max_corners=23, Q=0.01, min_distance=15)
+corners = cv2.goodFeaturesToTrack(img=gray, maxCorners=23, qualityLevel=0.01, minDistance=15)
 ```
 where,
   - **img**: the image to be provided to process, specifically grayscale.
-  - **max_corners**: the maximum number of corners to be displayed based on their score. To display all corners give -1 as argument.
-  - **Q**: the quality level below which that corner points will be rejected.
-  - **min_distance**: the minimum distance between two corners. So if two points have a distance less than this value one of them will be removed based on score.
+  - **maxCorners**: the maximum number of corners to be displayed based on their score. To display all corners give 0 as argument.
+  - **qualityLevel**: the quality level below which that corner points will be rejected.
+  - **minDistance**: the minimum distance between two corners. So if two points have a distance less than this value one of them will be removed based on score.
   - **corners**: the function returns an array of cordinates of those corners to be displayed.
 
 **Output**:
