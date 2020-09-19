@@ -39,5 +39,9 @@
 
 ## Python re module functions
 
-* ```re.findall(P, S)``` :- Matches all the occurences of the Pattern ```P``` in the string ```S```
-* 
+* ```re.findall(P, S)``` :- Matches all the occurences of the Pattern ```P``` in the string ```S```.
+* ```re.search(P, S)``` :- Matches the first instance of Pattern ```P``` in string ```S```.
+* ```re.split(P, S)``` :- Splits the string ```S``` into a list using ```P``` as a delimiter.
+* ```re.sub(P, R, S)``` :- Replace ```P``` with ```R``` in string ```S```.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
