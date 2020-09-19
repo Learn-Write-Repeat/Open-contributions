@@ -109,7 +109,7 @@ CatBoost developed by Yandex Technology has been delivering impressive bench-mar
 
 It is only a matter of time when we have a better model framework that beats XGBoost in terms of prediction performance, flexibility and explanability.
 
-Refer to this [notebook]() for more understanding on how to implement this algorithm.
+Refer to this [notebook](https://github.com/PritamAich/Open-contributions/blob/master/Pritam_ML_Xgboost.ipynb) for more understanding on how to implement this algorithm.
 
 
 
