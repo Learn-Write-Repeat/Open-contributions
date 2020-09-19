@@ -88,6 +88,7 @@ There is also a method called get() that will give you the same result:
 - You can loop through a dictionary by using a for loop.
 - When looping through a dictionary, the return value are the keys of the dictionary, but there are methods to return the values as well.
 
+###### Print all key names in the dictionary, one by one:
 ###### example:
     thisdict = {
     "Company": "Maruti",
@@ -102,3 +103,8 @@ There is also a method called get() that will give you the same result:
     Company
     model
     year
+    
+    
+##### Print all values in the dictionary, one by one:    
+##### Example
+
