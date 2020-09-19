@@ -1,4 +1,4 @@
-![Let's Learn Regex](https://github.com/N-Harish/Open-contributions/blob/master/RegEx.jpg)
+![Let's Learn Regex](https://github.com/N-Harish/Open-contributions/blob/master/regex.jpeg)
 
 # Regular Expression/RegEx
 
