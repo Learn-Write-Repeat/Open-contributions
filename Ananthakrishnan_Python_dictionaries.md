@@ -27,9 +27,19 @@
     "Company": "Maruti",
     "model": "Swift",
     "year": 2020,
-     "model": "WagonR"   #then the value which is last assigned is considered
+     "model": "WagonR"   #then the value which is last assigned is considered as the value of the key.
     }
     print(thisdict)
     
 ###### output:
-          {'model': 'WagonR', 'Company': 'Maruti', 'year': 2020}
+        {'model': 'WagonR', 'Company': 'Maruti', 'year': 2020}
+
+
+
+## Accessing Items 
+
+- You can access the items of a dictionary by referring to its key name, inside square brackets:
+
+***Example***
+  Get the value of the **"model**" key:
+          
