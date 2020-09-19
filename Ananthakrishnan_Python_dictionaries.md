@@ -67,3 +67,38 @@ There is also a method called get() that will give you the same result:
 
 ##### output:
      Swiftt
+     
+## Change Values
+- You can change the value of a specific item by referring to its key name:
+
+
+###### example:
+    thisdict = {
+    "Company": "Maruti",
+    "model": "Swift",
+    "year": 2020
+    }
+    thisdict["year"] = 2018
+    print(thisdict)
+
+##### output:
+    {'year': 2018, 'model': 'Swift', 'Company': 'Maruti'}
+    
+## Loop Through a Dictionary
+- You can loop through a dictionary by using a for loop.
+- When looping through a dictionary, the return value are the keys of the dictionary, but there are methods to return the values as well.
+
+###### example:
+    thisdict = {
+    "Company": "Maruti",
+    "model": "Swift",
+    "year": 2020
+    }
+    
+    for x in thisdict:
+    print(x)
+
+##### output:
+    Company
+    model
+    year
