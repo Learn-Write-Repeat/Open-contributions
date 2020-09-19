@@ -38,8 +38,11 @@
 
 ## Accessing Items 
 
-- You can access the items of a dictionary by referring to its key name, inside square brackets:
+
+ You can access the items of a dictionary by referring to its key name, inside square brackets:
 
 ***Example***
+
+
   Get the value of the **"model**" key:
           
