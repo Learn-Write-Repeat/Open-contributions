@@ -5,9 +5,12 @@
 -  The key should be ***unique*** and can be of any data type.
 
 ##### syntax:
-       thisdict = {
-      "brand": "Ford",
-      "model": "Mustang",
-      "year": 1964
-       }
-       print(thisdict)
+    thisdict = {
+    "Company": "Maruti",
+    "model": "Swift",
+    "year": 2020
+    }
+    print(thisdict)
+
+###### output:
+    {'Company': 'Maruti', 'model': 'Swift', 'year': 2020}
