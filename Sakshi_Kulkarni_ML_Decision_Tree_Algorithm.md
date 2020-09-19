@@ -29,10 +29,10 @@ Say we have to classify a dataset for a car company who wants to classify whethe
 <img src="Basic-structure-of-a-decision-tree-All-decision-trees-are-built-through-recursion.png" alt="drawing" width="400"/>
 
 
-# Decisiion tree for classification
+# Decision tree for classification
 
 The main challenge in this algorithm is to identify the conditions for classification.
-# How to decide which condition should be present at what node?
+# How to decide the conditions when the target variable is categorical?
 ## Gini impurity
 Say we take average of ages between any 2 data points.The classification is as follows:
 <img src="bitmap.png" alt="drawing" width="400"/>
@@ -74,6 +74,7 @@ The next internal node is then considered to be the leaf node.
 
  
  # Decision tree for regression
+ # How to decide the conditions when the target variable is continuous?
  We have the following data.We need to predict the salary for a particular level of position for example 4.5
  
  This data has continuous values,since the level and salary is proportional to the employee's level.
@@ -93,7 +94,7 @@ The next internal node is then considered to be the leaf node.
 ##  How to so implement decision tree in this case?
 ### Mean Squared Error(MSE)
  MSE measures the average of the squares of the errors—that is, the average squared difference between the estimated values and what is actually estimated.Decision trees work by iteratively splitting the data into distinct subsets in a greedy fashion. For regression trees, they are chosen to minimize the MSE within all of the subsets.
-
+<img src="mse.png" alt="drawing" width="400"/>
 
 
 
