@@ -27,7 +27,7 @@
     "Company": "Maruti",
     "model": "Swift",
     "year": 2020,
-     "model": "WagonR"
+     "model": "WagonR"   #then the value which is last assigned is considered
     }
     print(thisdict)
     
