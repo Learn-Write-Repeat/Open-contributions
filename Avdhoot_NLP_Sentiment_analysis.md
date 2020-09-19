@@ -152,7 +152,8 @@ This was basic neural network for sentiment analysis which after training will b
 <img src = "https://static1.squarespace.com/static/5378d8b8e4b078c526a500ea/t/5a04be8b71c10be42f618a39/1510260423065/vader?format=1500w" width=300 >
 NO NO! not this Vader
 <br>VADER stands for **V**alence **A**ware **D**ictionary and s**E**ntiment **R**easoner, it is a lexicon and rule-based sentiment analysis tool.
-<br>**VADER** is specially modelled and trained to determine the sentiments on the social media texts to determine any harmful or negative activity specifically.
+<br> 
+**VADER** is specially modelled and trained to determine the sentiments on the social media texts to determine any harmful or negative activity specifically.
 Here's how VADER is different from basic sentiment analysis.
 
 <img src = "https://www.researchgate.net/profile/Suthendran_Kannan/publication/325896826/figure/fig5/AS:639911610818561@1529578225737/Sentiment-Analysis-vs-VADER-Sentiment-Analysis.png" width=500>
@@ -216,11 +217,11 @@ Here's a paper you  could read regarding to BERT [link](https://arxiv.org/abs/19
 Thank you for staying till here and I hope you had a good time reading this and probably learnt something just like the neural network!**<br>
 You can always contact me at my social media handles:
 
-<span>
-<img src ="https://media1.giphy.com/media/SwyH7oWi2vhkOjCwiJ/200.gif" width=80 height=80 href="https://www.instagram.com/awwdudee_/">
-<img src = "https://octodex.github.com/images/daftpunktocat-guy.gif" width =80 height =80 href="https://github.com/avdhoot0303">
-<img src = "https://i1.wp.com/www.owlishcommunications.com/thewisdomzone/wp-content/uploads/LINKEDIN-LOGO-2-Animated-Pulsating.gif?fit=500%2C500&ssl=1=" width=80 height=80 href = "https://www.linkedin.com/in/avdhoot-patil-419689148/">
-<img src = "https://media0.giphy.com/media/M9O6ePwNJ58UMF1Rvq/giphy.gif" width = 80 height = 80 href = "https://twitter.com/imightsayjokes">
+
+<a href="https://www.instagram.com/awwdudee_/"><img src ="https://media1.giphy.com/media/SwyH7oWi2vhkOjCwiJ/200.gif" width=80 height=80></a>
+<a href="https://github.com/avdhoot0303"><img src = "https://octodex.github.com/images/daftpunktocat-guy.gif" width =80 height =80 ></a>
+<a href = "https://www.linkedin.com/in/avdhoot-patil-419689148/"><img src = "https://i1.wp.com/www.owlishcommunications.com/thewisdomzone/wp-content/uploads/LINKEDIN-LOGO-2-Animated-Pulsating.gif?fit=500%2C500&ssl=1=" width=80 height=80 ></a>
+<a href = "https://twitter.com/imightsayjokes"><img src = "https://media0.giphy.com/media/M9O6ePwNJ58UMF1Rvq/giphy.gif" width = 80 height = 80 ></a>
 <br> Mail me at: avdhootpatil245@gmail.com
 	
 ## 
