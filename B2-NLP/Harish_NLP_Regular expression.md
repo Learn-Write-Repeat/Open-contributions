@@ -16,7 +16,7 @@
 * RegEx also makes validation (Password, Email, Dates and many more) simple since just we need to check wheather the data is in desired format
 * Often when doing NLP task we may need to process the text so RegEx can help in simplifying our task
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Common RegEx patterns 
 
@@ -28,6 +28,12 @@
 
 
 ![RegEx Quantifier](https://github.com/N-Harish/Open-contributions/blob/master/RegEx%20quantifiers.JPG)  ![RegEx Group](https://github.com/N-Harish/Open-contributions/blob/master/Regex%20Group.JPG)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## RegEx character classes
+
+
 
 
 
