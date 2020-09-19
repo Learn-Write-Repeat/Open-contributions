@@ -32,7 +32,7 @@
     print(thisdict)
     
 ###### output:
-                 {'Company': 'Maruti', 'model': 'WagonR', 'year': 2020}
+    {'Company': 'Maruti', 'model': 'WagonR', 'year': 2020}
 
 
 
@@ -51,7 +51,7 @@ Get the value of the "model" key:
     x = thisdict["model"]
     print(thisdict)
 ##### output:
-     Swiftt
+    Swiftt
 
 
 There is also a method called get() that will give you the same result:
@@ -66,7 +66,7 @@ There is also a method called get() that will give you the same result:
     print(x)
 
 ##### output:
-     Swiftt
+    Swiftt
      
 ## Change Values
 - You can change the value of a specific item by referring to its key name:
@@ -82,7 +82,7 @@ There is also a method called get() that will give you the same result:
     print(thisdict)
 
 ##### output:
-        {'Company': 'Maruti', 'model': 'Swift', 'year': 2018}
+    {'Company': 'Maruti', 'model': 'Swift', 'year': 2018}
     
 ## Loop Through a Dictionary
 - You can loop through a dictionary by using a for loop.
@@ -180,7 +180,7 @@ There is also a method called get() that will give you the same result:
     }
      print(len(thisdict))
  ###### output:
-      3
+     3
  ## Adding Items
  - Adding an item to the dictionary is done by using a new index key and assigning a value to it:
 
@@ -193,7 +193,7 @@ There is also a method called get() that will give you the same result:
      thisdict["color"] = "blue"
      print(thisdict)
  ###### output:
-      {'Company': 'Maruti', 'model': 'Swift', 'year': 2020, 'color': 'blue'}
+    {'Company': 'Maruti', 'model': 'Swift', 'year': 2020, 'color': 'blue'}
 
 
 ## Removing Items
@@ -223,7 +223,7 @@ There is also a method called get() that will give you the same result:
     thisdict.popitem()
      print(thisdict)
 ###### output:
-        {'Company': 'Maruti', 'model': 'Swift'}
+    {'Company': 'Maruti', 'model': 'Swift'}
  
  
   
@@ -239,7 +239,7 @@ There is also a method called get() that will give you the same result:
      del thisdict["model"]
      print(thisdict)
 ###### output:
-        {'Company': 'Maruti', 'year':  2020}
+    {'Company': 'Maruti', 'year':  2020}
         
         
 ###### Example
@@ -252,14 +252,9 @@ There is also a method called get() that will give you the same result:
      del thisdict
      print(thisdict)  #this will cause an error because "thisdict" no longer exists.
 ###### output:
-        ---------------------------------------------------------------------------
-        NameError                                 Traceback (most recent call last)
-       <ipython-input-34-911455a530b3> in <module>
-          6     }
-          7 del thisdict
-           ----> 8 print(thisdict)
-
-         NameError: name 'thisdict' is not defined
+     ---------------------------------------------------------------------------
+     NameError                                 Traceback (most recent call last)
+     NameError: name 'thisdict' is not defined
    
  ###### Example  
  ###### The clear() method empties the dictionary:
@@ -271,7 +266,7 @@ There is also a method called get() that will give you the same result:
      thisdict.clear()
      print(thisdict)  
 ###### output:
-        {} 
+    {} 
  
  
  ## Copy a Dictionary
@@ -287,7 +282,7 @@ There is also a method called get() that will give you the same result:
      mydict = thisdict.copy()
      print(mydict) 
 ###### output:
-     {'Company': 'Maruti', 'model': 'Swift', 'year': 2020}   
+    {'Company': 'Maruti', 'model': 'Swift', 'year': 2020}   
    
    
  ## Built-in Methods of Dictionary
