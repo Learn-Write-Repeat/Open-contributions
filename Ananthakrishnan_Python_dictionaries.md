@@ -51,5 +51,19 @@ Get the value of the "model" key:
     x = thisdict["model"]
     print(thisdict)
 ##### output:
-       Swiftt
-          
+     Swiftt
+
+
+There is also a method called get() that will give you the same result:
+
+###### example:
+    thisdict = {
+    "Company": "Maruti",
+    "model": "Swift",
+    "year": 2020
+    }
+    x = thisdict.get("model")
+    print(thisdict)
+
+##### output:
+     Swiftt
