@@ -16,3 +16,5 @@ Here when the kernel moves we can see the intensity change in the kernel but in 
 As the kernel moves towards the corner, the intensity change is in different axes. Thus a corner is detected.
   
 ![Animation3](Aditya_pics/Animation3.gif)
+
+### Harris Corner Detection
