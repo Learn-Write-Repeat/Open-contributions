@@ -63,7 +63,7 @@ There is also a method called get() that will give you the same result:
     "year": 2020
     }
     x = thisdict.get("model")
-    print(thisdict)
+    print(x)
 
 ##### output:
      Swiftt
