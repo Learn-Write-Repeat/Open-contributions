@@ -40,9 +40,10 @@
  - You can access the items of a dictionary by referring to its key name, inside square brackets:
 
 ###### example:
-    Get the value of the "model" key:
+Get the value of the "model" key:
     
-     thisdict = {
+    
+    thisdict = {
     "Company": "Maruti",
     "model": "Swift",
     "year": 2020
