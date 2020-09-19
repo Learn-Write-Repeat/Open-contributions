@@ -32,7 +32,7 @@
     print(thisdict)
     
 ###### output:
-        {'model': 'WagonR', 'Company': 'Maruti', 'year': 2020}
+                 {'Company': 'Maruti', 'model': 'WagonR', 'year': 2020}
 
 
 
