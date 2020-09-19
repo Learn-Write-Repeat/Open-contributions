@@ -82,7 +82,7 @@ There is also a method called get() that will give you the same result:
     print(thisdict)
 
 ##### output:
-    {'year': 2018, 'model': 'Swift', 'Company': 'Maruti'}
+        {'Company': 'Maruti', 'model': 'Swift', 'year': 2018}
     
 ## Loop Through a Dictionary
 - You can loop through a dictionary by using a for loop.
@@ -98,7 +98,7 @@ There is also a method called get() that will give you the same result:
     }
     
     for x in thisdict:
-    print(x)
+         print(x)
 
 ##### output:
     Company
@@ -110,14 +110,14 @@ There is also a method called get() that will give you the same result:
 ###### Example
 ###### Print all values in the dictionary, one by one:   
 
-     thisdict = {
+    thisdict = {
     "Company": "Maruti",
     "model": "Swift",
     "year": 2020
     }
     
     for x in thisdict:
-    print(thisdict[x])
+        print(thisdict[x])
 
 ###### output:
         Maruti
@@ -126,13 +126,13 @@ There is also a method called get() that will give you the same result:
         
 ###### Example
 ###### You can also use the values() method to return values of a dictionary:
-     thisdict = {
+    thisdict = {
     "Company": "Maruti",
     "model": "Swift",
     "year": 2020
     }
     for x in thisdict.values():
-    print(x)
+        print(x)
  ###### output:
         Maruti
         Swift
@@ -184,8 +184,7 @@ There is also a method called get() that will give you the same result:
  ## Adding Items
  - Adding an item to the dictionary is done by using a new index key and assigning a value to it:
 
- ###### Example
-###### Loop through both keys and values, by using the items() method:
+ ###### Example 
      thisdict = {
     "Company": "Maruti",
     "model": "Swift",
@@ -253,13 +252,17 @@ There is also a method called get() that will give you the same result:
      del thisdict
      print(thisdict)  #this will cause an error because "thisdict" no longer exists.
 ###### output:
-        
-    print(thisdict) #this will cause an error because "thisdict" no longer exists.
-    NameError: name 'thisdict' is not defined
+        ---------------------------------------------------------------------------
+        NameError                                 Traceback (most recent call last)
+       <ipython-input-34-911455a530b3> in <module>
+          6     }
+          7 del thisdict
+           ----> 8 print(thisdict)
+
+         NameError: name 'thisdict' is not defined
    
  ###### Example  
  ###### The clear() method empties the dictionary:
-     thisdict = {
      thisdict = {
     "Company": "Maruti",
     "model": "Swift",
@@ -277,13 +280,12 @@ There is also a method called get() that will give you the same result:
  ###### Example  
  ###### The clear() method empties the dictionary:
      thisdict = {
-     thisdict = {
     "Company": "Maruti",
     "model": "Swift",
     "year": 2020
     }
      mydict = thisdict.copy()
-     print(mydict 
+     print(mydict) 
 ###### output:
      {'Company': 'Maruti', 'model': 'Swift', 'year': 2020}   
    
