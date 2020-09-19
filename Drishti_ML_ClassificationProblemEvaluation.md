@@ -180,3 +180,6 @@ So basically we have :eight: **evaluation metrics** for dealing with classificat
 
 I hope you like it. :sparkles:
 
+In case if you wanna reach me [![LinkedIn logo image](https://github.com/arpit-dwivedi/arpit-dwivedi.github.io/raw/master/assets/img/Webp.net-resizeimage.png)](https://www.linkedin.com/in/drishti-sabhaya-83446a193/)  &nbsp;&nbsp;
+[![Github logo image](https://img.icons8.com/small/2x/github.png)](https://github.com/DrishtiSabhaya) &nbsp;&nbsp; ![Gmail logo image](https://github.com/arpit-dwivedi/arpit-dwivedi/blob/master/m1.png?raw=true) [drishtisabhaya@gmail.com]
+
