@@ -1,4 +1,4 @@
-## Corner Detection in OpenCV
+# Corner Detection in OpenCV
 Corner Detection is detecting corner points in an image. Basically the popular algorithms in OpenCV are as follows:
 1. **Harris Corner Detection**
 2. **Shi-Tomasi Corner Detection**
@@ -17,7 +17,7 @@ As the kernel moves towards the corner, the intensity change is in different axe
   
 ![Animation3](Aditya_pics/Animation3.gif)
 
-### Harris Corner Detection
+## Harris Corner Detection
 - Let's see the mathematical approach: <br>
 The kernel is a matrix which can be formulated as:
 
@@ -32,6 +32,11 @@ here,
 - trace(M) = λ1 + λ2
 - k is free constant which varies between 0.04 to 0.06
 - λ1 and λ2 are the eigen values of matrix M
+
+Conditions Considered:
+1. When λ1 and λ2 are small, the region is **flat**.
+2. When λ1 << λ2 or λ1 >> λ2 ie, there is a huge difference in the two values then the region is **edge**.
+3. When λ1 and λ2 are large and are almost equal λ1 ~ λ2 then the region is **corner**.
 
 - How the function looks like:
 ```python
@@ -49,3 +54,26 @@ where,
 - Output:
 
 ![Harris_output](Aditya_pics/Harris_output.PNG)
+
+## Shi-Tomasi Corner Detection
+<br>
+The intution of this algorithm is quite similar to Harris Corner algorithm but the mathematical approach is bit different. We consider the minimum eigen value as the R score.
+
+![Shi_tomasi_eqn2](Aditya_pics/Shi_tomasi_eqn2.PNG)
+
+> Again over here the conditions related to R score and eigen values are similar.
+
+- Shi-Tomasi is actually named as goodFeaturesToTrack function:
+```python
+corners = cv2.goodFeaturesToTrack(img=gray, max_corners=5, Q=5, min_distance=0.04)
+```
+where,
+- **img**: the image to be provided to process, specifically grayscale.
+- **max_corners**: the maximum number of corners to be displayed based on their score. To display all corners give -1 as argument.
+- **Q**: the quality level below which that corner points will be rejected.
+- **min_distance**: the minimum distance between two corners. So if two points have a distance less than this one of will be removed based on score.
+- **corners**: the function returns an array of cordinates of those corners to be displayed.
+
+- Output:
+
+![Shi_tomasi_output](Aditya_pics/Shi_tomasi_output.PNG)
