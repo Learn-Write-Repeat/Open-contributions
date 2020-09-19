@@ -15,3 +15,5 @@
   - IDF: Inverse Document Frequency, which measures how important a term is. While computing TF, all terms are considered equally important. However it is known that certain terms, such as "is", "of", and "that", may appear a lot of times but have little importance. Thus we need to weigh down the frequent terms while scale up the rare ones, by computing the following:
 
     - IDF(w) = log_e(Total number of documents / Number of documents with word w in it).
+- Formula for calculating TF-IDF:   
+![](https://cdn.searchenginejournal.com/wp-content/uploads/2019/10/screenshot-1.png)
