@@ -35,7 +35,9 @@
 
 ![regex character class](https://github.com/N-Harish/Open-contributions/blob/master/regex%20character%20class.JPG)
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+## Python re module functions
 
-
-
+* ```re.findall(P, S)``` :- Matches all the occurences of the Pattern ```P``` in the string ```S```
+* 
