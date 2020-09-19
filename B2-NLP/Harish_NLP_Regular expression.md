@@ -45,3 +45,12 @@
 * ```re.sub(P, R, S)``` :- Replace ```P``` with ```R``` in string ```S```.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# About Me
+
+I'm Harish Natarajan, an aspiring Data Scientist instrested in NLP, Deep Learning, Machine Learning and IoT. 
+
+You can reach me at :-
+
+[![linkedin](https://github.com/arpit-dwivedi/arpit-dwivedi.github.io/blob/master/assets/img/Webp.net-resizeimage.png)](https://www.linkedin.com/in/harish-natarajan-82a4b418b/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![mail](https://github.com/arpit-dwivedi/arpit-dwivedi/blob/master/m1.png)](mailto:harishnatarajan24@gmail.com)
+
