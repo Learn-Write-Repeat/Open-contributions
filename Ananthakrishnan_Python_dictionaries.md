@@ -14,3 +14,22 @@
 
 ###### output:
     {'Company': 'Maruti', 'model': 'Swift', 'year': 2020}
+
+## Properties of Dictionary
+
+-  In  dictionary, we cannot store multiple values for the same keys. If we pass more than one value for a single key, then the value which is last assigned is considered as the value of the key.
+
+- In python, the key cannot be any mutable object. We can use numbers, strings, or tuples as the key, but we cannot use any mutable object like the list as the key in the dictionary.
+
+
+##### syntax:
+    thisdict = {
+    "Company": "Maruti",
+    "model": "Swift",
+    "year": 2020,
+     "model": "WagonR"
+    }
+    print(thisdict)
+    
+###### output:
+          {'model': 'WagonR', 'Company': 'Maruti', 'year': 2020}
