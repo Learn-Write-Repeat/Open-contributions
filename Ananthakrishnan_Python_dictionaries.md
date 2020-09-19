@@ -50,5 +50,6 @@ Get the value of the "model" key:
     }
     x = thisdict["model"]
     print(thisdict)
-    
+##### output:
+       Swiftt
           
