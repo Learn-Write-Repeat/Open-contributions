@@ -1,5 +1,5 @@
 ## Created by: Aditya Mahimkar
-[**Mail Me**](mailto:mahimkaradi@gmail.com)
+📫 [**Mail Me**](mailto:mahimkaradi@gmail.com)
 
 # Corner Detection in OpenCV
 Corner Detection is detecting corner points in an image. Basically the popular algorithms in OpenCV are as follows:
