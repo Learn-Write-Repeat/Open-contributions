@@ -211,36 +211,7 @@ There is also a method called get() that will give you the same result:
      print(thisdict)
 ###### output:
         {'Company': 'Maruti', 'year': 2020}
-        
-        
-###### Example
-###### The pop() method removes the item with the specified key name:
-     thisdict = {
-    "Company": "Maruti",
-    "model": "Swift",
-    "year": 2020
-    }
-    thisdict.popitem()
-     print(thisdict)
-###### output:
-        {'Company': 'Maruti', 'model': 'Swift'}
-        
-## Removing Items
- - There are several methods to remove items from a dictionary:
- 
-###### Example
-###### The pop() method removes the item with the specified key name:
-     thisdict = {
-    "Company": "Maruti",
-    "model": "Swift",
-    "year": 2020
-    }
-    thisdict.pop("model")
-     print(thisdict)
-###### output:
-        {'Company': 'Maruti', 'year': 2020}      
-        
-        
+              
 
  
 ###### Example
@@ -256,22 +227,6 @@ There is also a method called get() that will give you the same result:
         {'Company': 'Maruti', 'model': 'Swift'}
  
  
-
- 
-
-  
- 
-###### Example
-###### The popitem() method removes the last inserted item
-     thisdict = {
-    "Company": "Maruti",
-    "model": "Swift",
-    "year": 2020
-    }
-    thisdict.popitem()
-     print(thisdict)
-###### output:
-        {'Company': 'Maruti', 'model': 'Swift'}
   
   
   
@@ -327,10 +282,10 @@ There is also a method called get() that will give you the same result:
     "model": "Swift",
     "year": 2020
     }
-     thisdict.clear()
-     print(thisdict)  
+     mydict = thisdict.copy()
+     print(mydict 
 ###### output:
-        {}   
+     {'Company': 'Maruti', 'model': 'Swift', 'year': 2020}   
    
    
  ## Built-in Methods of Dictionary
