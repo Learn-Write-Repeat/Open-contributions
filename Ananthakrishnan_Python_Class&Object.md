@@ -9,9 +9,9 @@
  - Classes are created by keyword class.
  - Attributes are the variables that belong to class.
  - Attributes are always public and can be accessed using dot (.) operator. 
-#### Class
 
-###### Create a Class
+
+###### Create a **Class**
     To create a class, use the keyword class:
        
      class car:
@@ -37,27 +37,27 @@
 
      p1 = car()
      print(p1.x)
-##### output:
+###### output:
      5
      Maruti
 
      
 ###### Example 2     
-     class Jeep:  
+    class Jeep:  
       
-    # A simple class 
-    # attribute 
+               # A simple class 
+               # attribute 
           company = "Maruti"
           location = "India"
   
-    # A sample method   
+              # A sample method   
           def test(self):  
                print("I'm from", self.company) 
                print("I'm made in ", self.location) 
   
 
-     # Object instantiation 
-     jimny = Dog() 
+    # Object instantiation 
+    jimny = Dog() 
   
     # Accessing class attributes 
     # and method through objects 
