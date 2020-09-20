@@ -20,8 +20,10 @@ We find the Within-Cluster-Sum-of-Squares(WCSS).The idea is to minimise the sum.
 **How to choose the number of clusters from a WCSS vs clusters graph?**
 
 
-To determine the optimal number of clusters, we have to select the value of k at the “elbow” ie the point after which the WCSS start decreasing in a linear fashion
+To determine the optimal number of clusters, we have to select the value of k at the “elbow” ie the point after which the WCSS start decreasing in a linear fashion.
+
 <img src="elbow.jpg" alt="drawing" width="400"/>
+
 *The elbow here is at number of clusters=5*
 
 
