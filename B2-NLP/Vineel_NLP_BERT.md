@@ -105,3 +105,7 @@ This process is *supervised* where we fine-tune the model to perform a specific 
 
 ### Conclusion:
 **BERT** has indeed inspired many recent NLP architectures such as RoBERTa, OpenAI's GPT-2, XLNet, Google's TransformerXL and ERNIE2.0. Although modern NLP architectures may surpass **BERT's** performance, one cannot deny the fact that **BERT** has revolutionized the world of **Natural Language Processing**.
+
+### By -
+#### Vineel Noel Vempati
+Links: [LinkedIn](https://www.linkedin.com/in/vineel-noel-vempati/) [GitHub](https://github.com/vineelnoel/)
