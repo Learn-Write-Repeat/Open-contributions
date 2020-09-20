@@ -43,7 +43,7 @@ For this algorithm to need to find the optimal number of clusters from a dendrog
 Consider the following dendrogram.Here we can see the segment with yellow light cannot be choosen even if it has the largest length as the horizontal segments 1,2 passes through it(similarly for other segments), hence we take the verticalsegment with red highlight as the largest since no horizontal segments pass through it.
 
 <img src="dendo.jpg" alt="drawing" width="400"/>
-Now the horizontal segment in the line passes through 5 clusters which is the optimum number of clusters that you will see in the implementation.
+Now the horizontal segment in the line passes through 5 clusters which is the optimum number of clusters that you will see in the implementation file.
 <img src="dendo1.jpg" alt="drawing" width="400"/>
 
 ## Happy Learning!
