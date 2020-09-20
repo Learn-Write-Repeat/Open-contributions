@@ -1,4 +1,27 @@
-# A Gentle Introduction to XGBoost for Applied Machine Learning
+# What Is Ensemble Learning? 
+
+Ensemble learning combines several base algorithms to form one optimized predictive algorithm. For example, a typical Decision Tree for classification takes several factors, turns them into rule questions, and given each factor, either makes a decision or considers another factor. The result of the decision tree can become ambiguous if there are multiple decision rules, e.g. if threshold to make a decision is unclear or we input new sub-factors for consideration. This is where Ensemble Methods comes at one's disposable. Instead of being hopeful on one Decision Tree to make the right call, Ensemble Methods take several different trees and aggregate them into one final, strong predictor.
+
+## Types Of Ensemble Methods
+
+Ensemble Methods can be used for various reasons, mainly to:
+
+    Decrease Variance (Bagging)
+    Decrease Bias (Boosting)
+    Improve Predictions (Stacking)
+
+## Boosting in Ensemble Methods
+
+Just as humans learn from their mistakes and try not to repeat them further in life, the Boosting algorithm tries to build a strong learner (predictive model) from the mistakes of several weaker models. You start by creating a model from the training data. Then, you create a second model from the previous one by trying to reduce the errors from the previous model. Models are added sequentially, each correcting its predecessor, until the training data is predicted perfectly or the maximum number of models have been added.
+
+Boosting basically tries to reduce the bias error which arises when models are not able to identify relevant trends in the data. This happens by evaluating the difference between the predicted value and the actual value.
+
+### Types of Boosting Algorithms
+
+    1.AdaBoost (Adaptive Boosting)
+    2.Gradient Tree Boosting
+    3.XGBoost
+
 ## What is XGBoost
 
 XGBoost is the leading model for working with standard tabular data (the type of data you store in Pandas DataFrames, as opposed to more exotic types of data like images and videos).       XGBoost models dominate many Kaggle competitions.
