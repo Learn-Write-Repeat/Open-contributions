@@ -8,4 +8,5 @@
 6. Capturing images from live feed and saving them for later use.
 7. Using opencv to generate datasets for projects.
 8. Taking images from live webcam feed in order to run through a model.
-9. Using cascade classifiers to detect stuff like faces, facial features and much more !!
+9. Thresholding  and dilation techniques.
+10. Using cascade classifiers to detect stuff like faces, facial features and much more !!
