@@ -1,6 +1,7 @@
 ## What are hyperparameters?
 
 To understand hyperparameters and their significance in a Machine Learning or Deep Learning model, we need to understand how they differ from model parameters. Model parameters are the sets of values that are determined by processing the training data through the ML algorithm. They vary based on the data and are determined internally i.e. we do not set these parameters manually. Model parameters include the weights and biases in neural networks, word frequency and lexical diversity in NLP, coefficients of variables in regression and nodes in a decision tree to name a few.
+
 Model Hyperparameters, unlike parameters are external factors that regulate the architecture of the ML model and in turn modify the parameters. Hyperparameters are not affected by the data as they are used fundamentally to define the structure of the ML model itself. Model hyperparameters include penalty and max iterations in regression, weight decay and momentum in neural networks, maximum depth and class weight in decision trees. These parameters and hyperparameters define the different aspects of the tree and vary from one model to another and from one algorithm to another respectively.
 
 ## The need for hyperparameter tuning
