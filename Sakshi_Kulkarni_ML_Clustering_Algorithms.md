@@ -22,4 +22,7 @@ Hierarchical clustering is a general family of clustering algorithms that build 
 Hierarchical clustering starts by treating each observation as a separate cluster. Then, it repeatedly executes the following two steps:
 (1) identify the two clusters that are closest together, and (2) merge the two most similar clusters. This iterative process continues until all the clusters are merged together.
 the distance between two clusters has been computed based on the length of the straight line drawn from one cluster to another.
+
 <img src="clustergram.png" alt="drawing" width="400"/>
+#### How to choose the number of clusters froma dendrogram?
+For this algorithm to need to find the optimal number of clusters from a dendrogram.Now there isn't a fixed approach but intuitively you take the largest vertical line which is not cut by any extended horizontal line ,pass a horizontal line(H1) through it and the number of vertical lines H1 crosses is the optimum number of clusters.
