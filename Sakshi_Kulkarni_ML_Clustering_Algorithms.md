@@ -13,6 +13,9 @@ and assign it as a new centroid.The difference between the new and the old centr
 <img src="kmeans1.png" alt="drawing" width="400"/>
 
 *X represents centroids and the circles represent the data*
+We find the Within-Cluster-Sum-of-Squares.The idea is to minimise the sum.
+<img src="wcss.png" alt="drawing" width="400"/>
+
 
 ### Hierarchial Clustering
 Hierarchical clustering is a general family of clustering algorithms that build nested clusters by merging or splitting them successively.This hierarchy of clusters is represented as a tree (or dendrogram).
