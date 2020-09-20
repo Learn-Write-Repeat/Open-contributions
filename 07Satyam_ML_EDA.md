@@ -7,6 +7,11 @@ According to [**Wikipedia**](https://en.wikipedia.org/wiki/Exploratory_data_anal
 ## **How to perform Exploratory Data Analysis?**
 This is one such question that everyone is keen on knowing the answer. Well, the answer is it depends on the data set that you are working. There is no one method or common methods in order to perform EDA, whereas in this Project you can understand some common methods and plots that would be used in the EDA process.
 
+ **Advantages of EDA**
+1.  It gives us valuable insights about the data
+2.  It helps us for feature selection (i.e using PCA)
+3.  Visualization is an effective way of detecting outliers
+
 ### **Dataset Introduction**
 We will perform exploratory data analysis on the [House Price Prediction](https://drive.google.com/drive/folders/1--PFBNBWnrZ9AUyAjK_J4DzZZzIrZ6R4?usp=sharing) dataset.
 
