@@ -132,8 +132,28 @@ In the above example, an object is created which is basically a ***Jeep*** named
          print("New rate is" , p1.rate)
 
 ###### output:
-              Hello my name is Swift
-              Swift
-              Previous rate of my model was  500000
-               New rate is 400000
+          Hello my name is Swift
+          Swift
+          Previous rate of my model was  500000
+          New rate is 400000
         
+        
+ **Delete Object Properties**
+  - You can delete properties on objects by using the del keyword:
+
+###### Example:
+    class Car:
+            def __init__(self, model, rate):
+                   self.model = model
+                   self.rate = rate
+
+            def myfunc(self):
+                    print("Hello my name is " + self.model)
+
+     p1 = Car("Swift",500000 )
+
+
+     del p1.rate
+     print(p1.rate)
+###### output:
+      AttributeError: 'Car' object has no attribute 'rate'
