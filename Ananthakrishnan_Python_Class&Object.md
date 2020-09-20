@@ -13,8 +13,15 @@
 ###### Create a Class
     To create a class, use the keyword class:
        
-     class MyClass:
+     class car:
       x = 5
-     print(MyClass)
+     print(car)
  
- 
+ ###### output:
+    <class '__main__.car'>
+    
+#### Class Objects
+ - An Object is an instance of a Class. A class is like a blueprint while an instance is a copy of the class with actual values.
+###### Create Object
+      Now we can use the class named car to create objects:
+
