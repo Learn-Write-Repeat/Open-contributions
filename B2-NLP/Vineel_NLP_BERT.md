@@ -90,7 +90,7 @@ By adding these 3 vectors, we get an embedding vector which we use as the input 
 
 <p align='center'><img src="BERT output-01.png" alt = 'BERT output' width = 70%></p>
 
-On the output side of the BERT model, `C` indicates the output of the NSP; `1` meaning the 2nd sentence follows the 1st and `0` otherwise. T1, T2,..., Tn are word vectors that indicate the output of the corresponding MLM task process. All word vectors are of the same size and are generated simultaneously.
+On the output side of the BERT model, `C` indicates the output of the NSP; `1` meaning the 2nd sentence follows the 1st and `0` otherwise. `T1, T2,..., Tn` are word vectors that indicate the output of the corresponding MLM task process. All word vectors are of the same size and are generated simultaneously.
 
 <p align='center'><img src="BERT output2-01.png" alt = 'BERT output' width = 70%></p>
 
