@@ -57,7 +57,7 @@
   
 
     # Object instantiation 
-    jimny = Dog() 
+    jimny = Jeep() 
   
     # Accessing class attributes 
     # and method through objects 
@@ -68,6 +68,6 @@
     Maruti
     I'm from Maruti
     I'm made in  India
-
-
-**Note**: The ***self*** parameter is a reference to the current instance of the class, and is used to access variables that belong to the class.
+    
+In the above example, an object is created which is basically a ***Jeep*** named ***jimny***. This class only has two class attributes that tell us that ***jimny*** is from ***Maruti*** and made from ***India***.
+**Note**: The  ***self***  parameter is a reference to the current instance of the class, and is used to access variables that belong to the class.
