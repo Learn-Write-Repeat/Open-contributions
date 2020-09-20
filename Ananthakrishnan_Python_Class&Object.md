@@ -70,4 +70,9 @@
     I'm made in  India
     
 In the above example, an object is created which is basically a ***Jeep*** named ***jimny***. This class only has two class attributes that tell us that ***jimny*** is from ***Maruti*** and made from ***India***.<br>
-**Note**: The  ***self***  parameter is a reference to the current instance of the class, and is used to access variables that belong to the class.
+**NOTE**: The  ***self***  parameter is a reference to the current instance of the class, and is used to access variables that belong to the class.
+
+***The self***
+ - Class methods must have an extra first parameter in method definition. We do not give a value for this parameter when we call the method, Python provides it.
+ - If we have a method which takes no arguments, then we still have to have one argument.
+ - This is similar to this pointer in C++ and this reference in Java.
