@@ -31,16 +31,21 @@ A whole transformer looks as below:
 <p align='center'><img src="transformer1-01.png" alt = 'transformer' height = 500 width = 500></p>
 
 A transformer generally consists of 2 components:
-Encoder
-Decoder
+1. Encoder
+1. Decoder
+
 The input of a sentence enters the encoder as it's passed through a transformer. The encoder's job is to understand the context of the sentence as a whole simultaneously and generate embeddings for each word. These embeddings are nothing but vectors that encapsulates the meaning of the word and later passed down to the decoder, which eventually translates to the desired language.
 
 Separate the encoder from the transformer and stack several encoders; You get a BERT model.
 
-BERT's Architecture:
+## BERT's Architecture:
+
 BERT has 2 versions:
-BERT Base - 12 layers (transformer blocks), 12 attention heads, and 110 million parameters.
-BERT Large - 24 layers (transformer blocks), 16 attention heads and, 340 million parameters.
+- BERT Base - 12 layers (transformer blocks), 12 attention heads, and 110 million parameters.
+- BERT Large - 24 layers (transformer blocks), 16 attention heads and, 340 million parameters.
+
+<p align='center'><img src="https://cdn.analyticsvidhya.com/wp-content/uploads/2019/09/bert_encoder.png" alt = 'transformer' height = 400 width = 600></p>
+<p align='center'><a href='http://jalammar.github.io/illustrated-bert/'>source</a></p>
 
 How BERT works:
 The training of BERT is done in 2 phases:
