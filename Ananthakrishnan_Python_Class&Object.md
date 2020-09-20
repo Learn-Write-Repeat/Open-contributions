@@ -76,3 +76,8 @@ In the above example, an object is created which is basically a ***Jeep*** named
  - Class methods must have an extra first parameter in method definition. We do not give a value for this parameter when we call the method, Python provides it.
  - If we have a method which takes no arguments, then we still have to have one argument.
  - This is similar to this pointer in C++ and this reference in Java.
+ 
+ **The __init__() Function**
+  - The __init__ method is similar to constructors in C++ and Java.
+  - Constructors are used to initialize the object’s state. Like methods, a constructor also contains a collection of statements(i.e. instructions) that are executed at the time of Object creation. 
+  - It is run as soon as an object of a class is instantiated. The method is useful to do any initialization you want to do with your object.
