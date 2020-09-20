@@ -69,7 +69,5 @@
     I'm from Maruti
     I'm made in  India
 
---- 
 
-
-    Note: The self parameter is a reference to the current instance of the class, and is used to access variables that belong to the class.
+**Note**: The ***self*** parameter is a reference to the current instance of the class, and is used to access variables that belong to the class.
