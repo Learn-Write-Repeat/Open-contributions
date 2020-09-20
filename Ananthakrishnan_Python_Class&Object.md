@@ -223,5 +223,5 @@ In the above example, an object is created which is basically a ***Jeep*** named
     Model:  wagonR
     Color:  black
 
-Accessing class variable using class name
-Verna
+    Accessing class variable using class name 
+    Verna
