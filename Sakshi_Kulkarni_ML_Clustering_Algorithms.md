@@ -12,7 +12,7 @@ and assign it as a new centroid.The difference between the new and the old centr
 
 <img src="kmeans1.png" alt="drawing" width="400"/>
 
-X represents centroids and the circles data
+*X represents centroids and the circles data*
 
 ### Hierarchial Clustering
 Hierarchical clustering is a general family of clustering algorithms that build nested clusters by merging or splitting them successively.This hierarchy of clusters is represented as a tree (or dendrogram).
