@@ -24,10 +24,9 @@
 #### Class Objects
  - An Object is an instance of a Class. A class is like a blueprint while an instance is a copy of the class with actual values.
  * An object consists of :
- 
-         1. State : It is represented by attributes of an object. It also reflects the properties of an object.
-         2. Behavior : It is represented by methods of an object. It also reflects the response of an object with other objects.
-         3. Identity : It gives a unique name to an object and enables one object to interact with other objects
+         - State : It is represented by attributes of an object. It also reflects the properties of an object.
+         - Behavior : It is represented by methods of an object. It also reflects the response of an object with other objects.
+         - Identity : It gives a unique name to an object and enables one object to interact with other objects
 ###### Create Object
       Now we can use the class named car to create objects:
       
