@@ -25,4 +25,8 @@ the distance between two clusters has been computed based on the length of the s
 
 <img src="clustergram.png" alt="drawing" width="400"/>
 #### How to choose the number of clusters froma dendrogram?
-For this algorithm to need to find the optimal number of clusters from a dendrogram.Now there isn't a fixed approach but intuitively you take the largest vertical line which is not cut by any extended horizontal line ,pass a horizontal line(H1) through it and the number of vertical lines H1 crosses is the optimum number of clusters.
+For this algorithm to need to find the optimal number of clusters from a dendrogram.Now there isn't a fixed approach but intuitively you take the largest vertical segment which is not cut by any extended horizontal segment ,pass a horizontal line(H1) through it and the number of vertical segments H1 crosses is the optimum number of clusters.
+Consider the following dendrogram.Here we can see the segment with yellow light cannot be choosen even if it has the largest length as the horizontal segments 1,2 passes through it(similarly for other segments), hence we take the segment with red highlight as the largest since no horizontal segments pass through it.
+
+<img src="dendo.png" alt="drawing" width="400"/>
+
