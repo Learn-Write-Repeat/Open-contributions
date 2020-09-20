@@ -81,7 +81,7 @@ So, all we have the output value in a boundary between 0 and 1.
 Maximizing the (log) likelihood is equivalent to minimizing the binary cross entropy. 
 There is literally no difference between the two objective functions, so there can be no difference between the resulting model or its characteristics.
 
-Reference links: 
+## Reference links: 
 
 [Medium](https://towardsdatascience.com/logistic-regression-detailed-overview-46c4da4303bc)
 
