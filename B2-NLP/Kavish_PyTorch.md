@@ -52,5 +52,5 @@ I guess, you might familiar with the task.In case, if not, Parts of Speech  is t
 
 So the plan for us is to use this toy task as a means for learning about Pytorch. Let’s do it! 
 
-Please refer to [this]() for the implementation part:
+Please refer to [this](https://github.com/KavishGoyal/Open-contributions/blob/master/B2-NLP/Kavish_NLP_PyTorch.ipynb) for the implementation part:
   
