@@ -47,10 +47,10 @@ Before getting into hyperparameter optimization for any ML model, we must first 
 3. Random Search:
 
     Random search creates models with random values of hyperparameters where we can specify the range of values. This method can be more efficient as compared to Grid search as it is less resource intensive and can provide better results in the same number of iterations. This is because the number of models that grid search creates is much larger as it goes through all the possible combinations to find the best fit. Random search is best used when the dataset is large and there are some important and some not so important hyperparameters. Grid search is best used for small datasets and where finding the best performing model is worth the resource tradeoff. For implementation, RandomizedSearchCV() from the sklearn.model_selection package is used. Like Grid Search, we also create a dictionary containing values of hyperparameters. Some important parameters of the GridSearchCV() function are:
-    * estimator - The odel being used for fitting
+    * estimator - The model being used for fitting
     * param_distributions - The dictionary containing the values of the hyperparameters.
     * scoring - The metric that we use to evaluate the model like accuracy, roc_auc for classification, homogeneity_score for clustering, explained_variance and r2 for regression.
-    * n_iter - Number of jobs that can run in parallel.
+    * n_iter - Number of iterations i.e. random combinations that Random Search will go through.
     * cv - We can set the K in Kfold cross validation using this parameter.
     * n_jobs - Number of jobs that can run in parallel.
     * verbose - This can be used to set the verbosity or the number of messages created.
