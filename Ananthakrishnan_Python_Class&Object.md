@@ -1,4 +1,4 @@
-## Python Classes and Objects
+## PYTHON CLASSES AND OBJECTS
  - Python is an object oriented programming language.
  - A class is a user-defined prototype from which objects are created. 
  - Classes provide a means of  functionality together.
