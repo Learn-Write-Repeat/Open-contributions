@@ -103,4 +103,5 @@ This process is *supervised* where we fine-tune the model to perform a specific 
 1. In a Name Entity Recognition, the BERT model can learn from the output vector of each token into a classification layer that predicts the NER label.
 1. In Question Answering tasks, the BERT model can be trained by learning 2 extra vectors, which mark the beginning and the end of the answer.
 
+### Conclusion:
 **BERT** has indeed inspired many recent NLP architectures such as RoBERTa, OpenAI's GPT-2, XLNet, Google's TransformerXL and ERNIE2.0. Although modern NLP architectures may surpass **BERT's** performance, one cannot deny the fact that **BERT** has revolutionized the world of **Natural Language Processing**.
