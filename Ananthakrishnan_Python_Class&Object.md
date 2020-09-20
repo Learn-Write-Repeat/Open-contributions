@@ -5,7 +5,7 @@
  - Creating a new class creates a new type of object, allowing new instances of that type to be made.
  - Each class instance can have  its own attributes.
  - Class instances can also have methods (defined by its class) for modifying its state.
-### Some points on Python class:
+### POINTS TO REMEMBER ON PYTHON CLASS:
  - Classes are created by keyword class.
  - Attributes are the variables that belong to class.
  - Attributes are always public and can be accessed using dot (.) operator. 
