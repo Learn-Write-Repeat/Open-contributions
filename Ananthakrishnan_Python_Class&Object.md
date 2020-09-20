@@ -81,3 +81,5 @@ In the above example, an object is created which is basically a ***Jeep*** named
   - The __init__ method is similar to constructors in C++ and Java.
   - Constructors are used to initialize the object’s state. Like methods, a constructor also contains a collection of statements(i.e. instructions) that are executed at the time of Object creation. 
   - It is run as soon as an object of a class is instantiated. The method is useful to do any initialization you want to do with your object.
+  - All classes have a function called __init__(), which is always executed when the class is being initiated.
+  - Use the __init__() function to assign values to object properties, or other operations that are necessary to do when the object is being created:
