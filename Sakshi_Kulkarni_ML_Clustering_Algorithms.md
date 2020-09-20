@@ -13,8 +13,12 @@ and assign it as a new centroid.The difference between the new and the old centr
 <img src="kmeans1.png" alt="drawing" width="400"/>
 
 *X represents centroids and the circles represent the data*
-We find the Within-Cluster-Sum-of-Squares.The idea is to minimise the sum.
+We find the Within-Cluster-Sum-of-Squares(WCSS).The idea is to minimise the sum.
 <img src="wcss.png" alt="drawing" width="400"/>
+**How to choose the number of clusters from a WCSS vs clusters graph?**
+To determine the optimal number of clusters, we have to select the value of k at the “elbow” ie the point after which the WCSS start decreasing in a linear fashion
+<img src="elbow.jpg" alt="drawing" width="400"/>
+*The elbow here is at number of clusters=5*
 
 
 ### Hierarchial Clustering
@@ -24,7 +28,7 @@ Hierarchical clustering starts by treating each observation as a separate cluste
 the distance between two clusters has been computed based on the length of the straight line drawn from one cluster to another.
 
 <img src="clustergram.png" alt="drawing" width="400"/>
-#### How to choose the number of clusters froma dendrogram?
+**How to choose the number of clusters from a dendrogram?**
 For this algorithm to need to find the optimal number of clusters from a dendrogram.Now there isn't a fixed approach but intuitively you take the largest vertical segment which is not cut by any extended horizontal segment ,pass a horizontal line(H1) through it and the number of vertical segments H1 crosses is the optimum number of clusters.
 Consider the following dendrogram.Here we can see the segment with yellow light cannot be choosen even if it has the largest length as the horizontal segments 1,2 passes through it(similarly for other segments), hence we take the verticalsegment with red highlight as the largest since no horizontal segments pass through it.
 
