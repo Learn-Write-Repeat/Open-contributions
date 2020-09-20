@@ -46,7 +46,9 @@ To implement our people counter we’ll be using both OpenCV and dlib. We’ll u
 
 We’ll then use dlib for its implementation of correlation filters. We could use OpenCV here as well; however, the dlib object tracking implementation was a bit easier to work with for this project.
 
-Rest i will explain it in code! #happingcoding😃
+Link to the code: 
+- PeopleCounter.ipynb [colab](https://colab.research.google.com/drive/1f07l4GZvDBwbdyX6YqQYfpkxvNzlaYGr#scrollTo=Ydc96rJsegPw&uniqifier=1)
+- camera.ipynb [colab](https://colab.research.google.com/drive/1GB7CZPJPGpLDCwTrmKdxz1e4Bbm3FaHj)
 
 ## So you have completed this topic. Congratulations 🏆🏆.
 
