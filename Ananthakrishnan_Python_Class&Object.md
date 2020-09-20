@@ -157,3 +157,23 @@ In the above example, an object is created which is basically a ***Jeep*** named
      print(p1.rate)
 ###### output:
       AttributeError: 'Car' object has no attribute 'rate'
+**Delete Objects**
+ - You can delete objects by using the del keyword:
+ ###### Example :
+    class Car:
+            def __init__(self, model, rate):
+                   self.model = model
+                   self.rate = rate
+
+            def myfunc(self):
+                    print("Hello my name is " + self.model)
+
+    p1 = Car("Swift",500000 )
+
+
+    del p1
+    print(p1.rate)
+##### Outpput :
+    NameError: name 'p1' is not defined
+***The pass Statement***
+ - ***class*** definitions cannot be empty, but if you for some reason have a class definition with no content, put in the pass statement to avoid getting an error.
