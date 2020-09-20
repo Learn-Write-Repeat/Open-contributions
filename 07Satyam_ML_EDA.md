@@ -1,4 +1,16 @@
-># Introduction to Exploratory Data Analysis in Python
+# Introduction to Exploratory Data Analysis in Python
+
+: _By Satyam Gadekar_ 
+<a href="https://www.linkedin.com/in/satyam-gadekar-930810158"> <img align="right" alt="07Satyam | LinkedIn" width="28px"
+ src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
+</a> 
+<a href="https://github.com/07Satyam"> <img align="right" alt="GitHub" width="28px"
+src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png"/>
+</a>
+<a href="https://twitter.com/GadekarSatyam?s=09">
+<img align="right" alt="07Satyam | Twitter" width="28px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
+</a>
+
 ![EDA](https://i.ytimg.com/vi/5NcbVYhQJvw/maxresdefault.jpg)
 ## What is Exploratory data analysis?
 According to [**Wikipedia**](https://en.wikipedia.org/wiki/Exploratory_data_analysis):
