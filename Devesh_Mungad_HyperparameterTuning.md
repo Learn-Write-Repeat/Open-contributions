@@ -15,6 +15,14 @@ Before getting into hyperparameter optimization for any ML model, we must first 
 1. Manually changing the hyperparameters:
 
     As the name suggests, in this method we choose initial values based on our best estimation of the optimal values. Then we analyze the evaluation metrics of the model and change the hyperparameters as per our requirements. This method is generally not used as it is inefficient and we can only check one configuration of values at a time (unless we train multiple models).
+    
+    Code:
+    ```python
+    model=RandomForestClassifier(n_estimators=150,
+                                 max_depth=10,
+                                 min_samples_split=4, 
+                                 max_features=3)
+    model.fit(X, y)
   
  2. Grid Search:
  
