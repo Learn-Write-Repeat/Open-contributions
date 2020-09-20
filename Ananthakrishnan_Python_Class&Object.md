@@ -177,3 +177,51 @@ In the above example, an object is created which is basically a ***Jeep*** named
     NameError: name 'p1' is not defined
 ***The pass Statement***
  - ***class*** definitions cannot be empty, but if you for some reason have a class definition with no content, put in the pass statement to avoid getting an error.
+##### Example :
+     class Person:
+     pass
+     # having an empty class definition like this, would raise an error without the pass statement
+
+##### Complete Example
+    class Car:  
+    
+              # Class Variable  
+              fav_car = 'Verna'             
+    
+              # The init method or constructor  
+              def __init__(self, model, color):  
+      
+               # Instance Variable      
+               self.model = model 
+               self.color = color         
+     
+    # Objects of Dog class  
+    Moderna = Car("swift", "brown")  
+    Buziga = Car("wagonR", "black")  
+  
+    print('Moderna details:')    
+    print('Moderna is a', Moderna.fav_car)  
+    print('Model: ', Moderna.model) 
+    print('Color: ', Moderna.color) 
+  
+    print('\nBuziga details:')    
+    print('Buziga is a', Buziga.fav_car)  
+    print('Model: ', Buziga.model) 
+    print('Color: ', Buziga.color) 
+  
+    # Class variables can be accessed using class  
+    # name also  
+    print("\nAccessing class variable using class name") 
+    print(Car.fav_car)
+##### output : 
+    Moderna is a Verna
+    Model:  swift
+    Color:  brown
+
+    Buziga details:
+    Buziga is a Verna
+    Model:  wagonR
+    Color:  black
+
+Accessing class variable using class name
+Verna
