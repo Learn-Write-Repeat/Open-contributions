@@ -72,14 +72,68 @@
 In the above example, an object is created which is basically a ***Jeep*** named ***jimny***. This class only has two class attributes that tell us that ***jimny*** is from ***Maruti*** and made from ***India***.<br>
 **NOTE**: The  ***self***  parameter is a reference to the current instance of the class, and is used to access variables that belong to the class.
 
-***The self***
+
+***The self Parameter***
  - Class methods must have an extra first parameter in method definition. We do not give a value for this parameter when we call the method, Python provides it.
  - If we have a method which takes no arguments, then we still have to have one argument.
  - This is similar to this pointer in C++ and this reference in Java.
- 
+ - The self parameter is a reference to the current instance of the class, and is used to access variables that belongs to the class.
+ - It does not have to be named self , you can call it whatever you like, but it has to be the first parameter of any function in the class:
+ ##### Example:
+    class Car:
+        def __init__(sampleobject, name, price):
+            sampleobject.name = name
+            sampleobject.age = price
+
+       def myfunc(abc):
+           print("Hello ,  my car is " + abc.name)
+
+    p1 = Car("BMW", 1)
+    p1.myfunc()
+###### output:
+    Hello ,  my car is BMW
+    
+    
  **The __init__() Function**
   - The __init__ method is similar to constructors in C++ and Java.
-  - Constructors are used to initialize the object’s state. Like methods, a constructor also contains a collection of statements(i.e. instructions) that are executed at the time of Object creation. 
+  - Constructors are used to initialize the object. Like methods, a constructor also contains a collection of statements(i.e. instructions) that are executed at the time of Object creation. 
   - It is run as soon as an object of a class is instantiated. The method is useful to do any initialization you want to do with your object.
   - All classes have a function called __init__(), which is always executed when the class is being initiated.
   - Use the __init__() function to assign values to object properties, or other operations that are necessary to do when the object is being created:
+
+
+###### Example:
+         class Car:
+                def __init__(self, company):
+                         self.company =  company 
+                         
+
+          p1 = Car("Maruti" )
+
+          print(p1.company)
+####### output:
+              Maruti
+**Modify Object Properties**
+ - You can modify properties on objects like this:
+ ###### Example:
+        class Car:
+              def __init__(self, model, rate):
+                           self.model = model
+                           self.rate = rate
+
+              def  myfunc(self):
+                           print("Hello my name is " + self.model)
+
+         p1 = Car("Swift", 500000)
+         p1.myfunc()
+         print(p1.model)
+         print("Previous rate of my model was " , p1.rate) 
+         p1.rate = 400000
+         print("New rate is" , p1.rate)
+
+###### output:
+              Hello my name is Swift
+              Swift
+              Previous rate of my model was  500000
+               New rate is 400000
+        
