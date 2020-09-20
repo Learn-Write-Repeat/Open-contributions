@@ -27,7 +27,8 @@ losing some contexts in the process. Therefore it's a shallowly bidirectional mo
 As the title suggests, BERT stands for Bidirectional Encoder Representations from Transformers, meaning these are encoders borrowed from a transformer. 
 
 A whole transformer looks as below:
-![transformer](https://drive.google.com/file/d/15kHGE-veqZXhroB-2_F02CfcTfJKe4fI/view?usp=sharing)
+
+<p align='center'><img src="transformer1-01.png" alt = 'transformer' height = 500 width = 500></p>
 
 A transformer generally consists of 2 components:
 Encoder
