@@ -37,19 +37,23 @@
 
      p1 = car()
      print(p1.x)
+##### output:
+     5
+     Maruti
+
      
 ###### Example 2     
      class Jeep:  
       
     # A simple class 
     # attribute 
-    company = "Maruti"
-    location = "India"
+          company = "Maruti"
+          location = "India"
   
     # A sample method   
-    def test(self):  
-        print("I'm from", self.company) 
-        print("I'm made in ", self.location) 
+          def test(self):  
+               print("I'm from", self.company) 
+               print("I'm made in ", self.location) 
   
 
      # Object instantiation 
@@ -60,5 +64,8 @@
     print(jimny.company) 
     jimny.test() 
 
-      
+###### output:
+    Maruti
+    I'm from Maruti
+    I'm made in  India
 
