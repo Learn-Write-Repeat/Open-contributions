@@ -9,7 +9,8 @@
  - Classes are created by keyword class.
  - Attributes are the variables that belong to class.
  - Attributes are always public and can be accessed using dot (.) operator. 
-####### Create a Class
+ 
+###### Create a Class
     To create a class, use the keyword class:
        
      class MyClass:
