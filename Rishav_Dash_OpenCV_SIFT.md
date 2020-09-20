@@ -4,7 +4,7 @@ As stated SHIFT stands for Scale Invariant Feature Transform. This algorithm is 
 
 ## To give you the Basic idea of SIFT with an image-:
 
-![sift into](sift_intro.png)
+![sift into](extras/sift_intro.png)
 
 ## Some Key-points for feature extraction-:
 The computational cost is reduced by applying some operations on loactions that pass the initial tests
@@ -14,14 +14,14 @@ The computational cost is reduced by applying some operations on loactions that 
 
   This image from Low's paper gives a small discription
 
-  ![Gaussian Difference](Gaussian.PNG)
+  ![Gaussian Difference](extras/Gaussian.PNG)
 
 - ### Key Point Localization -
   This step includes accurately locating the feature key points. Here the candidates are chosen from the extrema detection. There are few mathematical concepts used in this procedure because such steps could have some error in detection and to solve those error one need to apply come threshold to it. So, some mathematical aspects used here are [Hessian matrix][Hessian_matrix] to remove outliners.
   
   So the pictorial description would be
 
-  ![Extrema](extrema.PNG) 
+  ![Extrema](extras/extrema.PNG) 
    You could see the yellow lines that shows the keypoints locations at maxima and minima of the difference-of-Gaussian function depicted in vectors. 
 
 - ### Orientation Assignment - 
@@ -29,7 +29,7 @@ The computational cost is reduced by applying some operations on loactions that 
 
   This image could give you a brief idea about this procedure
 
-  ![Orientation assignment](orientation.PNG) 
+  ![Orientation assignment](extras/orientation.PNG) 
 
 So with this we conclude with the feature extraction procedure and we can continue with the local image Descriptor. 
 
@@ -45,7 +45,7 @@ The steps involved here are -:
 - Compute the relative orientation and magnitude in a 16 * 16 neighborhood at key point.
 - Form weighted histogram for 4 * 4 region. This would give 16 histograms each of 8 dimension in one long vectors of 128 dimensions. 
 
-![descriptor](descriptor.PNG) 
+![descriptor](extras/descriptor.PNG) 
 
 - Store numbers in a vector.
 - Remove the large gradients and then normalize to unit vector.
