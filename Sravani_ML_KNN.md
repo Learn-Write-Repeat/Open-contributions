@@ -22,6 +22,7 @@ Let us understand the work flow of KNN through the following steps:
 **Step 5:** Vote for labels i.e. it will assign a class based on most frequent class of these rows.
 
 
+
 ### **Let us take an example:**
 Suppose we have a dataset which can be plotted as follows –
 
