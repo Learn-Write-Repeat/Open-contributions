@@ -2,8 +2,57 @@
  - In Python, Set is an unordered collection of data type that is iterable, mutable and has no duplicate elements.  
  - The order of elements in a set is undefined though it may consist of various elements
 ##### Example :
-    thisset = {"apple", "banana", "cherry"}
-    print(thisset)
+    #Create a Set:
+    car = {"WagonR", "Swift", "Verna"}
+    print(car)
 
     # Note: the set list is unordered, meaning: the items will appear in a random order.
     # Note: Sets are unordered, so you cannot be sure in which order the items will appear.
+##### output :
+    {'Swift', 'Verna', 'WagonR'}
+***Note: Sets are unordered, so you cannot be sure in which order the items will appear.***
+
+---
+
+***Note – A set cannot have mutable elements like a list, set or dictionary, as its elements.***
+##### Example 2 :
+     
+    # Python program to demonstrate  
+    # Creation of Set in Python 
+  
+    # Creating a Set 
+    set1 = set() 
+    print("Intial blank Set: ") 
+    print(set1) 
+  
+    # Creating a Set with  
+    # the use of a String 
+    set1 = set("MyfavoriatecarisVerna") 
+    print("\nSet with the use of String: ") 
+    print(set1) 
+  
+    # Creating a Set with 
+    # the use of Constructor 
+    # (Using object to Store String) 
+    String = 'MyfavoriatecarisVerna'
+    set1 = set(String) 
+    print("\nSet with the use of an Object: " ) 
+    print(set1) 
+  
+    # Creating a Set with 
+    # the use of a List 
+    set1 = set(["Swift" , "Verna" ,  "WagonR", "Verna" ]) 
+    print("\nSet with the use of List: ") 
+    print(set1) 
+##### output : 
+    Intial blank Set: 
+    set()
+
+    Set with the use of String: 
+    {'y', 'f', 'i', 'c', 'n', 's', 't', 'o', 'v', 'V', 'M', 'e', 'a', 'r'}
+
+    Set with the use of an Object: 
+    {'y', 'f', 'i', 'c', 'n', 's', 't', 'o', 'v', 'V', 'M', 'e', 'a', 'r'}
+
+    Set with the use of List: 
+    {'WagonR', 'Verna', 'Swift'}
