@@ -223,7 +223,7 @@
 #### using pop() : 
   - You can also use the pop(), method to remove an item, but this method will remove the last item. Remember that sets are unordered, so you will not know what item that gets removed.
  - The return value of the pop() method is the removed item.
-##### Example : 
+##### Example 1  : 
     carset = {"WagonR", "Verna", "Brezza"}
 
     x = carset.pop()
@@ -231,3 +231,49 @@
     print(x) #removed item
 
     print(carset) #the set after removal
+##### output : 
+    Brezza
+    {'Verna', 'WagonR'}
+##### Example 2 : 
+    # Python program to demonstrate 
+    # Deletion of elements in a Set 
+
+    # Creating a Set 
+    set1 = set([1, 2, 3, 4, 5, 6, 
+		                	7, 8, 9, 10, 11, 12]) 
+    print("Intial Set: ") 
+    print(set1) 
+
+    # Removing element from the 
+    # Set using the pop() method 
+    set1.pop() 
+    print("\nSet after popping an element: ") 
+    print(set1) 
+
+##### output : 
+    Intial Set: 
+    {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}
+
+    Set after popping an element: 
+    {2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}
+#### Using clear() method
+ ###### The clear() method empties the set:
+##### Example : 
+    carset = {"Verna", "Innova", "EccoSport"}
+
+    carset.clear()
+
+    print(carset)
+##### output : 
+    set()   
+ ## Using del() :
+ #### The del keyword will delete the set completely:
+ ##### Example : 
+    carset = {"Verna", "Innova", "EccoSport"}
+
+    del carset
+
+    print(carset)
+##### output : 
+    NameError: name 'carset' is not defined
+    
