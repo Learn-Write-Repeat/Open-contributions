@@ -276,7 +276,26 @@
     print(carset)
 ##### output : 
     NameError: name 'carset' is not defined
-    
+ ## Join Two Sets
+  - There are several ways to join two or more sets in Python.
+
+  - You can use the union() method that returns a new set containing all items from both sets, or the update() method that inserts all the items from one set into another:
+  ##### Example :   by union()
+    set1 = {"Swift", "Brezza" , "Baleno"}
+    set2 = {1, 2, 3}
+
+    set3 = set1.union(set2)
+    print(set3)
+  ##### output : 
+    {1, 2, 3, 'Baleno', 'Brezza', 'Swift'}
+  ##### Example :   by update()
+    set1 = {"Swift", "Brezza" , "Baleno"}
+    set2 = {1, 2, 3}
+
+    set1.update(set2)
+    print(set1)
+  ##### output : 
+    {1, 2, 3, 'Baleno', 'Brezza', 'Swift'}
  ##   Set Methods
  - Python has a set of built-in methods that you can use on sets.
  
