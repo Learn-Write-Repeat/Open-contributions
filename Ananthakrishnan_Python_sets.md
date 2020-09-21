@@ -98,4 +98,51 @@
 ## Adding Elements to a Set
  - To add one item to a set use the add() method.
  - To add more than one item to a set use the update() method.
+#### Using add() method
+##### Example :
+    # Python program to demonstrate 
+    # Addition of elements in a Set 
 
+    # Creating a Set 
+    set1 = set() 
+    print("Intial blank Set: ") 
+    print(set1) 
+
+    # Adding element and tuple to the Set 
+    set1.add(8) 
+    set1.add(9) 
+    set1.add((6,7)) 
+    print("\nSet after Addition of Three elements: ") 
+    print(set1) 
+
+    # Adding elements to the Set 
+    # using Iterator 
+    for i in range(1, 6): 
+    set1.add(i) 
+    print("\nSet after Addition of elements from 1-5: ") 
+    print(set1)
+##### output : 
+    Intial blank Set: 
+    set()
+
+    Set after Addition of Three elements: 
+    {8, 9, (6, 7)}
+
+    Set after Addition of elements from 1-5: 
+    {1, 2, 3, 4, 5, 8, 9, (6, 7)}
+#### Using update() method 
+  - Add multiple items to a set, using the update() method:
+##### Example :
+     # Python program to demonstrate 
+    # Addition of elements in a Set 
+
+    # Addition of elements to the Set 
+    # using Update function 
+    set1 = set([ 4, 5, 6 , 7 , (12 , 14 ) , 'Verna' , 'Swift' ]  ) 
+    set1.update([10, 11]) 
+    print("\nSet after Addition of elements using Update: ") 
+    print(set1) 
+##### output : 
+
+    Set after Addition of elements using Update: 
+    {4, 5, 6, 7, 10, 11, 'Verna', 'Swift', (12, 14)}
