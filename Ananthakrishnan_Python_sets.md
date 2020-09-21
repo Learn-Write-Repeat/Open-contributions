@@ -61,3 +61,35 @@
 ## Access Items
  - You cannot access items in a set by referring to an index or a key.
  - But you can loop through the set items using a for loop, or ask if a specified value is present in a set, by using the in keyword.
+ ##### Example :  
+    # Python program to demonstrate 
+    # Accessing of elements in a set 
+
+    # Creating a set 
+    set1 = set(["WagonR", "or", "Swift"]) 
+    print("\nInitial set") 
+    print(set1) 
+
+    # Accessing element using 
+    # for loop 
+    print("\nElements of set: ") 
+    for i in set1: 
+    print(i, end=" ") 
+
+    # Checking the element 
+    # using in keyword 
+    print("\n")
+    print("WagonR" in set1) 
+    print("\n")
+    print("Verna" in set1
+##### output : 
+    Initial set
+    {'Swift', 'or', 'WagonR'}
+
+    Elements of set: 
+    Swift or WagonR 
+
+    True
+
+
+    False
