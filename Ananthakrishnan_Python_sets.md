@@ -147,8 +147,9 @@
     Set after Addition of elements using Update: 
     {4, 5, 6, 7, 10, 11, 'Verna', 'Swift', (12, 14)}
 ## Remove Item
-##### Remove by using the remove() method:
+
  - To remove an item in a set, use the remove(), or the discard() method.
+ ###### Remove by using the remove() method:
 ##### Example 1 : 
     carset = {"Verna", "Innova", "EccoSport"}
 
