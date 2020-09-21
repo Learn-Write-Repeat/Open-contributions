@@ -283,21 +283,21 @@
 |-------|-----------|
 |add() |	Adds an element to the set|
 |clear() |		Removes all the elements from the set|
-|copy() |	Returns a new dictionary with keys from seq and value equal to v (defaults to None).|
-|difference() |	Returns the value of the key. If the key does not exist, returns d (defaults to None).|
-|difference_update() |	Return a new object of the dictionary's items in (key, value) format.|
-|discard() |	Returns a new object of the dictionary's keys.|
-|intersection()|	Removes the item with the key and returns its value or d if key is not found. If d is not provided and the key is not found, it raises KeyError.|
-|intersection_update()|	Removes and returns an arbitrary item (key, value). Raises KeyError if the dictionary is empty.|
-|isdisjoint()|	Returns the corresponding value if the key is in the dictionary. If not, inserts the key with a value of d and returns d (defaults to None).|
-|issubset()|	Updates the dictionary with the key/value pairs from other, overwriting existing keys.|
-|issuperset()|	Returns a new object of the dictionary's values|
-|pop()|	Returns a new object of the dictionary's values|
-|remove()|	Returns a new object of the dictionary's values|
-|symmetric_difference()|	Returns a new object of the dictionary's values|
-|symmetric_difference_update()|	Returns a new object of the dictionary's values|
-|union()|	Returns a new object of the dictionary's values|
-|update()|	Returns a new object of the dictionary's values|
+|copy() |		Returns a copy of the set|
+|difference() |		Returns a set containing the difference between two or more sets|
+|difference_update() |		Removes the items in this set that are also included in another, specified set|
+|discard() |	Remove the specified item|
+|intersection()| Returns a set, that is the intersection of two other sets|
+|intersection_update()|	Removes the items in this set that are not present in other, specified set(s)|
+|isdisjoint()|		Returns whether two sets have a intersection or not|
+|issubset()|	Returns whether another set contains this set or not|
+|issuperset()|	Returns whether this set contains another set or not|
+|pop()|	  Removes an element from the set|
+|remove()|	Removes the specified element|
+|symmetric_difference()|	Returns a set with the symmetric differences of two sets|
+|symmetric_difference_update()|		inserts the symmetric differences from this set and another|
+|union()|	Return a set containing the union of sets|
+|update()|		Update the set with the union of this set and others|
 
   
   
