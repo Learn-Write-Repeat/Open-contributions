@@ -95,3 +95,7 @@
     False
 ## Change Items
  - Once a set is created, you cannot change its items, but you can add new items.
+## Adding Elements to a Set
+ - To add one item to a set use the add() method.
+ - To add more than one item to a set use the update() method.
+
