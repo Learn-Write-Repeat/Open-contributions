@@ -13,7 +13,7 @@
 ***Note: Sets are unordered, so you cannot be sure in which order the items will appear.***
 
 ---
-
+***Sets can be created by using the built-in set() function with an iterable object or a sequence by placing the sequence inside curly braces, separated by ‘comma’.***
 ***Note – A set cannot have mutable elements like a list, set or dictionary, as its elements.***
 ##### Example 2 :
      
@@ -56,3 +56,5 @@
 
     Set with the use of List: 
     {'WagonR', 'Verna', 'Swift'}
+***NOTE : A set contains only unique elements but at the time of set creation, multiple duplicate values can also be passed. Order of elements in a set is undefined and is unchangeable. Type of elements in a set need not be the same, various mixed up data type values can also be passed to the set.***
+
