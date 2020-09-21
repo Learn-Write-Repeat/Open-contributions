@@ -71,4 +71,8 @@ Before getting into hyperparameter optimization for any ML model, we must first 
     
     skopt (Scikit-Optimize) and hyperopt are libraries that adopt the latter method i.e. using optimization algorithms for a particular model that we create. Bayesian optimization is more efficient as it changes the values of hyperparameters based on past results, thereby coming closer to the optimal configuration with increasing iterations. Bayesian optimization utilizing Gaussian Processes surrogate model can be performed using skopt.gp_minimize. Bayesian optimization utilizing TPE (Tree Parzen Estimator) surrogate model can be implemented by importing and using tpe method from the hyperopt library.
 
+
+
+The image below illustrates the difference between the 3 methods. The grid represents the combinations of 2 hyperparameters (x-hp1, y-hp2) and the optimal configuration lies somewhere in the grid. Bayesian algorith can traverse the grid more efficiently than random search which in turn can traverse it more efficiently than grid search.
+
 ![Image comparing different methods](https://github.com/Choronzon13/Open-contributions/blob/master/hptuning.png?raw=true)
