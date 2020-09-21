@@ -146,3 +146,77 @@
 
     Set after Addition of elements using Update: 
     {4, 5, 6, 7, 10, 11, 'Verna', 'Swift', (12, 14)}
+## Remove Item
+##### Remove by using the remove() method:
+ - To remove an item in a set, use the remove(), or the discard() method.
+##### Example 1 : 
+    carset = {"Verna", "Innova", "EccoSport"}
+
+    carset.remove("Innova")
+
+    print(carset)
+##### output : 
+    {'EccoSport', 'Verna'}
+##### Example 2 : 
+    carset = {"Verna", "Innova", "EccoSport"}
+
+    carset.remove("Tavera")
+
+    print(carset)
+##### output : 
+    KeyError: 'Tavera'   
+***Note: If the item to remove does not exist, remove() will raise an error.***
+##### Remove by using the discard() method:
+##### Example 1 : 
+    carset = {"Verna", "Innova", "EccoSport"}
+
+    thisset.discard("Tavera")
+
+    print(carset)
+##### output : 
+    {'EccoSport', 'Verna', 'Innova'}
+***Note: If the item to remove does not exist, discard() will NOT raise an error.
+##### Example : 
+    # Python program to demonstrate 
+    # Deletion of elements in a Set 
+
+    # Creating a Set 
+    set1 = set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]) 
+    print("Intial Set: ") 
+    print(set1) 
+
+    # Removing elements from Set 
+    # using Remove() method 
+    set1.remove(5) 
+    set1.remove(6) 
+    print("\nSet after Removal of two elements: ") 
+    print(set1) 
+
+    # Removing elements from Set 
+    # using Discard() method 
+    set1.discard(8) 
+    set1.discard(9) 
+    print("\nSet after Discarding two elements: ") 
+    print(set1) 
+
+    # Removing elements from Set 
+    # using iterator method 
+    for i in range(1, 5): 
+            set1.remove(i) 
+    print("\nSet after Removing a range of elements: ") 
+    print(set1) 
+##### output : 
+    Intial Set: 
+    {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}
+
+    Set after Removal of two elements: 
+    {1, 2, 3, 4, 7, 8, 9, 10, 11, 12}
+
+    Set after Discarding two elements: 
+    {1, 2, 3, 4, 7, 10, 11, 12}
+
+    Set after Removing a range of elements: 
+    {7, 10, 11, 12}
+  - You can also use the pop(), method to remove an item, but this method will remove the last item. Remember that sets are unordered, so you will not know what item that gets removed.
+
+ - The return value of the pop() method is the removed item.
