@@ -176,7 +176,7 @@
     print(carset)
 ##### output : 
     {'EccoSport', 'Verna', 'Innova'}
-***Note: If the item to remove does not exist, discard() will NOT raise an error.
+***Note: If the item to remove does not exist, discard() will NOT raise an error.***
 ##### Example : 
     # Python program to demonstrate 
     # Deletion of elements in a Set 
@@ -209,6 +209,8 @@
 ##### output : 
     Intial Set: 
     {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}
+***Note: Sets are unordered, so when using the pop() method, you will not know which item that gets removed.***
+
 
     Set after Removal of two elements: 
     {1, 2, 3, 4, 7, 8, 9, 10, 11, 12}
@@ -218,6 +220,14 @@
 
     Set after Removing a range of elements: 
     {7, 10, 11, 12}
+#### using pop() : 
   - You can also use the pop(), method to remove an item, but this method will remove the last item. Remember that sets are unordered, so you will not know what item that gets removed.
-
  - The return value of the pop() method is the removed item.
+##### Example : 
+    carset = {"WagonR", "Verna", "Brezza"}
+
+    x = carset.pop()
+
+    print(x) #removed item
+
+    print(carset) #the set after removal
