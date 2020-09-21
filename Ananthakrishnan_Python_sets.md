@@ -277,19 +277,27 @@
 ##### output : 
     NameError: name 'carset' is not defined
     
- ## Built-in Methods of Dictionary
-
+ ##   Set Methods
+ - Python has a set of built-in methods that you can use on sets.
 |Methods|Description|
 |-------|-----------|
-|clear()|	Removes all items from the dictionary.|
-|copy()|	Returns a shallow copy of the dictionary.|
-|fromkeys(seq[, v])|	Returns a new dictionary with keys from seq and value equal to v (defaults to None).|
-|get(key[,d])|	Returns the value of the key. If the key does not exist, returns d (defaults to None).|
-|items()|	Return a new object of the dictionary's items in (key, value) format.|
-|keys()|	Returns a new object of the dictionary's keys.|
-|pop(key[,d])|	Removes the item with the key and returns its value or d if key is not found. If d is not provided and the key is not found, it raises KeyError.|
-|popitem()|	Removes and returns an arbitrary item (key, value). Raises KeyError if the dictionary is empty.|
-|setdefault(key[,d])|	Returns the corresponding value if the key is in the dictionary. If not, inserts the key with a value of d and returns d (defaults to None).|
-|update([other])|	Updates the dictionary with the key/value pairs from other, overwriting existing keys.|
-|values()|	Returns a new object of the dictionary's values|
+|add() |	Adds an element to the set|
+|clear() |		Removes all the elements from the set|
+|copy() |	Returns a new dictionary with keys from seq and value equal to v (defaults to None).|
+|difference() |	Returns the value of the key. If the key does not exist, returns d (defaults to None).|
+|difference_update() |	Return a new object of the dictionary's items in (key, value) format.|
+|discard() |	Returns a new object of the dictionary's keys.|
+|intersection()|	Removes the item with the key and returns its value or d if key is not found. If d is not provided and the key is not found, it raises KeyError.|
+|intersection_update()|	Removes and returns an arbitrary item (key, value). Raises KeyError if the dictionary is empty.|
+|isdisjoint()|	Returns the corresponding value if the key is in the dictionary. If not, inserts the key with a value of d and returns d (defaults to None).|
+|issubset()|	Updates the dictionary with the key/value pairs from other, overwriting existing keys.|
+|issuperset()|	Returns a new object of the dictionary's values|
+|pop()|	Returns a new object of the dictionary's values|
+|remove()|	Returns a new object of the dictionary's values|
+|symmetric_difference()|	Returns a new object of the dictionary's values|
+|symmetric_difference_update()|	Returns a new object of the dictionary's values|
+|union()|	Returns a new object of the dictionary's values|
+|update()|	Returns a new object of the dictionary's values|
+
+  
   
