@@ -1,0 +1,18 @@
+`# Machine Learning`
+ 1.Regression Algorithms.
+ 2.Classification Algorithms.
+ 2.Decision Trees
+ 3.Random Forests
+ 4.Boosting Algorithms.
+ 5.Numpy,Pandas,Sci-kit,Matplotlib,Tensorflow.
+ 6.Gridsearch
+ 7.Hyperparameter Tuning
+ 8.Cross-Validation
+ 9.Evaluation Metrics
+ 
+`# Deep Learning`
+ 1.Tensor Operations
+ 2.Neural Networks for Regression
+ 3.Activation function,Optimizers and Multi-class Classification.
+ 4.CNN
+ 5.Basics of forward and back propogation.
