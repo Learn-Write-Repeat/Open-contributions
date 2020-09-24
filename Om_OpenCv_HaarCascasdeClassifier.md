@@ -30,4 +30,5 @@ A cascade classifier refers to the concatenation of several classifiers arranged
 
 ## Application 
 Despite the arrival of deep learning(RCNN, YOLO, etc), this method is still used in many applications for face and object detection, as this is very simple yet powerful.    
-Reference: Rapid Object Detection using a Boosted Cascade of Simple Features 
+
+#### Reference: <a href="https://ieeexplore.ieee.org/abstract/document/990517/"> 'Rapid Object Detection using a Boosted Cascade of Simple Features'</a> 
