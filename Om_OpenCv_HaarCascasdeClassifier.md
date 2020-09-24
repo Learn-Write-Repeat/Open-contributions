@@ -28,5 +28,5 @@ A cascade classifier refers to the concatenation of several classifiers arranged
 The structure of the cascade classifier is of a degenerate decision tree.
 
 ## Application 
-Despite arrival of deeplearning(RCNN, YOLO, etc), this method is still used in many application for face and object detection, as this is very simple yet powerfull.  
+Despite the arrival of deep learning(RCNN, YOLO, etc), this method is still used in many applications for face and object detection, as this is very simple yet powerful.    
 Reference: Rapid Object Detection using a Boosted Cascade of Simple Features 
