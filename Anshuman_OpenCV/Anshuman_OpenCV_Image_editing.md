@@ -28,8 +28,8 @@ speeding the process performed on the image
 <br>
 <table align="center">
     <tr>
-        <td><img src="https://github.com/anshumyname/Open-contributions/tree/master/Anshuman_OpenCV/images/Lenna_.png" width=200 height=200></td>
-        <td><img src="https://github.com/anshumyname/Open-contributions/tree/master/Anshuman_OpenCV/images/lena_crop.png" width=200 height=200></td>
+        <td><img src="https://github.com/anshumyname/Open-contributions/blob/master/Anshuman_OpenCV/images/Lenna_.png" width=200 height=200></td>
+        <td><img src="https://github.com/anshumyname/Open-contributions/blob/master/Anshuman_OpenCV/images/lena_crop.png" width=200 height=200></td>
     </tr>
     <tr>
         <td><b>Original Image</b></td>
@@ -42,9 +42,9 @@ Flipping is just taking the mirror image of the original image. It is usually us
 <br>
 <table align="center">
     <tr>
-        <td><img src="https://github.com/anshumyname/Open-contributions/tree/master/Anshuman_OpenCV/images/Lenna_.png" width=200 height=200></td>
-        <td><img src="https://github.com/anshumyname/Open-contributions/tree/master/Anshuman_OpenCV/images/horiz_flip.png" width=200 height=200></td>
-        <td><img src="https://github.com/anshumyname/Open-contributions/tree/master/Anshuman_OpenCV/images/vert_flip.png" width=200 height=200></td>
+        <td><img src="https://github.com/anshumyname/Open-contributions/blob/master/Anshuman_OpenCV/images/Lenna_.png" width=200 height=200></td>
+        <td><img src="https://github.com/anshumyname/Open-contributions/blob/master/Anshuman_OpenCV/images/horiz_flip.png" width=200 height=200></td>
+        <td><img src="https://github.com/anshumyname/Open-contributions/blob/master/Anshuman_OpenCV/images/vert_flip.png" width=200 height=200></td>
     </tr>
     <tr>
         <td><b>Original Image</b></td>
@@ -66,9 +66,9 @@ For more methods [click here](https://docs.opencv.org/master/da/d54/group__imgpr
 <br>
 <table align="center">
     <tr>
-        <td><img src="https://github.com/anshumyname/Open-contributions/tree/master/Anshuman_OpenCV/images/small.png" ></td>
-        <td><img src="https://github.com/anshumyname/Open-contributions/tree/master/Anshuman_OpenCV/images/default.png"></td>
-        <td><img src="https://github.com/anshumyname/Open-contributions/tree/master/Anshuman_OpenCV/images/large.png"></td>
+        <td><img src="https://github.com/anshumyname/Open-contributions/blob/master/Anshuman_OpenCV/images/small.png" ></td>
+        <td><img src="https://github.com/anshumyname/Open-contributions/blob/master/Anshuman_OpenCV/images/default.png"></td>
+        <td><img src="https://github.com/anshumyname/Open-contributions/blob/master/Anshuman_OpenCV/images/large.png"></td>
     </tr>
     <tr>
         <td><b>Shrinked (128,128)</b></td>
