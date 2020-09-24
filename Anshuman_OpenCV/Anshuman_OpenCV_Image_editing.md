@@ -131,10 +131,14 @@ This is simple thresholding. There are different types of thresholding methods t
 ### 2. Blur
 Blurred images are useful for removing noise and high frequency content present in ihe image. Thus by blurring edges we try to denoise the image for further processing. For seeing effects of blur operation we'll take this pic.
 
-<center>
-    <img src="https://github.com/anshumyname/Open-contributions/blob/master/Anshuman_OpenCV/images/face.png" width=230 height=200>
-    <h4><b>Source Image </b></h4>
-</center>
+<<table align="center">
+    <tr>
+        <td><img src="https://github.com/anshumyname/Open-contributions/blob/master/Anshuman_OpenCV/images/face.png" width=230 height=200></td>
+    </tr>
+    <tr>
+        <td><b>Source Image</b></td>
+    </tr>
+</table>
 
 In general there are four types of blurring done for the images.
 
