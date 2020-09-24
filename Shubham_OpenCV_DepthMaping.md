@@ -1,3 +1,21 @@
+<p >
+   <a href="mailto:srajput1912000@gmail.com">
+    <img src="https://img.shields.io/badge/-srajput1912000@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:srajput1912000@gmail.com">
+   <a/>
+   <!--  <a href="https://github.com/Shubham0Rajput/Shubham0Rajput"> 
+    <img src="http://okokcoolokok.glitch.me/badge?page_id=Shubham0Rajput.Shubham0Rajput"> -->
+   <a/>
+   <a href="https://twitter.com/_Shubham0Rajput">
+    <img src="https://img.shields.io/badge/-@_Shubham0Rajput-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/_Shubham0Rajput">
+   <a/>
+   <a href="https://t.me/Shubham0Rajput">
+    <img src="https://img.shields.io/badge/-Shubham0Rajput-blue?style=flat-square&logo=Telegram&logoColor=white&link=https://t.me/Shubham0Rajput">
+  <a/>
+  <a href="https://www.linkedin.com/in/shubham0rajput/">
+    <img src="https://img.shields.io/badge/-Shubham0Rajput-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/shubham0rajput/">
+  <a/>
+</p>
+
 # Depth Maping with OpenCV
 In this we are going to map the depth in image with OpenCV.
 
@@ -9,12 +27,13 @@ written in Python, C++, Java and can be integrated into many languges. This is o
 
 ### Depth Maping
 In an image each pixel has its own depth and each depth is shown by grayscale. Each depth of pixel is means the distance of surface to a viewpoint, like from place the image is taken.
-For this 2 images are required of same, those images are called **stereoscopic images**, like-
+For this 2 images are required of same, those images are called **stereoscopic images**, Like-
 ![img1](https://github.com/Shubham0Rajput/Open-contributions/blob/master/Shubham_OpenCV/eg1.jpg)
 ![img2](https://github.com/Shubham0Rajput/Open-contributions/blob/master/Shubham_OpenCV/eg2.jpg)
 
 
-Stereoscopic images images same but camera is moved by some cm in case of Right Image. Each different depth is of different shade in result output and can be easyly differentiable from eyes.
+Stereoscopic images images same but camera is moved by some cm in case of Right Image. Each different depth is of different shade in result output and can be easyly differentiable from eyes. Depth maping has same concept as human eye, we look at a common point and have 2 different prospective, same the system need 2 images to create its own 
+view, with its help it differentiates between the depths.
 
 
 
