@@ -48,7 +48,7 @@ A feature descriptor is an algorithm which takes an image and outputs feature de
 
 
 [Surf Implementation on Jupyter Notebook](https://github.com/AishaRawat/Open-contributions/blob/master/AishaRawat_Open_cv/SURF.ipynb)
-(click the link,you will reach to python notebook )
+(click the link ,you will reach to python notebook )
 
  ``` #import required libraries
 import cv2
