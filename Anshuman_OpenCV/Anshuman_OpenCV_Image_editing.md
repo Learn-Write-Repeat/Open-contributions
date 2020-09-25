@@ -1,11 +1,4 @@
-<!--
-Author Details  
- Name - Anshuman Srivastava
- College = BIT Mesra, Ranchi  
- Branch = IT
- Session 2018-2022
 
- -->
 # __Image Editing__
 
 OpenCV is vast library for using highly optimized functions and tools for the use of Image processing and editing which accleratess the speed and performance of different Computer Vision models and infrastructures. Here we'll be dealing with some of the basic Image editing steps which are provided by Cv2.
@@ -199,6 +192,12 @@ Here is an examle of image which is processed step by step to prepare for the in
 <center><img src="https://github.com/anshumyname/Open-contributions/blob/master/Anshuman_OpenCV/images/example.png" ></center>
 
 
+
+
+##   Author's Contact 
+[![linkedin](https://github.com/anshumyname/anshumyname/blob/master/imgs/linkdin.jpg)](https://www.linkedin.com/in/anshuman-srivastava-84a0b3188/) &nbsp;&nbsp;&nbsp;
+[![facebook](https://github.com/anshumyname/anshumyname/blob/master/imgs/fb.jpg)](https://www.facebook.com/anshuman.srivastava.9889) &nbsp;&nbsp;&nbsp;
+[![mail](https://github.com/anshumyname/anshumyname/blob/master/imgs/gmail.jpg)](mailto:srivastavaanshuman33@gmail.com)  
 
 
 
