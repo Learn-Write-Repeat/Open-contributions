@@ -1,6 +1,7 @@
 # SURF(Speeded-up Robust Feature)
 
 Speeded Up Robust Feature (SURF) is an image region descriptor and detector that is constant with respect to scale, orientation, and illumination. 
+To detect interest points, SURF uses an integer approximation of the determinant of Hessian blob detector, which can be computed with 3 integer operations using a precomputed integral image. Its feature descriptor is based on the sum of the Haar wavelet response around the point of interest. These can also be computed with the aid of the integral image.
 
 <br>
 <ul style="list-style-type:square;" ><li>It is an enhanced version of SIFT.</li>
@@ -24,6 +25,15 @@ A feature descriptor is an algorithm which takes an image and outputs feature de
   and presented at the 2006 European Conference on Computer Vision.
   </br>
 
+  <b> The algorithm has three main parts:</b> 
+  <ol><li> interest point detection</li>
+        <li>local neighborhood description </li>
+        <li>matching.</li></ol>
+        
+   <b>Interest Point Detection</b><br>
+   SURF uses a blob detector based on the Hessian matrix to find points of interest. The determinant of the Hessian matrix is used as a measure of local change around the point    and points are chosen where this determinant is maximal.
+    SURF also uses the determinant of the Hessian for selecting the scale
+    By considering the scale-normalized determinant of the Hessian, also referred to as the Monge–Ampère operator,
 
 
 
