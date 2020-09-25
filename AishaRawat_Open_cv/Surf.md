@@ -9,7 +9,7 @@ To detect interest points, SURF uses an integer approximation of the determinant
 </ul> 
 </br>
 
- 
+  
  ### A feature detector detects the keypoints and a feature descriptor describes the keypoints(how does the surrounding or pixels look like)
 Keypoints are points of interest in an image that can be used to compare images and perform tasks such as image alignment and image registration. 
 
@@ -39,9 +39,7 @@ A feature descriptor is an algorithm which takes an image and outputs feature de
     
 
 
-
- This is the most basic and simple explanation of surf . Enjoying Learning ! :books:
- How to reach me: [This is my portfolio link](https://github.com/AishaRawat/AishaRawat/blob/master/README.md) or you can mail me at rawataisha981@gmail.com 
+ How to reach me: [This is my portfolio link](https://github.com/AishaRawat/AishaRawat/blob/master/README.md) or you can mail me at rawataisha981@gmail.com  <br>
 
 
 
@@ -49,7 +47,7 @@ A feature descriptor is an algorithm which takes an image and outputs feature de
 
 
 
-[Surf Implementation on Jupyter Notebbok](https://github.com/AishaRawat/Open-contributions/blob/master/AishaRawat_Open_cv/SURF.ipynb)
+[Surf Implementation on Jupyter Notebook](https://github.com/AishaRawat/Open-contributions/blob/master/AishaRawat_Open_cv/SURF.ipynb)
 
  ``` #import required libraries
 import cv2
