@@ -32,8 +32,16 @@ A feature descriptor is an algorithm which takes an image and outputs feature de
         
    <b>Interest Point Detection</b><br>
    SURF uses a blob detector based on the Hessian matrix to find points of interest. The determinant of the Hessian matrix is used as a measure of local change around the point    and points are chosen where this determinant is maximal.
-    SURF also uses the determinant of the Hessian for selecting the scale
-    By considering the scale-normalized determinant of the Hessian, also referred to as the Monge–Ampère operator,
+    SURF also uses the determinant of the Hessian for selecting the scale,<
+    The sum of the original image within a rectangle can be evaluated quickly using the integral image, requiring evaluations at the rectangle's four corners.
+     SURF uses a blob detector based on the Hessian matrix to find points of interest. The determinant of the Hessian matrix is used as a measure of local change around the            point and points are chosen where this determinant is maximal. In contrast to the Hessian-Laplacian detector by Mikolajczyk and Schmid, SURF also uses the determinant of       the Hessian for selecting the scale, as is also done by Lindeberg. Given a point p=(x, y) in an image I, the Hessian matrix H(p, σ) at point p and scale σ, is:<br>
+  ![Image](79c73bc892769b2b27218327be8af9f72fc17945.svg)
+    
+
+
+
+ This is the most basic and simple explanation of surf . Enjoying Learning ! :books:
+ How to reach me: [This is my portfolio link](https://github.com/AishaRawat/AishaRawat/blob/master/README.md) or you can mail me at rawataisha981@gmail.com 
 
 
 
@@ -43,13 +51,11 @@ A feature descriptor is an algorithm which takes an image and outputs feature de
 
 [Surf Implementation on Jupyter Notebbok](https://github.com/AishaRawat/Open-contributions/blob/master/AishaRawat_Open_cv/SURF.ipynb)
 
-```#import required libraries
+ ``` #import required libraries
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 %matplotlib inline
-#show OpenCV version
-print(cv2.__version__)
 #read image and convert to grayscale
 image = cv2.imread('index.png')
 gray = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
@@ -57,7 +63,11 @@ gray = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
 surf  = cv2.xfeatures2d.SURF_create(400)
 #calculate keypoints and their orientation
 keypoints,descriptors = surf.detectAndCompute(gray,None)
-
 with_keypoints = cv2.drawKeypoints(gray,keypoints)
+plt.imshow(with_keypoints)
+```
 
-plt.imshow(with_keypoints)```
+
+  <br>
+ This is the most basic and simple explanation of surf . Enjoying Learning ! :books:
+ 
