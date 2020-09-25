@@ -1,6 +1,6 @@
 # SURF(Speeded-up Robust Feature)
   
-Speeded Up Robust Feature (SURF) is an image region descriptor and detector that is invariant with regard to scale, orientation, and illumination. It is an enhanced version of SIFT.It is faster than SIFT.
+Speeded Up Robust Feature (SURF) is an image region descriptor and detector that is constant with respect to scale, orientation, and illumination. It is an enhanced version of SIFT.It is faster than SIFT.
 
 
 
