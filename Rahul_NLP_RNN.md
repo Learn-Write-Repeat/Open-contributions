@@ -60,6 +60,38 @@ and how I made the model is described with Markdown
 This is generally used in Machine Translation. It has an input sequence and an output sequence 
 Say you want to translate what is written in Japanese to English.
 
+## What is Pytorch and Why is it used in NLP?
+
+* PyTorch is an open source machine learning library based on the Torch library, used for applications such as computer vision and natural language processing.
+* It is built to be seamlessly integrated with Python and its popular libraries like NumPy. 
+* It is comparatively easier to learn than other deep learning frameworks. This is because its syntax and application are similar to many conventional programming languages like Python
+
+
+```python 
+import torch.nn as nn
+
+class RNN(nn.Module):
+    def __init__(self, input_dim, embedding_dim, hidden_dim, output_dim):
+        
+        super().__init__()
+        
+        self.embedding = nn.Embedding(input_dim, embedding_dim)
+        
+        self.rnn = nn.RNN(embedding_dim, hidden_dim)
+        
+        self.fc = nn.Linear(hidden_dim, output_dim)
+        
+    def forward(self, text):
+        
+        embedded = self.embedding(text)
+        
+        output, hidden = self.rnn(embedded)
+        
+        assert torch.equal(output[-1,:,:], hidden.squeeze(0))
+        
+        return self.fc(hidden.squeeze(0))
+```
+As you can see its this easy to implement a RNN model with pytorch
 
 ### Author 
 
