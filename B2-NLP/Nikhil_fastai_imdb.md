@@ -6,6 +6,8 @@ First let's download the dataset we are going to study. The [dataset](http://ai.
 
 We'll begin with a sample we've prepared for you, so that things run quickly before going over the full dataset.
 
+## data preprocessing
+
 1. **Tokenization**: it takes those words and converts them into a standard form of tokens. Basically each token represents a word.
 
    ![](lesson3/35.png)
