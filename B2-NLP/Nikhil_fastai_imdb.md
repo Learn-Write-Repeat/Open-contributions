@@ -108,4 +108,5 @@ learn.predict("I really loved that movie, it was awesome!")
 </a>
 
 <br>
+
 ##### This work i did is inspired from JERMEY HOWARDS fastai MOOC.
