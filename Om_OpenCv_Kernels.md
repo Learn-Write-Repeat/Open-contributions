@@ -2,7 +2,7 @@
 
 Masking recalculates each pixel after operating it with a mask or kernal. 
 It is used for blurring, sharpening, edge detection and many more purposes. 
-There are two component while Masking:
+There are two component while convoluting:
 1. Image 
 2. Kernal - matrix of size nxn (where n is always odd). The sum of the whole matrix is needed to be zero or near zero. 
 To perform masking the kernal matrix is convoluted over the image. 
