@@ -61,12 +61,30 @@ As we learn about it next week, when we do NLP classification, we actually creat
 
 ```
 learn.fit_one_cycle(1, 2e-2, moms=(0.8,0.7))
-
 ```
 
 ```
 Total time: 03:40
 epoch	train_loss	valid_loss	accuracy
 1	0.310078	0.197204	0.926960
+```
 
+```
+learn.unfreeze()
+learn.fit_one_cycle(2, slice(1e-3/(2.6**4),1e-3), moms=(0.8,0.7))
+```
+
+```
+Total time: 15:17
+epoch	train_loss	valid_loss	accuracy
+1	0.240424	0.155204	0.943160
+2	0.217462	0.153421	0.943960
+```
+
+```
+learn.predict("I really loved that movie, it was awesome!")
+```
+
+```
+(Category pos, tensor(1), tensor([7.5928e-04, 9.9924e-01]))
 ```
