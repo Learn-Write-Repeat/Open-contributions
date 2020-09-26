@@ -88,4 +88,4 @@ learn.predict("I really loved that movie, it was awesome!")
 ```
 (Category pos, tensor(1), tensor([7.5928e-04, 9.9924e-01]))
 ```
-##### This work i did is inspired from JERMEY HOWARDS fastai course.
+##### This work i did is inspired from JERMEY HOWARDS fastai MOOC.
