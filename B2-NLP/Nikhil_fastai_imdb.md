@@ -88,4 +88,22 @@ learn.predict("I really loved that movie, it was awesome!")
 ```
 (Category pos, tensor(1), tensor([7.5928e-04, 9.9924e-01]))
 ```
+
+# <a href="https://www.linkedin.com/in/nikilreddybilla/">Nikhil Reddy </a> 
+ 
+ <a href="https://twitter.com/neural_nets_">
+  <img align="left" alt="Nikhil's Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
+</a>
+<a href="https://www.linkedin.com/in/nikilreddybilla/">
+  <img align="left" alt="Nikhil's Linkdein" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
+</a>
+<a href="https://github.com/nikhilreddybilla28">
+  <img align="left" alt="Nikhil's Github" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
+</a>
+<a href="https://imultiarmedbandit.blogspot.com/">
+  <img align="left" alt="Nikhil's blogspot" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/blogger.svg" />
+</a>
+<a href="https://medium.com/@icrypto1">
+  <img align="left" alt="Nikhil's Medium" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/medium.svg" />
+</a>
 ##### This work i did is inspired from JERMEY HOWARDS fastai MOOC.
