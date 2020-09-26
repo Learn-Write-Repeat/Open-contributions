@@ -88,7 +88,7 @@ learn.predict("I really loved that movie, it was awesome!")
 ```
 (Category pos, tensor(1), tensor([7.5928e-04, 9.9924e-01]))
 ```
-###About me:
+### About me:
 #### <a href="https://www.linkedin.com/in/nikilreddybilla/">Nikhil Reddy </a> 
  
  <a href="https://twitter.com/neural_nets_">
