@@ -58,3 +58,15 @@ As we learn about it next week, when we do NLP classification, we actually creat
    We say we want to create a language model learner, train it, save it, and we unfreeze, train some more.
 
 2. After we've created a language model, we fine-tune it to create the **classifier**. We create the data bunch of the classifier, create a learner, train it and we end up with some accuracy.
+
+```
+learn.fit_one_cycle(1, 2e-2, moms=(0.8,0.7))
+
+```
+
+```
+Total time: 03:40
+epoch	train_loss	valid_loss	accuracy
+1	0.310078	0.197204	0.926960
+
+```
