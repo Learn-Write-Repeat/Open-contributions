@@ -107,5 +107,5 @@ learn.predict("I really loved that movie, it was awesome!")
   <img align="left" alt="Nikhil's Medium" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/medium.svg" />
 </a>
 
-
+<br>
 ##### This work i did is inspired from JERMEY HOWARDS fastai MOOC.
