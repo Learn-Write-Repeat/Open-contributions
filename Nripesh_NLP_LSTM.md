@@ -1,6 +1,5 @@
 # Long Short-term Memory Network(LSTM)
 ---
-
 ## Introduction
 LSTMs are a type of recurrent neural networks that specialise in the learning of dependencies in a sequence of words(sentences) or sequence of numbers. In simpler terms, let's take your brain as an example. You are able to understand the words you are currently reading because you have already encountered them before and know their meanings. In a similar fashion, LSTMs store the relationships between certain words in a sentence. For example, consider the following sentence:-
 
@@ -13,8 +12,6 @@ This reference relationship can be short that is a word can directly refer to th
 ## Architecture
 ---
 Let's take a look at the architectural differences between RNNs and LSTMs. This will help us get an idea of how LSTMs are able to handle long-term dependencies better than regular Recurrent Neural Networks.
-
-
 ##### Repeating Module in RNN
 
 ![Repeating module in RNN](https://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-SimpleRNN.png "Repeating Module in RNN")
