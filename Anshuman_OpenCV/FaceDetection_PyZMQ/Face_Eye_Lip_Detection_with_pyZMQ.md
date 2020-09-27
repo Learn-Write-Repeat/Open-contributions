@@ -43,8 +43,8 @@ Since we know the cordinates we'll be able to draw boxes and circles around them
         <td><img src="https://github.com/anshumyname/Open-contributions/blob/master/Anshuman_OpenCV/images/detected.jpg" width=200 height=200></td>
     </tr>
     <tr>
-        <td><b>Client Image (Sent to Server )</b></td>
-        <td><b>Client Image (Received from Server)</b></td>
+        <td><b>Image Sent to Server </b></td>
+        <td><b>Image Received from Server </b></td>
     </tr>
 </table>
 
