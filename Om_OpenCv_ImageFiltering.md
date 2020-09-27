@@ -15,12 +15,14 @@ There are two component while convoluting:
 To perform masking the kernal matrix is convoluted over the image. 
 ### Convolution
 <br>
-<img src = "https://miro.medium.com/max/464/0*e-SMFTzO8r7skkpc" alt = "convolution operation">
-
+<img src = "https://mlnotebook.github.io/img/CNN/convSobel.gif" alt="Animation">
+<br>
 In mathematics convolution is defined as the sum of the product of the two functions after one is reversed and shifted.
 However, since in masking reversing a function doesn't make a differece therefore simple product of each element is sumed to save computation. 
 <b>Formula for convolutional Network:</b><br>
 <img src = "https://pages.jh.edu/~bmesignals/New/disc_conv_eqn.gif" alt = "formula">
+<br>
+<img src = "https://miro.medium.com/max/464/0*e-SMFTzO8r7skkpc" alt = "convolution operation">
 
 ## Implementation in OpenCv Python 
 The method cv2::filter2d is used to apply any custom image filter. 
