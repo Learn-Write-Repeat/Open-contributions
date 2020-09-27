@@ -16,7 +16,7 @@ So the next time the model sees the same word it can use the previous results to
 
 Say that the model is used for a dataset having reviews on a product(say, a phone). The review can be positive or negative. In order to predict the class of a new review, we will first train our dataset with the already available review results. Using bag of words we convert the language into a mathematical form and check which words are present in which reviews and what is the sentiment for the corresponding to it. Then use machine learning any machine learning model to train the machine on the already known reviews so that when a new review is inputted the machine can check words from the vocabulary and make a prediction for the new input.
 
-![Bag of Words representation](https://images.app.goo.gl/PHwmUHrFisUUE9eb6)
+![Bag of Words representation](https://images.app.goo.gl/C7QWNrMWfeyU3k4j9)
 
 
 ## Detailed explanation of Bag of Words and why it is used
