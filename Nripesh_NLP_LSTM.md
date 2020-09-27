@@ -1,5 +1,5 @@
 # Long Short-term Memory Network(LSTM)
----
+
 ## Introduction
 LSTMs are a type of recurrent neural networks that specialise in the learning of dependencies in a sequence of words(sentences) or sequence of numbers. In simpler terms, let's take your brain as an example. You are able to understand the words you are currently reading because you have already encountered them before and know their meanings. In a similar fashion, LSTMs store the relationships between certain words in a sentence. For example, consider the following sentence:-
 
@@ -10,7 +10,7 @@ The above sentence actually consists of 2 smaller sentences "I grew up in Portug
 This reference relationship can be short that is a word can directly refer to the previous word or it can be long meaning it can refer a word that is 10 words down the line. Hence accounting for such a relationship can become very complex for processing patterns that the neural networks need to process
 
 ## Architecture
----
+
 Let's take a look at the architectural differences between RNNs and LSTMs. This will help us get an idea of how LSTMs are able to handle long-term dependencies better than regular Recurrent Neural Networks.
 ##### Repeating Module in RNN
 
@@ -37,7 +37,7 @@ Similar to how the input gate decides the current cell state the output gate dec
  ![Output Gate](https://miro.medium.com/max/700/1*VOXRGhOShoWWks6ouoDN3Q.gif)
  
  ## Code Demo
----
+
 For better understanding of using LSTM in code, I have provided a code snippet illustrating LSTM architecture in PyTorch:
 
 ```
@@ -67,7 +67,7 @@ The LSTM layer is defined under the torch.nn module.
 The ```hidden_cell``` contains the previous hidden and cell state. It is initialized with all zero values. The ```forward() ``` method connects all the layers. It takes the input sequence and passes it to the ```lstm``` layer. The output of the ```lstm``` layer consists of the hidden, current cell state and output. The output  is given to the ```linear``` layer. The predicted values are then passed to the calling function. For the complete example you can visit [here](https://github.com/nrpu88/Open-contributions/blob/master/Nripesh_NLP_LSTM.ipynb). 
 
 ## Applications of LSTMs
----
+
 Here are a few interesting applications of the LSTM networks:-
 ### 1. Machine Translation
 ![](https://analyticsindiamag.com/wp-content/uploads/2018/01/nural-network-02.jpg)
@@ -79,7 +79,6 @@ Here are a few interesting applications of the LSTM networks:-
 ![](https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2016/07/Automatic-Image-Caption-Generation.png)
 ### 5. Automatic colorization of Images
 ![](https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2016/07/Colorization-of-Black-and-White-Photographs.png)
----
 ---
 #### Nripesh Kumar
 [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/nripesh-kumar/)   [![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/nrpu88/nrpu88/edit/master/README.md)
