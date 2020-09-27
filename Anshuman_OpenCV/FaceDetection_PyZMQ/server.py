@@ -45,37 +45,38 @@ while True:
     for face in faces:
         x, y= face.left(), face.top()
         w, h= face.right()-x, face.bottom()-y
-        frame = cv2.rectangle(frame, (x,y), (x+w,y+h),(0,0,255),3)
+        # frame = cv2.rectangle(frame, (x,y), (x+w,y+h),(0,0,255),3)
         landmars = getlandmark(gray, face)
         hx= landmars.part(48).x-10
         hy= landmars.part(51).y-10
         ww= landmars.part(54).x-landmars.part(48).x+10
         hh = landmars.part(57).y- landmars.part(51).y+10
 
-        frame= cv2.rectangle(frame, (hx,hy),(hx+ww,hy+hh),(0,255,0),3)
+        # frame= cv2.rectangle(frame, (hx,hy),(hx+ww,hy+hh),(0,255,0),3)
 
         hx= (landmars.part(37).x+landmars.part(40).x)/2
         hy= (landmars.part(37).y+landmars.part(40).y)/2
         ww= (landmars.part(39).x-landmars.part(36).x+10)/2
         # hh = landmars.part(38).y- landmars.part(41).y+50
 
-        frame= cv2.circle(frame, (hx,hy),ww,(0,255,255),3)
+        # frame= cv2.circle(frame, (hx,hy),ww,(0,255,255),3)
 
         hx= (landmars.part(43).x+landmars.part(46).x)/2
         hy= (landmars.part(43).y+landmars.part(46).y)/2
         ww= (landmars.part(45).x-landmars.part(42).x+10)/2
         # hh = landmars.part(44).y- landmars.part(47).y+50
 
-        frame= cv2.circle(frame, (hx,hy),ww,(0,255,255),3)
+        # frame= cv2.circle(frame, (hx,hy),ww,(0,255,255),3)
 
+    k= cv2.waitKey(30) & 0xFF
+    if k==ord('q'):
+        break
     # plain = np.ravel(frame)
     # sh = frame.shape
     send_array(socket,frame)
 
 #     # cv2.imshow('Face',frame)
-    k= cv2.waitKey(30) & 0xFF
-    if k==ord('q'):
-        break
+    
 
 
 
