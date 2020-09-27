@@ -1,6 +1,6 @@
-# Convolution Matrix
+# Image Filtering
 
-Masking recalculates each pixel after operating it with a mask or kernal. 
+Filtering recalculates each pixel after operating it with a mask or kernal. 
 It is used for blurring, sharpening, edge detection and many more purposes. 
 There are two component while convoluting:
 1. Image 
@@ -14,6 +14,26 @@ In mathematics convolution is defined as the sum of the product of the two funct
 However, since in masking reversing a function doesn't make a differece therefore simple product of each element is sumed to save computation. 
 <b>Formula for convolutional Network:</b><br>
 <img src = "https://pages.jh.edu/~bmesignals/New/disc_conv_eqn.gif" alt = "formula">
+
+## Implementation in OpenCv Python 
+The method cv2::filter2d is used to apply any custom image filter. 
+```python 
+dst = cv.filter2D(src, ddepth, kernel [, dst[, anchor[, delta[, borderType]]]]	)
+```
+### Parameters 
+**src, ddepth and kernal are essential parameter** <br> 
+**src**	       `:input image.` 
+
+**ddepth**     `:desired depth of the destination image, see combinations.`
+
+**kernel**     `:convolution kernel (or rather a correlation kernel), a single-channel floating point matrix; if you want to apply different kernels to different channels, split the image into separate color planes using split and process them individually.`
+
+*anchor*    `:anchor of the kernel that indicates the relative position of a filtered point within the kernel; the anchor should lie within the kernel; default value (-1,-1) means that the anchor is at the kernel center.`
+
+*delta*	     `:optional value added to the filtered pixels before storing them in dst.`
+
+*borderType* `:pixel extrapolation method, see BorderTypes. BORDER_WRAP is not supported.` 
+
 
 ## Application 
 ### Given the following image we'll discuss the effects of kernel
