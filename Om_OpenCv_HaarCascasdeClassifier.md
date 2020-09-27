@@ -1,4 +1,11 @@
 # Haar Cascade Classifiers 
+<p>
+<b>by Om Rastogi  </b>  
+<a href="https://twitter.com/OmRastogi"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg"  alt="Om's Logo" width="15" height="15"></a> 
+<a href="https://medium.com/@omrastogi"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg"  alt="Om's Logo" width="15" height="15"></a> 
+<a href="https://www.linkedin.com/in/om-rastogi-a886b4b2/"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/medium.svg"  alt="Om's Logo" width="15" height="15"></a> 
+<a href="https://omrastogi.github.io/omrastogi/index.html"><img src="https://omrastogi.github.io/omrastogi/images/logo.png" alt="Om's Logo" width="22" height="15"></a> 
+</p>
 
 ## Viola Jones Algorithm
 The Viola-Jones object detection framework is a machine learning approach for object detection, proposed by Paul Viola and Micheal Jones in 2001.
