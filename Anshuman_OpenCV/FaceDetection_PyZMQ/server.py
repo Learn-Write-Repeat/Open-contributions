@@ -1,3 +1,12 @@
+'''
+Version
+
+cv2 => 3.2.0
+numpy => 1.13.3
+dlib => 19.21.0
+zmq => 19.0.2
+
+'''
 import dlib, cv2
 import socket , zmq
 import numpy as np
@@ -77,18 +86,18 @@ while True:
         frame= cv2.rectangle(frame, (hx,hy),(hx+ww,hy+hh),(0,255,0),3)
         #Draw a rectangle over the lips
         
-        hx= (landmarks.part(37).x+landmarks.part(40).x)/2
-        hy= (landmarks.part(37).y+landmarks.part(40).y)/2
-        radius = (landmarks.part(39).x-landmarks.part(36).x+10)/2
+        hx= (landmarks.part(37).x+landmarks.part(40).x)//2
+        hy= (landmarks.part(37).y+landmarks.part(40).y)//2
+        radius = (landmarks.part(39).x-landmarks.part(36).x+10)//2
         # Getting the cordinates of the left eye and radius to draw the circle
         
 
         frame= cv2.circle(frame, (hx,hy),radius ,(0,255,255),3)
         # Drawing a circle around the left eye  
 
-        hx= (landmarks.part(43).x+landmarks.part(46).x)/2
-        hy= (landmarks.part(43).y+landmarks.part(46).y)/2
-        radius= (landmarks.part(45).x-landmarks.part(42).x+10)/2
+        hx= (landmarks.part(43).x+landmarks.part(46).x)//2
+        hy= (landmarks.part(43).y+landmarks.part(46).y)//2
+        radius= (landmarks.part(45).x-landmarks.part(42).x+10)//2
         # Getting the cordinates of the right eye and radius to draw the circle
 
         frame= cv2.circle(frame, (hx,hy),radius,(0,255,255),3)

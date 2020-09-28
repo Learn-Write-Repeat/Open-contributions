@@ -1,3 +1,11 @@
+'''
+Version
+
+cv2 => 3.2.0
+numpy => 1.13.3
+zmq => 19.0.2
+
+'''
 import cv2
 import zmq
 import numpy as np
@@ -60,7 +68,7 @@ while True:
 
 cap.release()
 # Release the webcam camers
-cap.destroyallwindows()
+cv2.destroyAllWindows()
 # Destroys any window opened by the program.
 
 
