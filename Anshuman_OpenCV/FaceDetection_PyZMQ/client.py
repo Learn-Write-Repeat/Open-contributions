@@ -1,3 +1,11 @@
+'''
+Version
+
+cv2 => 3.2.0
+numpy => 1.13.3
+zmq => 19.0.2
+
+'''
 import cv2
 import zmq
 import numpy as np
