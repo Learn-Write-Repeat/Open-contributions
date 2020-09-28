@@ -56,17 +56,19 @@ Step 1. Download
 
 Step 2. Copy Images
 ---------------------------------
-Dpwnload and Add these images [l.jpg](https://github.com/Shubham0Rajput/Open-contributions/blob/master/Shubham_OpenCV/l.jpg), [r.jpg](https://github.com/Shubham0Rajput/Open-contributions/blob/master/Shubham_OpenCV/r.jpg) into your Google Drive.
-This is done because sometimes imges are loaded in Google colab and error comes.
+Download and Add these images [l.jpg](https://github.com/Shubham0Rajput/Open-contributions/blob/master/Shubham_OpenCV/l.jpg), [r.jpg](https://github.com/Shubham0Rajput/Open-contributions/blob/master/Shubham_OpenCV/r.jpg) into your Google Drive.
+This is done because sometimes images are loaded in Google colab and error comes.
 
 Step 3. Open Code
 ---------------------------------
-[Code](https://github.com/Shubham0Rajput/Open-contributions/blob/master/Shubham_OpenCV_DepthMaping.ipynb) can be open into colab from single tap, which will pop-up on the top of source code.
+[Code](https://github.com/Shubham0Rajput/Open-contributions/blob/master/Shubham_OpenCV_DepthMaping.ipynb) can be open into colab from single tap, which will
+pop-up on the top of source code.
 
 
 Step 4. Run
 ---------------------------------
-To run the code tap on Run or press Alt+Enter to run, on first it will link your Google Drive with Google Colab so it can acess the images from Step 2, it will not harm any of your files privacy is maintained.
+To run the code tap on Run or press Alt+Enter to run, on first it will link your Google Drive with Google Colab so it can acess the images from Step 2, 
+it will not harm any of your files privacy is maintained.
 
 Additional
 ---------------------------------
