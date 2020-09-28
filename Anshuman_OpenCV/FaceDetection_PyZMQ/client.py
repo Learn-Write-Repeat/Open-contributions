@@ -68,7 +68,7 @@ while True:
 
 cap.release()
 # Release the webcam camers
-cap.destroyallwindows()
+cv2.destroyAllWindows()
 # Destroys any window opened by the program.
 
 
