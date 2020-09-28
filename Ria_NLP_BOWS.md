@@ -41,3 +41,5 @@ Now since the language words have a mathematical representation, we can use any 
 2. There are a lot of other symbols used in a language other than the letters, such as punctuations and all of them add no meaning to the words and would occupy unnecessary space in the feature matrix. Thus, all of them should be removed in the beginning.
 3. Words like loving, loved convey the same sentiment and counting them twice will again waste memory and space in the matrix, and thus, only the word stem(lov) should be taken.
 4. Sometimes abbreviations of words may be present; the abbreviations should be converted into full words before utilizing them in the model for better performance.
+
+**Email** : riagohel@outlook.com
