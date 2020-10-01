@@ -24,4 +24,4 @@ This Repository is for sharing knowledge and Learning purpose, and open contribu
 > We believe that "one should learn in a way that he/she can explain it to others" or "Learning by teaching others" is an extremely effective way to learn. You'll have to understand and write what you learned in a Markdown file, not to copy everything (we'll be checking plagiarism before merging it to master) but to explain all important points in the list or tabular format, use images/illustrations over text or whatever you like, in a way that what you write can easily be understood by a person who has no idea about the topic with minimal effort. And for the same topic, if applicable you'll have to write a Jupyter notebook explaining the working of the topics.
 
 ### Resources to start
-1. [Introduction to markdown](markdown.md)
+1. [Introduction to markdown](Markdown.md)
