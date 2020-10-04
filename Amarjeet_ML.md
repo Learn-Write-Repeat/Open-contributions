@@ -1,17 +1,17 @@
 # Machine learning
-'''
-Sklearn
-Regression
-Classifier
-pandas 
-matplotlib
-Hyperparameter tuning
-Evaluation metrics 
-'''
+```
+*Sklearn
+*Regression
+*Classifier
+*Pandas 
+*Matplotlib
+*Hyperparameter tuning
+*Evaluation metrics 
+```
 
 # Deep learning
-'''
-tensorflow
-keras
-Transfer learning
-tensorboard
+```
+*Tensorflow
+*Keras
+*Transfer learning
+*Tensorboard
