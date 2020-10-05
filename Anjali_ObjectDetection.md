@@ -32,7 +32,7 @@ In this section we will understand a variety of object detection methods:
       * **R =  λ1λ2 – k( λ1  + λ2)**      
     * Shi-Tomasi uses:
       * **R = min(λ1, λ2)**
-## Edge Detection ##
+## Edge Detection
 * Expanding to find general edges of objects
 * Canny Edge Detection Method
 	1. Apply Gaussian filter to smooth the image in order to remove the noise.
@@ -40,17 +40,17 @@ In this section we will understand a variety of object detection methods:
 	1. Apply non-maximum suppression to get rid of spurious response to edge detection.
 	1. Apply double threshold to determine possible edges.
 	1. Track edge by hysteresis: Finalize the detection of edges by supressing all other edges that are weak and not connected to strong edges.
-## Grid Detection ##
+## Grid Detection
 * Combining both concepts to find grid in images (useful for applications).
 * Often cameras can create distortion in an image such as radial distortion and tangential distortion
 * A good way to account for these distortions when performing like object tracking is to have a recognizable pattern attached to the object being tracked.
 * Grid patterns are often used to calibrate cameras and track motion.  
-## Contour Detection ##
+## Contour Detection 
 * Contours are defined simply as a curve joining all the continuous points having same colour or intensity.
 *	Contours are a useful tool for shape analysis and object detection and recognition
 * OpenCV has a built in Counter finder function that can also help us differentiate between internal and external contours (eg – grabbing the eyes and smile from a cartoon face).
 * Allows us to detect foreground vs background.
-## Feature Matching ##
+## Feature Matching 
 * Feature matching extracts defining key features from an input image (using ideas from corner, edge and contour detection).
 * Then using a distance calculation, finds all the matches in a secondary image.
 * More advanced methods of detecting matching object in another image, even if the target image is not shown exactly the same image we are searching.
@@ -60,8 +60,8 @@ In this section we will understand a variety of object detection methods:
 * Notice how the input image is not exactly what is shown in the secondary image
 * 3 methods of feature matching are:
 	1. Brute-Force Matching with ORB Descriptors
-	1. Brute-Force Matching with SIFT Descriptors and Ratio Test
-	1. FLANN based Matcher 
+	2. Brute-Force Matching with SIFT Descriptors and Ratio Test
+	3. FLANN based Matcher 
 	
 ## Watershed Algorithm ##
 * Metaphorically, Watershed Algorithm transformation treats the image it operates upon like a topographic map, with the brightness of each point representing it’s height, and finds the line that runs along the tops of ridges.
@@ -74,7 +74,7 @@ In this section we will understand a variety of object detection methods:
 	* A common example is the use of coins next to each other on a table
 	  * Attempting to segment these coins can be difficult:
     
-	![](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQRLGLxjK2fADx4e7Sci8koBkeB0Lh-QtqAdg&usqp=CAU)\
+	![](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQRLGLxjK2fADx4e7Sci8koBkeB0Lh-QtqAdg&usqp=CAU)
   * It may be unclear to the algorithm  if it should be treated as one large object or many small objects.
   * The watershed algorithm can be very effective  for these sort of problems
 ## Facial and Eye Detection ##
@@ -97,5 +97,5 @@ In this section we will understand a variety of object detection methods:
 * This means we will treat the image to a series(cascade)of classifiers based on the simple feature .
 * Once an image fails a classifier, we can stop attempting to detect a face.
 	
-Author:Anjali Saini\
+Author:Anjali Saini
 Email:anjalisaini302@gmail.com
