@@ -63,7 +63,7 @@ In this section we will understand a variety of object detection methods:
 	2. Brute-Force Matching with SIFT Descriptors and Ratio Test
 	3. FLANN based Matcher 
 	
-## Watershed Algorithm ##
+## Watershed Algorithm
 * Metaphorically, Watershed Algorithm transformation treats the image it operates upon like a topographic map, with the brightness of each point representing it’s height, and finds the line that runs along the tops of ridges.
 * Any grayscale image  can be viewed as a topographic surface where high intensity denotes peaks and hills while low intensity denotes valleys
 * As the “water” rises, depending on the peaks (gradient) nearby, “water” from different valleys (different segments of the image), with different colors could start merge.
@@ -77,7 +77,7 @@ In this section we will understand a variety of object detection methods:
 	![](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQRLGLxjK2fADx4e7Sci8koBkeB0Lh-QtqAdg&usqp=CAU)
   * It may be unclear to the algorithm  if it should be treated as one large object or many small objects.
   * The watershed algorithm can be very effective  for these sort of problems
-## Facial and Eye Detection ##
+## Facial and Eye Detection
 * Haar Cascades to identify faces in images
 * We will be able to very quickly detect if a face is in an image and locate
 * However we won’t know who’s face it belongs to.
@@ -98,4 +98,5 @@ In this section we will understand a variety of object detection methods:
 * Once an image fails a classifier, we can stop attempting to detect a face.
 	
 Author:Anjali Saini
+
 Email:anjalisaini302@gmail.com
