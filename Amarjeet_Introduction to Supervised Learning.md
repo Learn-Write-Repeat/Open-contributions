@@ -31,6 +31,7 @@ It is a statistical method used in finance, investing, and other disciplines
 that attempts to determine the strength and character of the relationship between 
 a series of other variables and one dependent variable.
 
+![regresision](https://user-images.githubusercontent.com/64517073/95163106-cd0b8200-07c4-11eb-8471-afb1f8f03015.png)
 
  ### Types of Regression : 
 
