@@ -25,17 +25,55 @@ The corresponding yi might be a classification of the patient as “healthy” o
 Supervised learning can be done in two ways:
 ## 1. Regression  
 
-Regression is a statistical method used in finance, investing, and other disciplines 
+Regression analysis helps us to understand how the value of the dependent variable is changing corresponding to an independent variable when other independent variables are held fixed. It predicts continuous/real values such as temperature, age, salary, price, etc.
+
+It is a statistical method used in finance, investing, and other disciplines 
 that attempts to determine the strength and character of the relationship between 
 a series of other variables and one dependent variable.
 
-![line reg](https://user-images.githubusercontent.com/64517073/95014123-5ce4eb00-0662-11eb-9d4d-360f6f77c36f.png)
+
+ ### Types of Regression : 
+
+Linear Regression
+
+Logistic Regression
+
+Support Vector Regression
+
+Decision Tree Regression
+
+
 
 
 ## 2.  Classification
+Classification is a process of categorizing a given set of data into classes.The process starts with predicting the class of given data points. The classes are often referred to as target, label or categories.
+
 Classification is a type of supervised learning. It specifies the class to which data elements belong to and
  is best used when the output has finite and discrete values. It predicts a class for an input variable as well.
  
- 
 ![classification](https://user-images.githubusercontent.com/64517073/95014300-92d69f00-0663-11eb-824d-2e68439a928c.png)
+ 
+ ### Types of classification :
+ 
+ Random Forest classifier
+ 
+ Decision Trees classifier
+ 
+ support vector machine classifier
+ 
+ Nearest Neighbour classifier
+ 
+
+
+
+
+## Conclusion :
+ 
+![machine learning](https://user-images.githubusercontent.com/64517073/95162408-44d8ad00-07c3-11eb-99a1-61ff51ddeb46.jpg)
+ 
+Machine Learning is a technique of training machines to perform the activities a human brain can do, albeit bit faster and better than an average human-being. Today we have seen that the machines can beat human champions in games such as Chess, AlphaGO, which are considered very complex.
+ 
+Machine Learning can be a Supervised or Unsupervised. If you have lesser amount of data and clearly labelled data for training, opt for Supervised Learning.
+
+Machine Learning is a technique of training machines to perform the activities a human brain can do, albeit bit faster and better than an average human-being. Today we have seen that the machines can beat human champions in games such as Chess, AlphaGO, which are considered very complex.
  
