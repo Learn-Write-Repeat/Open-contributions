@@ -128,19 +128,3 @@ A classification report will give the following results, it is a sample classifi
    * It is the weighted average of precision and recall
 * **Precision And Recall**
    * Precision is the fraction of relevant instances among the retrieved instances, while recall is the fraction of relevant instances that have been retrieved over the total number of instances. They are basically used as the measure of relevance.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
