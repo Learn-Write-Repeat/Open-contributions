@@ -1,11 +1,11 @@
 # Introduction to supervised learning
 
-Supervised learning is simply a formalization of the idea of learning from 
-examples. In supervised learning, machine learning model
-is learning provided with two or three sets of data, a training set and a validation set
-and test set.
+Supervised Learning is the process of making an algorithm to learn to map an input to a particular output. This is achieved using the labelled datasets that you have collected.  Supervised Learning algorithms can help make predictions for new unseen data that we obtain later in the future. 
 
-![supervised_learning](https://user-images.githubusercontent.com/64517073/95013511-5785a180-065e-11eb-88d1-a0e38e10bac5.jpg)
+Supervised learning provided with two sets of data(if dataset is smaller), a training set and a validation set
+and test set. but provide three sets of data(if dataset is greater) , a training set , a validation set and test set.
+
+![supervised learning](https://user-images.githubusercontent.com/64517073/95315428-1b497f80-08b0-11eb-9847-db8cb9ff88b7.jpg)
 
 The idea is for the model to “learn” from a set of labeled examples in the training set so that it can
 identify unlabeled examples in the test set with the highest possible accuracy.
@@ -64,7 +64,12 @@ Classification is a type of supervised learning. It specifies the class to which
  
  Nearest Neighbour classifier
  
+### Advantages of Supervised Learning
 
+1. Supervised learning is a simple process for to understand.
+2. Easily identifies trends and patterns
+3. Supervised machine learning is to predict a target numerical value from some given data and labels.
+4. No human intervention needed (automation)
 
 
 
@@ -77,4 +82,6 @@ Machine Learning is a technique of training machines to perform the activities a
 Machine Learning can be a Supervised or Unsupervised. If you have lesser amount of data and clearly labelled data for training, opt for Supervised Learning.
 
 Machine Learning is a technique of training machines to perform the activities a human brain can do, albeit bit faster and better than an average human-being. Today we have seen that the machines can beat human champions in games such as Chess, AlphaGO, which are considered very complex.
+
+
  
