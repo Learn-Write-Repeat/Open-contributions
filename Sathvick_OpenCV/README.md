@@ -1,6 +1,6 @@
 OpenCV is a huge open-source library which is used for computer vision and image processing. It also plays an important role in real-time operations.It can process images and videos to identify objects, faces, or even the handwriting of a human.It has many in built functions which make our work a bit easy.
 
-![](https://www.google.com/imgres?imgurl=https%3A%2F%2Fopencv-python-tutroals.readthedocs.io%2Fen%2Flatest%2F_static%2Fopencv-logo-white.png&imgrefurl=https%3A%2F%2Fopencv-python-tutroals.readthedocs.io%2F&tbnid=XFH8UCjKb3XmvM&vet=12ahUKEwiaurOtpqTsAhWQVisKHQ0iDHgQMygEegUIARCpAQ..i&docid=ErD9DaZZJmNuhM&w=180&h=222&q=opencv%20docs&hl=en&client=ubuntu&ved=2ahUKEwiaurOtpqTsAhWQVisKHQ0iDHgQMygEegUIARCpAQ)
+![](https://www.google.com/imgres?imgurl=https%3A%2F%2Fopencv.org%2Fwp-content%2Fuploads%2F2020%2F07%2Fcropped-OpenCV_logo_white_600x.png&imgrefurl=https%3A%2F%2Fopencv.org%2F&tbnid=t7yD5e6sNBzv6M&vet=12ahUKEwi9uKyGp6TsAhXnnUsFHfCFCccQMygAegQIARB8..i&docid=bk2cK6wdUxgMYM&w=600&h=794&itg=1&q=opencv.org&client=ubuntu&ved=2ahUKEwi9uKyGp6TsAhXnnUsFHfCFCccQMygAegQIARB8)
 
 # FACE DETECTION USING WEBCAM(DISPLAYS THE PERCENTAGE OF TIME A FACE WAS DETECTED)
 
