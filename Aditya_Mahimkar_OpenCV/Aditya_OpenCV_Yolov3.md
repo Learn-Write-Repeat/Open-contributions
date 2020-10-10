@@ -11,7 +11,7 @@ You need to download these files:
 - [yolo.weights](https://pjreddie.com/media/files/yolov3.weights) -> pretrained model 
 - [Object names](https://github.com/pjreddie/darknet/blob/master/data/coco.names) list of objects the model can detect
 
-### Lets create a simple program to detect humans in the video
+## Lets create a simple program to detect humans in the video
 I consider you have a good understanding OpenCV like loading video and saving in a codec format or displaying shapes and text on a frame.
 
 Lets see these code segments where you might get stuck
@@ -77,6 +77,15 @@ Let hover to last part of this explanation
 ```py
 indexes = cv2.dnn.NMSBoxes(boxes, confidences, score_threshold=0.4, nms_threshold=0.5)
 ```
-Just check two pics,
+Just check these two pics,
+
 ![](example.PNG)
 ![](example1.PNG)
+
+You might have found that laptop and tv monitor were detected twice, to avoid such errors we use **NMSBoxes()** function to apply non-maximum supression so the overlapping bounding boxes are removed.
+Now just create those bounding boxes on the frame and output is ready!!
+
+## Output
+A snap from the output video
+
+![output](output_snap.PNG)
