@@ -72,3 +72,11 @@ Next is to store those elements in boxes, class_ids, confidences of those having
 You might have question that what about the starting values of detection list as we stored values of index 5 and ahead in scores list. 
 
 The starting values of detection list is **defining centroid of that bounding boxes.** Using simple math we can calculate the coordinates of top left corner and the width and height of the box.
+
+Let hover to last part of this explanation
+```py
+indexes = cv2.dnn.NMSBoxes(boxes, confidences, score_threshold=0.4, nms_threshold=0.5)
+```
+Just check two pics,
+![](example.PNG)
+![](example1.PNG)
