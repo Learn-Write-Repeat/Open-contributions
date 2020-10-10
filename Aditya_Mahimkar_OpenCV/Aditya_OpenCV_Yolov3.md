@@ -65,7 +65,7 @@ This section is bit hard but lemme explain, boxes will store bounding boxes arou
 - **outs** stores images detected in that frame of the video.
 - **detection** retrives one image at a time from outs list.
 - **scores** stores percentage value between 0 and 1 for all 80 classes which is actual the confidences. (80 float values)
-- **class_id** stores the index value of max value of scores that represents the actual object in coco file. (int value between 0 to 80)
+- **class_id** stores the index value of max value of scores that represents the actual object in [coco file.](coco_names.txt) (int value between 0 to 80)
 - **confidence** contains the highest confidence but again we want only those **confidence greater than 0.5.** (float value)
 Next is to store those elements in boxes, class_ids, confidences of those having **confidence > 0.5 and also class_id == 0** ie, person to detect and store only human objects.
 
