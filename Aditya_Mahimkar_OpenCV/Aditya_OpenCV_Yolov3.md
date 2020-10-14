@@ -12,7 +12,7 @@ You need to download these files:
 - [Object names](https://github.com/pjreddie/darknet/blob/master/data/coco.names) list of objects the model can detect
 
 ## Lets create a simple program to detect humans in the video
-I consider you have a good understanding OpenCV like loading video and saving in a codec format or displaying shapes and text on a frame.
+I consider you have a good understanding of **OpenCV** like loading video and saving in a codec format or displaying shapes and text on a frame.
 
 Lets see these code segments where you might get stuck
 ```py
@@ -34,7 +34,8 @@ blobFromImage(img, scalefactor, size, mean, swapRB, crop)
 Here size can be:
 - 320 for fast process but less accurate
 - 609 for slow process but high accurate
-- 320 for moderate process and moderate accurate
+- 416 for moderate process and moderate accurate
+
 swapRB is used to swap red and blue channels in the image.
 
 ```py
