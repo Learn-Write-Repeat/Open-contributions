@@ -51,7 +51,7 @@ Use # for headings. You can use this like in HTML for H1, H2 etc.
 
 <hr>
 
-### 2. Bold and Italics
+### 2. Bold,Italics and striking words
 
 Use `**` for making text bold and `*` for italics.
 
@@ -64,7 +64,7 @@ Use `**` for making text bold and `*` for italics.
 **Bold**
 *Italics*
 ***Bold and Italics Both***
-
+~~this is the striking one~~
 ```
 
 **<ins>Output:</ins>**
@@ -75,8 +75,10 @@ Use `**` for making text bold and `*` for italics.
 
 ***Bold and Italics Both***
 
+~~this is the striking one~~
 
 <hr>
+
 
 ### 3. Lists
 
@@ -278,9 +280,6 @@ These were the most used Markdown features. These will help you for you assignme
 
 &nbsp;
 
-> for striking words
-
-~~this is the striking one~~
 
 
 Thanks for Reading!!!
