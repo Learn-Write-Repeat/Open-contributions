@@ -3,8 +3,8 @@
 ## Summary of the module
 > Brief overview of the things I learnt in this module.
 
-<p align = center>
-	<img src="ml.PNG" alt='ML'>
+<p align = "center">
+	<img src="ml.PNG" alt="ML">
 </p>
 
 1.In this module I learnt about the general definition of Machine Learning which is :- 
