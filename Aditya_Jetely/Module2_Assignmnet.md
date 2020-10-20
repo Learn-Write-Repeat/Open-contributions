@@ -4,7 +4,7 @@
 > Brief overview of the things I learnt in this module.
 
 <p align = "center">
-	<img src="ml.PNG" alt="ML">
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQXEfKjCLi9BltK3c71KzYSAofm8DFF7ZUSSg&usqp=CAU" alt="ML">
 </p>
 
 1.In this module I learnt about the general definition of Machine Learning which is :- 
@@ -24,7 +24,7 @@ iii) Reinforcement Learning
 > This is like a reward based system where the model is rewarded on the basis of the performance of the algorithm.
 
 <br>
-3. I also learned in depth about the various algorithms associated with supervised and unsupervised learning, some of these algorithms were:-
+3. I also learned in depth about the various algorithms associated with supervised and unsupervised learning including their applications, importance and disadvantages, some of these algorithms were:-
 
 - Linear Regression
 - Logistic Regression
@@ -37,5 +37,43 @@ iii) Reinforcement Learning
 <br>
 4. I also learned about various Classifier evaluation metrices.
 
-##
+## Linear Regression
+> Lets try to understand Linear Regression
+
+<p align = "center">
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR3g73x_Mwh6R5pRZ-LHqlslAdM-UxzPElh8A&usqp=CAU" alt="ML">
+</p>
+
+- Linear Regressiom is one of the most easy to understand as well beginner friendly Supervised Machine Learning Algorithm.
+- The main idea behind linear regression is to form an equation which depicts a realtion between one or more than one independent variables and the dependent variable.The dependent variable can also be called as the target because that is the one whose value we are going to predict in the end.
+- When only one independent variable is present then the linear regression is called simple linear regression otherwise it is called Multiple Linear Regression.
+
+### Advantages of Linear Regresssion
+
+- One of the key avantage of linear regression is its simplicity, interpretability and scientific acceptance.
+- It is one of the very first ml algorithm that most people use hence it is beginner friendly.
+
+### Applications of Linear Regression
+
+- Predicitng values
+- Forecasting
+- Error Reduction
  
+ 
+ ### Example use case of Linear Regression
+ 
+ For example if you have a dataset in which the no of hours a student studies and the marks they obtain is given .Then we can train a model using Linear Regression and predict the marks obtained by some student whose study hours have been provided to us.
+ 
+ Here is the link to the Jupyter Notebook in which I have performed the above task:-
+ 
+ [Linear Regression Notebook](https://github.com/AdityaJ7/The-Sparks-Foundation-Intern/blob/master/Task_1/Task_1.ipynb)
+ 
+ 
+ Written By
+ 
+ [Aditya Jetely](https://github.com/AdityaJ7)
+ 
+ 
+ | [<img src="https://github.com/AdityaJ7/AdityaJ7/blob/master/Assets/Linkedin.svg" alt="Linkedin Logo" width="32">](https://in.linkedin.com/in/aditya-jetely/) |  [<img src="https://github.com/AdityaJ7/AdityaJ7/blob/master/Assets/Instagram.svg" alt="instagram logo" width="32">](https://www.instagram.com/violentbird/)| [<img src="https://cdn.svgporn.com/logos/github-icon.svg" alt="Github logo" width="34">](https://github.com/AdityaJ7)| [<img src="https://github.com/AdityaJ7/AdityaJ7/blob/master/Assets/Gmail.svg" alt="Gmail logo" height="32">](mailto:ajetely@gmail.com)
+|:---:|:---:|:---:|:---:|
+
