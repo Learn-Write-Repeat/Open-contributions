@@ -1,10 +1,11 @@
-# DSA Topics I Know (using c & c++)
+# DS Topics 
    
   - Arrays
-     - insert , delete , search 
   -  Stacks
   -  Queue
   - Linked List
-     - single , double linked list 
   - Tree
    
+# Algorithms 
+ - Sorting 
+ - Searching
