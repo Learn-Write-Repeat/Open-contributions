@@ -1,30 +1,16 @@
-# Data science
-1. R programing
-* Bsiness stats 
-* Supervised learning
-* Unsupervised learning
-* Algorithms 
+# Machine Learning Topics
 
-2. Pyhton
-* Numpy
-* Pandas
-* Matplotlin
-* Pandas profiling
-* seaborn lib.
-* Sklearn
-* Data science with python
-** Ensemble learning approach
-* Supervised learning
-* Unsupervised learning
-* Various algorithm
-
-3. Machine Learning
- * Data science with python
- * Ensemble learning approach
- * Supervised learning
- * Unsupervised learning
- * Various algorithm
-
-4. Tableau 10 Desktop
-* Data visualization with Tableau
-* Joining and Mergeing
+* Regression
+* Classification
+* Decision Trees
+* Random Forests
+* Ensmeble Leaning Methods
+ 1. Gradient Boosting Machine
+ 2. Adaboost
+ 3. XGboost
+* Clustering
+* Dimensionality Redcution
+* Support Vector Machines
+* Boosting ALgorithms
+* Bias-Variance
+* Evalutation Metrics (precision, recall, F1, ROC Curve, AOC score)
