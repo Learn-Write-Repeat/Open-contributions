@@ -7,5 +7,6 @@
   - Tree
    
 # Algorithms 
- - Sorting 
  - Searching
+ - Knapsack Problem
+ - Dijkstra's algorithm
