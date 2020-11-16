@@ -1,7 +1,7 @@
 # DSA Topics I Know
    
   - Arrays
-        - insert , delete , search 
+     - insert , delete , search 
   -  Stacks
   -  Queue
   - Linked List
