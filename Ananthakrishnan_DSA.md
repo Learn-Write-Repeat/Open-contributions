@@ -1,4 +1,4 @@
-# DSA Topics I Know (using c or c++)
+# DSA Topics I Know (using c & c++)
    
   - Arrays
      - insert , delete , search 
