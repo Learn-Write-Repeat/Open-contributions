@@ -1,9 +1,10 @@
 # DSA Topics I Know
    ```
    Arrays
-     -m
+     - insert , delete , search 
    Stacks
    Queue
    Linked List
+     - single , double linked list 
    Tree
    ```
