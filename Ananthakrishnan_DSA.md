@@ -6,7 +6,7 @@
   - Linked List
   - Tree
    
-# Algorithms 
+# Algorithms Topics 
  - Searching
  - Knapsack Problem
  - Dijkstra's algorithm
