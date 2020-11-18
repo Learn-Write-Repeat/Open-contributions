@@ -12,6 +12,7 @@
      * numpy
      * seaborn
 ### Deep Learning :
+     * ANN 
      * ConvNet
      * Hyperparameter tuning
      * image classification
