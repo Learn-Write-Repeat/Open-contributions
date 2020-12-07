@@ -53,3 +53,7 @@ There are 3 basic types or approaches of Machine Learning
    5. Naive Bayes.
    6. Support Vector Machine.
    7. K-Nearest Neighbor.
+
+
+### By Chinmay Patil
+Email: chinmaypatil2000@gmail.com
