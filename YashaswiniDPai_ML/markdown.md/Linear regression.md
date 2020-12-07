@@ -30,7 +30,7 @@ Applications:
 1.Stock price Prediction
 2.Analysis of tobacco smokers in country
 
-Disadvantage
+Disadvantage:\n
 Linear regression is a linear model, which means it works really great with data with linear properties. But, linear model cannot capture the non-linear features.
 
 
