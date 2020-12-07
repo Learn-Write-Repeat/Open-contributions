@@ -4,11 +4,11 @@ Linear regression is a basic predictive analytics technique that uses historical
 Python has an array of packages for linear regression modelling.
 
 Why should we use this?
-"- widely used\n",
-      "- runs fast\n",
-      "- easy to use (not a lot of tuning required)\n",
-      "- highly interpretable\n",
-      "- basis for many other methods"
+ widely used
+ runs fast
+ easy to use (not a lot of tuning required)
+ highly interpretable
+ basis for many other methods
 
 
 There are two kinds of variables in a linear regression model:
@@ -22,9 +22,9 @@ Our goal is to find statistically significant values of the parameters α and β
 <b>MULTIPLE LINEAR REGRESSION</b>
 Simple linear regression can easily be extended to include multiple features. This is called multiple linear regression:
 
-$y = β0 + β1x1 + ... + βnxn$
+y = β0 + β1x1 + ... + βnxn
 
-Each $x$ represents a different feature, and each feature has its own coefficient. 
+Each x represents a different feature, and each feature has its own coefficient. 
 
 Applications:
 1.Stock price Prediction
