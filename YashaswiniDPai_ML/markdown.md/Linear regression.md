@@ -26,6 +26,19 @@ y = β0 + β1x1 + ... + βnxn
 
 Each x represents a different feature, and each feature has its own coefficient. 
 
+
+Model Evaluation Metrics for Regression
+For classification problems, we have only used classification accuracy as our evaluation metric. What metrics can we used for regression problems?
+
+Mean Absolute Error (MAE) is the mean of the absolute value of the errors
+
+
+Mean Squared Error (MSE) is the mean of the squared errors
+
+
+Root Mean Squared Error (RMSE) is the square root of the mean of the squared errors
+
+
 Applications:
 1.Stock price Prediction
 2.Analysis of tobacco smokers in country
