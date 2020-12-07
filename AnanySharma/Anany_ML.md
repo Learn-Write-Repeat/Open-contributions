@@ -1,6 +1,6 @@
-# Learnings from the Modules
+# Learnings from the Module
 ## Supervised Learning
-* Supervised Learning is a machine learning approach where we are given labelled inputs i,e with targets.For each input we will have a mapped target with which we will train the model.Example: We are given characteristic physical features of list of fruits as features and the corressponding fruit name as target.
+* Supervised Learning is a machine learning approach where we are given labelled inputs i,e with targets.For each input we will have a mapped target with which we will train the model.<br>Example: We are given characteristic physical features of list of fruits as features and the corressponding fruit name as target.
 <img src = "fruit.png"><br>
 ### There are two types of Algorithms in Machine Learning(Supervised Approach)
 1. Regression
@@ -17,7 +17,7 @@
   The equation has the form Y= B0 + B1X, where Y is the dependent variable (that's the variable that goes on the Y axis), X is the independent variable (i.e. it is plotted on the X axis), B0 is the slope of the line and B1 is the y-intercept.
   <img src = "linear.png">
   The steps are using the datapoints we fit them to the line equation and we calculate either of the performance metrics(Mean Squared Error,Mean Absolute Error) and try to minimize the error after comparing with the labelled target.
-  We initialise the parameters of the model(B1)to a certain value (usually randomly) and calculate this error for the whole training data. We iteratively modify these parameters in order to minimise this error. This is done with algorithms such as Gradient descent, which I will briefly explain now.
+  We initialise the parameters of the model(B1)to a certain value (usually randomly) and calculate this error for the whole training data. We iteratively modify these parameters in order to minimise this error. This is done with algorithms such as Gradient descent.
 * **Logistic Regression**<br>
   This a different type of regression approach which is basically used for classification problems(Mostly binary classification).We will be fitting a line for segregating each class and since it will be a linear line thats why its termed as regression.
   So after we fit a linear line we pass the datapoint value in a non-linear function(sigmoid) and based on the result we classifiy the datapoint.
@@ -96,6 +96,10 @@ Cluster is a group of objects that belongs to the same class. In other words, si
     <img src = "auc.png"><br>
   7. Accuracy<br>
     This is base measure which is tested first after the model is built.But due to some scenarios like unbalanced dataset we cannot soley depend on it.
+    
+Thanks for Reading :sparkles:<br>
+In case if you wanna reach me [![LinkedIn logo image](https://github.com/arpit-dwivedi/arpit-dwivedi.github.io/raw/master/assets/img/Webp.net-resizeimage.png)](https://www.linkedin.com/in/ananyd36/)  &nbsp;&nbsp;
+[![Github logo image](https://img.icons8.com/small/2x/github.png)](https://github.com/ananyd36) &nbsp;&nbsp; ![Gmail logo image](https://github.com/arpit-dwivedi/arpit-dwivedi/blob/master/m1.png?raw=true) [ananyd36@gmail.com]
     
     
   
