@@ -56,21 +56,5 @@ With face detection, you can get the information you need to perform tasks like 
 In this part i understood how to integrate my model into the flask web app and exposing the API to the front end in order to get the final working model which can be accessed from anywhere around the world.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+###### Anubhav Gupta
+###### anubhav6864@gmail.com
