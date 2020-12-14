@@ -1,5 +1,5 @@
 # YoloV3 Algorithm
-- YOLO(You Only Live Once) is an **Oject Detection Algorithm**
+- YOLO(You Only Live Once) is an **Object Detection Algorithm**
 - A single neural network is applied to the full image. This network divides the image into regions and predicts **bounding boxes** and probabilities for each region. These bounding boxes are weighted by the predicted probabilities.
 - High **Accuracy** and extremely **Fast**
 
