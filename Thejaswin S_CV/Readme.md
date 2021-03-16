@@ -15,3 +15,6 @@ the gradient of the image (the difference between two adjacent pixels) a hystere
 The hysteresis enables the selection of lines of adjacent pixels contrasting with their neighbors.The Canny filter thresholds can be tuned to catch only the strongest edges and get cleaner contours. The higher the thresholds, the cleaner the edges.
 ### face detection
 The very first task we perform is detecting faces in the image or video stream. Now that we know the exact location/coordinates of face, we extract this face for further processing ahead.We will use a Face cascade and Eye cascade. You can find a few more at the root directory of Haar cascades. Note the license for using/distributing these Haar Cascades.Basically, it finds faces! We also want to find eyes, but, in a world of false positives
+
+##### Thejaswin S
+contact me through Thejas2002@yahoo.in
