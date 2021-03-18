@@ -1,4 +1,4 @@
-# Opencv Module 2 Summary And ABout Object Detection 
+# Opencv Module 2 Summary And About Object Detection 
 
 This module introduce us to various way of image processing and to some new concepts like Object detection.
 the module concepts help us to know how to find contours which is very necessary for object detection in real word
