@@ -21,17 +21,20 @@ Now in this module we also learn some image processing technique now lets talk a
    It is a multi-stage algorithm which involves step like 
    
    1.Noise Reduction
+   
    2.Finding Intensity Gradient of the Image
+   
    3.Non-maximum Suppression
+   
    4.Hysteresis Thresholding
    
-   But python saves us  from going through these steps OpenCV provides us cv2.canny() which already 
+   But python saves us  from going through these steps OpenCV provides  us cv2.canny() function  which already 
    implement these steps 
 
 2. Grid Detection
 
     Opencv has a functions to detect the grids for example if we want to detect the grids in chess board then Opencv has function called
-    cv2.findChessboardCorners(arguments) 
+    cv2.findChessboardCorners(arguments) which will find the grid with no worry 
 
 
 ###   Now Lets talk About Object Detection 
