@@ -1,0 +1,9 @@
+Machine learning (ML) is a branch of Artificial Intelligence.It fouses mainly on the designing of systems,thereby allowing them to learn and make predictions based on some experience which is data in case of machines.
+The different types of Machine learning are Supervised,Unsupervised and Reinforcement learning.
+In supervised learning data is collected and labelled and we need to map what will be the output corresponding to an input.
+In unsupervised learning the information collected has no labels so we need to model our program so that it can understand patterns.
+Regression analysis may be kind of predictive modelling technique which investigates the connection between a dependent and independent variable.
+There are many classification problems such as Logistic Regression, Naive Bayes classifier
+Classification problem Evaluation metrics
+It can be generally used while dealing with multiclass classification.In this we deal with four set of values which are True Positive (TP), True Negative (TN), False Positive (FP), False Negative (FN).
+Linear Regression:We aim to predict a target variable using some given data variables. What we can do is to pass a line from the data set fitting the data set as shown. To generalise, you draw a straight line such that it crosses through the maximum number of points. Once we have done that, we can predict the target value using that line as the hypothesis function.
