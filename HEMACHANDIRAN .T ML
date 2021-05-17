@@ -95,4 +95,13 @@ For further information visit [Sklearn SVR](https://scikit-learn.org/stable/modu
 - Random forests behave like ensemble models, making decision trees even more robust to deal with noisy data, whereas standard regression methods can get easily confused by noise and will result in high error. 
 - Normally, Support Vectors models perform better on sparse data than RF. Moreover, Decision trees work faster, non-linear data are handled well . Also they train faster but they have tendency to overfit.
 
-
+Machine Learning has numerous applications in our daily life. We see the use of machine learning
+everyday but are not aware of it. Some examples where machine learning is applied are:
+```
+1. Face detection and finger print detection in our smartphones for unlocking our devices
+2. Recommendations in social media sites on the basis of our browsing history
+3. Fraud transactions detection system used by banks
+4. Netflix movies recommendation on the basis of our watch history
+```
+These are only some few examples of use of machine learning models that we encounter daily. There
+are many such examples where machine learning is applied.
