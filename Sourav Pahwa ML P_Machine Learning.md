@@ -33,9 +33,9 @@ So the aim of Machine Learning is enabling machines to learn by themselves. Mach
 <p>
   <li><b>Feature Scaling is a technique to standardize the independent features present in the data in the fixed range. </b></li>
   <li><b>Data Preprocessing is a technique that is used to convert the raw data into a clean data set. It is the most important step to oraganize the data into meaningful manner. Its main aim is to produce clean and efficient code so that it can be easily be understood by machine. It also helps to reduce the time while analyzing the data and also improves to understand the code and increase readability. </b></li>
-  <li><b>It’s often the first step in data analysis, implemented before any other techniques. </b></li>
+  <li><b><h3>EDA often the first step in data analysis, implemented before any other techniques.</h3></b></li>
     <li>It is an approach for summarizing, visualizing, and becoming intimately familiar with the important characteristics of a data set.</li>
     <li>It consists techniques that are used to gain some insights on the dataset before doing any modeling.</li>
-    <li>EDA, is essentially a type of storytelling for statisticians. It allows us to uncover patterns and insights, often with visual methods, within data.</li>  
+    <li>EDA is essentially a type of storytelling for statisticians. It allows us to uncover patterns and insights, often with visual methods, within data.</li>  
     <li>EDA is not a set of rules to follow, it is our state of mind.</li>
 </p>
