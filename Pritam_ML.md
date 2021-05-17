@@ -1,0 +1,43 @@
+# Machine Learning Topics
+  - Regression
+  - Classification
+  - Decision Trees
+  - Random Forests
+  - Support Vector Machines
+  - Ensemble Learning Methods(Eg. KNeighbors, RandomForestClassifier etc.)
+  - Clustering(K-Means clustering)
+  - Dimensionality Redcution(Principal Component Analysis(PCA))
+  - Boosting Algorithms:
+    - AdaBoost, GradientBoost, XGBoost
+  - Bias-Variance
+  - Scaling(StandardScaler, MinMaxScaler)
+  - Feature Engineering
+  - Overfitting, Underfitting
+  - Data Splitting methods
+    - K-Fold, Stratified K-Fold, train-test split
+  - Evalutation Metrics (Cross-Validation,precision, recall, F1-score, ROC_AUC score)
+  
+  
+# Deep Learning Topics
+  - Forward Propagation
+  - BackPropagation
+  - Basic Artificial Neural Networks(ANN)
+  - Convolutional Neural Networks(CNN)
+  - Recurrent Neural Networks(RNN)
+  - Natural Language Processing(NLP)
+  - Autoencoders
+  - Different kind layers:
+    - Hidden layers
+    - Dense layers
+    - Embedding Layers
+    - Conv2D, LSTM
+  - Hyper parameter tuning:
+    - Regularization
+    - Dropout
+    - Batch normalization
+    - Learning rate decay , weight decay
+    - Early stopping
+  - Optimaization algorithms:
+    - Adam, RMSProp
+  - Activation functions:
+    - Relu, Elu, sigmoid, softmax etc.

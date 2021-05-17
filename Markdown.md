@@ -51,7 +51,7 @@ Use # for headings. You can use this like in HTML for H1, H2 etc.
 
 <hr>
 
-### 2. Bold and Italics
+### 2. Bold,Italics and striking words
 
 Use `**` for making text bold and `*` for italics.
 
@@ -64,7 +64,7 @@ Use `**` for making text bold and `*` for italics.
 **Bold**
 *Italics*
 ***Bold and Italics Both***
-
+~~this is the striking one~~
 ```
 
 **<ins>Output:</ins>**
@@ -75,8 +75,10 @@ Use `**` for making text bold and `*` for italics.
 
 ***Bold and Italics Both***
 
+~~this is the striking one~~
 
 <hr>
+
 
 ### 3. Lists
 
@@ -215,7 +217,7 @@ Till now we got to know some important
 
 We have seen the basic features of markdown till now, but superpower of markdown is, You can directly use HTML in it.
 
-> Somw times it becomes a little difficult to do some complex thigs in markdown, so using HTML that time can make it work.
+> Some times it becomes a little difficult to do some complex things in markdown, so using HTML that time can make it work.
 
 **<ins>Input:</ins>**
 
@@ -277,6 +279,7 @@ These were the most used Markdown features. These will help you for you assignme
 &nbsp;
 
 &nbsp;
+
 
 
 Thanks for Reading!!!
