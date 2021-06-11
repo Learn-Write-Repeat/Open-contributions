@@ -1,3 +1,5 @@
+### Face Mask Detection using CNN Classification
+
 Masks should be used as part of a comprehensive strategy of measures to suppress transmission and save lives; the use of a mask alone is not sufficient to provide an adequate level of protection against COVID-19.So this project helps to detect whether the person is wearing Mask or not. We can use this in live cc camera video across the street. so that we are able to know who is wearing the mask and who is not.
 To do this project, I have used deep learning Binary classification for training the image and opencv for detecting the mask in live video feed. So let’s get started.
 I have done this project of training the model in google colab and testing in my local machine.
@@ -40,4 +42,5 @@ The evidence of this model performance is given below:
 
 
 The github link of face recognition project which is 98% accuracy but little complicated is given here: https://github.com/Hemraj183/Face-Mask-Detection
-Thank you.
+
+### Thank you.
