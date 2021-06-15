@@ -42,5 +42,7 @@ There’s however two types of problems that you can encouunter when you initial
 
 When your neural network is Tanh or sigmoid activated, you can choose Xavier Normal method for weight initialization purpose.
 
+![Xavier Normal]()
+
 
 
