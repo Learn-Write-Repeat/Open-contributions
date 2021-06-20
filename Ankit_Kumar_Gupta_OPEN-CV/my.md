@@ -29,3 +29,8 @@ This is my contribution page.[NAME :- ANKIT KUMAR GUPTA]
 -> went through the prerequisites for it ans the system requirements with installing and a bit of code.
 
 -> Haar Classifier is a machine learning based approach where a function is trained from a lot of inputs based on true and false directed images / any model related data.
+
+   ->  CONTACT :--
+            NAME :- ANKIT KUMAR GUPTA
+            MAIL :- ag.ankitkool99@gmail.com
+            PH.NO :- 8145020604
