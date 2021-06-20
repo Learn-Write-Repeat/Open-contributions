@@ -15,9 +15,13 @@
   1. The kernel would first fit itself to the image matrix and take the first 3 * 3 sub_matrix to covalute.
   2. After selecting the sub matrix it does the multiplication of the sub matrix and filter, element wise and take sum of the product and that's the      value of sigle cell in the new matrix.
   for example if the selected sub matrix is 
-  [[1,2,3,
-    4,5,6,
-    7,8,9]]
-    
-    
+  [[1,2,3],
+    [4,5,6],
+    [7,8,9]]
+  and the kernel matrix is 
+  [[1,0,0],
+   [0,1,0],
+   [0,0,1]]
+   then calculation will be as follows,
+   (1 * 1)+(2 * 0)+( 
   
