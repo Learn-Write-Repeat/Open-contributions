@@ -55,6 +55,7 @@
    If the no. of the image feature is large, or the image matrix is large, only one filter would not help. We need more no. of filters, and this will affect the size and the value of the new matrix.
    Before, the image matrix and kernel(filter) matrix was in 3 dimensions, yet the new matrix was in 2 Dimension but now if we increase the no. of filters, then the dimension of the new matrix will also change, as we can see in the above figure we have used two filters of size **3 * 3 * 3**
    on the image matrix of **6 * 6 * 3** so the size of new matrix is **(6-3+1) * (6-3+1) * (no. of filters used)=4 * 4 * 2**.
+   Now the new matrix will also be in 3 Dimensions. Where the third dimension will be the no. of filters used to convolute the image.
    
   
     
