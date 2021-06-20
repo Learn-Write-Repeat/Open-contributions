@@ -10,3 +10,14 @@
   3 * 3
   ![convolution layers](https://i.stack.imgur.com/uEoXw.gif)
   
+  As we can see in the gif above the filter(AKA kernel) is used to map the information from the image part by part and store it in the output matrix.
+  In this the kerne is of size of 3 * 3 and when it is traversing trough the image it will do the following steps,
+  1. The kernel would first fit itself to the image matrix and take the first 3 * 3 sub_matrix to covalute.
+  2. After selecting the sub matrix it does the multiplication of the sub matrix and filter, element wise and take sum of the product and that's the      value of sigle cell in the new matrix.
+  for example if the selected sub matrix is 
+  [[1,2,3,
+    4,5,6,
+    7,8,9]]
+    
+    
+  
