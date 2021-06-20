@@ -53,7 +53,10 @@
    ![covolution with 3D](https://indoml.files.wordpress.com/2018/03/convolution-with-multiple-filters2.png?w=979)
    
    If the image feature is large or the image matrix is large Only one filter would not be of any help. We need no of filters and this will affect    the size and the value of new matrix.
-   Before the image matrix and kernel(filter) matrix was in 3 dimension yet the new matri was in 2 Dimension
+   Before the image matrix and kernel(filter) matrix was in 3 dimension yet the new matri was in 2 Dimension burt now if we increase the no. of        filters then the dimendion of the new matrix will also change as we can see in the above figure we have used two filter of size **3 * 3 * 3**
+   on the imae matrix of **6 * 6 * 3** so the size of new matrix is **(6-3+1) * (6-3+1) * (no. of filters used)=4 * 4 * 2**.
+   
+  
     
    
    
