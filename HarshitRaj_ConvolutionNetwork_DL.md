@@ -7,3 +7,4 @@
   For exaple, lets take a matrix which represent a part of image and that matrix presents the edge of the image and also consider  fiter of size 
   3 * 3
   ![convolution layers](https://i.stack.imgur.com/uEoXw.gif)
+  
