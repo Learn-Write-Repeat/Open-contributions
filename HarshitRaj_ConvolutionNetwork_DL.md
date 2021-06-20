@@ -50,7 +50,7 @@
    Now that the image matrix is 3 Dimensions the kernel(Filter) should also be a 3 Dimendsion matrix with same 'd' value.
    The image matrix shape is **(h * w * d)** then the kernel(filter) size will also be **(hf * wf * d)** and the new matrix will be of **(h-hf+1) *    (w-wf+1)**.
    
-   [covolution with 3D](https://indoml.files.wordpress.com/2018/03/convolution-with-multiple-filters2.png?w=979)
+   ![covolution with 3D](https://indoml.files.wordpress.com/2018/03/convolution-with-multiple-filters2.png?w=979)
    
    If the image feature is large or the image matrix is large Only one filter would not be of any help. We need no of filters and this will affect    the size and the value of new matrix.
    Before the image matrix and kernel(filter) matrix was in 3 dimension yet the new matri was in 2 Dimension
