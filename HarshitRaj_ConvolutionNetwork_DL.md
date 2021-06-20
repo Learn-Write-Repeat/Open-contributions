@@ -6,4 +6,4 @@
   It doesn't need huge amount of parameters to detect the main features of image. It only requires filters of certain size to convolute the image. 
   For exaple, lets take a matrix which represent a part of image and that matrix presents the edge of the image and also consider  fiter of size 
   3 * 3
-  [!convolution layers](https://i.stack.imgur.com/uEoXw.gif)
+  ![convolution layers](https://i.stack.imgur.com/uEoXw.gif)
