@@ -43,4 +43,4 @@ The steps are as follows:
 * The same process, as it was done for an image, has to be repeated.
 
 
-The full code is [here](https://github.com/rakshith48/Open-contributions/blob/master/Rakshith_OpenCV_ObjectDetection.ipynb)
+The full code is [here](https://github.com/RechRaj/Open-contributions/blob/master/Reshma.R_OpenCV/Reshma.R_ObjectDetection_OpenCV.ipynb)
