@@ -38,4 +38,13 @@
    By defaul the kernel(filter) is situated at top-left corner of the image matrix.
    
    
+   After calculating the value of all the sub_matrix with respect to the kernel the new matrix is filled with the values calculated.
+   And as we can see that the sub_matrix of 3 * 3 is converted to one value (i.e. nine values after getting filtered is converted into 1 value).
+   That means the new matrix will be smaller that the previous image matrix.
+   This doesn't mean that we lost the data instead we have get deepen into the image and extracted some important feature from the large image.
+   Well now the question comes in the mind that, how to define the size of new matrix(extracte matrix).We can find the size by a formulae,
+   if the image matrix is of **(h * w)** and the kernel size is of the size **(hf * wf)** then the new matrix size will be of the size **(h-hf+1) *    (w-wf+1)**.
+   
+   
+   
   
