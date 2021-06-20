@@ -23,5 +23,14 @@
    [0,1,0],
    [0,0,1]]
    then calculation will be as follows,
-   (1 * 1)+(2 * 0)+( 
+   (1 * 1)+(2 * 0)+(3 * 0)+(4 * 0)+(5 * 1)+(6 * 0)+(7 * 0)+(8 * 0)+(9 * 1)=1+5+9=15
+   So the cell value is 15.
+   
+   After claculating this the kernel will get shifted to next sub matrix.
+   As you can see the gif above the kernel(filter) is getting shifted. So, how the filter is getting shifted? The answer to this is **stides**.
+   **Strides** decide how to shift the filter on the image matrix. 
+   If the value of stride is 1 then the kernel shift right side by one collumn and shift down by one row.
+   If the value of stride is 2 then the kernel shift right side by two collumns and shift down by two rows.
+   By defaul the kernel(filter) is situated at top-left corner of the image matrix.
+   
   
