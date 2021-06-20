@@ -45,6 +45,19 @@
    Well now the question comes in the mind that, how to define the size of new matrix(extracte matrix).We can find the size by a formulae,
    if the image matrix is of **(h * w)** and the kernel size is of the size **(hf * wf)** then the new matrix size will be of the size **(h-hf+1) *    (w-wf+1)**.
    
+   So this was basically done in 2D image matrix which is a balck and white image in real-world. But what if the image is color imge that means        it'll have the R(red), B(blue), G(green) values and it'll be a 3 dimension matrix h * w * d. The 'd' value will be equal to 3. Since we are now    working on three colors RBG (Color image constitute of three main colors those are Red, Blue and Green).
+   
+   Now that the image matrix is 3 Dimensions the kernel(Filter) should also be a 3 Dimendsion matrix with same 'd' value.
+   The image matrix shape is **(h * w * d)** then the kernel(filter) size will also be **(hf * wf * d)** and the new matrix will be of **(h-hf+1) *    (w-wf+1)**.
+   
+   [covolution with 3D](https://indoml.files.wordpress.com/2018/03/convolution-with-multiple-filters2.png?w=979)
+   
+   If the image feature is large or the image matrix is large Only one filter would not be of any help. We need no of filters and this will affect    the size and the value of new matrix.
+   Before the image matrix and kernel(filter) matrix was in 3 dimension yet the new matri was in 2 Dimension
+    
+   
+   
+   
    
    
   
