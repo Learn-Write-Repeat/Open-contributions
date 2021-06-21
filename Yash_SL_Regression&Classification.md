@@ -86,7 +86,7 @@ Machine learning is categorized by how an program/software learns to become more
 
 1. **Linear Regression** :-
 * A Linear Regression is one of the easiest algorithm in ML. is a stastical model that attempts to indicate the link between the 2 variable,input(X) & output(Y) with the equation.The Input variable is called the Independent Variable and the Output variable is called the Dependent Variable.When unseen data is passed to the algorithm, it uses the function, calculates and maps the input to a continuous value for the output.
-* The equation has the form Y= B0 + B1X, where Y is the dependent variable (that's the variable that goes on the Y axis), X is the independent variable (i.e. it is plotted on the X axis), B0 is the slope of the line and B1 is the y-intercept.
+* The equation has the form Y= B0 + B1X, where Y is the dependent variable (that's the variable that goes on the Y axis), X is the independent variable (i.e. it is plotted on the X axis), B1 is the slope of the line and B0 is the y-intercept.
 <img src="https://nextjournal.com/data/QmfPuPp4V74FyvTTojMj6ix9T8Skj1ji4GhX5Pr6zK8w4N?filename=linear-regression.png&content-type=image/png" alt="linear regression">
 
 2. **Logistic Regression** :-
