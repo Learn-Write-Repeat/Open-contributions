@@ -142,15 +142,8 @@ Assume that we want to predict how capable an applicant is of repaying a loan fr
 Here, we need to help the bank set up a machine learning system so that each loan can be given to applicants who can repay the loan.
 We need a lot of information about each application to make predictions. 
 A few important attributes about applicants are the applicant’s average monthly income, debt, credit history, and so on. 
-
-
-
-
-
-
-
-
-
+<br>
+<br>
 
 **do visit me** :point_down:
 
