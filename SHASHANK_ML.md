@@ -66,14 +66,14 @@ Below are some popular Classification algorithms which come under supervised lea
 * Logistic Regression
 * Support vector Machines
 
-## **Logistic Regression**
+## **LOGISTIC REGRESSION**
 Logistic Regression is a classification and not a regression algorithm. It estimates discrete values (Binary values like 0/1, yes/no, true/false) based on a given set of independent variable(s).
 It basically predicts the probability of occurrence of an event by fitting data to a logit function. Hence, it is also known as logit regression.
 The values obtained would always lie within 0 and 1 since it predicts the probability.
 
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/s5vQRqM/Logistic-Regression.png" alt="Logistic-Regression" border="0"></a>
 
-**Example-->**
+### **Example-->**
 Let’s say there’s a sum on your math test. It can only have 2 outcomes, right? Either you solve it or you don’t (and let’s not assume points for method here).
 Now imagine, that you are being given a wide range of sums in an attempt to understand which chapters have you understood well.
 The outcome of this study would be something like this – if you are given a trigonometry based problem, you are 70% likely to solve it.
@@ -87,12 +87,6 @@ In the equation given above, p is the probability of the presence of the charact
 2. **REGRESSION**
 Regression algorithms are used if there is a relationship between the input variable and the output variable.
 It is used for the prediction of continuous variables, such as Weather forecasting, Market Trends, etc.
-Below are some popular Regression algorithms which come under supervised learning:
-* Linear Regression
-* Regression Trees
-* Non-Linear Regression
-* Bayesian Linear Regression
-* Polynomial Regression
 
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/jh699Lw/linear-regression-in-machine-learning.png" alt="linear-regression-in-machine-learning" border="0"></a>
 <p float="left">
@@ -101,8 +95,43 @@ Below are some popular Regression algorithms which come under supervised learnin
   <a href="https://imgbb.com/"><img src="https://i.ibb.co/6cQCGQG/Screenshot-80.png" alt="Screenshot-80" width="300" border="0"></a>
 </p>
 
+Below are some popular Regression algorithms which come under supervised learning:
+* Linear Regression
+* Regression Trees
+* Non-Linear Regression
+* Bayesian Linear Regression
+* Polynomial Regression
+
+## **LINEAR REGRESSION**
+Linear regression is a linear model, e.g. a model that assumes a linear relationship between the input variables (x) and the single output variable (y). More specifically, that y can be calculated from a linear combination of the input variables (x).<br>
+When there is a single input variable (x), the method is referred to as simple linear regression. When there are multiple input variables, literature from statistics often refers to the method as multiple linear regression.
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/ch98Lxy/Representing-Linear-Regression-Model.png" alt="Representing-Linear-Regression-Model" border="0"></a>
+
+### **Example-->**
+Let’s say you are running a sales promotion and expecting a certain number of count of customers to be increased now what you can do is you can look the previous promotions and plot if over on the chart when you run it and then try to see whether there is an increment into the number of customers whenever you rate the promotions and with the help of the previous historical data you try to figure it out or you try to estimate what will be the count or what will be the estimated count for my current promotion this will give you an idea to do the planning in a much better way about how many numbers of stalls maybe you need or how many increase number of employees you need to serve the customer. Here the idea is to estimate the future value based on the historical data by learning the behaviour or patterns from the historical data. 
+<br>
+In some cases, the value will be linearly upward that means whenever X is increasing Y is also increasing or vice versa that means they have a correlation or there will be a linear downward relationship. 
+
+One example for that could be that the police department is running a campaign to reduce the number of robberies, in this case, the graph will be linearly downward. 
+Linear regression is used to predict a quantitative response Y from the predictor variable X.
+
+Mathematically, we can write a linear regression equation as:
+
+                                    y=a+bx
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/X8Gc236/Screenshot-82.png" alt="Screenshot-82" border="0"></a>
+               
+b = Slope of the line.
+
+a = y-intercept of the line.
+
+x = Independent variable from dataset
+
+y = Dependent variable from dataset
+
 # UNSUPERVISED LEARNING
-<a href="https://ibb.co/d6JmR2m"><img src="https://i.ibb.co/vmvXSPX/unsupervised-learning.png" alt="unsupervised-learning" border="0"></a>
+<a href="https://ibb.co/d6JmR2m"><img src="https://i.ibb.co/vmvXSPX/unsupervised-learning.png" alt="unsupervised-learning" border="0" padding-left="100"></a>
 
 Unsupervised learning is a machine learning technique in which models are not supervised using training dataset. Instead, models itself find the hidden patterns and insights from the given data.
 It can be compared to learning which takes place in the human brain while learning new things.
@@ -133,7 +162,6 @@ Below is the list of some popular unsupervised learning algorithms:
 1. **FINDING CUSTOMER SEGMENTS-->**
 Clustering is an unsupervised technique where the goal is to find natural groups or clusters in a feature space and interpret the input data. 
 There are many different clustering algorithms. One common approach is to divide the data points in a way that each data point falls into a group that is similar to other data points in the same group based on a predefined similarity or distance metric in the feature space.
-
 Clustering is commonly used for determining customer segments in marketing data.
 Being able to determine different segments of customers helps marketing teams approach these customer segments in unique ways.
 (Think of features like gender, location, age, education, income bracket, and so on.)
