@@ -25,7 +25,7 @@ learning algorithm with data.After training, when you provide a model with an in
 1. SUPERVISED LEARNING
 2. UNSUPERVISED LEARNING
 3. REINFORCEMENT LEARNING
-4. 
+
 # SUPERVISED LEARNING
 <a href="https://ibb.co/5sBNmYS"><img src="https://i.ibb.co/fr4hf8y/supervised-learning.png" alt="supervised-learning" border="0"></a>
 
@@ -142,3 +142,28 @@ Assume that we want to predict how capable an applicant is of repaying a loan fr
 Here, we need to help the bank set up a machine learning system so that each loan can be given to applicants who can repay the loan.
 We need a lot of information about each application to make predictions. 
 A few important attributes about applicants are the applicant’s average monthly income, debt, credit history, and so on. 
+
+
+
+
+
+
+
+
+
+
+**do visit me** :point_down:
+
+<a href="https://www.linkedin.com/in/shashank-a12a851a0/">
+  <img align="left"  width="16px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
+</a>
+<a href="https://github.com/Shashankkrj"> <img align="left"  width="16px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
+</a>
+<a href="https://www.instagram.com/shashank_krj/">
+  <img align="left"  width="16px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />
+</a>
+<a href="https://m.facebook.com/">
+ <img align="left"  width="16px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/facebook.svg" />
+</a>
+
+***thanks for reading*** :heart:
