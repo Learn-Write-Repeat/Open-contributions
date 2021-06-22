@@ -1,3 +1,5 @@
+**SHASHANK**
+
 # MACHINE LEARNING
 Machine learning is a form of AI that enables a system to learn from data rather than through explicit programming.However,machine learning is not a simple process.
 Machine learning uses a variety of algorithms that iteratively learn from data to improve, describe data, and predict outcomes. 
