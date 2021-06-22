@@ -53,7 +53,9 @@ There are three major types of Machine Learning:
 - The model keeps continues to learn.
 - The best solution is decided based on the maximum reward.
 
-
+## Contact:
+[GitHub](https://github.com/anushkadixit1708) <br>
+[LinkedIn](https://www.linkedin.com/in/anushka-dixit-124612179/)
 
 
 
