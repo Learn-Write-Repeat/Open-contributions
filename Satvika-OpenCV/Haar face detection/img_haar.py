@@ -4,6 +4,9 @@ import numpy
 img = cv2.imread('C:\Python\ProgramsPython\HelloWorld\\venv\OpenCV\FaceBarca.png')
 
 gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
+# Instead of images, if we wish to detect faces in videos, we use cv2.VideoCapture(<Path to video or 0 if camera>)
+# Then we run a loop which captures each frame of video using cv2.VideoCapture(<>).read()
+# We then break if input key matches or video frames end
 
 face_cascade = cv2.CascadeClassifier('C:\Python\ProgramsPython\HelloWorld\\venv\OpenCV\haarcascade_frontalface_default.xml') # Path of XML file
 
