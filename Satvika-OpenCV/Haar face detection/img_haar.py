@@ -8,7 +8,6 @@ gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 face_cascade = cv2.CascadeClassifier('C:\Python\ProgramsPython\HelloWorld\\venv\OpenCV\haarcascade_frontalface_default.xml') # Path of XML file
 
 
-# faces = face_cascade.detectMultiScale(gray,1.2,5)
 # Arguments of the function :- (src image , scaleFactor , minNeighbours)
 # We generally check with all possible values and choose the best among them
 # Here, in this case, when scale factor increases and minNeighbours also increase, the face detection becomes very clumsy with multiple detections to same object
