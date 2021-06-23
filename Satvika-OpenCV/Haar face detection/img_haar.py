@@ -23,6 +23,8 @@ faces = face_cascade.detectMultiScale(gray,1.1,7) # minNeigbours
 
 for (x,y,w,h) in faces:
         cv2.rectangle(img,(x,y),(x+w,y+h),(0,255,0),2)
+# The above loop identifies and draws boxes around faces which are detected by detectMultiScale()
+# They are green in colour.
 
 cv2.imshow('img',img)
 cv2.waitKey(0)
