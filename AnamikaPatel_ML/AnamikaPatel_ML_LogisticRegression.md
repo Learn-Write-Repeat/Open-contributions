@@ -6,7 +6,7 @@ Logistic regression is named for the function used at the core to the method, th
 
 e is the base of the natural logarithms and x is value that you want to transform via the logistic function.
 
-### Importing required libraries for implmenting Logistic Regression
+### Importing required libraries for implmenting Logistic Function
 ```python
 import numpy as np
 import pandas as pd
@@ -35,3 +35,13 @@ plt.figure(figsize = (12,8))
 plt.plot(x, 1 / (1 + np.exp(-x))); # Sigmoid Function
 plt.title("Sigmoid Function");
 ```
+<table align="center">
+    <tr>
+        <td><img src="https://github.com/anamikarpp/Open-contributions/blob/master/AnamikaPatel_ML/images/sigmoid.jpeg" width=600 height=200></td>
+        
+    </tr>
+    <tr>
+        <td><b>Sigmoid Function</b></td>
+        
+    </tr>
+</table>
