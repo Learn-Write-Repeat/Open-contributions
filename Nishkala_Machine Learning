@@ -1,0 +1,44 @@
+# Devincept_Nishkala
+Basics about Machine Learning 
+
+Machine learning is type of artificial intelligence which helps in predicting outcomes for a particular set of data. 
+Machine learning is an important concept related with data sciences. 
+It is the part of artificial intelligence which provides the system the automatic ability to learn and improve without being explicitly programmed. 
+The process of machine learning indulges in extracting data from various sources. The data may structured, unstructured and semi-structured.
+Machine learning is achieved using various algorithms , some of which are stated below with explanation. The algorithms can be classified into supervised or unsupervised. 
+Supervised algorithms can be used to predict future events using the past patterns which has occured.
+Unsupervised algorithms are used when the information is not classfied. 
+
+Supervised algorithm:
+
+Decision tree:
+Decision tree algorithm is a supervised algorithm , mostly used in classification or regresssion of datasets. Decision tree are usually used in prediction of future events.
+There are some important terminologies pertaining decision trees. They are :
+Root node: It represents the entire sample or dataset and gets divided into several branch nodes further. 
+Splitting: Dividing a root or a node into further sub-nodes. 
+Decision Node: When a sub-node gets divided into further sub-nodes. 
+Leaf: Nodes that cannot be split into further sub-nodes.
+Pruning: When we remove sub-nodes from a decision node.
+Branch:A subset of entire tree.
+Parent Node: A node which is divided into sub-node.
+Child Node: A node which is divided by a parent node. 
+
+
+Unsupevised Algorithm:
+  
+K-means clustering: K-means is an unsupervised algorithm , which divides the dataset into clusters. 
+The input for this alogrithm is an unlabeled dataset. The algorithm then divides this dataset into clusters with having similar kind of data. 
+The algorithm has two important steps:
+Determining the best k-value for the center by an iterative process. 
+Assigning each data value to the nearest k center. This creates a cluster. 
+
+Tensorflow:
+Tensorflow is an open-source framework used for machine learning. 
+Tensorflow works in three steps:
+Preprocessing the dataset.(Cleaning the dataset to remove duplicates and anomalies).
+Build the model.(Using ML Algorithms).
+Train and estimate the model.(Testing the model for various usecases).
+
+Reasons to use tensorflow:
+Tensorflow provides various built-in functions,which becomes efficient to build various neural network models and machine learning models. 
+With addition to that, Tensorflow is an open source framework , which means it can be accessed effciently from any kind of operating system.
