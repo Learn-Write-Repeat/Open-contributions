@@ -11,14 +11,14 @@ The following classification algorithms are implemented in the following code:
 - Decision Tree
 
 
-![Drag Racing](Machine-Learning-Classification-Algorithms.jpg)
+![Drag Racing](https://github.com/Sakalya100/Open-contributions/blob/master/Sakalya_ML/Images/Machine-Learning-Classification-Algorithms.jpg)
 
 
 ### Logistic Regression
 It is an unsupervised machine learning algorithm which works on an unlabeled dataset and draw inferences from the same. The logistic regression algorithm is not a Regression Model actually, it is a classification algorithm. It makes use of a logistic function called the Sigmoid function. It’s an S-shaped curve that can take any real-valued number and map it into a value between 0 and 1, but never exactly at those limits.
 
 
-![Drag Racing](main-qimg-6b67bea3311c3429bfb34b6b1737fe0c.jpg)
+![Drag Racing](https://github.com/Sakalya100/Open-contributions/blob/master/Sakalya_ML/Images/main-qimg-6b67bea3311c3429bfb34b6b1737fe0c.jpg)
 
 Logistic Regression is used when the dependent variable(target) is categorical.
 For example,
@@ -31,7 +31,7 @@ It is a supervised learning algorithm.K-NN algorithm stores all the available da
 [here](https://www.javatpoint.com/k-nearest-neighbor-algorithm-for-machine-learning).
 
 
-![Drag Racing](k-nearest-neighbor-algorithm-for-machine-learning5.png)
+![Drag Racing](https://github.com/Sakalya100/Open-contributions/blob/master/Sakalya_ML/Images/k-nearest-neighbor-algorithm-for-machine-learning5.png)
 
 
 
@@ -40,7 +40,7 @@ Decision Tree is a Supervised learning technique that can be used for both class
 [here](https://www.javatpoint.com/machine-learning-decision-tree-classification-algorithm).
 
 
-![Drag Racing](Capture.PNG)
+![Drag Racing](https://github.com/Sakalya100/Open-contributions/blob/master/Sakalya_ML/Images/Capture.PNG)
 
 
 ### Random Forests
@@ -48,7 +48,7 @@ Random Forest is a popular supervised machine learning algorithm. It is a advanc
 [here](https://www.javatpoint.com/machine-learning-random-forest-algorithm).
 
 
-![Drag Racing](Capture1.PNG)
+![Drag Racing](https://github.com/Sakalya100/Open-contributions/blob/master/Sakalya_ML/Images/Capture1.PNG)
 
 
 ## Authors
