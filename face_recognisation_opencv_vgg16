@@ -1,0 +1,147 @@
+from keras.applications import VGG16
+import numpy as np
+
+img_rows = 224
+img_cols = 224 
+
+base_model = VGG16(weights = 'imagenet', 
+                 include_top = False, 
+                 input_shape = (img_rows, img_cols, 3))
+                
+base_model.layers[0].__class__.__name__
+base_model.layers[0].input
+
+for layer in base_model.layers:
+    layer.trainable=False
+    
+base_model.layers[12].trainable
+for (i,layer) in enumerate(base_model.layers):
+    print(str(i) + " "+ layer.__class__.__name__, layer.trainable)
+    
+    base_model.output
+    
+    from keras.layers import Dense, Flatten
+from keras.models import Sequential
+
+top_model = base_model.output
+top_model = Flatten()(top_model)
+top_model = Dense(512, activation='relu')(top_model)   
+top_model = Dense(512, activation='relu')(top_model)    
+top_model = Dense(256, activation='relu')(top_model)    
+top_model = Dense(5, activation='softmax')(top_model)   
+
+top_model
+base_model.input
+
+from keras.models import Model
+newmodel = Model(inputs=base_model.input, outputs=top_model)
+
+newmodel.output
+
+newmodel.layers
+
+newmodel.summary()
+
+from keras.preprocessing.image import ImageDataGenerator
+
+train_data="C:/Users/KIIT/Desktop/mlops/zzzz/train"
+test_data="C:/Users/KIIT/Desktop/mlops/zzzz/valid"
+
+
+train_datagen = ImageDataGenerator(
+      rescale=1./255,
+      rotation_range=20,
+      width_shift_range=0.2,
+      height_shift_range=0.2,
+      horizontal_flip=True,
+      fill_mode='nearest')
+ 
+test_datagen = ImageDataGenerator(rescale=1./255)
+
+train_generator = train_datagen.flow_from_directory(
+        train_data,
+        target_size=(img_rows, img_cols),
+        class_mode='categorical')
+
+'''
+for img_train in train_generator:
+    img_train=np.expand_dims(img_train, axis=0)'''
+ 
+test_generator = test_datagen.flow_from_directory(
+        test_data,
+        target_size=(img_rows, img_cols),
+        class_mode='categorical',
+        shuffle=False)
+
+'''
+for img_test in test_generator:
+    img_test=np.expand_dims(img_test, axis=0)'''
+    
+from keras.optimizers import RMSprop
+newmodel.compile(optimizer = RMSprop(lr=0.0001),
+                 loss = 'categorical_crossentropy',
+                 metrics =['accuracy']
+                )
+                
+history = newmodel.fit_generator(train_generator, epochs=3,steps_per_epoch=93, validation_data=test_generator)
+
+newmodel.save('5CelebRecognizer_VGG16.h5')
+
+from keras.models import load_model
+
+classifier = load_model('5CelebRecognizer_VGG16.h5')
+
+import os
+import cv2
+from os import listdir
+from os.path import isfile, join
+
+five_celeb_dict = {"[0]": "ben_afflek", 
+                      "[1]": "elton_john",
+                      "[2]": "jerry_seinfeld",
+                      "[3]": "madonna",
+                      "[4]": "mindy_kaling",
+                     }
+
+five_celeb_dict_n = {"ben_afflek": "ben_afflek", 
+                      "elton_john": "elton_john",
+                      "jerry_seinfeld": "jerry_seinfeld",
+                      "madonna": "madonna",
+                      "mindy_kaling": "mindy_kaling",
+                      }
+
+def draw_test(name, pred, im):
+    celeb =five_celeb_dict[str(pred)]
+    BLACK = [0,0,0]
+    expanded_image = cv2.copyMakeBorder(im, 80, 0, 0, 100 ,cv2.BORDER_CONSTANT,value=BLACK)
+    cv2.putText(expanded_image, celeb, (20, 60) , cv2.FONT_HERSHEY_SIMPLEX,1, (0,0,255), 2)
+    cv2.imshow(name, expanded_image)
+
+def getRandomImage(path):
+ folders = list(filter(lambda x: os.path.isdir(os.path.join(path, x)), os.listdir(path)))
+    random_directory = np.random.randint(0,len(folders))
+    path_class = folders[random_directory]
+    print("Class - " + five_celeb_dict_n[str(path_class)])
+    file_path = path + path_class
+    file_names = [f for f in listdir(file_path) if isfile(join(file_path, f))]
+    random_file_index = np.random.randint(0,len(file_names))
+    image_name = file_names[random_file_index]
+    return cv2.imread(file_path+"/"+image_name)    
+
+for i in range(0,10):
+    input_im = getRandomImage("C:\Users\KIIT\Desktop\mlops\zzzz\valid")
+    input_original = input_im.copy()
+    input_original = cv2.resize(input_original, None, fx=0.5, fy=0.5, interpolation = cv2.INTER_LINEAR)
+    
+    input_im = cv2.resize(input_im, (224, 224), interpolation = cv2.INTER_LINEAR)
+    input_im = input_im / 255.
+    input_im = input_im.reshape(1,224,224,3) 
+    
+    
+    res = np.argmax(classifier.predict(input_im, 1, verbose = 0), axis=1)
+    
+    
+    draw_test("Prediction", res, input_original) 
+    cv2.waitKey(0)
+
+cv2.destroyAllWindows()
