@@ -1,6 +1,6 @@
 # Linear Regression
 
-Let's learn about linear regression and implement it. Linear Regression is supervised algorithm which is used to predict continuous variable like house price. Let's start from understanding regression.
+Let's learn about linear regression and implement it. Linear Regression is supervised Machine Learining algorithm which is used to predict continuous variable like house price. Let's start from understanding regression.
 
 ### Let's understand what regression is
 
@@ -21,7 +21,7 @@ Uses of regression are as follows:
 
 ### Linear Regression Algorithm
 
-Linear Regression uses is an equation that combines a specific set of input values (x) the solution to which is the predicted output for that set of input values (y). As such, both the input values (x) and the output value are numeric. Where (x) is independent variable and (y) is indepedent variable.
+Linear Regression uses an equation that combines a specific set of input values (x) the solution to which is the predicted output for that set of input values (y). As such, both the input values (x) and the output value are numeric. Where (x) is independent variable and (y) is indepedent variable.
 
 The linear equation assigns one scale factor to each input value or column, called a coefficient and represented by the capital Greek letter Beta (B). One additional coefficient is also added,called the intercept or the bias coefficient.
 
