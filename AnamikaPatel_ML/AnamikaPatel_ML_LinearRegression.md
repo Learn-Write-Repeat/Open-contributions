@@ -29,3 +29,41 @@ In a simple regression problem (a single x and a single y), the form of the mode
 -------
 ## |y = B0 + B1* x|
 -------
+
+After applying Linear Regression on the model: 
+<table align="center">
+    <tr>
+        <td><img src="https://github.com/anamikarpp/Open-contributions/blob/master/AnamikaPatel_ML/images/linear regression.png" width=600 height=300></td>
+    </tr>
+    
+</table>
+
+Once we know the value of coefficient and intercept we can easily predict dependent variable (y) give indepent variable (x).
+
+## Linear Regresion using Scikit learn Library
+
+We can easily implement Linear Regression in python using scikit learn library.The steps to be followed are as follows:
+
+* Step 1 : Import Linear Regression from sklearn.
+* Step 2 : Load model.
+* Step 3 : Fit the model on given independent variable(x) and dependent variable (y).
+* Step 4 : Plot the model
+* Step 5 : Make prediction. 
+And yeah :wink: it's done.
+
+## Python code:
+
+```python
+from sklearn.linear_model import LinearRegression
+model=LinearRegression()
+model.fit(X,y)
+model.coef_  #printing coeficent
+model.intercept_ #printing intercept
+
+#plotting the linear model we got
+plt.figure(figsize=(12,8))
+sns.regplot(X,y)
+plt.xlabel('Independent variable')
+plt.ylabel('Dependent variable')
+```
+Implementation of linear regression on boston dataset is done in python notebook, have a look. Thankyou 😃 
