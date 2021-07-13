@@ -1,0 +1,18 @@
+## Flask:
+*A web framework written in python language. 
+
+## Features of Flask:
+* Built-in development server
+* Fast Debugger
+* Unit-testing support
+* Good support for client side sessions
+* Unicode Based
+* Lightweight 
+* Easy to deploy
+* High flexibility
+
+` Flask Installation:
+>pip install Flask
+
+## You can find full documentation here: 
+[Flask Documentation](https://flask.palletsprojects.com/en/2.0.x/)
