@@ -34,4 +34,4 @@ Contents :
      
    * <a href="https://github.com/sreelakshmig009/Open-contributions/blob/java_programs/Sreelakshmi_Java/Java_Programs/String%20Palindrome.java">Check whether a string is a palindrome or not</a>
      
-     * <a href="https://github.com/sreelakshmig009/Open-contributions/blob/java_programs/Sreelakshmi_Java/Java_Programs/UniqueChar.java">Find the unique character in the string</a>
+   * <a href="https://github.com/sreelakshmig009/Open-contributions/blob/java_programs/Sreelakshmi_Java/Java_Programs/UniqueChar.java">Find the unique character in the string</a>
