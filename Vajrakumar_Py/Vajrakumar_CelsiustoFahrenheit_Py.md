@@ -27,10 +27,12 @@ Where,
 
 
 **Examples:**
-| | Description | Results     |
+| Type| Description | Results     |
 | :---        |    :----:   |          ---: |
 | **1 degrees Celsius to Fahrenheit**| F=(95×1)+32 | 33.8 °F   |
 | **1 Fahrenheit to Celsius**| C=59(1−32) | -17.2222 °C     |
+
+
 
 
 
