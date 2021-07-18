@@ -37,4 +37,4 @@ The steps are as follows:
 * Now we need to do the same process as we did for an image.
 
 
-The full code is [here](https://github.com/rakshith48/Open-contributions/blob/master/Rakshith_OpenCV_ObjectDetection.ipynb)
+The full code is [here](https://github.com/Abhixtrent28/Open-contributions/blob/2082bdc61628061754183107be7baf459e1deb62/AbhishekBhosale_C%23/AbhishekBhosale_Objectdetection_OpenCV.ipynb)
