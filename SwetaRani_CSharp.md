@@ -1,12 +1,12 @@
-### `<em>Hi Developers<em>`
+### `Hi Developers`
 ------------------------------------------
 
 I am a Full-Stack Web Developer. Exploring and learning new concepts to be good at it.
 
-### `<em>Stacks to learn in DevIncept<em>`
+### `Stacks to learn in DevIncept`
 -------------------------------------------
 
-#### Frontend
+#### `Frontend`
 
 * Html       
 * CSS     
@@ -15,12 +15,12 @@ I am a Full-Stack Web Developer. Exploring and learning new concepts to be good 
 * C#      
 * ASP.NET
 
-#### Backend
+#### `Backend`
 
 * Microsoft SQL Server        
 * Django
 
-### `<em>Reason to choose the above stacks<em>`
+### `Reason to choose the above stacks`
 --------------------------------------------
 
 Being a Web Dev enthusiast I want to learn and make projects using those stacks for my placements and even learn more by working on different projects to land and grow in IT corporate world.
