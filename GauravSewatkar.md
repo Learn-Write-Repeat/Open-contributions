@@ -63,7 +63,16 @@ So what does this mean from a machine learning perspective? We are ready to use 
 
 ![Screenshot 2021-07-23 at 9 50 23 PM](https://user-images.githubusercontent.com/53942720/126811916-f24df10b-4415-4810-a04c-bdeb0269892c.png)
 
+<p>Gaurav Sewatkar,</p>
+<p>Reach to me here 👇</p>
+<p>
+<a href="https://www.linkedin.com/in/gaurav-sewatkar-47a8b316a/">
+  <img align="left"  width="16px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
+</a>
+<a href="https://github.com/gauravsewatkar"> <img align="left"  width="16px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
+</a>
 
+</p>
 
 
 
