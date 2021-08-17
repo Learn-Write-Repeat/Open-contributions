@@ -66,4 +66,4 @@ Logistic regression is a commonly used technique for solving binary classificati
 - we take linear combination (or weighted sum of the input features) 
 - we apply the sigmoid function to the result to obtain a number between 0 and 1
 - this number represents the probability of the input being classified as "Yes"
-- instead of RMSE, the cross entropy loss function is used to evaluate the results   
+- instead of RMSE, the cross entropy loss function is used to evaluate the results.   
