@@ -1,0 +1,3 @@
+# Introduction to Machine Learning
+Nowadays, humans can easily grab native things or learn new technologies but if we talk about machines then here a question arises that “Can machines also, learn from their past experience?”  
+So the answer is “YES”.Machine learning can adopt skills in the absence of human involvement and acquire knowledge. Machine learning is a technology that accredits computers to learn from past experience. Machine learning techniques can be used in various programs like speech recognitions, email filtering,  image recognition, recommender system, etc.  Machine learning has been categorized as a base class of artificial intelligence. 
