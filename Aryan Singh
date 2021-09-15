@@ -1,0 +1,36 @@
+**Supervised Learning**
+
+Supervised learning is an approach to creating artificial intelligence (AI), where a computer algorithm is trained on input data that has been labeled for a particular output. The model is trained until it can detect the underlying patterns and relationships between the input data and the output labels, enabling it to yield accurate labeling results when presented with never-before-seen data.
+
+Supervised learning is good at classification and regression problems, such as determining what category a news article belongs to or predicting the volume of sales for a given future date. In supervised learning, the aim is to make sense of data within the context of a specific question.
+
+Like all machine learning algorithms, supervised learning is based on training. During its training phase, the system is fed with labeled data sets, which instruct the system what output is related to each specific input value. The trained model is then presented with test data: This is data that has been labeled, but the labels have not been revealed to the algorithm. The aim of the testing data is to measure how accurately the algorithm will perform on unlabeled data.
+
+Supervised learning deals with or learns with “labeled” data. This implies that some data is already tagged with the correct answer.
+
+Types:-
+
+Regression Logistic Regression Classification Naive Bayes Classifiers K-NN (k nearest neighbors) Decision Trees Support Vector Machine
+
+Unsupervised Learning
+
+Unsupervised learning is the training of a machine using information that is neither classified nor labeled and allowing the algorithm to act on that information without guidance. Here the task of the machine is to group unsorted information according to similarities, patterns, and differences without any prior training of data.
+
+Unlike supervised learning, no teacher is provided that means no training will be given to the machine. Therefore the machine is restricted to find the hidden structure in unlabeled data by itself. For instance, suppose it is given an image having both dogs and cats which it has never seen.
+
+Thus the machine has no idea about the features of dogs and cats so we can’t categorize it as ‘dogs and cats ‘. But it can categorize them according to their similarities, patterns, and differences, i.e., we can easily categorize the above picture into two parts. The first may contain all pics having dogs in it and the second part may contain all pics having cats in it. Here you didn’t learn anything before, which means no training data or examples.
+
+It allows the model to work on its own to discover patterns and information that was previously undetected. It mainly deals with unlabelled data.
+
+Types of Unsupervised Learning:-
+
+Clustering
+
+Exclusive (partitioning) Agglomerative Overlapping Probabilistic Clustering Types:-
+
+Hierarchical clustering K-means clustering Principal Component Analysis Singular Value Decomposition Independent Component Analysis.
+
+
+Aryan Singh
+9145397896
+aryansingh.masum014@gmail.com
