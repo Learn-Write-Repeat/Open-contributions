@@ -1,7 +1,7 @@
 # Open-contributions
 This Repository is for sharing knowledge and Learning purpose, and open contributions under DevIncept program.
 
-
+# Eligible for Hacktoberfest 2021
 
 ### Follow these steps to make a contribution:
 
