@@ -15,7 +15,7 @@ This Repository is for sharing knowledge and Learning purpose, and open contribu
 
 4. Add two files for any topic inside that folder:
     1. **Markdown File:** Explaining the "What" and "Why" part.
-    2. **Jupyter Notebook:** Explaining the "How" part.
+    2. **Code:** Explaining the "How" part. *(For exp: .py or .vs files)
 
         For example: two files in above example will be:
 
