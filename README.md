@@ -7,7 +7,7 @@ This Repository is for sharing knowledge and Learning purpose, and open contribu
 
 1. Fork this repository.
 
-2. Select any topic which you want to contribute on from any of: **Python, ML, Deep Learning, Computer Vision, NLP**
+2. Select any topic which you want to contribute on from any of: **Python, ML, Deep Learning, Computer Vision, NLP, Blockchain, or any other tech**
     For example: Object detection using OpenCV
 
 3. Create a folder with your name and field you are contributing to, like: **FullName_Field**
