@@ -84,7 +84,7 @@ For further information visit [Sklearn SVR](https://scikit-learn.org/stable/modu
 - Random forests behave like ensemble models, making decision trees even more robust to deal with noisy data, whereas standard regression methods can get easily confused by noise and will result in high error. 
 - Normally, Support Vectors models perform better on sparse data than RF. Moreover, Decision trees work faster, non-linear data are handled well . Also they train faster but they have tendency to overfit.
 
-### Now pat your back!! You have successfully completed this module. 🏆 🏆 
+### Now pat your back!! You have successfully completed this tutorial. 🏆 🏆 
 ## Author
 
 * **Anshul Sharma** - [Github](https://github.com/thevoxium), [Linkedin](https://www.linkedin.com/in/anshul-sharma-38aa481b4/), [Instagram](https://www.instagram.com/anshul_1923/),  [Facebook](https://www.facebook.com/profile.php?id=100039009814742), 
