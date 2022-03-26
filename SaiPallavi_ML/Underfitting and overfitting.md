@@ -27,6 +27,7 @@ Techniques to reduce underfitting:
 * Remove noise from the data
 
 
+
 # Overfitting 
 
 Overfitting occurs when our machine learning model tries to cover all the data points or more than the required data points present in the given dataset
@@ -44,3 +45,9 @@ Techniques to reduce overfitting:
 A general view of both the problems :
 
 ![Overfitting and underfitting](https://github.com/sai-pallavi-2003/Open-contributions/blob/master/SaiPallavi_ML/overfitting_2.png)
+
+
+
+By : Sai Pallavi Sistla
+
+[Reach me here](sistlasaipallavi2003@gmail.com)
