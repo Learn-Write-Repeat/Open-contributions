@@ -100,3 +100,11 @@ Main points in Reinforcement learning –
 * Training: The training is based upon the input, The model will return a state and the user will decide to reward or punish the model based on its output.
 * The model keeps continues to learn.
 * The best solution is decided based on the maximum reward.
+
+
+
+
+
+By : Sai Pallavi Sistla
+
+[Reach me at my mail](sistlasaipallavi2003@gmail.com)
