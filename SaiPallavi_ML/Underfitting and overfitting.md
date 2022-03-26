@@ -18,7 +18,13 @@ To avoid the overfitting in the model, the fed of training data can be stopped a
 
 In the case of underfitting, the model is not able to learn enough from the training data, and hence it reduces the accuracy and produces unreliable predictions.
 
-# An underfitted model has high bias and low variance.
+*An underfitted model has high bias and low variance.*
+
+Techniques to reduce underfitting: 
+
+* Increase model complexity
+* Increase the number of features, performing feature engineering
+* Remove noise from the data
 
 
 # Overfitting 
@@ -26,7 +32,15 @@ In the case of underfitting, the model is not able to learn enough from the trai
 Overfitting occurs when our machine learning model tries to cover all the data points or more than the required data points present in the given dataset
 Because of this, the model starts caching noise and inaccurate values present in the dataset, and all these factors reduce the efficiency and accuracy of the model.
 
-# The overfitted model has low bias and high variance.
+*The overfitted model has low bias and high variance.*
+
+Techniques to reduce overfitting:
+
+* Increase training data.
+* Reduce model complexity.
+* Early stopping during the training phase (have an eye over the loss over the training period as soon as loss begins to increase stop training).
 
 
 A general view of both the problems :
+
+![Overfitting and underfitting](https://github.com/sai-pallavi-2003/Open-contributions/blob/master/SaiPallavi_ML/overfitting_2.png)
