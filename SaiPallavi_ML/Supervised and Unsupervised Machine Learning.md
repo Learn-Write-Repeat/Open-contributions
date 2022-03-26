@@ -26,8 +26,46 @@ Let us have a quick look of what they are and their applications.
  In this type of machine learning, data scientists supply algorithms with labeled training data and define the variables they want the algorithm to assess for correlations. 
  Both the input and the output of the algorithm is specified. This is one of the most simplest types as we know the expectations from data we are supplying to the model.
  
-
+![Supervised Learning](https://github.com/sai-pallavi-2003/Open-contributions/blob/master/SaiPallavi_ML/supervised-machine-learning.png)
  
  Types of Supervised Machine Learning:
  * Classification :
+   Classification algorithms are used when the output variable is categorical, which means there are two classes such as Yes-No, Male-Female, True-false, etc.
+    * Spam Filtering,
+    * Random Forest
+    * Decision Trees
+    * Logistic Regression
+    * Support vector Machines
+    * KNN algorithm (K Nearest Neighbour)
+    
+     One of the many applications of Classification is calssifying handwritten digits using the KNN algorithm.
+     
+     Link to the project : [Classification using KNN](https://github.com/sai-pallavi-2003/Hand-Written-Digit-Classification)
    
+ * Regression :
+   Regression algorithms are used if there is a relationship between the input variable and the output variable. 
+   It is used for the prediction of continuous variables, such as Weather forecasting, Market Trends, etc. 
+   Below are some popular Regression algorithms which come under supervised learning:
+    * Linear Regression
+    * Regression Trees
+    * Non-Linear Regression
+    * Bayesian Linear Regression
+    * Polynomial Regression
+    
+    One of the many applications of regression is prediction of house rates(or any variable) using Linear Regression
+    
+    Link to the project : [House Rate Prediction using Linear Regression](https://github.com/sai-pallavi-2003/HousePricePrediction-using-Linear-Regression)
+
+   Applications of Supervised learning :
+   * Products Segmentation
+   * Customer Segmentation
+   * Similarity Detection
+   * Recommendation Systems
+   * Labelling unlabelled datasets
+
+
+* Unsupervised Machine Learning :
+ Unsupervised learning is a machine learning technique in which models are not supervised using training dataset. Instead, models itself find the hidden patterns and insights from the given data. It can be compared to learning which takes place in the human brain while learning new things. It can be defined as:
+
+*Unsupervised learning is a type of machine learning in which models are trained using unlabeled dataset and are allowed to act on that data without any supervision*
+ 
