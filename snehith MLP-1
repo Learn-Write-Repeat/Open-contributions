@@ -1,0 +1,17 @@
+1.
+From this module i basically got the definition of machine learning, and what does machine learning and how does machine learning helps to solve real world problems. Here from this module I understood the types of machine learning. I understood the difference between supervised and unsupervised learning. I also understood in which scenario which technique is used to solve problem, such as if my output should be a prediction i use supervised learning algorithms, if it is a classification kind of problem i use unsupervised machine learning algorithms. I also learnt when to use which algorithm based on the data available. I learnt various statistical concepts like scaling, normalization, precision, recall etc.... Specially in this module I completely understood about regression problem and various algorithms to solve regression problems like linear regression and polynomial regression.
+
+2.I completely understood about linear Regression and the math behind linear regression how the mean squared error is calculated and how gradient descent works to decrease the cost function and draw best fit line according to it.
+
+
+3.In this module i completely understood how linear regression, polynomial regression and support vectors regression ,voting regression and random forest regression we cannot always directly apply linear regression model on raw data because:-
+(i)The data may not be normally distributed.
+(ii)The data may contain outliers.
+(iii) If the data is really following linear relationship.
+
+we should also know which attributes are following linear relationship with the output feature for that we use correlation technique which shows which features are highly corelated with the output feature and which we can use for predicting the output can be known using correlation matrix.
+And now based on correlation matrix we select specific features which are corelated.
+The most important thing is to detect and remove outliers from the data using box plot we can identify or if we normalize the data we can get the outliers and that outliers are deleted from the dataset.
+
+Now, apply linear regression algorithm initially and we predict the score if the score is high the data is perfectly following linear relationship.
+If the score is low now its time to think further and here comes into the picture the polynomial regression.
